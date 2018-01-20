@@ -1,0 +1,76 @@
+---
+title: "Learn how to make top quality word documents with LaTeX"
+categories:
+  - Blog
+---
+
+# What is LaTeX?
+
+LaTeX, as described on the website is:
+>LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. >LaTeX is the de facto standard for the communication and publication of scientific documents. 
+
+More importantly, LaTeX is not a word processor like Microsoft Word. Whereas Mircosoft Word is mainly about the appearence and look of the document, LaTeX encourages writers to not worry so much about the appearence of their document and more on the content.
+
+LaTeX is the standard of creating professional and high quality documents in STEM fields or in academia. 
+
+LaTeX was created by [Donald Knuth](https://en.wikipedia.org/wiki/Donald_knuth), one of the most famous computer scientists. After being disaappointed with the quality of his The Art of Programming series, he set out to create a typesetting system called Tex. Later on, LaTeX was born as a revival of Tex which allowed for a simpler approach to creating documents.
+
+LaTeX is amazing at:
+* Dealing with mathematical formulae
+* [Bibliographies and references](https://www.sharelatex.com/learn/Bibliography_management_with_bibtex)
+* Focuses on content
+* Tables and illustrations
+
+LaTeX is not so good at:
+* Spellchecking
+* Collaborative editing
+* Compatiability
+* Has a small barrier to entry, meaning new users may be scared off.
+
+# Creating your first LaTeX document
+
+Let's create a document and go over it in plain english.
+$$
+\documentclass{article}
+\title{Freecodecamp and Medium}
+\author{Brandon Skerritt}
+\date{25th December 2017}
+\begin{document}
+   \maketitle
+   Hello world!
+\end{document}
+$$
+
+
+So the document class is what the document is. In this case, this document is an article. An article much like this Medium article or a scientific paper. Another popular class is Beamer which is used for presentations.
+
+The second part is the title of the document. Pretty self explanatory.
+The part after that is the author's name.
+After that is the date of the document.
+
+You may begin to see that LaTeX uses tags, much like HTML. In fact, both of these are markup languages. You create a \begin{document} tag that contains the body and content of the document, much like the ```<body>``` tag in HTML.
+
+The \maketitle tag makes the text into a title.
+
+We get this as a [result](https://latexbase.com/d/1a925e91-60f4-4570-8511-580f422ee8c5)
+```
+$$
+\documentclass{article}
+\title{Freecodecamp and Medium}
+\author{Brandon Skerritt}
+\date{25th December 2017}
+\begin{document}
+   \maketitle
+   Hello world!
+\end{document}
+$$
+```
+You've now made a LaTeX document, yay! Let's explore some more.
+
+## Mathematical Formulae
+
+Since mathematics is one of the main uses of LaTex, let's create some mathematics.
+Let's say we have a therom, like the Binomial Therom. How do we create it in LaTeX?
+$$ (x+y)^n = \sum_{k=0}^n {n \choose k} x^{n - k} y^k $$
+
+Well
