@@ -44,3 +44,34 @@ $$P(weather=sunny)=0.7$$
 $$P(weather=rain)=0.2$$
 $$P(weather=cloudy)=0.08$$
 $$P(weather=Storm)=0.02$$
+
+### Joint Probability Distribution
+Let f1,...,fk be random variables then a *joint probability distribution* for them gives the probabilities P(f1=r1,...,fk=rk) for a domain of interest.
+
+### Full Joint Probability Distribution
+A full joint probability distribution is a joint probability distribution for all relevant random variables f1,...,fk for a domain of interest.
+
+Every probability question about a domain can be answered by the full joint probability distrubtion because the probabilirty of any event is a number of probabillities.
+
+Note: n1...nk are often called data points or sample points.
+
+A full joint probability distrubtion will *only* have information about a domain of interest. A non-full distrubtion could contain information about a domain you don't care about.
+
+## Marginalisation
+Given a joint distribution P(f1,...,Fk), one can compute the *unconditional* on *marginal* probabillities of the random variables Fi by summing out the remaining values.
+
+## Conditional / Posterior distrubitions
+We can also compute *conditional / posterior* distributions from the full joint distribution. We use the *P* notation for conditional distributions. 
+
+*P*(F|G) gives the conditional / postieor distrubtion of F given G given by the probabilities P(f=r|G=s) for all values r and s.
+
+Using this notation, the general version of the multiplication / product rule is:
+
+*P*(F, G) = *P*(F|G)P(G)
+
+## Probabilist Inference
+Can be charecterised as the computation of potential probabilities
+$$ P(F|E_1 = e_1,..., E_m = e_m) $$
+For every variables F given derived evidence E_1,...,E\_2.
+
+The denominator can be viewed as a marginalation constant for the distrubtion *P*, ensuring that it adds up to 1.
