@@ -19,10 +19,16 @@ function _changeText() {
     // uses CSS fadeOut class
     setTimeout(function(){
      d.className = "";
-     for (var i = 0; i < txt.length; i++){
-      document.getElementById("changer").innerHTML = txt.charAt[i]
-     }
-    //document.getElementById("changer").innerHTML = txt;
+    
+    document.getElementById("changer").innerHTML = txt;
 }, 1000); // So basically this part actually changes the text
 }
+
+var showText = function (target, message, index, interval) {   
+  if (index < message.length) {
+    $(target).append(message[index++]);
+    setTimeout(function () { showText(target, message, index, interval); }, interval);
+  }
+}
+
 setInterval("_changeText()", 1800);

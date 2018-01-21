@@ -110,3 +110,8 @@ p {
     -moz-transition: all 0.2s ease;
     transition: all 0.2s ease;
     }
+
+a{
+    outline: none;
+    text-decoration: none;
+}
