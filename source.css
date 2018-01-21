@@ -6,7 +6,15 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
     font-weight: 300;
-    color: #000
+    color: #000;
+}
+
+.title-change {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #000;
 }
 
 .main {
@@ -103,7 +111,8 @@ p {
 .containertwo {
     width: 100%;
     margin: 0 auto;
-    padding: 100px;
+    padding-left: 100px;
+    padding-top: 1%;
     text-align: center;
     background-color: #f2f2f2;
     -webkit-transition: all 0.2s ease;
