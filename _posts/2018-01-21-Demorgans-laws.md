@@ -12,8 +12,11 @@ The laws were found (if you believe mathematics is "found" and not created) by A
 ## What are the rules?
 
 In English the rules are:
+
 > the negation of a disjunction is the conjunction of the negations
+
 > the negation of a conjunction is the disjunction of the negations
+
 Which may sound confusing, but if you have any experience with set theory or propositional logic then it is more easily understand.
 
 Within propositional logic the first law is defined as:
