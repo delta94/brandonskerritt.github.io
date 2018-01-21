@@ -106,3 +106,5 @@ Note: Boris / Frank have used these laws in class tests before.
 
 *Conditional Law*
 $$P->Q = ¬p v Q$$
+
+
