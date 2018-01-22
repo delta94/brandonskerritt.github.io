@@ -129,3 +129,8 @@ a{
 .containerFour {
     color: rgb(243, 243, 243);
 }
+
+.code-image {
+    height=50%;
+    width=50%;
+}
