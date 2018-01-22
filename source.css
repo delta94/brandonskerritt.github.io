@@ -125,3 +125,7 @@ a{
     outline: none;
     text-decoration: none;
 }
+
+.code-title {
+    font-weight: 250;
+}
