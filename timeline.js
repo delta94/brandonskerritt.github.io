@@ -1,17 +1,7 @@
-$(function() {
-  
-    var watchScroll =0;
-    var rightComments = $('.r-event .event-body');
-      var leftComments = $('.l-event .event-body');
-      TweenMax.staggerFrom(rightComments, 1, {x: 100, ease:Bounce.easeOut},1);
-      TweenMax.staggerFrom(leftComments, 1, {x: -100,ease:Bounce.easeOut},1);
-    
-      $(window).on('scroll', function() {
-        var scrollTop = $(window).scrollTop();
-        (scrollTop > watchScroll)?
-        $('footer').addClass('footer-up'):
-          $('footer').removeClass('footer-up');
-        
-        watchScroll = scrollTop;
-      })
-    })
+$(window).on('scroll', function(){
+	$timeline_block.each(function(){
+		if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
+			$(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+		}
+	});
+});
