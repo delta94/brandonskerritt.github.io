@@ -1,7 +1,7 @@
-var words = ["👨‍💻Programmer", "✍️Blogger", "⛰️Hiker", "🥋Martial Artist", "&#x1F393;Student", "&#x1F4DA;Book Lover"];
+var words = ["👨‍💻Programmer", "✍️Blogger", "⛰️Hiker", "🥋Martial Artist", "&#x1F393;Student", "&#x1F4DA;Book Lover","🌸Plant Lover", "&#x1F1E8Canadian Citizen"];
 // So this is the list of words to rotate through
 var i = 0;
-// This appears to be a counter
+// This appears to be a counter 
 var text = "...";
 // This is the text it'll start with
 function _getChangedText() {
@@ -32,3 +32,5 @@ var showText = function (target, message, index, interval) {
 }
 
 setInterval("_changeText()", 1400);
+
+ji-flag-em
