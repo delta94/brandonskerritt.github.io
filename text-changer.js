@@ -31,4 +31,4 @@ var showText = function (target, message, index, interval) {
   }
 }
 
-setInterval("_changeText()", 1000);
+setInterval("_changeText()", 1400);
