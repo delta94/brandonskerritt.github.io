@@ -124,13 +124,15 @@ a{
 
 .code-title {
     font-weight: 250;
+    margin: 1px;
 }
 
 .containerFour {
-    color: rgb(243, 243, 243);
+    background-color: rgb(243, 243, 243);
 }
 
 .code-image {
     height: 50%;
     width: 50%;
 }
+
