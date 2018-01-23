@@ -44,9 +44,7 @@ body {
     height: 100%;
     padding-bottom: 20%;
     }
-.containertwo {
-    background-color:rgb(243, 243, 243)
-}
+
 
 #avatar {    
     /* make a square container */
@@ -106,15 +104,15 @@ body {
 }
 
 .containertwo {
-    width: 100%;
-    margin: 0 auto;
+    /*width: 100%; */
+    /* margin: 0 auto; */ /*
     padding-left: 100px;
-    padding-top: 1%;
+    padding-top: 1%; */
     text-align: center;
-    background-color: #f2f2f2;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     transition: all 0.2s ease;
+    background-color:rgb(243, 243, 243)
     }
 
 a{
@@ -124,7 +122,7 @@ a{
 
 .code-title {
     font-weight: 250;
-    margin: 1px;
+    margin: 2px;
 }
 
 .containerFour {
@@ -132,7 +130,8 @@ a{
 }
 
 .code-image {
-    height: 80%;
-    width: 80%;
+    height: 60%;
+    width: 60%;
 }
+
 
