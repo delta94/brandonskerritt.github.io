@@ -104,10 +104,7 @@ body {
 }
 
 .containertwo {
-    /*width: 100%; */
-    /* margin: 0 auto; */ /*
-    padding-left: 100px;
-    padding-top: 1%; */
+    margin: 1%;
     text-align: center;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
@@ -115,14 +112,9 @@ body {
     background-color:rgb(243, 243, 243)
     }
 
-a{
-    outline: none;
-    text-decoration: none;
-}
-
 .code-title {
     font-weight: 250;
-    margin: 2px;
+    margin: 1%;
 }
 
 .containerFour {
@@ -133,6 +125,12 @@ a{
     height: 65%;
     width: 65%;
 }
+
+.code-text {
+  font-size: 1.5em;
+  margin: 1%;
+}
+
 
 /* The Timeline - Experience Page */
 .timeline {
