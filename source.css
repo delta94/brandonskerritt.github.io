@@ -131,6 +131,10 @@ body {
   margin: 1%;
 }
 
+.experience-list {
+  padding-left:0;
+}
+
 
 /* The Timeline - Experience Page */
 .timeline {
