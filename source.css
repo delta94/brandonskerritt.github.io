@@ -113,8 +113,9 @@ body {
     }
 
 .code-title {
-    font-weight: 250;
+    font-weight: bold;
     margin: 1%;
+
 }
 
 .containerFour {
