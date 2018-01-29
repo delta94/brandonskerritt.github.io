@@ -118,6 +118,13 @@ body {
 
 }
 
+.education-text {
+  font-weight: 300;
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+
+}
+
 .containerFour {
     background-color: rgb(243, 243, 243);
 }
