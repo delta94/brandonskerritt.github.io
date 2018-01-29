@@ -114,7 +114,7 @@ body {
 
 .code-title {
     font-weight: bold;
-    margin: 1%;
+    margin: 2%;
 
 }
 
@@ -149,7 +149,7 @@ body {
 
 .code-text {
   font-size: 1.5em;
-  margin: 1%;
+  margin: 2%;
 }
 
 .experience-list {
@@ -257,12 +257,16 @@ body {
     font-size: 38px;
   }
   #jobPos {
-    font-size: 25px;
+    font-size: 2.5rem;
+    width: 50%;
+    font-family: 'Alegreya', serif;
   }
   #jobDesc {
-    font-size: 20px;
+    font-size: 2rem;
     width: 50%;
+    font-family: 'Alegreya', serif;
   }
+
   #liveDemo {
     text-align: center;
     font-size: 2em;
@@ -515,5 +519,3 @@ body {
     #techUsed {
       font-size: 3.5vw;
     }
-
-
