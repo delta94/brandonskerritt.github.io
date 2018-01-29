@@ -1,4 +1,4 @@
-var words = ["👨‍💻Programmer", "✍️Blogger", "⛰️Hiker", "🥋Martial Artist", "&#x1F393;Student", "&#x1F4DA;Book Lover","🌸Plant Lover"];
+var words = ["👨‍💻Programmer", "✍️Blogger", "⛰️Hiker", "🥋Martial Artist", "&#x1F393;Student", "&#x1F4DA;Book Lover","🌸Plant Lover", "&#x1F393;Teacher"];
 // randomise the order
 // So this is the list of words to rotate through
 var i = 0;
