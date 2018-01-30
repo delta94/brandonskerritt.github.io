@@ -31,7 +31,7 @@ The system bus has 3 components:
 * The address bus
 * The data bus
 * The control bus
-
+++
 The address bus is used to specify what memory locations need to be accessed, the data bus is used to carry values and the control bus tells the receiver what to do with the data and addresses.
 
 In reality there are usually several interconnected buses.
