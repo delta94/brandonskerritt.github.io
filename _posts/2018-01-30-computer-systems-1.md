@@ -126,3 +126,29 @@ The locations of operands are specified using addressing modes:
   * The operand is in main memory, the instruction encodes its address
 - Register Direct
   * The instruction specifies a register which holds the main memory address of the operand. 
+
+# The CPU
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/3c75b32a-22c4-4834-a8bf-76b14ba312a5.png)
+
+The CPU is controlled by the control unit. The Control Unit supplies the ALU with operands (operations).
+
+The Arthimetic and Logic Unit (ALU) performs addition, subtraction, division and multiplcation.
+
+Registers are storage locations in the internal CPU.
+Registers are faster than RAM.
+Registers are individually named.
+
+# Register
+Registers are super fast.
+
+The IP is called the instruction pointer (sometimes program counter) and it always holds the location of the next instruction.
+
+The IR is called the Instruction Register. The instruction register holds the current instruction to execute.
+
+Some registers interface directly with main memory such as:
+* MAR - Memory address register - Used to hold the address of an item in main memory
+* MDR - Memory Data Register - Holds data.
+
+# Fetch-execute cycle
+
