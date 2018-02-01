@@ -152,10 +152,14 @@ Some registers interface directly with main memory such as:
 
 # Fetch-execute cycle
 
+The control unit directs the Fetch & Execute cycle.
 
-value | 1 | 2 | 3 | 4 | 5 | 6
---- | --- | --- | --- | --- | --- | ---
-chance of landing on value | 1/6 | 1/6 | 1/6 | 1/6 | 1/6 | 1/6
-value multiplied by chance | 1/6 | 2/6 | 3/6 | 4/6 | 5/6 | 6/6
+1. Copy address contained in IP and move it to MAR. Issue a read request.
+2. Increment IP to point to next instruction
+  * We increment here so we don't have to wait
+3. Instruction arrives in MDR - copy it to IR.
+4. Decode IR to work out what is required
+5. Fetch the operands and any data to work with
+6. Carry out the execution
+7. Go to step 1
 
-Expected value is 1/6 + 2/6 + 3/6 + 4/6 + 5/6 + 6/6 = 3.5.
