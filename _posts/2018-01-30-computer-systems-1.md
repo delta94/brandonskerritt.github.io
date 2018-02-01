@@ -152,3 +152,10 @@ Some registers interface directly with main memory such as:
 
 # Fetch-execute cycle
 
+
+value | 1 | 2 | 3 | 4 | 5 | 6
+--- | --- | --- | --- | --- | --- | ---
+chance of landing on value | 1/6 | 1/6 | 1/6 | 1/6 | 1/6 | 1/6
+value multiplied by chance | 1/6 | 2/6 | 3/6 | 4/6 | 5/6 | 6/6
+
+Expected value is 1/6 + 2/6 + 3/6 + 4/6 + 5/6 + 6/6 = 3.5.
