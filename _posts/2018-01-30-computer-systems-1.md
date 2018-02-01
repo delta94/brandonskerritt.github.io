@@ -107,7 +107,7 @@ All machine code uses these basic commands:
 # Instruction format
 The simplest instruction may be represented by a single byte while others may require many bytes.
 
-<Opcode> <Data Len> <Operand Specifiers>
+\<Opcode\> \<Data Len\> \<Operand Specifiers\>
 
 Opcode: Specifies the operation to be performed (see previous header).
 
