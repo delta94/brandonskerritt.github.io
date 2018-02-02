@@ -1,3 +1,7 @@
+* {
+  outline: 1px red solid !important;
+}
+
 body {
     background-color: white
 }
@@ -152,6 +156,9 @@ body {
   margin: 1%;
 }
 
+.code-item {
+  overflow: hidden;
+}
 
 .experience-list {
   padding-left:0;
