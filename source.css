@@ -37,8 +37,8 @@ body {
 .author-image {
   height: auto;
   width: auto;
-  max-height: 300px;
-  padding-bottom: 20px;
+  max-height: 450px;
+  padding-bottom: 10px;
 }
 
 .center-block {
@@ -141,7 +141,7 @@ body {
 
 .education-text {
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: 'Alegreya', serif;
   margin: 5%;
 }
@@ -152,10 +152,8 @@ body {
 }
 
 .code-image {
-  max-height: 50%;
-  max-width: 50%;
-  width: 50%;
-  height: 50%;
+  width: 360px;
+  height: 360px;
 }
 
 .code-text {
@@ -172,6 +170,22 @@ body {
 }
 
 /* timeline */
+
+.time {
+  font-weight: bold;
+  font-family: 'Alegreya', serif;
+  text-align: center;
+}
+.experience-date {
+  text-align: center;
+  font-weight: 50;
+  font-family: 'Alegreya', serif;
+}
+
+.experience-text {
+  text-align: left;
+  font-family: 'Alegreya', serif;
+}
 
 .timeline ul li {
   list-style-type: none;
