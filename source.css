@@ -175,6 +175,7 @@ body {
   font-weight: bold;
   font-family: 'Alegreya', serif;
   text-align: center;
+  font-size: 1.25em;
 }
 .experience-date {
   text-align: center;
@@ -185,7 +186,7 @@ body {
 .experience-text {
   text-align: left;
   font-family: 'Alegreya', serif;
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 .timeline ul li {
