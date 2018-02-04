@@ -4,7 +4,7 @@ categories:
   - University
 ---
 
-Binary is completely unusuable but Assembley Language is usable and very close to binary.
+Binary is completely unusable but Assembley Language is usable and very close to binary.
 
 Each line of assembley code is one operation.
 
