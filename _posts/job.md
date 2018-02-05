@@ -84,18 +84,19 @@ I think my biggest strength is my problem solving abillity. I can look at proble
 # What are my weaknesses?
 Include an actual real weakness and how you work to overcome it
 
+**DO THIS AGAIN**
+
 In the past I have had problems with answering emails in a timely fashion. I'm starting to overcome this by putting aside a time slot everyday in the morning to check my emails.
 
 ## What will your skills and ideas bring this company?
 
+**DO THIS AGAIN**
 
 My abillity to work and manage a team increases the overall productivness and quality of the feature or product we are working on. When working in a team at a hackathon I used SCRUM to help my team work together and more efficiently which ended up with us winning a prize at that hackathon.
 
-feature = ability or skills advantage = how the skills can contribute to the company benefit = your achievements﻿
-
-## What is your preferred management style?
-
 ## Where do you see yourself in five years time?
+
+I'm not quite sure, I hope to have learnt enough to be able to train people and maybe even manage them, but as a student I still have a long way to go.
 
 ## What have you achieved else where?
 
