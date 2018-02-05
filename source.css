@@ -25,6 +25,13 @@ body {
   font-size: 1.25em;
 }
 
+@media all and (max-width: 1000px) and (min-width: 150px) {
+  #bio {
+   margin-left: 5%;
+   margin-right: 5%;
+  }
+}
+
 #bio a {
   font-weight: bold;
   color: black;
