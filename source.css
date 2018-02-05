@@ -9,12 +9,14 @@ body {
 
 .title {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 3rem;
-  font-weight: 300;
+  font-family: 'Scope One', serif;
+  font-size: 3em;
+  font-weight: 400;
   color: #000;
   margin: 2%;
+  display: inline;
 }
+
 
 .title-change {
   text-align: center;
