@@ -101,11 +101,11 @@ body {
 /* containers */
 
 .container-odd {
-  background-color: rgb(216, 212, 212);
+  background-color: rgb(216, 212, 212) !important;
 }
 
 .container-even {
-  background-color: white;
+  background-color: white !important;
 }
 
 .containerone {
@@ -138,8 +138,6 @@ body {
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  background-color: rgb(243, 243, 243);
-  background-color:black;
 }
 
 .code-title {
@@ -167,7 +165,6 @@ body {
 .code-text {
   font-size: 1.5em;
   margin: 1%;
-  color: white;
 }
 
 .code-item {
