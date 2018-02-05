@@ -101,11 +101,11 @@ body {
 /* containers */
 
 .container-odd {
-  background-color: white;
+  background-color: rgb(216, 212, 212);
 }
 
 .container-even {
-  background-color: rgb(216, 212, 212);
+  background-color: white;
 }
 
 .containerone {
