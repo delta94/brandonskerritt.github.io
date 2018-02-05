@@ -161,6 +161,7 @@ body {
 .code-text {
   font-size: 1.5em;
   margin: 1%;
+  color: white;
 }
 
 .code-item {
