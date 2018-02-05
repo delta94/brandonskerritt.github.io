@@ -15,8 +15,19 @@ body {
   color: #000;
   margin: 2%;
   display: inline;
+  padding-top: 2%;
 }
 
+#bio {
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+#bio a {
+  font-weight: bold;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
 
 .title-change {
   text-align: center;
