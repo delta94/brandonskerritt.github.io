@@ -100,6 +100,14 @@ body {
 
 /* containers */
 
+.container-odd {
+  background-color: white;
+}
+
+.container-even {
+  background-color: grey;
+}
+
 .containerone {
   text-align: center;
   -webkit-transition: all 0.2s ease;
@@ -107,7 +115,6 @@ body {
   transition: all 0.2s ease;
   height: 100%;
   padding-bottom: 20%;
-  background-color: grey;
 }
 
 .containertwo {
@@ -116,8 +123,6 @@ body {
   -moz-transition: all 0.2s ease;
   transition: all 0.2s ease;
   
-  /* background-color: rgb(243, 243, 243); */
-  background-color:black;
 }
 
 .containerthree {
@@ -125,7 +130,6 @@ body {
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  background-color: grey;
 }
 
 .containerFour {
