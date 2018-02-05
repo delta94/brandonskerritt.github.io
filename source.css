@@ -21,13 +21,13 @@ body {
 #bio {
   margin-left: 35%;
   margin-right: 35%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
 }
 
 #bio a {
   font-weight: bold;
   color: black;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.75em;
 }
 
 .title-change {
