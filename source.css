@@ -19,8 +19,8 @@ body {
 }
 
 #bio {
-  margin-left: 35%;
-  margin-right: 35%;
+  margin-left: 30%;
+  margin-right: 30%;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.25em;
 }
@@ -36,6 +36,18 @@ body {
 #bio a {
   font-weight: bold;
   color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#bio-hr {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#bio-links a {
+  font-weight: bold;
+  color: black !important;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .title-change {
