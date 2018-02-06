@@ -38,7 +38,7 @@ body {
   font-weight: 600;
   color: black;
   font-family: 'Montserrat', sans-serif;
-  display:inline-block;
+  display: inline-block;
 }
 
 #bio-hr {
@@ -63,14 +63,6 @@ body {
 
 .bio-icons a:hover {
   color: red;
-}
-
-.title-change {
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
-  font-weight: 300;
-  color: #000;
 }
 
 .main {
@@ -201,11 +193,6 @@ body {
   font-size: 1.5rem;
   font-family: 'Alegreya', serif;
   margin: 5%;
-}
-
-.education-image {
-  height=30%;
-  width=30%;
 }
 
 .code-image {
