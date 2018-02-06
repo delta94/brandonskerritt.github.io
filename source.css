@@ -39,7 +39,7 @@ body {
   color: black;
   font-family: 'Montserrat', sans-serif;
   padding-right: 1%;
-  display: inline-block;
+  display: block;
 }
 
 #bio-hr {
@@ -52,7 +52,7 @@ body {
   color: rgba(0, 0, 0, 0.76);
   font-family: 'Montserrat', sans-serif;
   padding-right: 0.5%;
-  display: inline-block;
+  display: block;
 }
 
 
