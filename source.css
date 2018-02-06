@@ -37,6 +37,7 @@ body {
   font-weight: bold;
   color: black;
   font-family: 'Montserrat', sans-serif;
+  padding-right: 1%;
 }
 
 #bio-hr {
@@ -45,9 +46,10 @@ body {
 }
 
 #bio-links a {
-  font-weight: bold;
-  color: black !important;
+  font-weight: 50;
+  color: rgba(0, 0, 0, 0.76) !important;
   font-family: 'Montserrat', sans-serif;
+  padding-right: 0.5%;
 }
 
 .title-change {
