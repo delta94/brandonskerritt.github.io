@@ -47,9 +47,20 @@ body {
 
 #bio-links a {
   font-weight: 50;
-  color: rgba(0, 0, 0, 0.76) !important;
+  color: rgba(0, 0, 0, 0.76);
   font-family: 'Montserrat', sans-serif;
   padding-right: 0.5%;
+}
+
+
+.bio-icons a {
+  color: black;
+  font-size: 1.25em;
+  padding: 0.5%;
+}
+
+.bio-icons a:hover {
+  color: red;
 }
 
 .title-change {
