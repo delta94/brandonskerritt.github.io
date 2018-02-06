@@ -123,11 +123,11 @@ body {
 /* containers */
 
 .container-odd {
-  background-color: rgb(241, 234, 234) !important;
+  /* background-color: rgb(241, 234, 234) !important; */
 }
 
 .container-even {
-  background-color: white !important;
+  /* background-color: white !important; */
 }
 
 .containerone {
