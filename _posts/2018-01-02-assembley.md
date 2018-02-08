@@ -60,7 +60,17 @@ mov num, eax
 ```
 
 EBX - Base register
+
 ECX - Counter register
+
+Often used for loops (seen later)
+It can be used with sepcial jump instructions
+```assembley
+JECXZ ; jump if ecx is zero
+JCXZ ; jump if cx is zero
+```
+
+
 EDX - Data register
 
 Flags Register
@@ -125,4 +135,78 @@ if eax and ebx contain the same number then cmp eax, ebx will set the Z flag.
 
 ### Conditional jumps using comparison operators
 
+Instruction | What it does
+--- | ---
+JE | The first argument is equal to the second argument
+JNE | The first argument is not equal to the second argument
+JG / JNLE | First argument is Greater than second argument
+JLE / JNG | First argument is Less than second argument
+JGE / JNL | First argument is greater or equal than second argument
+
+## Loops
+
+Loops in assembley are simple
+
+While loop
+
 ```assembley
+while1:
+  blah
+  blah
+  blah
+end_while:
+```
+
+Do-while loop
+
+```assembley
+do-while:
+  blah
+end_while:
+```
+
+A for loop can be made in assembley. Take this example
+```c
+for (int x = 1; x <= 10; x++){
+  y = y + x;
+}
+```
+
+First attempt
+```assembley
+mov eax, 1 ; using eax as the variable x
+floop:   ; start of for loop
+  add y, eax ; update y
+  inc eax ; x++
+  cmp eax, 10
+  jle floop ; counts up to 11, jump back to floop if cmp eax, 10 results in the less than flag
+```
+
+We can improve this by counting in reverse:
+```assembley
+mov eax, 10
+floop:
+  add y, eax
+  dec eac ; x--
+  jnz floop ; go to floop if previous operation does not result in 0
+```
+
+We can use ECX to improve the previous loop like so:
+
+```assembley
+mov ecx, 10
+floop:
+  add y, ecx
+  loop floop
+```
+
+# Addresses and values
+In assembley we can get the address of a variable with the LEA (load effective address) instruction
+We often use EBX 
+```assembley
+LEA EBX, val
+```
+We can access the value pointed to by the address using *register indirect addressing mode* 
+```assembley
+mov eax, [ebx]
+```
