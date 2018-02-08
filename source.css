@@ -47,10 +47,10 @@ body {
 }
 
 #bio-links a {
-  font-weight: 50;
+  font-weight: 600;
   color: rgba(0, 0, 0, 0.76);
   font-family: 'Montserrat', sans-serif;
-  padding-right: 0.5%;
+  padding-right: 0.75%;
   font-size: 1em;
 }
 

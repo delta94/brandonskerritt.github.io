@@ -26,6 +26,10 @@ anything after ";" is a comment.
 
 This can be translated to binary usign an assembler. _asm.
 
+Hi Antony!
+
+At the start of the video you talk about starting a company and appearing to be big but when the company goes big you pretend to be small, 
+
 ## Registers
 
 EAX - Accumulator Register
@@ -210,3 +214,42 @@ We can access the value pointed to by the address using *register indirect addre
 ```assembley
 mov eax, [ebx]
 ```
+
+# Subroutines (functions)
+Once a subroutine goes to a place in code, how does it know where to return?
+
+It stores the return address into the instruction pointer register which always points at the next instruction.
+
+So let's say you have the code
+```
+100
+101
+102
+```
+and ```101``` points to a memory location which is a subroutine. The subroutine is 5 lines long, so the code changes to
+```
+100
+201
+202
+203
+204
+205
+206
+102
+```
+where 20-something is the address of each instruction in the sub routine.
+
+A subroutine in assembley is programmed as
+```label PROC
+ BLAH
+ BLAH BLAH
+label ENDP
+```
+The procedure is called by ```call label```
+You can use C functions inside assembley
+
+The call instruction records the current value of EIP (instruction pointer) as the *return address* 
+
+Puts the require subroutine address into EIP so the next instruction to be executed is the first instruction of the subroutine.
+
+The RET instruction (return) retrives the stored return address and puts it back into the EIP, causing execution to return to the instruction after the CALL.
