@@ -107,3 +107,22 @@ JNO | Overflow flag is clear | =0 | arhimetic overflow error has not occured
 
 Something cool to note is that every instruction has an inverse and the inverse has "N" in the middle of it, probably meaning "Not".
 
+Example of using a jmp
+
+```assembley
+mov eax, num ; moves contents of num into eax
+sub eax, 10
+jnz store ; if number is not a zero then jump to store, otherwise run this
+mov eax, 100
+
+store:
+  mov num, eax
+```
+
+## Comparing values
+CMP is the most common way of comparing two values.
+if eax and ebx contain the same number then cmp eax, ebx will set the Z flag.
+
+### Conditional jumps using comparison operators
+
+```assembley
