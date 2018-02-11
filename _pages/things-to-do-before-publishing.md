@@ -1,0 +1,2 @@
+- [ ] Got your linkedin, twitter, github at the end?
+- [ ] got your upscribe email at the end?
