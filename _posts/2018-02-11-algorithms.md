@@ -1,12 +1,14 @@
 ---
-title: "Algorithms"
+title: "Algorithms and Data Structures"
 categories:
   - University
 ---
 
 Normally people will make entire articles out of things like Big O notation, Binary search or other algorithms. There simply is no need to blabber on about something when you can convey the same message in a shortened manner, so this is where this article comes into play.
 
-If you're not interested in a certain algorithm (say for example, Min and Max) then simply skip it! Most of the examples given are in Python, but you need not know how Python works to understand the algorithms.
+If you're not interested in a certain algorithm (say for example, Min and Max) then simply skip it! Most of the examples given are in Python, but you need not know how Python works to understand the algorithms. Note that later in this article some algorithms may be implemented in Java.
+
+Another very important factor to note here is that these algorithms can be applied in real life by you, not just a computer!
 
 # What is an algorithm?
 
@@ -15,6 +17,7 @@ An algorithm is a set of instructions typically undertaken by a computer to reac
 When you make a sandwich, you are performing an algorithm. Habits are algorithms. 
 
 >Algorithms have a long history and the word can be traced back to the 9th century. At this time the Persian scientist, astronomer and mathematician Abdullah Muhammad bin Musa al-Khwarizmi, often cited as “The father of Algebra”, was indirect responsible for the creation of the term “Algorithm”. In the 12th century one of his books was translated into Latin, where his name was rendered in Latin as “Algorithmi”.
+
 From [here](http://cs-exhibitions.uni-klu.ac.at/index.php?id=193)
 
 Normally algorithms break down things that we as humans think are very simple and easy into little steps that a computer can perform.
@@ -116,6 +119,7 @@ Here is a nice gif of binary search in action
 ![img](https://blog.penjee.com/wp-content/uploads/2015/04/binary-and-linear-search-animations.gif)
 
 This is the worst case performance for binary search, beaten by sequential search!
+
 ![img](https://blog.penjee.com/wp-content/uploads/2015/12/linear-vs-binary-search-worst-case.gif)
 
 ```python
@@ -144,7 +148,7 @@ bsearch(alist, i)
 
 This code is taken from [here](https://stackoverflow.com/questions/41883258/how-to-implement-a-binary-search). It's not essential to understand the Python code in order to understand the algorithm.
 
-This method may suit your book search better because books are normally sorted alphabetically.
+This method may suit your book search better because books are normally sorted alphabetically! If you know the alphabet and the positional number of each letter you could easily find any author you wanted!
 
 # Min and Max algorithms
 
@@ -205,6 +209,114 @@ while i <= n:
         loc = i
     i = i + 1
 ```
+
+# Dipping our toes into data structures - Queues and Stacks
+
+A datastructure is a way to structure data in such a way that the data becomes easily usable and maybe even faster to use than a typical list or array. A list or array is exactly what it sounds like, a list like this [1, 2, 3, 4].
+
+## Queues
+
+A queue is a first-in-first=out array. The *first* item into the array is the *first* item out of the array.
+
+Queues have 2 functions:
+* Enqueue - Insert element to tail (end)
+* Dequeue - Retrive data from head (start) of queue.
+
+So given an array (list) as an example
+```python
+[15, 20, 10, 0]
+```
+
+The *head* points to array[1] which is the first item in the array, it does not point to the data contained in the first item.
+The *tail* points to array[end], where end is the length of the array + 1. In this instance tail results in 5, for their are 4 items in the list and then you add 1.
+
+It's actually up to the developer who designs this as to whether tail points to length + 1 or whether it points to length. This will be talked about more in a few seconds!
+
+If we want to *enqueue* 12 into the queue, we would add it onto the end like so:
+```python
+[15, 20, 10, 0, 12]
+```
+And the tail increases to a length of 6, but head stays at 1.
+
+Dequeue takes the [head] of the list and enqueue places an item at the [tail] of the list.
+
+The reason tail always points to somethign that doesn't exist is because enqueue is implemented to always put an object at [tail]. If we were to make tail the same as the length than enqueue would be changed to [tail + 1]. Either way you are adding 1,so it does not matter and make change in some languages.
+
+A stack is a first-in-last-out array.
+
+If we wanted to dequeue something we would do
+
+```python
+x = [20, 10, 0, 12]
+```
+
+which results in head = 2 and tail = 5. The head variable increased because we dequeued something. The head variable is also useful for other things such as knowing how many items have been taken out of a queue. 
+
+If the head and the tail are the same and you have a 1 dimensional array like so:
+```python
+x = [1]
+```
+then in some programming languages you can only get the head() of the queue (Haskell, i'm looking at you) but in other languages this may differ.
+
+## Stacks
+
+A stack is a *last-in-first-out*
+
+In a lot of online tutorials stacks are drawn vertically like so:
+
+0 |
+:---: |
+1 |
+2 | 
+3 | 
+
+Much like a stack of plates, the first item on the top is the first item to come off. You can't pull plates out of the bottom of a stack of plates (if you can, you should become a magician!).
+
+Stacks have 2 functions:
+* Push - Insert element to the location top + 1
+* Pop - Delete element from top
+
+Where "top" is the variable for the top-most item in the stack.
+
+Let's see some examples.
+
+```python
+x = [20, 10, 15]
+```
+
+Where top is "3" because there are 3 elements.
+
+So to push 12 onto this stack we'll get
+
+```python
+x = [20, 10, 15, 12]
+```
+
+Now top becomes 4.
+
+You may be wondering "what happened to adding +1 to head?". Well, like I said, you can use both notations. I want to expose you to as much variance in algorithms as possible to enrich your learning... Well, at least that's what my lecturer said to me.
+
+Now if we want to pop() a stack we'll get:
+```python
+x = [20, 10, 15]
+```
+and head = 3, since we've popped the top!
+
+Stacks are super useful, especially in browser history. Say for example you go to Google, then Medium, then my profile (follow me ;) ). The stack will look like:
+
+Brandon's Profile |
+:---: |
+Medium |
+Google |
+
+Now how much would it suck if you pressed "back" and it went back to Google? It would suck alot! So when we click "back" the browser, quite literally, pops the current webpage off of the stack and brings you to the next item.
+
+Think of stacks like leaving breadcrumbs for yourself. If you're ever lost in a maze and you place down all the breadcrumbs, you'll look for the last breadcrumb you placed down, which is usually the one closet to you.
+
+Something important to note is that arrays are of a limited size
+
+
+
 
 # Extra learning
 http://cs-playground-react.surge.sh/
