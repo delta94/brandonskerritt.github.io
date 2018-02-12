@@ -66,12 +66,13 @@ If you have a special sum such as
 O(b^2 + a)
 you can't drop either because without knowledge of what b and a are.
 
+## Sumary
 
 Bet you were expecting some hard to understand guide to Big O huh? Well, this is all it is. You just need to memorise (or learn) the hierarchy and then take some algorithms and find out what their Big O notation is. You should really practice this!
 
 Big O notation only represents how long an algorithm can take but sometimes we care about the memory (space complexity) of an algorithm too. 
 
-Also sometimes an algorithm might not conform to big O notation. It's entirely possible that somehow an algorithm exists which changes how long it takes everytime it's run with the same input but almost every single algorithm you will meet will conform to Big O in some way.
+Also sometimes an algorithm might not conform to big O notation. It's entirely possible that somehow an algorithm exists which changes how long it takes everytime it's run with the same input, but almost every single algorithm you will meet will conform to Big O in some way.
 
 # Seqeuntial search
 
@@ -182,6 +183,7 @@ It's O(N).
 Let's try a quick example. Given the array [2, 6, 3, 4] how does the computer know what number is biggest? How best can we break down this problem into little chunks?
 
 Well, we'll simply run the code.
+
 ## Finding minimum from N +ve (positive) numbers
 
 ```python
