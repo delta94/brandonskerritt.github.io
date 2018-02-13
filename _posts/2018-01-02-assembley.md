@@ -253,3 +253,161 @@ The call instruction records the current value of EIP (instruction pointer) as t
 Puts the require subroutine address into EIP so the next instruction to be executed is the first instruction of the subroutine.
 
 The RET instruction (return) retrives the stored return address and puts it back into the EIP, causing execution to return to the instruction after the CALL.
+
+# The Stack
+
+A stack is a memory arrangement (data structure) for storing and retrieving information (values)
+
+the order of storing values from the stack can be described as LIFO
+
+Stacks are incredibly useful
+almost every assembley language has special instructions for implementing a stack
+
+in the x86 assembley language there are PUSH and POP instructions
+
+Push and POP operations make use of the stack pointer register *ESP* which holds the address of the item which is currently on top of the stack
+
+Recall that in x86 architectur, the stack grows *dowm* in memory.
+
+## Push
+The PUSH instruction:
+* decrements the address in *ESP* so that it points to a free space on the stack
+* writes an item to the memory location pointed to by the ESP
+
+ESP stands for extended stack pointer.
+
+## Pop instruction
+The POP instruction:
+* fetches the item addresssed by the ESP
+* Increments the ESP by the correct amount to removethe item from the stack
+
+## Adjusting the stack
+
+Items can be removed rom the stack or space reserved on top of the stack by directly altering the stack pointer:
+ADD ESP, 8 ; take 8 bytes off the stack
+SUB ESP, 256 ; Create 256 bytes on stack
+
+ESP always puts it to the top of the stack.
+
+The stack grows downwards so if we have a stack like
+
+N |
+:---: |
+Y|
+Q|
+K|
+
+And we add an item, X, like so
+
+X |
+:---:
+N|
+Y|
+Q|
+K|
+
+So it grows downwards!!
+
+# Parameters
+The simplest kind of subroutines perform an identical function each time it runs.
+
+## Value parameters
+
+The information you give to a subroutine is simply a value.
+
+## Reference parameters
+
+Consider another subroutine: "given two variables, exchange (swap) their values".
+The situation is different here, having only the values of the variables is not enough.
+
+In calling the subroutine we will need to tell it the addresses of the variables.
+
+Such parameters are called reference paraemters.
+
+What you need is not the content but an address, a reference, where it is. Hence the term "pass by reference".
+
+
+
+# Calling external functions
+We can call functions, especially C functions, in assembley. We can call a function using the call command like so:
+```c
+call printf
+```
+
+When we call printf it can and will delete and overwrite registers. Because of this we need to store our register data somewhere. We can store this data in a *stack*. We store the data like so:
+
+```assembley
+mov ecx, 10 ; sets up loop counter
+loop1:
+  push ecx ; save the loop counter on stack
+  lea eax, msg ; saves the address of message into eax
+  push eax ; put the paraemter ontop top of stack
+  call printf ; calls C function which prints first thing on stack, can mess up register data
+  pop eax ; remove paraemter
+  pop ecx ; restores saved loop counter
+  loop loop1 ; goes back to top of loop
+```
+
+# Calling formatted printf's
+
+We can insert data into a printf statement like so:
+```c
+printf("Number is %d\n", n);
+```
+
+If we want to do this in assembleu, we need to push it in reverse order. So first we push ```n``` and then we push the string ```Number is...```. This is how the stack works, items added always go to the top of the stack.
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+int main (void){
+  char msg[] = "Number is %d\n";
+  int n = 157;
+
+  _asm {
+    push n ; push the int first
+    lea eax, msg
+    push eax ; now stack the string
+    call printf 
+    add esp, 8 ; clean 8 bytes from stack
+  }
+  return 0;
+}
+```
+
+To call Scanf we need to give it 2 paraemters, format string and num. Scanf reads info from the terminal.
+
+```c
+char fmt = "%d"; int num;
+_asm {
+  lea eax, num ; we need to push the address of num into eax
+
+  push eax
+  lea eax, fmt ; now the format string
+  push eax
+  call scanf
+  add esp, 8 ; clean stack
+}
+```
+
+We need to pass the address of something and not the value.
+
+Clean stack means take stuff of that you put on. Always try to restore stack to the state you found it in. It's 8 bytes in this example because each variable is 4 bytes and we've pushed 2 things, which is 2 * 8 = 16.
+
+ |
+:---: |
+ESP |
+
+When we add data ESP goes down the stack like so:
+ |
+:---: |
+ |
+ ESP |
+
+And in order to place it back to where the extended stack pointer (ESP) back to where it was we add some number to it like so:
+
+ |
+:---: |
+ESP |
+
+In order to know what to put to make the stack go back to where it was, you need to know the architecture and how much space things (data types) take up.

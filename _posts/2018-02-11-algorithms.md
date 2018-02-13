@@ -85,6 +85,8 @@ Current number | Description
 3 | Not goal
 4 | Goal found
 
+Note: this type of table is called a trace table. It shows the values and names of all variables in the algorithm every single time the algorithm / loop is run until the algorithm finishes.
+
 In the *worst case scenario* the number we are looking at is either not in the list or at the very end, so in time complexity this is O(N).
 
 ```python
@@ -123,6 +125,8 @@ This is the worst case performance for binary search, beaten by sequential searc
 
 ![img](https://blog.penjee.com/wp-content/uploads/2015/12/linear-vs-binary-search-worst-case.gif)
 
+This code is taken from [here](https://stackoverflow.com/questions/41883258/how-to-implement-a-binary-search). It's not essential to understand the Python code in order to understand the algorithm. 
+
 ```python
 def bsearch(alist, target):
     left = 0
@@ -147,7 +151,7 @@ alist.sort()
 bsearch(alist, i)
 ```
 
-This code is taken from [here](https://stackoverflow.com/questions/41883258/how-to-implement-a-binary-search). It's not essential to understand the Python code in order to understand the algorithm.
+
 
 This method may suit your book search better because books are normally sorted alphabetically! If you know the alphabet and the positional number of each letter you could easily find any author you wanted!
 
@@ -260,6 +264,8 @@ x = [1]
 ```
 then in some programming languages you can only get the head() of the queue (Haskell, i'm looking at you) but in other languages this may differ.
 
+Why are queues useful? Well, queues are extremely useful. Imagine lining up at the bank and waiting 30 - 40 minutes to get to the front. When you get to the front, the teller decides a queue isn't useful so they start from the back, making you the last person they reach.
+
 ## Stacks
 
 A stack is a *last-in-first-out*
@@ -315,9 +321,86 @@ Now how much would it suck if you pressed "back" and it went back to Google? It 
 
 Think of stacks like leaving breadcrumbs for yourself. If you're ever lost in a maze and you place down all the breadcrumbs, you'll look for the last breadcrumb you placed down, which is usually the one closet to you.
 
-Something important to note is that arrays are of a limited size
+# Linked Lists
+
+Elements are arranged in a linear order.
+The order is determined by a pointer (rather than array indices)
+Each element (node) has a data field and one or two pointers linking to the next or previous elements in the list
+
+There are two types of linked lists, singly linked and doubly linked.
+
+Singly link looks like
+```
+[15][-]-> 
+```
+Where ```->``` represents a pointer and each ```[]``` represents a componenet.
+
+In a singly linked list the node stores one piece of data (the 15) and it stores a pointer linking it to the right hand side. The pointer does not contain data, just a pointer. In my badly drawn diagram the pointer, the arrow which is literally pointing out of the right hand side box is a pointer pointing to the next node. Each set of these data with pointers is a node.
+
+A singly linked list cannot point to the previous node.
+
+Doubly linked list looks like:
+```
+<-[-]15][-]->
+```
+
+In a doubly linked list the node has a forward and backward pointer as well as a data object. Each node has 3 componenets, 1 piece of data and 2 pointers. In a doubly linked list you can go to the previous node.
+
+Linked lists have a few functions we can use such as:
+
+* node.data = get data from current node
+* node.next = go to next node
+* node.prev = go to previous node
+
+The notation used may be different in programming languages.
+
+Note: if the node you are looking at is the last node in the linked list then node.next results in None (as in, it does not exist) and if you try to run node.prev in a singly linked list it will error.
 
 
+```
+head -> [ ][15][<-]---[->][10][<-]---[->][20][ ]  <- tail
+```
+
+Something important to stress again is that a node in a doubly linked list has *3 components* and each ```[ ]``` represents 1 component so a group of ```[ ][ ][ ]``` represents *1 node*. 
+
+
+If my badly-drawn diagrams in ASCII art are confusing then this picture may help:
+
+![img](https://www.geeksforgeeks.org/wp-content/uploads/gq/2014/03/DLL1.png)
+
+## Traversing Linked Lists
+
+We can traverse and output each element of a linked list like so:
+
+```python
+node = head
+while node != None: # while node does not equal None, where != is not equal to
+    print(node.data) # output the data of the node using the Python print function
+    node = node.next # updates the node variable to contain the next node in the list
+```
+
+Notice how we are using the node.next function to traverse a linked list.
+
+## Big O
+
+Searching for and traversing through linked lists is O(n).
+
+## Adding an element to the front of a linked list
+
+TK read this
+
+```python
+def list-insert-head(L, node):
+    node.next = head
+    node.prev = None
+    if head != None:
+        head.prev = node
+    else:
+        tail = node
+    head = node
+```
+
+Here we define a function to insert elements to the head of the linkedlist. We simply move the current head to the next node in the list
 
 
 # Extra learning
