@@ -319,6 +319,35 @@ Google |
 
 Now how much would it suck if you pressed "back" and it went back to Google? It would suck alot! So when we click "back" the browser, quite literally, pops the current webpage off of the stack and brings you to the next item.
 
+Stacks grow _downwards_ by placing stuff on top of it. This may sound confusing, so I'll try to explain it.
+
+When you *push* something onto a stack, you're changing the head of the stack (the head is normally the first item) to go down 1 level. We'll visualise this. Let's imagine a stack that looks like this:
+```
+[a][b][c]
+```
+There are no rules as to whether stacks can be sideways or top down, but normally they're top down. If we want to *push* something into the stack we do this:
+```
+[x][a][b][c]
+```
+Which pushes all the contents of the stack down.
+
+In normal stack-like behavior this looks like:
+
+Follow me on Twitter |
+:---: |
+Medium |
+Google |
+
+Now we push "University of Liverpool" to the stack and it becomes:
+
+University of Liverpool |
+:---: |
+Follow me on Twitter |
+Medium |
+Google |
+
+Literally pushing the stack down.
+
 Think of stacks like leaving breadcrumbs for yourself. If you're ever lost in a maze and you place down all the breadcrumbs, you'll look for the last breadcrumb you placed down, which is usually the one closet to you.
 
 # Linked Lists
@@ -330,9 +359,11 @@ Each element (node) has a data field and one or two pointers linking to the next
 There are two types of linked lists, singly linked and doubly linked.
 
 Singly link looks like
+
 ```
 [15][-]-> 
 ```
+
 Where ```->``` represents a pointer and each ```[]``` represents a componenet.
 
 In a singly linked list the node stores one piece of data (the 15) and it stores a pointer linking it to the right hand side. The pointer does not contain data, just a pointer. In my badly drawn diagram the pointer, the arrow which is literally pointing out of the right hand side box is a pointer pointing to the next node. Each set of these data with pointers is a node.
@@ -340,8 +371,9 @@ In a singly linked list the node stores one piece of data (the 15) and it stores
 A singly linked list cannot point to the previous node.
 
 Doubly linked list looks like:
+
 ```
-<-[-]15][-]->
+<-[-][15][-]->
 ```
 
 In a doubly linked list the node has a forward and backward pointer as well as a data object. Each node has 3 componenets, 1 piece of data and 2 pointers. In a doubly linked list you can go to the previous node.
@@ -361,7 +393,7 @@ Note: if the node you are looking at is the last node in the linked list then no
 head -> [ ][15][<-]---[->][10][<-]---[->][20][ ]  <- tail
 ```
 
-Something important to stress again is that a node in a doubly linked list has *3 components* and each ```[ ]``` represents 1 component so a group of ```[ ][ ][ ]``` represents *1 node*. 
+Something important to stress again is that a node in a doubly linked list has *3 components* and each ```[ ]``` represents 1 component so a group of ```[ ][ ][ ]``` represents *1 node* and in this diagram there are *3* nodes respectively.
 
 
 If my badly-drawn diagrams in ASCII art are confusing then this picture may help:
@@ -381,13 +413,14 @@ while node != None: # while node does not equal None, where != is not equal to
 
 Notice how we are using the node.next function to traverse a linked list.
 
+In a doubly linked list we can also reverse, go back to where we came from. This may not seem useful but it is very useful, for example at Merriam Webster they have dictionaries with reversed words. So Ecology would be ygolcoe. If you wanted to know how many words ended in "cology" you simply would search all words that ended in "ygolco". Of course, reading it like this is annoying so you can use a doubly linked list to be able to search a dictionary both the original alphabetical way and the reverse way. [Thanks 99PI](https://99percentinvisible.org/episode/mini-stories-volume-4/).
+
 ## Big O
 
 Searching for and traversing through linked lists is O(n).
 
 ## Adding an element to the front of a linked list
 
-TK read this
 
 ```python
 def list-insert-head(L, node):
@@ -400,7 +433,7 @@ def list-insert-head(L, node):
     head = node
 ```
 
-Here we define a function to insert elements to the head of the linkedlist. We simply move the current head to the next node in the list
+Here we define a function to insert elements to the head of the linked list. We simply move the current head to the next node in the list
 
 
 # Extra learning
