@@ -435,3 +435,10 @@ A recursive subroutine or procedure is one that may in some circumstances call i
 ## Mutual recursion
 
 Sub1 calls sub2 and sub2 in turn calls sub1
+
+Factorial function
+```python
+factorial(1) = 1
+factorial(n) = n * factorial(n-1)
+```
+
