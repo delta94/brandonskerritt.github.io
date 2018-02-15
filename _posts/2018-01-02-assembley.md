@@ -412,3 +412,26 @@ ESP |
 
 In order to know what to put to make the stack go back to where it was, you need to know the architecture and how much space things (data types) take up.
 
+# Stack frame
+A stack frame is an area pushed onto the stack which contains everything to do with the subroutine call.
+
+The stackframe holds:
+* return address
+* paraemters
+* local variables
+
+# ESP  and EBP
+
+Because of nested calls, several (many) stack frames may be present simultaenously
+
+The ESP always points to the top of the stack; however this may alter as space is created for local data
+
+another register, the EBP remains stable and can be used to access parameters and variables.
+
+# Recursion
+
+A recursive subroutine or procedure is one that may in some circumstances call itself to perform some subsidiary task.
+
+## Mutual recursion
+
+Sub1 calls sub2 and sub2 in turn calls sub1
