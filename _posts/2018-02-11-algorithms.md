@@ -461,6 +461,28 @@ def list-insert-head(L, node):
 
 Here we define a function to insert elements to the head of the linked list. We simply move the current head to the next node in the list
 
+# Adding a node to the tail of a list
+
+```python
+def list-insert-tail(L, node):
+    node.next = None
+    node.prev = tail
+    if tail != None:
+        tail.next = node
+    else:
+        head = node
+```
+
+# Inserting in the middle of a linked list
+
+```python
+# assume that curr is pointing to a node
+def listInsert(L, curr, newnode):
+    newnode.next = curr.next
+    newnode.prev = curr
+    if curr.next != None:
+        curr.next.prev = newnode
+```
 
 # Extra learning
 http://cs-playground-react.surge.sh/
