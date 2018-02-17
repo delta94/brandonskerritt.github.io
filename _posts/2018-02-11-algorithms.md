@@ -444,45 +444,152 @@ You could probably program a data structure (doubly linked list) that when you g
 
 Searching for and traversing through linked lists is O(n).
 
-## Adding an element to the front of a linked list
+# Programming Linked Lists
 
-We can add an element to the front of a linked list like so:
+Because the linked lists data structure isn't in every language (very commonly it is not) we have to program linked lists ourselves.
 
-```python
-def list-insert-head(L, node):
-    node.next = head
-    node.prev = None
-    if head != None:
-        head.prev = node
-    else:
-        tail = node
-    head = node
+Unfortunately my lectuer decided to switch to Java at this point in the class, however I'll do my best to explain every piece of java code.
+
+So below is a node for a doubly linked list. The node has 3 components, previous, data, next. A class is a template you can apply to objects, so in this instance we can make new nodes using this class.
+
+```java
+class Node {
+	public int data; 
+	public Node next;
+	public Node prev;
+    
+	// constructor to create a new node with data equals to parameter i
+	public Node (int i) {
+		next = null;
+		prev = null;
+		data = i;
+	}
+}
 ```
 
-Here we define a function to insert elements to the head of the linked list. We simply move the current head to the next node in the list
+In this instance the node has 3 methods that can be applied to it. Each method can be applied like:
+```
+Node.next
+Node.prev
+Node.data
+```
+using the dot notation.
 
-# Adding a node to the tail of a list
 
-```python
-def list-insert-tail(L, node):
-    node.next = None
-    node.prev = tail
-    if tail != None:
-        tail.next = node
-    else:
-        head = node
+If we wanted to make a single node in a doubly linked list we can do this:
+
+```java
+Node newnode = new Node(5);
 ```
 
-# Inserting in the middle of a linked list
+Where the node will hold a data value of 5.
+
+If we wanted to add a new node to the front of the list we can use this function:
+
+```java
+// create a new node containing data value 
+// and insert the new node to head of the list
+static void insertHead(int value) {
+	Node newnode = new Node(value); // makes a new node with value
+
+	newnode.next = head; // Makes the next node the head of the linked list
+	newnode.prev = null; // makes the previous node empty
+	if (head != null) // if the head is empty
+		head.prev = newnode; // sets the previous node to the new node to be inserted
+	else
+		tail = newnode; // the last node in the list is now the new node
+	head = newnode; // the head of the list is the new node
+	}
+```
+
+This code will create a new node and insert this node at the front of the doubly linked list. This is quite confusing, so let's draw some diagrams.
+
+First we create a new empty node with value as data.
+
+```
+[ ][value][ ]
+```
+
+Then we set the next pointer to point at the head of the linked lists
+
+```
+[ ][value][-]-[>][HEAD][ ]
+```
+
+After this we set the previous definition to be NULL
+
+```
+NULL<-[-][value][-]-[>][HEAD][ ]
+```
+
+Then we run a simple if statement. If head is not empty, set the previous node of the head node to be our new node.
+
+```
+NULL<-[-][value][<-]-[>][HEAD][ ]
+```
+
+Notice how you can now travel from the HEAD node to the new node.
+
+If head is empty, set the tail (last) node to be the new node. This is because if you insert this node into a linked list that doesn't exist, the next node would be nothing so the node you just inserted will be both the head and tail. Otherwise, just ignore the next node as it contains data.
+
+The last line sets the head pointer to point to the new node which is at the front of the list.
+
+We can also delete a node at the front of the linked list in a similar fashion:
+
+```java
+// delete the node at the head of the linked list
+static Node deleteHead() {
+	Node curr;
+
+	curr = head;
+	if (curr != null) {
+		head = head.next;
+		head.prev = null;
+	}
+	return curr;
+}
+```
+
+We assume here that curr is a pointer that points at a node in the linked list.
+
+So we point the current pointer at head, if head is not null (if it is not empty) then we set the head to the next node and from this new head (which is the second item in the linked list) we set the previous (old head) to null (nothing, doesn't exist). We then return the pointer.
+
+Linked lists are super cool because we can insert items anywhere in them. Let's say we have a pointer, curr, which points somewhere (let's say the middle) of the list. We can insert a new node after curr like so (in Python now)
 
 ```python
-# assume that curr is pointing to a node
 def listInsert(L, curr, newnode):
     newnode.next = curr.next
     newnode.prev = curr
     if curr.next != None:
         curr.next.prev = newnode
+    curr.next = newnode
 ```
+
+Whenever we want to insert a new node, we just have to tell the node what the next and previous nodes are.
+
+
+## Searching over a sorted list
+
+Recall that values stored in a linked list are sorted. We could use binary search to search the list. However, this is a bad idea. We don't know where the middle of a linked list is. Everytime we wanted to find the middle we would have to count every single node in the list and half that by 2.`
+
+We can use a modified version of sequential search to search a linked list.
+
+Because the linked list is sorted, let's say in ascending order, we can use this information to make seqential search faster.
+
+```python
+node = head
+while node != None and node.data < key:
+    node = node.next
+if node == None:
+    print("Not found")
+else if node.data > key:
+    print("not found)
+else:
+    print("found")
+```
+
+Since the linked list is sorted sequentially we know that the nodes in the linked list go in some order, like 1, 2, 3, 4, 5 for example. If node.data is more than the key (what we're looking for) we know it's not in the list, because it is sorted in some order.
+
 
 # Extra learning
 http://cs-playground-react.surge.sh/
