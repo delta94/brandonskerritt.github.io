@@ -614,8 +614,8 @@ Algorithms are like programming languages, we all have our favourites and someti
 Personally whenever I am presented with a problem I like to imagine it is in its own seperate world. I try to imagine what rules of life apply to this world. Once you understand the rules 
 
 
-# Connect with me
-
+# If you enjoyed this article, connect with me to learn more like this :)
+[LinkedIn](https://www.linkedin.com/in/brandonls/) | [Website](www.brandonskerritt.github.io) | Twitter
 upscribe
 
 linkedlin
