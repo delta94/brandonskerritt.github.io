@@ -89,6 +89,10 @@ Note: this type of table is called a trace table. It shows the values and names 
 
 Essentially you are sequentially counting up every single item in an list until you find your goal (if it exists in the list).
 
+![img](https://www.tutorialspoint.com/data_structures_algorithms/images/linear_search.gif)
+
+Note: this algorithm is sometimes called linear search.
+
 In the *worst case scenario* the number we are looking at is either not in the list or at the very end, so in time complexity this is O(N).
 
 ```python
@@ -265,8 +269,6 @@ It's actually up to the developer who designs this as to whether tail points to 
 
 The reason tail always points to something that doesn't exist is because enqueue is implemented to always put an object at [tail]. If we were to make tail the same as the length than enqueue would be changed to [tail + 1]. Either way you are adding 1, so it does not matter and may change in some languages.
 
-If we wanted to dequeue something we would do
-
 If we want to *enqueue* 12 into the queue, we would add it onto the end like so:
 
 ```python
@@ -275,7 +277,7 @@ If we want to *enqueue* 12 into the queue, we would add it onto the end like so:
 
 And the tail increases to a length of 6, but head stays at 1.
 
-Dequeue takes the [head] of the list and enqueue places an item at the [tail] of the list.
+*Dequeue* takes the [head] of the list and enqueue places an item at the [tail] of the list.
 
 ```python
 x = [20, 10, 0, 12]
@@ -290,6 +292,8 @@ x = [1]
 ```
 
 then in some programming languages you can only get the head() of the queue (Haskell, i'm looking at you) but in other languages this may differ.
+
+![img](http://www.myassignmenthelp.net/images/queue.gif)
 
 Why are queues useful? Well, queues are extremely useful. Imagine lining up at the bank and waiting 30 - 40 minutes to get to the front. When you get to the front, the teller decides a queue isn't useful so they start from the back, making you the last person they reach.
 
@@ -377,13 +381,15 @@ Google |
 
 Literally pushing the stack down.
 
+![img](https://www.sitesbay.com/data-structure/images/pop-operation.gif)
+
 Think of stacks like leaving breadcrumbs for yourself. If you're ever lost in a maze and you place down all the breadcrumbs, you'll look for the last breadcrumb you placed down, which is usually the one closet to you.
 
 # Linked Lists
 
 Linked Lists are a linear collection of data elements except the linear order is not defined by their physical placement in memory but instead each data node points to the next.
 
-The order is determined by a pointer (rather than array indices)
+The order is determined by a pointer (rather than array indices) TK
 Each element (node) has a data field and one or two pointers linking to the next or previous elements in the list
 
 There are two types of linked lists, singly linked and doubly linked.
@@ -395,6 +401,8 @@ Singly link looks like
 ```
 
 Where ```->``` represents a pointer and each ```[]``` represents a componenet.
+
+![img](https://he-s3.s3.amazonaws.com/media/uploads/1b76d10.png)
 
 In a singly linked list the node stores one piece of data (the 15) and it stores a pointer linking it to the right hand side. The pointer does not contain data, just a pointer. In my badly drawn diagram the pointer, the arrow which is literally pointing out of the right hand side box is a pointer pointing to the next node. Each set of these data with pointers is a node.
 
