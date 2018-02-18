@@ -14,7 +14,7 @@ By the end of this article you should have a good understanding of algorithms an
 
 An algorithm is a set of instructions typically undertaken by a computer to reach a targeted goal.
 
-When you make a sandwich, you are performing an algorithm. Habits are algorithms. 
+When you make a sandwich, you are performing an algorithm. Habits are algorithms. Do you put your socks and shoes on in the order sock > sock > shoe > shoe or do you do sock > shoe > sock shoe? Both of these are algorithms.
 
 >Algorithms have a long history and the word can be traced back to the 9th century. At this time the Persian scientist, astronomer and mathematician Abdullah Muhammad bin Musa al-Khwarizmi, often cited as “The father of Algebra”, was indirect responsible for the creation of the term “Algorithm”. In the 12th century one of his books was translated into Latin, where his name was rendered in Latin as “Algorithmi”.
 
@@ -50,7 +50,9 @@ https://www.youtube.com/watch?v=ZIwmZ9m0byI
 
 In Big O notation, we always use the *worst case* scenario for our calculations.
 
-There are other notations too, but typically we only use Big O notation.
+To calculate the Big O of an algorithm or selection of code, well... it's basically an educated guess. If your algorithm touches EVERY item in a list, the algorithm is 0(n). If your algorithm does not rely on input size (like an algorithm which just does 2 * n) then it is considered 0(1). If your algorithm appears to be halfing / going down alot it is _probably_ log n. If your algorithm looks like it's counting up in how memory is counted (16, 32, 64, 128, 256, ..., 1024) then it is probably 2^n. 
+
+There are some super useful rules you have to obey in order to simplfy your algorithm.
 
 ## Drop the constants
 
@@ -68,7 +70,9 @@ you can't drop either because without knowledge of what b and a are.
 
 Bet you were expecting some hard to understand guide to Big O huh? Well, this is all it is. You just need to memorise (or learn) the hierarchy, take some algorithms and find out what their Big O notation is. You should really practice this!
 
-Big O notation only represents how long an algorithm can take but sometimes we care about the memory (space complexity) of an algorithm too. 
+Big O notation only represents how long an algorithm can take but sometimes we care about the memory (space complexity) of an algorithm too.
+
+TK other forms of measuring algirhtms.
 
 # Seqeuntial search
 
@@ -82,6 +86,8 @@ Current number | Description
 4 | Goal found
 
 Note: this type of table is called a trace table. It shows the values and names of all variables in the algorithm every single time the algorithm / loop is run until the algorithm finishes.
+
+Essentially you are sequentially counting up every single item in an list until you find your goal (if it exists in the list).
 
 In the *worst case scenario* the number we are looking at is either not in the list or at the very end, so in time complexity this is O(N).
 
@@ -326,9 +332,11 @@ Now top becomes 4.
 You may be wondering "what happened to adding +1 to head?". Well, like I said, you can use both notations. I want to expose you to as much variance in algorithms as possible to enrich your learning... Well, at least that's what my lecturer said to me.
 
 Now if we want to pop() a stack we'll get:
+
 ```python
 x = [20, 10, 15]
 ```
+
 and head = 3, since we've popped the top!
 
 Stacks are super useful, especially in browser history. Say for example you go to Google, then Medium, then my profile (follow me 😉). The stack will look like:
@@ -438,7 +446,6 @@ Notice how we are using the node.next function to traverse a linked list.
 At Merriam Webster they have dictionaries with reversed words. So Ecology would be ygolcoe. If you wanted to know how many words ended in "cology" you simply would search all words that ended in "ygolco". Of course, reading it like this is annoying so you can use a doubly linked list to be able to search a dictionary both the original alphabetical way and the reverse way. [Thanks 99PI](https://99percentinvisible.org/episode/mini-stories-volume-4/).
 
 You could probably program a data structure (doubly linked list) that when you go to a previous node it displays the data in reverse.
-
 
 ## Big O
 
@@ -554,6 +561,8 @@ We assume here that curr is a pointer that points at a node in the linked list.
 
 So we point the current pointer at head, if head is not null (if it is not empty) then we set the head to the next node and from this new head (which is the second item in the linked list) we set the previous (old head) to null (nothing, doesn't exist). We then return the pointer.
 
+## Inserting items into a linkedlist
+
 Linked lists are super cool because we can insert items anywhere in them. Let's say we have a pointer, curr, which points somewhere (let's say the middle) of the list. We can insert a new node after curr like so (in Python now)
 
 ```python
@@ -583,13 +592,26 @@ while node != None and node.data < key:
 if node == None:
     print("Not found")
 else if node.data > key:
-    print("not found)
+    print("not found")
 else:
     print("found")
 ```
 
 Since the linked list is sorted sequentially we know that the nodes in the linked list go in some order, like 1, 2, 3, 4, 5 for example. If node.data is more than the key (what we're looking for) we know it's not in the list, because it is sorted in some order.
 
+There are many, many search algorithms but most of the time if you know a little bit of information about the data you can change some search algorithm to be more efficient for that specific problem. In general, binary search is extremely effective but here it's not so good. Don't just use an algorithm because Stack Overflow says that it is the fastest, best algorithm for the job.
 
-# Extra learning
-http://cs-playground-react.surge.sh/
+Algorithms are like programming languages, we all have our favourites and sometimes we say that one programming language is better than another (Python, I love you) but at the end of the day it would be foolish and naieve to say that one programming language is better than all the others. Use the right tool for the job, and change it if you want to!
+
+Personally whenever I am presented with a problem I like to imagine it is in its own seperate world. I try to imagine what rules of life apply to this world. Once you understand the rules 
+
+
+# Connect with me
+
+upscribe
+
+linkedlin
+twitter
+githib
+
+Don't like this article or want to add something? Submit a pull request here:
