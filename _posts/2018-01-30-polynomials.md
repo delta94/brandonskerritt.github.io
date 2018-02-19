@@ -4,8 +4,6 @@ categories:
   - Maths
 ---
 
-TEST
-
 # Finding out the degree of a polynomial
 Given the equation
 $$x^2 - 3x + 2$$
@@ -37,7 +35,6 @@ is not a polynomial because the x's aren't combined.
 $$x^2+x^2 = x^4$$
 It has to be exactly one item per k.
 
-## Working out the roots of a polynomial
-You know in GCSE when you solved polynomials to get 2 numbers? Well, this is exactly the same.
-https://www.youtube.com/watch?v=ffLLmV4mZwU
-https://www.youtube.com/watch?v=HinoXYey2n4
+# Polynomials defined in terms of functions
+Let's say you have a function such as F(x) = {POLYNOMIAL}.
+If one of the roots of the polynomial is positive than the output of f(x) is positive. Otherwise it's always negative.
