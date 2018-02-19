@@ -619,6 +619,7 @@ Let's say you have a bookshelf and you want to arrange the books alphabetically,
 
 ## Bubble Sort
 
+The idea of a bubble sort is simple. Starting from the first element, swap adjacent items if they are not in ascending order. When the last item is reached, the last item is the largest. Repeat these steps for the remaining items to find the second largest, third largest and so on.
 
 
 
