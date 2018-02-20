@@ -621,6 +621,143 @@ Let's say you have a bookshelf and you want to arrange the books alphabetically,
 
 The idea of a bubble sort is simple. Starting from the first element, swap adjacent items if they are not in ascending order. When the last item is reached, the last item is the largest. Repeat these steps for the remaining items to find the second largest, third largest and so on.
 
+Bubble sort is often the first sorting algorithm one learns because it's easy to implement.
+
+Here's a new gif of how Bubble Sort works.
+
+![img](https://media.giphy.com/media/jfJEGqBYFYwgM/giphy.gif)
+
+### Big O
+
+The Big O complexity for bubble sort is $$O(n^2)$$.
+
+### Code
+
+Here is some Python code for the bubble sort:
+
+```python
+def bubbleSort(alist):
+    for passnum in range(len(alist)-1,0,-1):
+        for i in range(passnum):
+            if alist[i]>alist[i+1]:
+                temp = alist[i]
+                alist[i] = alist[i+1]
+                alist[i+1] = temp
+
+```
+
+And here is the Java version:
+
+```java
+public static void BubbleSort( int [ ] num )
+{
+     int j;
+     boolean flag = true;   // set flag to true to begin first pass
+     int temp;   //holding variable
+
+     while ( flag )
+     {
+            flag= false;    //set flag to false awaiting a possible swap
+            for( j=0;  j < num.length -1;  j++ )
+            {
+                   if ( num[ j ] < num[j+1] )   // change to > for ascending sort
+                   {
+                           temp = num[ j ];                //swap elements
+                           num[ j ] = num[ j+1 ];
+                           num[ j+1 ] = temp;
+                          flag = true;              //shows a swap occurred 
+                  }
+            }
+      }
+}
+```
+
+You'll notic that bubblesort heavily uses a temporary variable for temporary storage.
+
+## Selection Sort Algorithm
+
+The selection sort algorithms tries to do the following:
+* Find minimum key from the input sequence
+* Delete it from input sequence
+* Append it ot the resulting sequence
+* Repeat until nothing left in input sequence
+
+Example, where bolded means it's in the right place.
+
+[34, 10, 64, 51, 32, 21] | To Swap
+--- | ---
+[34, 10, 64, 51, 32, 21] | 34, 10
+[*10*, 34, 64, 51, 32, 21 | 34, 21
+[*10*, *21*, 64, 51, 32, 34] | 32, 64
+[*10*, *21*, *32*, 51, 64, 34] | 34, 51
+[*10*, *21*, *32*, *34*, 64, 51] | 51, 64
+[*10*, *21*, *32*, *34*, 51, 64] | Fully sorted
+
+As you can see there is fewer swaps than in Bubble Sort. It basically finds the lowest value and swaps it with the closet to first in the list where it isn't in the right place.
+
+Here's a gif representing how selection sort works:
+
+![img](http://sonny.io/wp-content/uploads/2016/07/selectionsort.gif)
+
+## Big O
+
+The Big O notation for Selection Sort is O(^2)
+
+### Code
+
+Here's some Python code for selection sort:
+
+```python
+def selectionSort(alist):
+   for fillslot in range(len(alist)-1,0,-1):
+       positionOfMax=0
+       for location in range(1,fillslot+1):
+           if alist[location]>alist[positionOfMax]:
+               positionOfMax = location
+
+       temp = alist[fillslot]
+       alist[fillslot] = alist[positionOfMax]
+       alist[positionOfMax] = temp
+```
+
+## Insertion Sort
+
+The idea is as follows:
+* Look at elements one by one
+* Build up sorted list by inserting the element at the correct location
+
+Hence why it's called insertion sort, because you are inserting hte values into a new array.
+
+[34, 10, 64, 51, 32, 21] | No. shifted to right
+--- | ---
+[34, 10, 64, 51, 32, 21] | Nothing yet
+[10, 34, 64, 51, 32, 21] | 34
+[*10*, *34*, 64, 51, 32, 21] | Nothing yet
+[*10*, *34*, *51*, 64, 32, 21] | 64
+[*10*, *32*, *34*, *51*, *64*, 21] | 34, 51, 64
+[*10*, *21*, *32*, *34*, *51*, *64*] |32, 34, 51, 64
+
+Here's a gif showing how Insertion Sort works
+
+![img](https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif)
+
+### Code
+
+```python
+def insertionSort(alist):
+   for index in range(1,len(alist)):
+
+     currentvalue = alist[index]
+     position = index
+
+     while position>0 and alist[position-1]>currentvalue:
+         alist[position]=alist[position-1]
+         position = position-1
+
+     alist[position]=currentvalue
+```
+
+
 
 
 # If you enjoyed this article, connect with me to learn more like this :)
