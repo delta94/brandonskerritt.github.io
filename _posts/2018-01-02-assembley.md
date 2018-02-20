@@ -4,6 +4,8 @@ categories:
   - University
 ---
 
+Note: This is more of just my notes on x86 Assembley language than it is an actual blog post.
+
 Binary is completely unusable but Assembley Language is usable and very close to binary.
 
 Each line of assembley code is one operation.
@@ -15,9 +17,11 @@ Registers have names that indiviudally identify them.
 Addresses are specified using labels.
 
 Example:
+
 ```
 Adjust: mov eax num1 ; get first number
 ```
+
 adjust is the label
 mov is the opcode
 eax is the register
@@ -25,10 +29,6 @@ num1 is a label
 anything after ";" is a comment.
 
 This can be translated to binary usign an assembler. _asm.
-
-Hi Antony!
-
-At the start of the video you talk about starting a company and appearing to be big but when the company goes big you pretend to be small, 
 
 ## Registers
 
@@ -43,6 +43,7 @@ Register for general purpose data storage. On an x86 CPU it looks like this:
 ```
 
 *Examples*
+
 ```assembley
 mov eax, 42 ; put 42 into eax
 mov ax, count ; gets 16 bit variable
@@ -69,6 +70,7 @@ ECX - Counter register
 
 Often used for loops (seen later)
 It can be used with sepcial jump instructions
+
 ```assembley
 JECXZ ; jump if ecx is zero
 JCXZ ; jump if cx is zero
@@ -87,6 +89,7 @@ Z: zero (indicates if result is zero or not)
 C: carry (indicates an arhimetic carry)
 O: overflow (arhimetic overflow error)
 ```
+
 The flags register can be used in conjunction with jump instructions to control program flow. So if flag O then jmp here etc
 
 ESP Register
@@ -97,9 +100,11 @@ The simplest jump instruction is the *unconditional* jump.
 It jumps no matter what, as soon as it is reached in the instruction pointer.
 
 It has the syntax
+
 ```assembley
 JMP <address of the target instruction>
 ```
+
 The address of the target instruction is normally a label
 
 ### Conditional Jump
@@ -170,6 +175,7 @@ end_while:
 ```
 
 A for loop can be made in assembley. Take this example
+
 ```c
 for (int x = 1; x <= 10; x++){
   y = y + x;
@@ -177,6 +183,7 @@ for (int x = 1; x <= 10; x++){
 ```
 
 First attempt
+
 ```assembley
 mov eax, 1 ; using eax as the variable x
 floop:   ; start of for loop
@@ -187,6 +194,7 @@ floop:   ; start of for loop
 ```
 
 We can improve this by counting in reverse:
+
 ```assembley
 mov eax, 10
 floop:
@@ -207,10 +215,13 @@ floop:
 # Addresses and values
 In assembley we can get the address of a variable with the LEA (load effective address) instruction
 We often use EBX 
+
 ```assembley
 LEA EBX, val
 ```
+
 We can access the value pointed to by the address using *register indirect addressing mode* 
+
 ```assembley
 mov eax, [ebx]
 ```
@@ -226,7 +237,7 @@ So let's say you have the code
 101
 102
 ```
-and ```101``` points to a memory location which is a subroutine. The subroutine is 5 lines long, so the code changes to
+and 101 points to a memory location which is a subroutine. The subroutine is 5 lines long, so the code changes to
 ```
 100
 201
@@ -435,7 +446,7 @@ The stackframe holds:
 
 # ESP and EBP
 
-Because of nested calls, several (many) stack frames may be present simultaenously
+Because of nested calls, several (many) stack frames may be present simultaneously
 
 The ESP always points to the top of the stack; however this may alter as space is created for local data
 

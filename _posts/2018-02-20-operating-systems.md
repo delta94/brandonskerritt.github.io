@@ -135,3 +135,66 @@ An interrupt is a form of automatical call of a sequence of instructions brought
 Such a sequence of instructions is known as an *interrupt service routine (ISR)*. Unlike an ordinary subroutine call, an interrupt can take at any point in the execution sequence.
 
 The address of each ISR is usually contained in an interrupt vector.
+
+Certain interuppts (e.g. clock timeout) will not return control to the interupted program. Instead, control is handed to another program (context switch). If the programmer does not know when this will happen, how do we protect the register values of the original program?
+
+The answer is for the OS to save them in a special data structure called the *process control block (PCB)*. 
+
+The OS maintains a table of such descriptors, one for each process.
+
+Register values can be reloaded when execution resumes at a later time.
+
+# Processes
+
+A program is a representation of an algorithm in some programming language.
+
+A process refers to the activity performed by a computer when executing a program. 
+
+A process is created when a program or command is executed.
+
+However the correspondance is not always one to one.
+
+A single program may have several processes.
+
+# OS Structure
+The OS has:
+
+* A Central Kernal
+    - resides permenetaly in memory
+    - performs low-level, frequently needed tasks
+* A set of processes
+    - May be created by kernel or to service user activity
+* Processes interact with kernel via system calls
+    - Create processes, run programs, open files
+* Kernel and some system processes may operate in *privledged* mode.
+
+# System Initialisation
+
+When the system powers on, an interrupt causes the computer to execute a bootstrap program stored in ROM.
+
+This code initalises the system, runs diagnostic checks, sets up basic I/O. Basically making it ready to be used.
+
+It loads the OS Kernel from boot partition of specified external disk drive and passes control to it.
+
+The Kernel performs further initalisation and creates various system processes.
+
+Further processes may be created because of user activity.
+
+# Command Interpreter
+
+Often called a shell.
+
+Accepts and runs commands specified by the user.
+May be graphical or textual.
+
+The shell is just a normal user-level process
+
+# System calls
+
+User processes are not allowed to inspect or alter kernal code, or to make calls directly to its subroutine.
+
+Services are requested via system calls.
+
+Many system calls are given a ‘wrapper’ to make them look like ordinary subroutines.
+
+Together with other useful functions, they form an Application Programmer Interface (API)
