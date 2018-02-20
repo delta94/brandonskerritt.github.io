@@ -417,10 +417,10 @@ A stack frame is an area pushed onto the stack which contains everything to do w
 
 The stackframe holds:
 * return address
-* paraemters
+* parameters
 * local variables
 
-# ESP  and EBP
+# ESP and EBP
 
 Because of nested calls, several (many) stack frames may be present simultaenously
 
