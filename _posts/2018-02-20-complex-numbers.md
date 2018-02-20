@@ -105,3 +105,4 @@ How do we "measure" the size of complex numbers? With negative and positive numb
 But we can actually use Pythagoras' therom to measure the size of complex numbers! (Wow, is there anything that this formula ISN'T used for?).
 
 $$ a + bi = \sqrt{a^2 + b^2}$$
+
