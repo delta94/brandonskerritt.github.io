@@ -108,3 +108,30 @@ Batch systems were invented which passes a job to a human operator and then the 
 # Multi programming
 
 Multi programming is where several programs are loaded into memory simultaenously, sharing the same CPU. When a running program cannot continue (maybe because it is waiting for input from the user) the operating systems switches to another program to run.
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/386273bc-7286-4b8c-a32c-b99a7ee735d2.png)
+
+As you can see in this image the CPU executes whilest other programs are waiting for input.
+
+# Multi-Access (Time-sharing)
+
+This is an extension of multiprogramming. The CPU switches rapidly between processes to give an illusion of uninteruppted execution in parallel.
+
+## Time-sharing the CPU
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/048c156c-ce75-4561-a680-5332b990d2d2.png)
+
+Each program is allocated a fixed slice of time before the clock interrupts the program.
+
+# Interrupts
+
+The time sharing method depends on the abillity to interrupt execution at regular clock intervals. There are many circumstances in which it is desirable to interrupt the normal flow of a program to react to special events such as:
+* User interrupts via keyboard / mouse usage
+* Completion of an I/O task
+* Power on or off
+
+An interrupt is a form of automatical call of a sequence of instructions brought about usuaully by an event occuring outside the normal program execution.
+
+Such a sequence of instructions is known as an *interrupt service routine (ISR)*. Unlike an ordinary subroutine call, an interrupt can take at any point in the execution sequence.
+
+The address of each ISR is usually contained in an interrupt vector.

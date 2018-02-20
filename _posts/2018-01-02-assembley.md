@@ -240,12 +240,17 @@ and ```101``` points to a memory location which is a subroutine. The subroutine 
 where 20-something is the address of each instruction in the sub routine.
 
 A subroutine in assembley is programmed as
+
 ```label PROC
  BLAH
  BLAH BLAH
 label ENDP
 ```
-The procedure is called by ```call label```
+
+The procedure is called by
+
+ ```call label```
+
 You can use C functions inside assembley
 
 The call instruction records the current value of EIP (instruction pointer) as the *return address* 
@@ -351,11 +356,19 @@ loop1:
 # Calling formatted printf's
 
 We can insert data into a printf statement like so:
+
 ```c
 printf("Number is %d\n", n);
 ```
 
-If we want to do this in assembleu, we need to push it in reverse order. So first we push ```n``` and then we push the string ```Number is...```. This is how the stack works, items added always go to the top of the stack.
+If we want to do this in assembleu, we need to push it in reverse order. So first we push
+ ```n```
+ 
+and then we push the string
+
+ ```Number is...```
+ 
+aThis is how the stack works, items added always go to the top of the stack.
 
 ```c
 #include <stdio.h>
