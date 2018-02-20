@@ -26,9 +26,9 @@ Polynomials should have 2 solutions and they are where the graph crosses the x-a
 
 Decartes' calls the roots "imaginery" in his book La Geometrie
 
-    “For the rest, neither the false nor the true roots are always real, sometimes they are only imaginary, that is to say one may imagine as many as I said in each equation, but sometimes there exists no quantity corresponding to those one imagines.”
+“For the rest, neither the false nor the true roots are always real, sometimes they are only imaginary, that is to say one may imagine as many as I said in each equation, but sometimes there exists no quantity corresponding to those one imagines.”
 
-    — Rene Descartes
+— Rene Descartes
 
 We know that $$x^2 + 1$$ has two roots so let's invent a name for these, $$\mathbb{i}$$ with  $$\mathbb{i}^2 = (-\mathbb{i})^2 = -1$$ then $$x=\mathbb{i}$$ and $$x=-\mathbb{i}$$ are the two roots.
 

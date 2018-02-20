@@ -741,6 +741,10 @@ Here's a gif showing how Insertion Sort works
 
 ![img](https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif)
 
+### Big O notation
+
+The Big O notation for Insertion Sort is O(n^2).
+
 ### Code
 
 ```python
@@ -757,7 +761,9 @@ def insertionSort(alist):
      alist[position]=currentvalue
 ```
 
+## Bogosort
 
+Bogosort is a living breathing meme sorting algorithm. It takes an input list and randomly rearranges the list until the list is sorted. It's very efficient with a Big O of O(n) but at the same time it's not to be used much because it often takes far too long to compute anything.
 
 
 # If you enjoyed this article, connect with me to learn more like this :)
