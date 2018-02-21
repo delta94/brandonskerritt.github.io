@@ -1,5 +1,5 @@
 ---
-title: "Maths behind Google"
+title: "Learn how Google works by building Google"
 categories:
   - University
 ---
@@ -10,6 +10,10 @@ Search engines typically have 3 main objectives:
 1. Crawl the web and find all the web pages with public access
 2. Index the data from step 1 so the pages can be searched efficiently
 3. Rate the importance of each page in the database.
+
+A webcrawler, also called a spider crawls the web looking for new websites. Once a website has been found, the spider regularly checks to see if the information has been updated and it crawls all links on that website to find other websites.
+
+We'll start here by building a spider. We'll use Python 3x and the Python package [Scrapy](https://scrapy.org/) to scrape websites. Click [here](https://docs.scrapy.org/en/latest/intro/install.html#intro-install) for an installation guide for Scrapy.
 
 Here is an image of a very small web
 
