@@ -228,6 +228,33 @@ https://devpost.com/software/bank-of-alexa
 https://devpost.com/software/ka-bomb-com
 ```
 
+So what we now have is our original website with all these wonderful links on that website:
+
+```
+                                +-------------------------------------------------------------------------+
+                                | https://medium.com/@brandonskerritt                                     |
+                                | https://www.hackernoon.com                                              |
+                                | http://vip.politicsmeanspolitics.com/                                   |
+                                | https://www.li^erpool.ac.uk/                                            |
+                                | https://www.liverpool.ac.uk/sports/sports-clubs/student-sports/karate/  |            
++--------------------------+    | https://github.com/brandonskerritt/Computer-Science/tree/master/Course- |            dent-committees            |    |
+| BRANDONSKERRITT.GITHUB.IO+----> https://www.liverpoolguild.org/main-menu/representation/halls/halls-stu |
++--------------------------+    | https://www.startupschool.org/                                          |            
+                                | https://drive.google.com/file/d/1u66tSfXWmvBBdCkc7KyUpLxn8A0U8Rar/view? |
+                                | https://medium.com/@brandonskerritt51                                   |
+                                | https://twitter.com/brandon_skerrit                                     |
+                                | https://www.linkedin.com/in/brandonls/                                  |
+                                | http://github.com/brandonskerritt/                                      |            
+                                | https://drive.google.com/file/d/1u66tSfXWmvBBdCkc7KyUpLxn8A0U8Rar/view? |
+                                | https://github.com/chrisjim316/Liljimbo-Chatbot                         |
+                                | https://devpost.com/software/bet-a-way                                  |
+                                | https://devpost.com/software/bank-of-alexa                              |
+                                | https://devpost.com/software/ka-bomb-com                                |
+                                |                                                                         |
+                                +-------------------------------------------------------------------------+
+```
+TK Transcription
+
 # Indexing
 
 
