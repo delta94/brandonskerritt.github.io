@@ -1,5 +1,5 @@
 ---
-title: "Algorithms and Data Structures"
+title: "Operating Systems"
 categories:
   - University
 ---
