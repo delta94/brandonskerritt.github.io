@@ -65,6 +65,73 @@ pip install Scrapy
 
 Okay, so we have Scrapy installed. We can now build our web crawler!
 
+We need to design what the crawler will do, because making software right off the bat is just plain stupid. So we want a box called website and items in the website with links in them, where each link is a mini-box with other links in it until it stops being a box. This is kind of confusing so...
+
+Each website will contain links in it that send it to other websites. Each of those websites also have links in them which send them off to other websites. So we start off with one URL (probably Hacker News) and each link will also be a website with lniks and so on. 
+
+```
++-----------------------------------------------------------------+
+|                    HACKERNEWS                                   |
+|                                                                 |
+|                                                                 |
+|    +----------------------+   +---------------------------+     |
+|    |      BBC             |   |          NETFLIX          |     |
+|    |                      |   |                           |     |
+|    |    +---------------+ |   |   +------+                |     |
+|    |    |    GUARDIAN   | |   |   |  BBC |       +------+ |     |
+|    |    |               | |   |   |      |       |  Yahoo |     |
+|    |    |               | |   |   +------+       |      | |     |
+|    |    |               | |   |                  +------+ |     |
+|    |    |               | |   |                           |     |
+|    |    +---------------+ |   |                           |     |
+|    |                      |   |                           |     |
+|    +----------------------+   +---------------------------+     |
+|                                                                 |
+|                                                                 |
+|                                                                 |
+|                                                                 |
+|                                                                 |
++-----------------------------------------------------------------+
+```
+
+Sorry if you're on mobile.
+
+So it's links all the way down. Something cool to note here is that links inside links inside links can point to the original parent link.
+
+So what we want is for our crawler to be able to tell the parents and children links apart. This is really important in future pageranking algorithms, but at the moment we just need to know this.
+
+One way we could represent this is with a directed graph like so:
+
+```
+                                         +--------------+
+                                         |    YOUTUBE   |
+                                   +----->              |
+                                   |     +--------------+
+                         +---------+
++---------+------------->+  NETFLIX+-------^---------------+
+| BBC     |              +---------+       |   GOOGLE      |
++---------+---+                    |       |               |
+              |                    |       +---------------+
+              |                    |
+              |                    |         +----------------+
+              |                    +--------->   INSTAGRAM    |
+            +-v----------+                   +----------------+
+            |  UNIVERSITY|
+            |            |
+            +------------+
+
+```
+
+Something important to note is that it's entirely possible for a child to be a parent of it's parent, like so:
+
+```
++--------------+----> +-------------+
+|    NETFLIX   |      |    BBC      |
+|              |      |             |
+|              |      |             |
++--------------+ <----+-------------+
+```
+
 We'll start a new Scrapy project by using the command:
 
 ```
@@ -119,3 +186,6 @@ This approach ignores a large problem, mainly that a link from an already import
 In our new and improved version we don't want pages to be able to "vote" for themselves. We don't want a page to gain popularity by linking to lots of other pages. If page j contains $$x_j$$ links, one of them linking to page k, then we will boost page k's score by $$\frac{x_j}{n_j}$$.
 
 In this version each webpage gets a total of one vote, weighted by that web page's score that is evenly divided up among all of its outgoing links.
+
+# References
+[0] - https://nlp.stanford.edu/IR-book/html/htmledition/web-crawling-and-indexes-1.html
