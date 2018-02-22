@@ -43,28 +43,6 @@ One question that you may still have is "what is the difference between the inte
 
 >To keep things “interesting,” many people use the term Internet to refer to both.
 
-We'll start here by building a spider. We'll use Python 3x and the Python package [Scrapy](https://scrapy.org/) to scrape websites. In this day and age it is useless to try and make our own spider, since packages exist which are alot better than anything we could make. I'll describe spiders as much as possible so we don't skip over how they work, just how to actually make one.
-
-Firstly, we'll use a virtual environment in Python so installing scripts, modules and other things won't mess up our system-wide python install. Check out [this](https://virtualenv.pypa.io/en/stable/userguide/) user guide for how to use VirtualENV.
-
-This is really useful because often we want to install specific versions of packages that conflict with our system wide versions.
-
-You can download Python 3x [here](https://www.python.org/).
-
-Click [here](https://docs.scrapy.org/en/latest/intro/install.html#intro-install) for an installation guide for Scrapy.
-
-In short, all you need to do (assuming you have a Unix / Linux / Mac OS terminal):
-
-```
-sudo apt update
-pip install virtualenv
-virtualenv Google
-source google/bin/activate
-pip install Scrapy
-```
-
-Okay, so we have Scrapy installed. We can now build our web crawler!
-
 We need to design what the crawler will do, because making software right off the bat is just plain stupid. So we want a box called website and items in the website with links in them, where each link is a mini-box with other links in it until it stops being a box. This is kind of confusing so...
 
 Each website will contain links in it that send it to other websites. Each of those websites also have links in them which send them off to other websites. So we start off with one URL (probably Hacker News) and each link will also be a website with lniks and so on. 
@@ -94,7 +72,8 @@ Each website will contain links in it that send it to other websites. Each of th
 +-----------------------------------------------------------------+
 ```
 
-Sorry if you're on mobile.
+Transcription: A large box labelled "HACKERNEWS" which contains two smaller boxes respectively named "BBC" and "NETFLIX". Each of the two boxes also have boxes inside of them. The smaller box inside the larger HACKERNEWSBOX labelled BBC contains 1 smaller box labelled GUARDIAN. The Netlfix box contains 2 boxes, YAHOO and BBC. In total the YAHOO, BBC and GUARDIAN boxes are boxes inside boxes inside a box.
+The author would like to note that he is not an expert at transcriptions so I apologise to any transcription experts cringing at how bad I am, I just wanted to make this article more accessible.
 
 So it's links all the way down. Something cool to note here is that links inside links inside links can point to the original parent link.
 
@@ -122,6 +101,8 @@ One way we could represent this is with a directed graph like so:
 
 ```
 
+Transcription: A graph with nodes (boxes) in it with lines connecting boxes to eachother. The lines have a direction (arrow) on them. The first box, BBC points to 2 boxes which are UNIVERSITY and NETFLIX. The UNIVERSITY box does not point to anything however the NETFLIX box points to 3 boxes labelled YOUTUBE, GOOGLE, INSTAGRAM. These 3 boxes do not point to anything.
+
 Something important to note is that it's entirely possible for a child to be a parent of it's parent, like so:
 
 ```
@@ -132,37 +113,125 @@ Something important to note is that it's entirely possible for a child to be a p
 +--------------+ <----+-------------+
 ```
 
-We'll start a new Scrapy project by using the command:
+Transcription: A box labelled NETFLIX is pointing to another box labelled BBC. The BBC box is pointing to the NETFLIX box. They are both pointing at eachother.
+
+Something to note is that some websites don't want to be crawled. A website will often have a file called [robots.txt](http://www.robotstxt.org/robotstxt.html) which gives advice to web robots about how best to crawl their site and whether their site should be crawled at all.
+
+If the robots.txt file contains
 
 ```
-scrapy startproject Google
+User-agent: *
+Disallow: /
 ```
 
-Something to note here is that many features of this part of the tutorial are unsurprinsgly taken from the [Scrapy tutorial](https://docs.scrapy.org/en/latest/intro/tutorial.html#intro-tutorialhttps://docs.scrapy.org/en/latest/intro/tutorial.html#intro-tutorial).
+This means it wants to disallow all robots from visiting any pages on the site. You can still visit the page if you want, but it's extremely rude and the website won't like it. We'll use my personal website in this tutorial (feel free to do the same if you don't want to be invasive!).
 
-This will create a folder directory that looks like this:
+Here's a small diagram of what my website roughly looks like:
 
 ```
-Google/
-    scrapy.cfg            # deploy configuration file
+                                    +---------+
+                                    |  github |
+                            +-------v---------+
+                            |
+                            |        +--------+
++---------------------------+        |linkedin|
+| brandonskerritt.github.io +--------v--------+
++---------------------------+
+                            |
+                            |        +-----------+    +----------+    +--------+
+                            |        |blog posts +---->blogpost 1+----> link 2 |
+                            +--------v-----------+    +--------+-+    +--------+
+                                                               |
+                                                               |
+                                                               |     +-------+
+                                                               +-----> link 1|
+                                                                     +-------+
 
-    tutorial/             # project's Python module, you'll import your code from here
-        __init__.py
-
-        items.py          # project items definition file
-
-        middlewares.py    # project middlewares file
-
-        pipelines.py      # project pipelines file
-
-        settings.py       # project settings file
-
-        spiders/          # a directory where you'll later put your spiders
-            __init__.py
 ```
 
-Also something to note here is that Google is a registered trademark and I'm only using their name because they're an amazing search engine please don't sue me Google.
+TK Transcript
 
+So my website has links to my LinkedIn, GitHub and it also has a link to my blog posts. Each blog post (still under my domain) has outgoing links to other external services (most of the time not on my domain).
+
+Firstly, let's use the Python package requests to download my page. You can use 
+
+```shell
+pip install Requests
+```
+
+To get the requests module.
+
+We'll then start writing some code:
+
+```python
+import requests
+
+r = requests.get("http://brandonskerritt.github.io/")
+if r.status_code != 200:
+  print("Error. Something is wrong here")
+```
+
+Okay, so my website should hopefully return a status code of 200. We use the requests module to download my webpage (or attempt to) and store it into a variable called "r".
+
+```python
+import requests
+from bs4 import BeautifulSoup
+
+r = requests.get("http://brandonskerritt.github.io/")
+if r.status_code != 200:
+    print("Error. Something is wrong here")
+
+soup = BeautifulSoup(r.content)
+```
+
+TK pip install beautiful soup and what beautiful soup is
+
+We're using Beautiful Soup to get the original webpage we're going to use here, so we need to create a beautiful soup object.
+
+```python
+import requests
+from bs4 import BeautifulSoup
+import re
+
+r = requests.get("http://brandonskerritt.github.io/")
+if r.status_code != 200:
+    print("Error. Something is wrong here")
+
+soup = BeautifulSoup(r.content, "lxml")
+
+for link in soup.findAll('a', attrs={'href': re.compile("^http")}):
+    print(link.get('href'))
+```
+
+Here we are using regular expressions to only allow websites that with with http because sometimes in HTML you can link to parts of your own website using ID names.
+
+We get this output:
+
+```
+https://medium.com/@brandonskerritt
+https://www.hackernoon.com
+http://vip.politicsmeanspolitics.com/
+https://www.liverpool.ac.uk/
+https://www.liverpool.ac.uk/sports/sports-clubs/student-sports/karate/
+https://github.com/brandonskerritt/Computer-Science/tree/master/Course-rep
+https://www.liverpoolguild.org/main-menu/representation/halls/halls-student-committees
+https://www.startupschool.org/
+https://drive.google.com/file/d/1u66tSfXWmvBBdCkc7KyUpLxn8A0U8Rar/view?usp=sharing
+https://medium.com/@brandonskerritt51
+https://twitter.com/brandon_skerrit
+https://www.linkedin.com/in/brandonls/
+http://github.com/brandonskerritt/
+https://drive.google.com/file/d/1u66tSfXWmvBBdCkc7KyUpLxn8A0U8Rar/view?usp=sharing
+https://github.com/chrisjim316/Liljimbo-Chatbot
+https://devpost.com/software/bet-a-way
+https://devpost.com/software/bank-of-alexa
+https://devpost.com/software/ka-bomb-com
+```
+
+# Indexing
+
+
+# Page ranking
 
 Here is an image of a very small web
 
@@ -187,5 +256,20 @@ In our new and improved version we don't want pages to be able to "vote" for the
 
 In this version each webpage gets a total of one vote, weighted by that web page's score that is evenly divided up among all of its outgoing links.
 
+Links to twitter, github, etc
+link to upscribe, paypal.me, ko-fi
+Upscribe link
+
+Previous articles
+
+Link to github repo
+
+Link to PDF
+
+CHECK TKS
+
 # References
+
 [0] - https://nlp.stanford.edu/IR-book/html/htmledition/web-crawling-and-indexes-1.html
+
+[1] - https://moz.com/learn/seo/robotstxt
