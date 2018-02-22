@@ -8,6 +8,13 @@ Have you ever wanted to know how Google *really* works? Well, this article attem
 
 I am in no way an expert at search engines, I am an undergraduate Computer Science student at the University of Liverpool so this article is heavily researched and referenced and was created to increase my understanding of search engines.
 
+# Table of Contents
+
+1. [Introduction](#introduction)
+
+<a name="introduction"></a>
+# Introduction
+
 When Google first started out in the 90s the one thing that set them apart from their competitors is that its search results always seem to show the most relevant and helpful results. Google's *page ranking* algorithm was at least 10 times better than any other search engine at the time.
 
 Search engines typically have 3 main objectives:
@@ -16,6 +23,8 @@ Search engines typically have 3 main objectives:
 3. Rate the importance of each page in the database.
 
 We'll start with crawling the web.
+
+# Web Crawlers
 
 A webcrawler, also called a spider crawls the web looking for new websites. Once a website has been found, the spider regularly checks to see if the information has been updated and it crawls all links on that website to find other websites. 
 
@@ -42,6 +51,8 @@ One question that you may still have is "what is the difference between the inte
 >The Internet’s roots are in the U.S. during the late 1960s. The Web  was invented 20 years later by an Englishman working in  Switzerland—though it had many predecessors.
 
 >To keep things “interesting,” many people use the term Internet to refer to both.
+
+## Designing a crawler
 
 We need to design what the crawler will do, because making software right off the bat is just plain stupid. So we want a box called website and items in the website with links in them, where each link is a mini-box with other links in it until it stops being a box. This is kind of confusing so...
 
@@ -153,6 +164,8 @@ TK Transcript
 
 So my website has links to my LinkedIn, GitHub and it also has a link to my blog posts. Each blog post (still under my domain) has outgoing links to other external services (most of the time not on my domain).
 
+## Programming a crawler
+
 Firstly, let's use the Python package requests to download my page. You can use 
 
 ```shell
@@ -236,15 +249,15 @@ So what we now have is our original website with all these wonderful links on th
                                 | https://www.hackernoon.com                                              |
                                 | http://vip.politicsmeanspolitics.com/                                   |
                                 | https://www.li^erpool.ac.uk/                                            |
-                                | https://www.liverpool.ac.uk/sports/sports-clubs/student-sports/karate/  |            
-+--------------------------+    | https://github.com/brandonskerritt/Computer-Science/tree/master/Course- |            dent-committees            |    |
+                                | https://www.liverpool.ac.uk/sports/sports-clubs/student-sports/karate/  |
++--------------------------+    | https://github.com/brandonskerritt/Computer-Science/tree/master/Course- |
 | BRANDONSKERRITT.GITHUB.IO+----> https://www.liverpoolguild.org/main-menu/representation/halls/halls-stu |
-+--------------------------+    | https://www.startupschool.org/                                          |            
++--------------------------+    | https://www.startupschool.org/                                          |
                                 | https://drive.google.com/file/d/1u66tSfXWmvBBdCkc7KyUpLxn8A0U8Rar/view? |
                                 | https://medium.com/@brandonskerritt51                                   |
                                 | https://twitter.com/brandon_skerrit                                     |
                                 | https://www.linkedin.com/in/brandonls/                                  |
-                                | http://github.com/brandonskerritt/                                      |            
+                                | http://github.com/brandonskerritt/                                      |
                                 | https://drive.google.com/file/d/1u66tSfXWmvBBdCkc7KyUpLxn8A0U8Rar/view? |
                                 | https://github.com/chrisjim316/Liljimbo-Chatbot                         |
                                 | https://devpost.com/software/bet-a-way                                  |
@@ -294,6 +307,14 @@ Link to github repo
 Link to PDF
 
 CHECK TKS
+
+title ideas:
+
+learn search engines by building one
+
+learn how google works by building google
+
+
 
 # References
 

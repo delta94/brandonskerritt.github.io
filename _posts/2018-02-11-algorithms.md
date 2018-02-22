@@ -1,8 +1,8 @@
----
-title: "Algorithms and Data Structures"
+-----------  --------------------------------
+title:       "Algorithms and Data Structures"
 categories:
-  - University
----
+-            University
+-----------  --------------------------------
 
 Normally people will make entire articles out of things like Big O notation, Binary search or other algorithms. There simply is no need to blabber on about something when you can convey the same message in a shortened manner, so this is where this article comes into play.
 
@@ -36,9 +36,9 @@ Big 0 notation is notation used to describe how efficient an algorithm is. It's 
 
 A hierarchy of functions exist:
 
-1 | log n| n, $$n^2$$, $$n^3$$ | $$2^n$$
---- | --- | --- | ---
-Constant | Logarithm | Polynomial | Exponential
+   1     |   log n   | n, $$n^2$$, $$n^3$$ |   $$2^n$$
+-------- | --------- | ------------------- | -----------
+Constant | Logarithm | Polynomial          | Exponential
 
 Where the further right they are, the longer it takes. Big O notation uses these functions to describe algorithm efficiency. O(2^n) is larger than O(1).
 
@@ -79,11 +79,11 @@ TK other forms of measuring algirhtms.
 Let's say you have an array of items [1, 3, 7, 4, 9] and you want to find the number 4. A sequential search would calculate it like so:
 
 Current number | Description
---- | ---
-1 | Not goal
-2 | Not goal
-3 | Not goal
-4 | Goal found
+-------------- | -----------
+1              | Not goal
+2              | Not goal
+3              | Not goal
+4              | Goal found
 
 Note: this type of table is called a trace table. It shows the values and names of all variables in the algorithm every single time the algorithm / loop is run until the algorithm finishes.
 
@@ -303,11 +303,11 @@ A stack is a *last-in-first-out* array.
 
 In a lot of online tutorials stacks are drawn vertically like so:
 
-0 |
-:---: |
-1 |
-2 | 
-3 | 
+  0
+:---:
+  1
+  2
+  3
 
 Much like a stack of plates, the first item on the top is the first item to come off. You can't pull plates out of the bottom of a stack of plates (if you can, you should become a magician!).
 
@@ -345,10 +345,10 @@ and head = 3, since we've popped the top!
 
 Stacks are super useful, especially in browser history. Say for example you go to Google, then Medium, then my profile (follow me 😉). The stack will look like:
 
-Brandon's Profile |
-:---: |
-Medium |
-Google |
+Brandon's Profile
+:---------------:
+     Medium
+     Google
 
 Now how much would it suck if you pressed "back" and it went back to Google? It would suck alot! So when we click "back" the browser, quite literally, pops the current webpage off of the stack and brings you to the next item.
 
@@ -366,18 +366,18 @@ Which pushes all the contents of the stack down.
 
 In normal stack-like behavior this looks like:
 
-Follow me on Twitter |
-:---: |
-Medium |
-Google |
+Follow me on Twitter
+:------------------:
+       Medium
+       Google
 
 Now we push "University of Liverpool" to the stack and it becomes:
 
-University of Liverpool |
-:---: |
-Follow me on Twitter |
-Medium |
-Google |
+University of Liverpool
+:---------------------:
+ Follow me on Twitter
+        Medium
+        Google
 
 Literally pushing the stack down.
 
@@ -684,12 +684,12 @@ The selection sort algorithms tries to do the following:
 
 Example, where bolded means it's in the right place.
 
-[34, 10, 64, 51, 32, 21] | To Swap
---- | ---
-[34, 10, 64, 51, 32, 21] | 34, 10
-[*10*, 34, 64, 51, 32, 21 | 34, 21
-[*10*, *21*, 64, 51, 32, 34] | 32, 64
-[*10*, *21*, *32*, 51, 64, 34] | 34, 51
+    [34, 10, 64, 51, 32, 21]     |   To Swap
+-------------------------------- | ------------
+[34, 10, 64, 51, 32, 21]         | 34, 10
+[*10*, 34, 64, 51, 32, 21        | 34, 21
+[*10*, *21*, 64, 51, 32, 34]     | 32, 64
+[*10*, *21*, *32*, 51, 64, 34]   | 34, 51
 [*10*, *21*, *32*, *34*, 64, 51] | 51, 64
 [*10*, *21*, *32*, *34*, 51, 64] | Fully sorted
 
@@ -728,14 +728,14 @@ The idea is as follows:
 
 Hence why it's called insertion sort, because you are inserting hte values into a new array.
 
-[34, 10, 64, 51, 32, 21] | No. shifted to right
---- | ---
-[34, 10, 64, 51, 32, 21] | Nothing yet
-[10, 34, 64, 51, 32, 21] | 34
-[*10*, *34*, 64, 51, 32, 21] | Nothing yet
-[*10*, *34*, *51*, 64, 32, 21] | 64
-[*10*, *32*, *34*, *51*, *64*, 21] | 34, 51, 64
-[*10*, *21*, *32*, *34*, *51*, *64*] |32, 34, 51, 64
+      [34, 10, 64, 51, 32, 21]       | No. shifted to right
+------------------------------------ | --------------------
+[34, 10, 64, 51, 32, 21]             | Nothing yet
+[10, 34, 64, 51, 32, 21]             | 34
+[*10*, *34*, 64, 51, 32, 21]         | Nothing yet
+[*10*, *34*, *51*, 64, 32, 21]       | 64
+[*10*, *32*, *34*, *51*, *64*, 21]   | 34, 51, 64
+[*10*, *21*, *32*, *34*, *51*, *64*] | 32, 34, 51, 64
 
 Here's a gif showing how Insertion Sort works
 
