@@ -11,6 +11,9 @@ I am in no way an expert at search engines, I am an undergraduate Computer Scien
 # Table of Contents
 
 1. [Introduction](#introduction)
+2. [Web Crawlers](#crawlers)
+    1. [Designing a Crawler](#design-crawler)
+
 
 <a name="introduction"></a>
 # Introduction
@@ -24,6 +27,7 @@ Search engines typically have 3 main objectives:
 
 We'll start with crawling the web.
 
+<a name="crawlers"></a>
 # Web Crawlers
 
 A webcrawler, also called a spider crawls the web looking for new websites. Once a website has been found, the spider regularly checks to see if the information has been updated and it crawls all links on that website to find other websites. 
@@ -52,6 +56,7 @@ One question that you may still have is "what is the difference between the inte
 
 >To keep things “interesting,” many people use the term Internet to refer to both.
 
+<a name="design-crawler"></a>
 ## Designing a crawler
 
 We need to design what the crawler will do, because making software right off the bat is just plain stupid. So we want a box called website and items in the website with links in them, where each link is a mini-box with other links in it until it stops being a box. This is kind of confusing so...
