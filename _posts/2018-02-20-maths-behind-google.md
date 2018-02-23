@@ -13,6 +13,7 @@ I am in no way an expert at search engines, I am an undergraduate Computer Scien
 1. [Introduction](#introduction)
 2. [Web Crawlers](#crawlers)
     1. [Designing a Crawler](#design-crawler)
+    2. [Programming a Crawler](#programming-crawler)
 
 
 <a name="introduction"></a>
@@ -169,6 +170,7 @@ TK Transcript
 
 So my website has links to my LinkedIn, GitHub and it also has a link to my blog posts. Each blog post (still under my domain) has outgoing links to other external services (most of the time not on my domain).
 
+<a name="programming-crawler"></a>
 ## Programming a crawler
 
 Firstly, let's use the Python package requests to download my page. You can use 
@@ -202,9 +204,9 @@ if r.status_code != 200:
 soup = BeautifulSoup(r.content)
 ```
 
-TK pip install beautiful soup and what beautiful soup is
+Beautiful Soup is a library which let's us parse HTML. Here we are simply importign Beautiful Soup and creating a beautiful soup object in order to use the libraries methods. You can find out how to install Beautiful Soup [here](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 
-We're using Beautiful Soup to get the original webpage we're going to use here, so we need to create a beautiful soup object.
+
 
 ```python
 import requests
@@ -272,6 +274,37 @@ So what we now have is our original website with all these wonderful links on th
                                 +-------------------------------------------------------------------------+
 ```
 TK Transcription
+
+Okay, so now we have code that can get all the links on a webpage. Let's get all the links from those links too.
+
+```python
+import requests
+from bs4 import BeautifulSoup
+import re
+
+def get_links(link):
+
+    return_links = []
+
+    r = requests.get(link)
+
+    soup = BeautifulSoup(r.content, "lxml")
+
+    if r.status_code != 200:
+        print("Error. Something is wrong here")
+    else:
+        for link in soup.findAll('a', attrs={'href': re.compile("^http")}):
+            return_links.append(link.get('href')))
+
+a = get_links("https://www.brandonskerritt.github.io")
+
+corpus_links = []
+
+for i in a:
+    corpus_links.append(get_links(i))
+```
+
+
 
 # Indexing
 
