@@ -1,8 +1,8 @@
------------  --------------------------------
-title:       "Algorithms and Data Structures"
+---
+title: "Algorithms and Data Structures"
 categories:
--            University
------------  --------------------------------
+- University
+---
 
 Normally people will make entire articles out of things like Big O notation, Binary search or other algorithms. There simply is no need to blabber on about something when you can convey the same message in a shortened manner, so this is where this article comes into play.
 
@@ -10,7 +10,13 @@ If you're not interested in a certain algorithm (say for example, Min and Max) t
 
 By the end of this article you should have a good understanding of algorithms and data structures.
 
-# What is an algorithm?
+# Table of Contents
+1. [What is an Algorithm?](#what-algorithm)
+2. [Algorithm Complexity, Big O notation](#big-o)
+    3. [Big-O Cheatsheet](#big-o-cheatsheet)
+
+<a name="what-algorithm"></a>
+# What is an Algorithm?
 
 An algorithm is a set of instructions typically undertaken by a computer to reach a targeted goal.
 
@@ -28,6 +34,7 @@ Computers are the fastest dumbest things to ever be created.
 
 Algorithms are essential in Computer Science, you simply cannot live without them. Something computer scientists do alot is compare how long an algorithm takes to run against other algorithms.
 
+<a name="big-o"></a>
 # How do we measure how long an algorithm takes to run?
 
 We could simply run an algorithm 10,000 times and measure the average time taken but let's say we have an algorithm that took different inputs, like say for example we have an algorithm that takes a list of items and prints every item to the screen. If we only input lists of length 1 (1 item), the average time would be around 0.1 seconds. If we entered items of length 1500, the average would be different. Of course you can use some advance statistical knowledge to work out the true average by inputting lists of varying lengths or you could use Big O notation.
@@ -73,6 +80,34 @@ Bet you were expecting some hard to understand guide to Big O huh? Well, this is
 Big O notation only represents how long an algorithm can take but sometimes we care about the memory (space complexity) of an algorithm too.
 
 TK other forms of measuring algirhtms.
+
+<a name="big-o-cheatsheet"><a>
+## Cheatsheet
+
+
+   Algorithm    |   Big O
+--------------- | ----------
+Sequential Sort | O(n)
+Binary Search   | O(log n)
+Minimum Value   | O(n)
+Maximum Value   | O(n)
+Quicksort       | O(n^2)
+Mergesort       | O(n log n)
+Bubble Sort     | O(n^2)
+Insertion Sort  | O(n^2)
+Selection Sort  | O(n^2)
+
+
+
+|   Data Structure   | Access | Search | Insertion | Deletion |
+| ------------------ | ------ | ------ | --------- | -------- |
+| Array (list)       | O(1)   | O(n)   | O(n)      | O(n)     |
+| Stack              | O(n)   | O(n)   | O(1)      | O(1)     |
+| Queue              | O(n)   | O(n)   | O(1)      | O(1)     |
+| Singly-Linked List | O(n)   | O(n)   | O(1)      | O(1)     |
+| Doubly-Linked List | O(n)   | O(n)   | O(1)      | O(1)     |
+
+ 
 
 # Seqeuntial search
 
@@ -761,7 +796,93 @@ def insertionSort(alist):
      alist[position] = currentvalue
 ```
 
+# Programming - Linked Lists
 
+## Bubble Sort with Linked List
+
+Given the linked list
+
+```
+cur
+[ ][34][-]---[>][10][-]---[>][64][-]---[>][21][ ]
+```
+
+The word "cur" is a pointer pointing at the current item being looked at.
+
+We compare 34 and 10 and becaue 10 is smaller than 34, we swap them.
+
+```
+            cur
+[ ][10][-]---[>][34][-]---[>][64][-]---[>][21][ ]
+```
+
+And then we just continue this until we finish it. 34 < 64, so no swaps.
+
+```
+                            cur
+[ ][10][-]---[>][34][-]---[>][64][-]---[>][21][ ]
+```
+
+```
+                                        cur
+[ ][10][-]---[>][34][-]---[>][21][-]---[>][64][ ]
+```
+
+Cur moves through the linked list by using the ".next" function we saw earlier. But in this instance, Cur cannot move back because Cur.next is NIL, it is nothing. You cannot go any further. You also can't go back, because this is a singly linked list. So what do we do?
+
+We want to move Cur back to the start but we also don't want to look at the whole list, just the second last one because the start of the list has already been sorted.
+
+In the first round, we want to see if we reach the last possible element. In the second round we want to know we are at the second to last item. But how do we know this?
+
+We need to create a "last" pointer to point to where we say "last" is.
+
+```
+                                        cur       LAST
+[ ][10][-]---[>][34][-]---[>][21][-]---[>][64][ ]
+```
+
+In the next round we change the last variable to point to the last node, because we know that's where LAST is.
+
+```
+Curr                                        LAST
+[ ][10][-]---[>][34][-]---[>][21][-]---[>][64][ ]
+```
+
+```
+                cur                        LAST
+[ ][10][-]---[>][34][-]---[>][21][-]---[>][64][ ]
+```
+
+```
+                            cur            LAST
+[ ][10][-]---[>][34][-]---[>][21][-]---[>][64][ ]
+```
+
+Here we swap 34 and 21 over.
+
+```
+                            cur            LAST
+[ ][10][-]---[>][21][-]---[>][34][-]---[>][64][ ]
+```
+
+We have to make an expression, cur.next == last. If this equates to true, than we know we're at the last (what we say is last) part of the list. We then move last to cur and go back over the list:
+
+```
+cur                         LAST
+[ ][10][-]---[>][21][-]---[>][34][-]---[>][64][ ]
+```
+
+Then we simply go through the linked list again
+
+```
+                cur           LAST
+[ ][10][-]---[>][34][-]---[>][21][-]---[>][64][ ]
+```
+
+Now cur.next == last, so we stop. We've sorted the whole list.
+
+
+### Programming a bubble sort for a linkedlist
 
 
 # If you enjoyed this article, connect with me to learn more like this :)
