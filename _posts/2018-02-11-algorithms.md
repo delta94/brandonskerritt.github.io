@@ -973,7 +973,138 @@ while curr.next != last:
     curr = head
 ```
 
-Time complexity is O(n)
+Time complexity is O(n).
+
+Here's the Java code for the bubble sort. This is the code for a single node in a linked list:
+
+```java
+class Node {
+	public int data; 
+	public Node next;
+	public Node prev;
+    
+	// constructor to create a new node with data equals to parameter i
+	public Node (int i) {
+		next = null;
+		prev = null;
+		data = i;
+	}
+}
+
+```
+
+And this is the code for a bubble sort on a linked list:
+
+```java
+import java.util.*;
+import java.io.*;
+
+
+// Implement a linked list from the object Node
+class SampleLinkedListBubbleSort {
+
+	public static Node head, tail; // head and tail of the linked list
+
+	public static void main(String[] args) throws Exception {
+		Node curr;
+
+		// some arbitrary input to test the program
+
+		insertHead(15);
+		insertHead(20);
+		insertHead(10);
+		insertHead(25);
+		insertHead(30);
+		printList();
+
+
+		bubbleSort();
+
+		printList();
+
+	}
+
+	// bubble sort
+	static void bubbleSort() {
+		Node last, curr;
+
+		System.out.println("Bubble Sort ...");
+		if (head != null) {
+			last = null;
+			curr = head;
+			while (curr.next != last) {
+				while (curr.next != last) {
+					if (curr.data > curr.next.data)
+						swapNode(curr, curr.next);
+					curr = curr.next;
+				}
+				last = curr;
+				curr = head;
+			}		
+		}
+	}
+
+
+	static void swapNode(Node a, Node b) {
+		int tmp;
+		tmp = a.data;
+		a.data = b.data;
+		b.data = tmp;
+	}
+	
+	// create a new node containing data value 
+	// and insert the new node to head of the list
+	static void insertHead(int value) {
+		Node newnode = new Node(value);
+
+		newnode.next = head;
+		newnode.prev = null;
+		if (head != null)
+			head.prev = newnode;
+		else
+			tail = newnode;
+		head = newnode;
+	}
+
+	// delete the node at the head of the linked list
+	static Node deleteHead() {
+		Node curr;
+
+		curr = head;
+		if (curr != null) {
+			head = head.next;
+			head.prev = null;
+		}
+		return curr;
+	}
+
+	// print the content of the list in two orders:
+	// (i) from head to tail
+	// (ii) from tail to head
+	static void printList() {
+		Node curr;
+		
+		curr = head;
+		System.out.print("From head: ");
+		while (curr != null) {
+			System.out.print(curr.data + " ");
+			curr = curr.next;
+		}
+		System.out.println();
+		
+
+		curr = tail;
+		System.out.print("From tail: ");
+		while (curr != null) {
+			System.out.print(curr.data + " ");
+			curr = curr.prev;
+		}
+		System.out.println();
+
+	}
+
+}
+```
 
 
 # If you enjoyed this article, connect with me to learn more like this :)
