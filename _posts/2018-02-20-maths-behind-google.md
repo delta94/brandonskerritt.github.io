@@ -342,6 +342,7 @@ From Wikipedia
 Here is an image of a very small web
 
 ![img](https://screenshotscdn.firefoxusercontent.com/images/8507a511-57fd-42f7-b2ee-8910f830f4f0.png)
+
 Taken from [here](https://www.rose-hulman.edu/~bryan/googleFinalVersionFixed.pdf).
 
 We will have an importance score that will represent how important a webpage is. One of the core ideas of assigning a score is that the page's score is derived from the links made to the page from other web pages. The links to a given page are called the _backlinks_ for that page.
@@ -352,7 +353,7 @@ The web seen in the imaeg is an example of a _directed graph_, a graph that hold
 
 An approach one could make is to take $$x_k$$ as the number of backlinks for any page, k. In  the image above we then have:
 
-$$x_1 - 2, x_2 = 1, x_3 = 3, x_4 = 2 $$
+$$x_1 = 2, x_2 = 1, x_3 = 3, x_4 = 2 $$
 
 As can be seen here the most "important" web page is $$x_3$$ since it is linked to by 3 pages.
 
@@ -373,6 +374,12 @@ Of course the numbers used are much, much larger. So large in fact that it's sim
 When you throw in large websites linking to other large websites, you have this monopoly of virtual internet points (did someone say Reddit?).
 
 This makes you think that linking to no websites on your own website is a good idea, but this can be just as bad. This is just one rule that was originally used by Google, Google now has [200 rules](https://backlinko.com/google-ranking-factors). The website linked there may not even be correct. Google doesn't really share their metrics because people could growth hack their way to the top of the search page.
+
+Here's a good explanation from Wikipedia. I know that my lecturers tell me every 5 minutes that Wikipedia isn't a relibable source, but their explanations are good.
+
+![img](https://upload.wikimedia.org/wikipedia/commons/f/fb/PageRanks-Example.svg)
+
+>Mathematical PageRanks for a simple network, expressed as percentages. (Google uses a logarithmic scale.) Page C has a higher PageRank than Page E, even though there are fewer links to C; the one link to C comes from an important page and hence is of high value. If web surfers who start on a random page have an 85% likelihood of choosing a random link from the page they are currently visiting, and a 15% likelihood of jumping to a page chosen at random from the entire web, they will reach Page E 8.1% of the time. (The 15% likelihood of jumping to an arbitrary page corresponds to a damping factor of 85%.) Without damping, all web surfers would eventually end up on Pages A, B, or C, and all other pages would have PageRank zero. In the presence of damping, Page A effectively links to all pages in the web, even though it has no outgoing links of its own.
 
 Links to twitter, github, etc
 link to upscribe, paypal.me, ko-fi
