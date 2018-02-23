@@ -15,6 +15,8 @@ I am in no way an expert at search engines, I am an undergraduate Computer Scien
     1. [Designing a Crawler](#design-crawler)
     2. [Programming a Crawler](#programming-crawler)
     3. [Hello, Scrapy](#scrapy)
+3. Undefined
+4. [Page Ranking](#page-ranking)
 
 
 <a name="introduction"></a>
@@ -279,31 +281,31 @@ TK Transcription
 Okay, so now we have code that can get all the links on a webpage. Let's get all the links from those links too.
 
 ```python
-import requests
-from bs4 import BeautifulSoup
-import re
+    import requests
+    from bs4 import BeautifulSoup
+    import re
 
-def get_links(link):
+    def get_links(link):
 
-    return_links = []
+        return_links = []
 
-    r = requests.get(link)
+        r = requests.get(link)
 
-    soup = BeautifulSoup(r.content, "lxml")
+        soup = BeautifulSoup(r.content, "lxml")
 
-    if r.status_code != 200:
-        print("Error. Something is wrong here")
-    else:
-        for link in soup.findAll('a', attrs={'href': re.compile("^http")}):
-            return_links.append(link.get('href')))
+        if r.status_code != 200:
+            print("Error. Something is wrong here")
+        else:
+            for link in soup.findAll('a', attrs={'href': re.compile("^http")}):
+                return_links.append(link.get('href')))
 
-def recursive_search(links)
-    for i in links:
-        links.append(get_links(i))
-    recursive_search(links)
+    def recursive_search(links)
+        for i in links:
+            links.append(get_links(i))
+        recursive_search(links)
 
 
-recursive_search(get_links("https://www.brandonskerritt.github.io"))
+    recursive_search(get_links("https://www.brandonskerritt.github.io"))
 ```
 
 So this code gets every link on my website, and then it calls a function which gets every link from the links from my website. Once it's done that, it sends those links back to the same function and carries on doing this.... forever, really. TK
@@ -334,6 +336,7 @@ From Wikipedia
 # Indexing
 
 
+<a name="page-ranking"></a>
 # Page ranking
 
 Here is an image of a very small web
@@ -357,7 +360,19 @@ This approach ignores a large problem, mainly that a link from an already import
 
 In our new and improved version we don't want pages to be able to "vote" for themselves. We don't want a page to gain popularity by linking to lots of other pages. If page j contains $$x_j$$ links, one of them linking to page k, then we will boost page k's score by $$\frac{x_j}{n_j}$$.
 
-In this version each webpage gets a total of one vote, weighted by that web page's score that is evenly divided up among all of its outgoing links.
+In this version each webpage gets "score" of, say 100, and that score is evenly divided up by all the links on the webpage. If a webpage has 4 links on it, then each link will get an added score of:
+
+$$\frac{4}{100} = 25$$
+
+This method works really well because it scales. All websites start out with a score of 100. But a website can increase its score by being linked to from other websites. Take Netflix for example. Netflix has lots of websites linking to it, increasing its score to say 64,000. If Netflix links to 1 site, that one site will get a score of 64,000. 
+
+This follows the golden rule of "an endorsment from a famous person is better than 10 endorsements from non-famous people". Because Netflix is more popular (popular here meaning it is linked to by many websites) than Netflix linking to a website is worth more than a 200 small websites linking to a website.
+
+Of course the numbers used are much, much larger. So large in fact that it's simply not worth it to create 5000 webpages that all link to one page, because it won't make much of a difference.
+
+When you throw in large websites linking to other large websites, you have this monopoly of virtual internet points (did someone say Reddit?).
+
+This makes you think that linking to no websites on your own website is a good idea, but this can be just as bad. This is just one rule that was originally used by Google, Google now has [200 rules](https://backlinko.com/google-ranking-factors). The website linked there may not even be correct. Google doesn't really share their metrics because people could growth hack their way to the top of the search page.
 
 Links to twitter, github, etc
 link to upscribe, paypal.me, ko-fi
