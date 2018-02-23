@@ -13,7 +13,19 @@ By the end of this article you should have a good understanding of algorithms an
 # Table of Contents
 1. [What is an Algorithm?](#what-algorithm)
 2. [Algorithm Complexity, Big O notation](#big-o)
+    1. [Big-O tips](#big-o-tips)
+    2. [Big-O Summary](#big-o-summary)
     3. [Big-O Cheatsheet](#big-o-cheatsheet)
+3. [Searching Algorithms](#sequential-search)
+    1. [Sequential Search](#sequential-search)
+    2. [Binary Search](#Binary-search)
+4. [Min and Max Algorithms](#min-max)
+    1. [Coding the Min algorithm](#min-code)
+    2. [Codign the Max algorithm](#max-code)
+5. [Datastructures](#datastructures)
+    1. [Queues](#queue)
+    2. [Stacks](#stack)
+    3. [Linked Lists](#linked-list)
 
 <a name="what-algorithm"></a>
 # What is an Algorithm?
@@ -53,6 +65,8 @@ Log is called a logarithm (typically in base 2 binary but can differ). I shan't 
 
 https://www.youtube.com/watch?v=ZIwmZ9m0byI
 
+A "constant" value is something that does not change depending on its input. So for example, adding 1 to 500 is the same as adding 1 to 4741838148, because it doesn't scale depending on the input size.
+
 ![img](https://www.daveperrett.com/images/articles/2010-12-07-comp-sci-101-big-o-notation/Time_Complexity.png)
 
 In Big O notation, we always use the *worst case* scenario for our calculations.
@@ -61,6 +75,7 @@ To calculate the Big O of an algorithm or selection of code, well... it's basica
 
 There are some super useful rules you have to obey in order to simplfy your algorithm.
 
+<a name="big-o-tips"></a>
 ## Drop the constants
 
 If you have an algorithm described as O(2n), drop the 2 so it's just O(n).
@@ -73,9 +88,10 @@ If you have a special sum such as
 O(b^2 + a)
 you can't drop either because without knowledge of what b and a are.
 
-## Sumary
+<a name="big-o-summary"></a>
+## Summary
 
-Bet you were expecting some hard to understand guide to Big O huh? Well, this is all it is. You just need to memorise (or learn) the hierarchy, take some algorithms and find out what their Big O notation is. You should really practice this!
+Bet you were expecting some hard to understand guide to Big O huh? Well, this is all it is. You just need to memorise (or learn) the hierarchy, take some algorithms and find out what their Big O notation is. 
 
 Big O notation only represents how long an algorithm can take but sometimes we care about the memory (space complexity) of an algorithm too.
 
@@ -83,6 +99,8 @@ TK other forms of measuring algirhtms.
 
 <a name="big-o-cheatsheet"><a>
 ## Cheatsheet
+
+Some of these algorithms you may not know yet, but they will all be explained in this article.
 
 
    Algorithm    |   Big O
@@ -107,11 +125,13 @@ Selection Sort  | O(n^2)
 | Singly-Linked List | O(n)   | O(n)   | O(1)      | O(1)     |
 | Doubly-Linked List | O(n)   | O(n)   | O(1)      | O(1)     |
 
- 
 
-# Seqeuntial search
+<a name="sequential-search"></a>
+# Seqeuntial search & Searching
 
-Let's say you have an array of items [1, 3, 7, 4, 9] and you want to find the number 4. A sequential search would calculate it like so:
+Let's say you have an array of items [1, 3, 7, 4, 9] and you want to find the number 4. You just look at it, and you see it. What's so hard about that? Well a computer doesn't have super cool abillities like us just to "see" things. It has to go through the list in order to "see" the number. There are many algorithms that allow a computer to search lists / arrays. One of them is sequential search.
+
+A sequential search would calculate it like so:
 
 Current number | Description
 -------------- | -----------
@@ -140,6 +160,7 @@ for i in list: # for every element in the list
 
 Now this may seem stupid, but it can work on non-sorted arrays. You use this search alot in daily life, like looking for a book or looking for an item on a menu.
 
+<a name="Binary-search"></a>
 # Binary search
 
 Binary search only works on sorted arrays. It basically halves the array and checks whether the halfed item is lower or higher than the goal item in the array.
@@ -167,6 +188,8 @@ This is the worst case performance for binary search, beaten by sequential searc
 ![img](https://blog.penjee.com/wp-content/uploads/2015/12/linear-vs-binary-search-worst-case.gif)
 
 This code is taken from [here](https://stackoverflow.com/questions/41883258/how-to-implement-a-binary-search). It's not essential to understand the Python code in order to understand the algorithm. 
+
+
 
 ```python
 def bsearch(alist, target):
@@ -231,6 +254,7 @@ static void binary_search(int[] sortdata, int n, int key) {
 
 This method may suit your book search better because books are normally sorted alphabetically! If you know the alphabet and the positional number of each letter you could easily find any author you wanted!
 
+<a name="min-max"></a>
 # Min and Max algorithms
 
 How do you find the biggest and smallest numbers in an array?
@@ -266,6 +290,7 @@ Well, we'll simply run the code.
 
 At first, 2 is the largest number. Then 6 is, 3 isn't larger than 6 and 4 isn't larger than 6 so we return 6 as the largest number in the array.
 
+<a name="min-code"></a>
 ## Finding minimum from N +ve (positive) numbers
 
 What if we wanted to find the minimum? Well, we simply turn the ">" sign into a "<" sign.
@@ -279,10 +304,27 @@ while i <= n:
 print(m)
 ```
 
+<a name="max-code"></a>
+## Findig the maximum number from N +ve (positive) numbers
+
+```python
+i = 1
+m = A[1]
+while i <= n:
+    if A[i] > m:
+        m = A[i]
+    i = i + 1
+print(m)
+```
+
+You literally just change "if A[i] < m" to "if A[i] > m" 
+
+<a name="datastructures"><a>
 # Dipping our toes into data structures - Queues and Stacks
 
 A datastructure is a way to structure data in such a way that the data becomes easily usable and maybe even faster to use than a typical list or array.
 
+<a name="queue"></a>
 ## Queues
 
 A queue is a first-in-first-out array. The *first* item into the array is the *first* item out of the array.
@@ -332,6 +374,7 @@ then in some programming languages you can only get the head() of the queue (Has
 
 Why are queues useful? Well, queues are extremely useful. Imagine lining up at the bank and waiting 30 - 40 minutes to get to the front. When you get to the front, the teller decides a queue isn't useful so they start from the back, making you the last person they reach.
 
+<a name="stack"></a>
 ## Stacks
 
 A stack is a *last-in-first-out* array.
@@ -420,6 +463,7 @@ Literally pushing the stack down.
 
 Think of stacks like leaving breadcrumbs for yourself. If you're ever lost in a maze and you place down all the breadcrumbs, you'll look for the last breadcrumb you placed down, which is usually the one closet to you.
 
+<a name="linked-list"></a>
 # Linked Lists
 
 Linked Lists are a linear collection of data elements except the linear order is not defined by their physical placement in memory but instead each data node points to the next.
@@ -883,6 +927,25 @@ Now cur.next == last, so we stop. We've sorted the whole list.
 
 
 ### Programming a bubble sort for a linkedlist
+
+Here is some psuedocode for a bubble sort in a linkedlist:
+
+```
+if head == NIL then:
+    empty list and STOP!
+last = NIL.curr = head
+
+while curr.next != last:
+    while curr.next != last:
+        if curr.data > curr.next.data:
+            swapNode(curr, curr.next)
+        curr = curr.next
+
+    last = curr
+    curr = head
+```
+
+Time complexity is O(n)
 
 
 # If you enjoyed this article, connect with me to learn more like this :)
