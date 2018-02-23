@@ -14,6 +14,7 @@ I am in no way an expert at search engines, I am an undergraduate Computer Scien
 2. [Web Crawlers](#crawlers)
     1. [Designing a Crawler](#design-crawler)
     2. [Programming a Crawler](#programming-crawler)
+    3. [Hello, Scrapy](#scrapy)
 
 
 <a name="introduction"></a>
@@ -296,13 +297,37 @@ def get_links(link):
         for link in soup.findAll('a', attrs={'href': re.compile("^http")}):
             return_links.append(link.get('href')))
 
-a = get_links("https://www.brandonskerritt.github.io")
+def recursive_search(links)
+    for i in links:
+        links.append(get_links(i))
+    recursive_search(links)
 
-corpus_links = []
 
-for i in a:
-    corpus_links.append(get_links(i))
+recursive_search(get_links("https://www.brandonskerritt.github.io"))
 ```
+
+So this code gets every link on my website, and then it calls a function which gets every link from the links from my website. Once it's done that, it sends those links back to the same function and carries on doing this.... forever, really. TK
+
+This approach ignores some major points of web crawling:
+* Robots.txt isn't followed
+* What if we have 2 websites that link to eachother? Yes.
+* It'll explore the same websties over and over again.
+* How do we know when a link is a parent of links or a child of links?
+
+The [Pareto Principle](https://en.wikipedia.org/wiki/Pareto_principle) states that for many events roughly 80% of the effects comes from 20% of the sources. This principle can be extended and used in many other places. 80% of the websites we crawl will be the same 20% of the websites again and again.
+
+Now we have a rough understanding of how web crawling works, we can begin to use Python libraries to make life easier for us.
+
+![img](https://imgs.xkcd.com/comics/python.png)
+
+<a name="scrapy"></a>
+# Hello, Scrapy.
+
+Scrapy is a Python library for scraping the web.
+
+From Wikipedia
+
+>Scrapy is a free and open source web crawling framework, written in Python. 
 
 
 
@@ -352,7 +377,9 @@ learn search engines by building one
 
 learn how google works by building google
 
+https://blog.siliconstraits.vn/building-web-crawler-scrapy/
 
+https://realpython.com/blog/python/web-scraping-and-crawling-with-scrapy-and-mongodb/
 
 # References
 
