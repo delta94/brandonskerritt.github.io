@@ -26,6 +26,26 @@ By the end of this article you should have a good understanding of algorithms an
     1. [Queues](#queue)
     2. [Stacks](#stack)
     3. [Linked Lists](#linked-list)
+        1. [Singly Linked Lists](#singly-linked-list)
+        2. [Doubly Linked Lists](#doubly-linked-list)
+        3. [Traversing Linked Lists](#traversing-linked-lists)
+        4. [Programming Linked Lists](#programming-lniked-lists)
+            1. [Adding a Node to the Head of a Linked List](#linked-lists-head-add)
+            2. [Deleting a Node at the Head of a Linked List](#delete-head-lniked-list)
+            3. [Inserting an Item into a Linked List](#inserting-linked-list)
+            4. [Searching a Linked List](#searching-linked-list)
+6. [Sorting Algorithms](#sorting-algorithms)
+    1. [Bubble Sort](#bubble-sort)
+        1. [Coding a Bubble Sort](#coding-bubble-sort)
+    2. [Selection Sort](#selection-sort)
+        1. [Coding a Selection Sort](#coding-selection-sort)
+    3. [Insertion Sort](#insertion-sort)
+        1. [Coding an Insertion Sort](#coding-insertion-sort)
+7. [Programming Linked Lists - Sorts](#programming-linked-lists)
+    1. [Bubble Sort in a Linked List](#bubble-sort-linked-list)
+    2. [Programming a Bubble Sort in a Linked List](#programming-bubble-sort-linked-list)
+
+
 
 <a name="what-algorithm"></a>
 # What is an Algorithm?
@@ -472,7 +492,7 @@ The order is determined by a pointer (rather than array indices) TK
 Each element (node) has a data field and one or two pointers linking to the next or previous elements in the list
 
 There are two types of linked lists, singly linked and doubly linked.
-
+<a name="singly-linked-list"></a>
 Singly link looks like
 
 ```
@@ -486,7 +506,7 @@ Where ```->``` represents a pointer and each ```[]``` represents a componenet.
 In a singly linked list the node stores one piece of data (the 15) and it stores a pointer linking it to the right hand side. The pointer does not contain data, just a pointer. In my badly drawn diagram the pointer, the arrow which is literally pointing out of the right hand side box is a pointer pointing to the next node. Each set of these data with pointers is a node.
 
 A singly linked list cannot point to the previous node.
-
+<a name="doubly-linked-list"></a>
 Doubly linked list looks like:
 
 ```
@@ -517,6 +537,7 @@ If my badly-drawn diagrams in ASCII art are confusing then this picture may help
 
 ![img](https://www.geeksforgeeks.org/wp-content/uploads/gq/2014/03/DLL1.png)
 
+<a name="traversing-linked-lists"></a>
 ## Traversing Linked Lists
 
 We can traverse and output each element of a linked list like so:
@@ -538,6 +559,7 @@ You could probably program a data structure (doubly linked list) that when you g
 
 Searching for and traversing through linked lists is O(n).
 
+<a name="programming-lniked-lists"></a>
 # Programming Linked Lists
 
 Because the linked lists data structure isn't in every language (very commonly it is not) we have to program linked lists ourselves.
@@ -577,7 +599,7 @@ Node newnode = new Node(5);
 ```
 
 Where the node will hold a data value of 5.
-
+<a name="linked-lists-head-add"></a>
 If we wanted to add a new node to the front of the list we can use this function:
 
 ```java
@@ -627,7 +649,7 @@ Notice how you can now travel from the HEAD node to the new node.
 If head is empty, set the tail (last) node to be the new node. This is because if you insert this node into a linked list that doesn't exist, the next node would be nothing so the node you just inserted will be both the head and tail. Otherwise, just ignore the next node as it contains data.
 
 The last line sets the head pointer to point to the new node which is at the front of the list.
-
+<a name="delete-head-lniked-list"></a>
 We can also delete a node at the front of the linked list in a similar fashion:
 
 ```java
@@ -647,7 +669,7 @@ static Node deleteHead() {
 We assume here that curr is a pointer that points at a node in the linked list.
 
 So we point the current pointer at head, if head is not null (if it is not empty) then we set the head to the next node and from this new head (which is the second item in the linked list) we set the previous (old head) to null (nothing, doesn't exist). We then return the pointer.
-
+<a name="inserting-linked-list"></a>
 ## Inserting items into a linkedlist
 
 Linked lists are super cool because we can insert items anywhere in them. Let's say we have a pointer, curr, which points somewhere (let's say the middle) of the list. We can insert a new node after curr like so (in Python now)
@@ -663,8 +685,8 @@ def listInsert(L, curr, newnode):
 
 Whenever we want to insert a new node, we just have to tell the node what the next and previous nodes are.
 
-
-## Searching over a sorted list
+<a name="searching-linked-list"></a>
+## Searching over a sorted linked list
 
 Recall that values stored in a linked list are sorted. We could use binary search to search the list. However, this is a bad idea. We don't know where the middle of a linked list is. Everytime we wanted to find the middle we would have to count every single node in the list and half that by 2.`
 
@@ -692,10 +714,11 @@ Algorithms are like programming languages, we all have our favourites and someti
 
 Personally whenever I am presented with a problem I like to imagine it is in its own seperate world. I try to imagine what rules of life apply to this world. Once you understand the rules 
 
+<a name="sorting-algorithms"></a>
 # Sorting Algorithms
 
 Let's say you have a bookshelf and you want to arrange the books alphabetically, this is a sorting problem and the way you go around sorting the books is a sorting algorithm.
-
+<a name="bubble-sort"></a>
 ## Bubble Sort
 
 The idea of a bubble sort is simple. Starting from the first element, swap adjacent items if they are not in ascending order. When the last item is reached, the last item is the largest. Repeat these steps for the remaining items to find the second largest, third largest and so on.
@@ -709,7 +732,7 @@ Here's a new gif of how Bubble Sort works.
 ### Big O
 
 The Big O complexity for bubble sort is $$O(n^2)$$.
-
+<a name="coding-bubble-sort"></a>
 ### Code
 
 Here is some Python code for the bubble sort:
@@ -751,8 +774,9 @@ public static void BubbleSort( int [ ] num )
 }
 ```
 
-You'll notic that bubblesort heavily uses a temporary variable for temporary storage.
+You'll notice that bubblesort heavily uses a temporary variable for temporary storage.
 
+<a name="selection-sort"></a>
 ## Selection Sort Algorithm
 
 The selection sort algorithms tries to do the following:
@@ -781,7 +805,7 @@ Here's a gif representing how selection sort works:
 ## Big O
 
 The Big O notation for Selection Sort is O(^2)
-
+<a name="coding-selection-sort"></a>
 ### Code
 
 Here's some Python code for selection sort:
@@ -799,6 +823,7 @@ def selectionSort(alist):
        alist[positionOfMax] = temp
 ```
 
+<a name="insertion-sort"></a>
 ## Insertion Sort
 
 The idea is as follows:
@@ -824,6 +849,7 @@ Here's a gif showing how Insertion Sort works
 
 The Big O notation for Insertion Sort is O(n^2).
 
+<a name="coding-insertion-sort"><a/>
 ### Code
 
 ```python
@@ -840,8 +866,10 @@ def insertionSort(alist):
      alist[position] = currentvalue
 ```
 
+<a name = "programming-linked-lists"></a>
 # Programming - Linked Lists
 
+<a name="bubble-sort-linked-list"></a>
 ## Bubble Sort with Linked List
 
 Given the linked list
@@ -925,7 +953,7 @@ Then we simply go through the linked list again
 
 Now cur.next == last, so we stop. We've sorted the whole list.
 
-
+<a name="programming-bubble-sort-linked-list"></a>
 ### Programming a bubble sort for a linkedlist
 
 Here is some psuedocode for a bubble sort in a linkedlist:
@@ -957,3 +985,13 @@ twitter
 githib
 
 Don't like this article or want to add something? Submit a pull request here:
+
+Links to twitter, github, etc
+link to upscribe, paypal.me, ko-fi
+Upscribe link
+
+Previous articles
+
+Link to github repo
+
+Link to PDF
