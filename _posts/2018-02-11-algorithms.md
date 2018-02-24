@@ -135,7 +135,7 @@ Bubble Sort     | O(n^2)
 Insertion Sort  | O(n^2)
 Selection Sort  | O(n^2)
 
-
+<br>
 
 |   Data Structure   | Access | Search | Insertion | Deletion |
 | ------------------ | ------ | ------ | --------- | -------- |
@@ -1105,7 +1105,6 @@ class SampleLinkedListBubbleSort {
 
 }
 ```
-
 
 # If you enjoyed this article, connect with me to learn more like this :)
 [LinkedIn](https://www.linkedin.com/in/brandonls/) | [Website](www.brandonskerritt.github.io) | Twitter
