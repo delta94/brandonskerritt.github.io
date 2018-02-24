@@ -60,56 +60,56 @@ Here's an interesting true story about a real mathematical duel that happened co
 
 >3. Find me a number such that when it is cubed, and the said number is added to this cube, the result is five.
 
-[We only give a selection.]
+>[We only give a selection.]
 
-15. A man sells a sapphire for 500 ducats, making a profit of the cube root of his capital. How much is the profit?
+>15. A man sells a sapphire for 500 ducats, making a profit of the cube root of his capital. How much is the profit?
 
-17. There is a tree, 12 braccia high, which was broken into parts at such a point that the height of the part which was left standing was the cube root of the length of the part that was cut away. What was the height of the part that was left standing?
+>17. There is a tree, 12 braccia high, which was broken into parts at such a point that the height of the part which was left standing was the cube root of the length of the part that was cut away. What was the height of the part that was left standing?
 
-30. There are two bodies of twenty triangular faces the areas of which when added together make 700 braccia, and the area of the smaller is the cube root of the larger. What is the smaller area?
-Cardano to Tartaglia (12 February 1539): I wonder much, dear Master Niccolo, at the unhandsome reply you have made to one Zuan Antonio de Bassano, bookseller ... I would pluck you out of this conceit, as I plucked out lately Master Zuanne da Coi, that is to say, the conceit of being the first man in the world, wherefore he left Milan in despair; I would write to you lovingly and drag you out of the conceit of thinking you are so great - would cause you to understand from kindly admonition, out of your own words, that you are nearer to the valley than the mountain-top. In other things you may be more skilled and clever than you have shown yourself to be in your reply; and so I must in the first place state that I have held you in good esteem, and as soon as your book on Artillery appeared, I bought two copies, the only ones Zuan Antonio brought, of which I gave one to Signore the Marquis ...
+>30. There are two bodies of twenty triangular faces the areas of which when added together make 700 braccia, and the area of the smaller is the cube root of the larger. What is the smaller area?
+>Cardano to Tartaglia (12 February 1539): I wonder much, dear Master Niccolo, at the unhandsome reply you have made to one Zuan Antonio de Bassano, bookseller ... I would pluck you out of this conceit, as I plucked out lately Master Zuanne da Coi, that is to say, the conceit of being the first man in the world, wherefore he left Milan in despair; I would write to you lovingly and drag you out of the conceit of thinking you are so great - would cause you to understand from kindly admonition, out of your own words, that you are nearer to the valley than the mountain-top. In other things you may be more skilled and clever than you have shown yourself to be in your reply; and so I must in the first place state that I have held you in good esteem, and as soon as your book on Artillery appeared, I bought two copies, the only ones Zuan Antonio brought, of which I gave one to Signore the Marquis ...
 
-The third point is, that you told the said bookseller that if one of my questions were solved all would be solved, which is most false, and it is a covert insult to say that while thinking to send you six problems, I had sent but one, which would argue in me a great confusion of understanding; and certainly, if I were cunning, I would wager a hundred scudi upon that matter; that is to say, that they could not be reduced either into one, or into two, or into three questions. And, indeed, if you will bet them, I will not refuse you, and will come at an appointed time to Venice, and will give bank security here if you will come here, or will give it to you there in Venice if I go thither. This is not mere profession, for you have to do with people who will keep their word ...
+>The third point is, that you told the said bookseller that if one of my questions were solved all would be solved, which is most false, and it is a covert insult to say that while thinking to send you six problems, I had sent but one, which would argue in me a great confusion of understanding; and certainly, if I were cunning, I would wager a hundred scudi upon that matter; that is to say, that they could not be reduced either into one, or into two, or into three questions. And, indeed, if you will bet them, I will not refuse you, and will come at an appointed time to Venice, and will give bank security here if you will come here, or will give it to you there in Venice if I go thither. This is not mere profession, for you have to do with people who will keep their word ...
 
-I send you two questions with their solutions, but the solutions shall be separate from the questions, and the messenger will take them with him; and if you cannot solve the questions he will place the solutions in your hand. You shall have them each to each, that you may not suppose I have sent rather to get than to give them; but return first your own, that you may not lead me to believe that you have solved the questions, when you have not.
-In addition to this, be pleased to send me the propositions offered by you to Master Antonio Maria Fior, and if you will not send me the solutions, keep them by you, they are not so very precious. And if it should please you, in receiving the solutions of my said questions - should you yourself be unable to solve them, after you have satisfied yourself that my first six questions are different in kind - to send me the solution of any one of them, rather for friendship's sake, a for a test of your great skill, than for any other purpose, you will do me a very singular pleasure.
-1. Make me of ten four quantities in continued proportion whose squares added shall make sixty.
+>I send you two questions with their solutions, but the solutions shall be separate from the questions, and the messenger will take them with him; and if you cannot solve the questions he will place the solutions in your hand. You shall have them each to each, that you may not suppose I have sent rather to get than to give them; but return first your own, that you may not lead me to believe that you have solved the questions, when you have not.
+>In addition to this, be pleased to send me the propositions offered by you to Master Antonio Maria Fior, and if you will not send me the solutions, keep them by you, they are not so very precious. And if it should please you, in receiving the solutions of my said questions - should you yourself be unable to solve them, after you have satisfied yourself that my first six questions are different in kind - to send me the solution of any one of them, rather for friendship's sake, a for a test of your great skill, than for any other purpose, you will do me a very singular pleasure.
+>1. Make me of ten four quantities in continued proportion whose squares added shall make sixty.
 
-2. Two persons were in company, and possessed I know not how many ducats. They gained the cube of the tenth part of their capital, and if they had gained three less than they did gain, they would have gained an amount equal to their capital. How many ducats had they?
-[Friendlier correspondence passed between them. Cardano tried to tempt Tartaglia to Milan to meet his patron, Alphonso d'Avalos, Marquis del Guasto. This might result in Trataglia being offered a better job.]
+>2. Two persons were in company, and possessed I know not how many ducats. They gained the cube of the tenth part of their capital, and if they had gained three less than they did gain, they would have gained an amount equal to their capital. How many ducats had they?
+>[Friendlier correspondence passed between them. Cardano tried to tempt Tartaglia to Milan to meet his patron, Alphonso d'Avalos, Marquis del Guasto. This might result in Trataglia being offered a better job.]
 
-Tartaglia (comment written on a letter from Cardan): I am reduced by this fellow to a strange pass, because if I do not go to Milan the lord marquis may take offence, and such offence might do me mischief, I go thither unwillingly: however, I will go.
+>Tartaglia (comment written on a letter from Cardan): I am reduced by this fellow to a strange pass, because if I do not go to Milan the lord marquis may take offence, and such offence might do me mischief, I go thither unwillingly: however, I will go.
 
-[On 25 March 1539 Tartaglia visited Cardano in Milan. Alphonso d'Avalos, Marquis del Guasto, was not in Milan at the time. The following conversation, reported by Tartaglia, took place in Cardano's house.]
+>[On 25 March 1539 Tartaglia visited Cardano in Milan. Alphonso d'Avalos, Marquis del Guasto, was not in Milan at the time. The following conversation, reported by Tartaglia, took place in Cardano's house.]
 
-Cardano: And I also wrote to you that if you were not content that I should publish them, I would keep them secret.
+>Cardano: And I also wrote to you that if you were not content that I should publish them, I would keep them secret.
 
-Tartaglia: Enough that on that head I was not willing to believe you.
+>Tartaglia: Enough that on that head I was not willing to believe you.
 
-Cardano: I swear to you by the sacred Gospel, and on the faith of a gentleman, not only never to publish your discoveries, if you will tell them to me, but also I promise and pledge my faith as a true Christian to put them down in cipher, so that after my death nobody shall be able to understand them. If you will believe me, do; if not, let us have done.
+>Cardano: I swear to you by the sacred Gospel, and on the faith of a gentleman, not only never to publish your discoveries, if you will tell them to me, but also I promise and pledge my faith as a true Christian to put them down in cipher, so that after my death nobody shall be able to understand them. If you will believe me, do; if not, let us have done.
 
-Tartaglia: If I could not put faith in so many oaths I should certainly deserve to be regarded as a man with no faith in him; but since I have made up my mind now to ride to Vigevano to the lord marquis, because I have been here already three days, and am tired of awaiting him so long, when I am returned I promise to show you the whole.
+>Tartaglia: If I could not put faith in so many oaths I should certainly deserve to be regarded as a man with no faith in him; but since I have made up my mind now to ride to Vigevano to the lord marquis, because I have been here already three days, and am tired of awaiting him so long, when I am returned I promise to show you the whole.
 
-Cardano: Since you have made up your mind at any rate to ride at once to Vigevano to the lord marquis, I will give you a letter to take to his excellency, in order that he may know who you are; but before you go I should wish you to show me the rule for those cases of your, as you have promised.
+>Cardano: Since you have made up your mind at any rate to ride at once to Vigevano to the lord marquis, I will give you a letter to take to his excellency, in order that he may know who you are; but before you go I should wish you to show me the rule for those cases of your, as you have promised.
 
-Tartaglia: I am willing ...
+>Tartaglia: I am willing ...
 
-[Tartaglia then gave Cardano his rule in a poem he had written.]
-When the cube and things together
-Are equal to some discreet number,
-Find two other numbers differing in this one.
-Then you will keep this as a habit
-That their product should always be equal
-Exactly to the cube of a third of the things.
-The remainder then as a general rule
-Of their cube roots subtracted
-Will be equal to your principal thing
-In the second of these acts,
-When the cube remains alone,
-You will observe these other agreements:
-You will at once divide the number into two parts
-So that the one times the other produces clearly
-The cube of the third of the things exactly.
+>[Tartaglia then gave Cardano his rule in a poem he had written.]
+>When the cube and things together
+>Are equal to some discreet number,
+>Find two other numbers differing in this one.
+>Then you will keep this as a habit
+>That their product should always be equal
+>Exactly to the cube of a third of the things.
+>The remainder then as a general rule
+>Of their cube roots subtracted
+>Will be equal to your principal thing
+>In the second of these acts,
+>When the cube remains alone,
+>You will observe these other agreements:
+>You will at once divide the number into two parts
+>So that the one times the other produces clearly
+>The cube of the third of the things exactly.
 Then of these two parts, as a habitual rule,
 You will take the cube roots added together,
 And this sum will be your thought.
@@ -156,10 +156,19 @@ Whilst these mathematical duels may be the most interesting, there were duels in
 
 On a side note, Brahe's data on planetary positions was used by Kepler to analyse the orbits of planets and led Kepler to the conclusion that these are ellipses not circles as had been claimed in Copernicus Theory.
 
-There are also competitions related to early developments of mechanical calculators both relating to speed and accuracy. One famous event of this sort is the success of a skilled Japenese abacus (so-called soroban) operator in completing a set of calculations more rapidly than achieved by a US electro-mechanical calculator.
+There are also competitions related to early developments of mechanical calculators both relating to speed and accuracy. One famous event of this sort is the success of a skilled Japanese abacus (so-called soroban) operator in completing a set of calculations more rapidly than achieved by a US electro-mechanical calculator.
 
-A closer modern parallel is given by the number of competitions / conferences dealing with "best" algorithms for finding soltuions to "hard" problems. In these, a benchmark is a collection of hard instances is provided an the entries are ordered by speed and accuracy of solution (HackerRank, Codewars do this).
+A closer modern parallel is given by the number of competitions / conferences dealing with "best" algorithms for finding solutions to "hard" problems. In these, a benchmark is a collection of hard instances is provided an the entries are ordered by speed and accuracy of solution (HackerRank, Codewars do this).
 
 Among the many such events are the various SAT competitions which, informally, concerns the determining if a logical formulae can be made true by finding some way of fixing its variables to true or false.
 
 There are also challenges such as the [Clay Foundation Prizes](https://en.wikipedia.org/wiki/Millennium_Prize_Problems) which is a set of 7 problems each with a US $1 million reward by the institute to the discoverer(s).
+
+# If you enjoyed this article, connect with me to learn more like this :)
+[LinkedIn](https://www.linkedin.com/in/brandonls/) | [Website](https://brandonskerritt.github.io/) | [Twitter](https://twitter.com/brandon_skerrit)
+
+https://upscri.be/885736-2/
+
+ko-fi.com/hacker
+
+https://www.paypal.me/BrandonSkerritt
