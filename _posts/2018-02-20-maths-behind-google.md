@@ -331,7 +331,11 @@ From Wikipedia
 
 >Scrapy is a free and open source web crawling framework, written in Python. 
 
+TK install scrapy
 
+## Broad Crawls
+
+A normal crawl is of one specific website, usually an online product business like eBay or Amazon.
 
 # Indexing
 
