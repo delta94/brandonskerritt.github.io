@@ -298,7 +298,7 @@ while i <= n:
 print(M)
 ```
 
-Assume A is an array of n positive numbers and m is the maximum number. Also note that arrays are indexed at 1 here (my lecturer's done this, and since this is my notes for my course I'll be using her notation). In normal computer science arrays are indexed at 0, as in they start from 0.
+Assume A is an array of n positive numbers and m is the maximum number. Also note that arrays are indexed at 1 here. Normally in computer science arrays are indexed at 0, as in they start from 0.
 
 Can you guess the time complexity of this?
 
@@ -431,7 +431,7 @@ x = [20, 10, 15, 12]
 
 Now top becomes 4.
 
-You may be wondering "what happened to adding +1 to head?". Well, like I said, you can use both notations. I want to expose you to as much variance in algorithms as possible to enrich your learning... Well, at least that's what my lecturer said to me.
+You may be wondering "what happened to adding +1 to head?". Well, like I said, you can use both notations. I want to expose you to as much variance in algorithms as possible to enrich your learning... Well, at least that's what my professor said to me.
 
 Now if we want to pop() a stack we'll get:
 

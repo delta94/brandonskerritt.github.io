@@ -1,5 +1,5 @@
 ---
-title: "Degree of a Polynomial"
+title: "Complex Numbers"
 categories:
   - University
 ---
