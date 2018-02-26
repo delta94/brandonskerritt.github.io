@@ -106,4 +106,4 @@ But we can actually use Pythagoras' therom to measure the size of complex number
 
 $$ a + bi = \sqrt{a^2 + b^2}$$
 
-aaa
+## Adding and Subtracting Complex Numbers

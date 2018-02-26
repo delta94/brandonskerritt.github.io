@@ -1153,6 +1153,22 @@ head
 [ ][10][-]---[>][21][-]---[>][34][-]---[>][64][ ]
 ```
 
+## Insertion Sort with Linked Lists
+
+We need to assume that the linked list is already sorted ascendingly, and we want to insert a node in the proper position.
+
+If the list is empty OR the first element (head.data) is larger than what we want to insert (node.data) we should put the new node as the head of the list.
+
+Else we should check element by element to find one larger than node.data.
+
+Linked lists are faster for shifting because you don't need to shift the entire array.
+
+The space of the plausiable values will be very very large but you don't know when you'll grow to such big data.
+
+Using linked lists are scalable and are adaptable.
+
+
+
 # If you enjoyed this article, connect with me to learn more like this :)
 [LinkedIn](https://www.linkedin.com/in/brandonls/) | [Website](www.brandonskerritt.github.io) | Twitter
 upscribe
