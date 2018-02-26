@@ -44,6 +44,9 @@ By the end of this article you should have a good understanding of algorithms an
 7. [Programming Linked Lists - Sorts](#programming-linked-lists)
     1. [Bubble Sort in a Linked List](#bubble-sort-linked-list)
     2. [Programming a Bubble Sort in a Linked List](#programming-bubble-sort-linked-list)
+    3. [Selection Sorts in a Linked List](#selection-sort-linked-list)
+    4. [Insertion Sort in a Linked List](#insertion-sort-linked-list)
+    5. [Inserting a New Node into an already sorted linked list with Insertion Sort](#insertion-sort-linked-list-expanded)
 
 
 
@@ -1105,7 +1108,7 @@ class SampleLinkedListBubbleSort {
 
 }
 ```
-
+<a name="selection-sort-linked-list"></a>
 ### Selection Sort with Linked List
 
 So it's the same example with bubblesort but we want to see it done with a selection sort:
@@ -1123,6 +1126,7 @@ curr            min
 
 The nodes don't entirely swap over here, you just swap the data of each node over using a temporary value. The idea is that you always placed the *smallest unsorted* node (data of a node) in the correct place until the "curr" pointer points at the end of the list (we know it points at the end when curr.next equates to NIL, None, Null).
 
+<a name="insertion-sort-linked-list"></a>
 ### Insertion Sort with Linked List
 
 So given a vector <34, 10, 64, 21> we want to insert these numbers into the right order. We start with 34 so we have:
@@ -1153,9 +1157,11 @@ head
 [ ][10][-]---[>][21][-]---[>][34][-]---[>][64][ ]
 ```
 
-## Insertion Sort with Linked Lists
+<a name="insertion-sort-linked-list-expanded"></a>
 
-We need to assume that the linked list is already sorted ascendingly, and we want to insert a node in the proper position.
+Okay, what if we get given some new data and we want to sort this appropriately?
+
+We need to assume that the linked list is already sorted ascendantly, and we want to insert a node in the proper position.
 
 If the list is empty OR the first element (head.data) is larger than what we want to insert (node.data) we should put the new node as the head of the list.
 
@@ -1163,7 +1169,7 @@ Else we should check element by element to find one larger than node.data.
 
 Linked lists are faster for shifting because you don't need to shift the entire array.
 
-The space of the plausiable values will be very very large but you don't know when you'll grow to such big data.
+The space of the plausible values will be very very large but you don't know when you'll grow to such big data.
 
 Using linked lists are scalable and are adaptable.
 

@@ -107,3 +107,69 @@ But we can actually use Pythagoras' therom to measure the size of complex number
 $$ a + bi = \sqrt{a^2 + b^2}$$
 
 ## Adding and Subtracting Complex Numbers
+
+Given 2 complex numbers
+
+$$ u = a + \mathbb{i}b$$
+
+$$ v = c + \mathbb{i}d$$
+
+Where each complex number has a real number component and an imaginery component.
+
+So let's say we want to add them together, z = u + v then:
+
+The real number part can be worked out as:
+
+$$\mathbb{R}u + \mathbb{R}v$$
+
+Where you just add the real number parts together
+
+Likewise the imaginery parts can be added together like so:
+
+$$\mathbb{i}u + \mathbb{i}v$$
+
+To work out z, we simply add both of them together:
+
+$$ (a + c) + \mathbb{i}(b + d)$$
+
+Subtraction is similar.
+
+Real number part is:
+
+$$\mathbb{R}u - \mathbb{R}v$$
+
+Imaginery part is:
+
+$$\mathbb{i}u - \mathbb{i}v$$
+
+z = u - v is:
+
+$$ (a - c) + \mathbb{i}(b - d)$$
+
+# Multiplication using complex numbers
+
+This is where things get a little snazzy!
+
+So to get the real number version we do:
+
+$$\mathbb{R} = \mathbb{R} * \mathbb{R} - \mathbb{i} * \mathbb{i} $$
+
+Remember that an imaginery number times by an imaginery number is -1.
+
+To find the imaginery part you mix a little bit of both:
+
+$$\mathbb{R} = \mathbb{i} * \mathbb{R} + \mathbb{i} * \mathbb{i} $$
+
+To find the complex number you do:
+
+$$ z = (ac - bd) + \mathbb{i}(ad + bc)$$
+
+# Complex Division
+
+In normal division we can view the operation p/q as multiplying p by the reciprocal of q.
+
+A similar approach is used for complex division where we multiply p by the complex number $$v^-1$$.
+
+As in standard arthimetic, p/q must satisfy q != 0 as dividing by 0 is bad, so we have a precondition that |z| != 0.
+
+$$\frac{\mathbb{R}(z)}{|z|^2} - \mathbb{i}\frac{\mathbb{i}(z)}{|z|^2}
