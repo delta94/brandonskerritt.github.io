@@ -1106,6 +1106,53 @@ class SampleLinkedListBubbleSort {
 }
 ```
 
+### Selection Sort with Linked List
+
+So it's the same example with bubblesort but we want to see it done with a selection sort:
+
+```
+[ ][34][-]---[>][10][-]---[>][64][-]---[>][64][-]---[>][21][ ]
+```
+
+The "min" pointer loops through the entire linked list to find the *smallest unsorted* node in the linked list
+
+```
+curr            min
+[ ][34][-]---[>][10][-]---[>][64][-]---[>][64][-]---[>][21][ ]
+```
+
+The nodes don't entirely swap over here, you just swap the data of each node over using a temporary value. The idea is that you always placed the *smallest unsorted* node (data of a node) in the correct place until the "curr" pointer points at the end of the list (we know it points at the end when curr.next equates to NIL, None, Null).
+
+### Insertion Sort with Linked List
+
+So given a vector <34, 10, 64, 21> we want to insert these numbers into the right order. We start with 34 so we have:
+
+```
+head
+[ ][34][ ]
+```
+
+Now we have 10, which is the new smallest element so it gets inserted to the start of the linked list like so:
+
+```
+head
+[ ][10][-]---[>][34][ ]
+```
+
+64 is the largest number we've seen so we insert it at the very end. We know it's the largest number becaues we can either iterate over the list to check or keep a MIN_VALUE variable which tells us what the smallest number is we have inserted into the linked list.
+
+```
+head
+[ ][10][-]---[>][34][-]---[>][64][ ]
+```
+
+The next round we need to find a node that is smaller than our target (21) and larger than our target (21). So we insert it into the middle after finding this:
+
+```
+head
+[ ][10][-]---[>][21][-]---[>][34][-]---[>][64][ ]
+```
+
 # If you enjoyed this article, connect with me to learn more like this :)
 [LinkedIn](https://www.linkedin.com/in/brandonls/) | [Website](www.brandonskerritt.github.io) | Twitter
 upscribe
