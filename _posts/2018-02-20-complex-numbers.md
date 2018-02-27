@@ -16,6 +16,10 @@ categories:
 	* [Multiplication using complex numbers](#multiplication-using-complex-numbers)
 	* [Complex Division](#complex-division)
 * [Other Representations of Complex Numbers](#other-representations-of-complex-numbers)
+	* [Argand Diagrams](#argand-diagrams)
+* [Polar Coordinate Representation of Complex Numbers](#polar-coordinate-representation-of-complex-numbers)
+* [The Exponent or Euler Form](#the-exponent-or-euler-form)
+* [Sumary of Different Representations](#sumary-of-different-representations)
 * [Another idea from exponent form](#another-idea-from-exponent-form)
 
 <!-- /code_chunk_output -->
@@ -246,6 +250,51 @@ The number has a real part of 3 and an imaginery part of -5.
 We can express this on a plane like so:
 
 ![khan academy](https://screenshotscdn.firefoxusercontent.com/images/fe5c7624-49b0-4ddf-b6f8-82906c177a9f.png)
+
+or we could use an Argand diagram.
+
+## Argand Diagrams
+
+In an Argand diagram the x axis represents the real number part and the y axis represents the imaginery part.
+
+![img](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Complex_conjugate_picture.svg/300px-Complex_conjugate_picture.svg.png)
+
+The x coordinate represents the real number part and the y coordinate represents the imaginery part.
+
+The complex conjugate is shown below the original complex number.
+
+We can think of a complex number z = x + iy as a vector from <0, 0> to <x, y>.
+
+The _length_ of this vector is the modulus |Z|.
+
+The _conjugate_ is just the reflection of z in the x-axis.
+
+# Polar Coordinate Representation of Complex Numbers
+
+We know that the trigonometric functions sin and cos are defined with respect to angular measure (theta in radians) and the lengths of lines formed within a circle r.
+
+We don't want to be thinking about x and y coordinates, what we want to care about is the angle.
+
+TK more on this? Maybe?
+
+# The Exponent or Euler Form
+
+This uses a link between polar coordinates and representation on the exponential function.
+
+"Leonard Euler was a milwall support" - My lecturer ????
+
+If we take any number, x, and multiply it by this imaginery number, i, then what Euler discovered is that $$e^{i*x}$$ is exactly the same value and position in the complex plane as $$r cos\theta + r sin\theta$$
+
+# Sumary of Different Representations
+
+We have the simple form which is x + iy, with the real part being x and the imaginery part being a complex number times by i.
+
+We can view them as coordinates in 2-dimensional systems such as in Argang diagrams. The horizontal axis defines the real number part and the vertical axis gives the imaginery part.
+
+The polar coordinate system we work in a 2 dimensional plane, the complex plane, but now insetad of thinking explicitly in terms of how far along the x axis how far along the y axis we view the complex numbers given by the length fo ap articular line and the angle formed by the vector to the origin roatetd anti-clockwise from the x axis.
+
+In the Euler form we have a complex number who's modulus is |z| and size is z has an angle with the x axis given by theta as an argument theta and in this case the given complex number is simply r multiplied by the exponential function raised to the value r * theta.
+
 
 
 # Another idea from exponent form
