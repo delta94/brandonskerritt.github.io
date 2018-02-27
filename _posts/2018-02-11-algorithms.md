@@ -72,6 +72,8 @@ Algorithms are essential in Computer Science, you simply cannot live without the
 <a name="big-o"></a>
 # How do we measure how long an algorithm takes to run?
 
+TK have coding book tips here
+
 We could simply run an algorithm 10,000 times and measure the average time taken but let's say we have an algorithm that took different inputs, like say for example we have an algorithm that takes a list of items and prints every item to the screen. If we only input lists of length 1 (1 item), the average time would be around 0.1 seconds. If we entered items of length 1500, the average would be different. Of course you can use some advance statistical knowledge to work out the true average by inputting lists of varying lengths or you could use Big O notation.
 
 Big 0 notation is notation used to describe how efficient an algorithm is. It's incredibly important to know this since every major employer will question you on this and it'll most likely come up in any algorithms exams (Hello University of Liverpool people <3 )
@@ -1115,6 +1117,8 @@ class SampleLinkedListBubbleSort {
 <a name="selection-sort-linked-list"></a>
 ### Selection Sort with Linked List
 
+TK add code
+
 So it's the same example with bubblesort but we want to see it done with a selection sort:
 
 ```
@@ -1171,7 +1175,7 @@ If the list is empty OR the first element (head.data) is larger than what we wan
 
 Else we should check element by element to find one larger than node.data.
 
-
+TK ADD CODE
 
 
 # If you enjoyed this article, connect with me to learn more like this :)

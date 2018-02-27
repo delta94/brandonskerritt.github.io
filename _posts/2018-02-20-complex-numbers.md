@@ -176,6 +176,12 @@ In normal division we can view the operation p/q as multiplying p by the recipro
 A similar approach is used for complex division where we multiply p by the complex number $$v^-1$$.
 
 As in standard arthimetic, p/q must satisfy q != 0 as dividing by 0 is bad, so we have a precondition that |z| != 0.
-
+<br>
 
 $$\frac{\mathbb{R}(z)}{|z|^2} - \mathbb{i}\frac{\mathbb{i}(z)}{|z|^2}
+
+
+# Another idea from exponent form
+
+We take the size of the complex number (always a positive number) and then take the positive squareroot of that value and then we multiply the positive squareroot by e^i(0/2)z
+
