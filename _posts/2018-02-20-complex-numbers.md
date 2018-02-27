@@ -152,15 +152,20 @@ This is where things get a little snazzy!
 
 So to get the real number version we do:
 
+
 $$\mathbb{R} = \mathbb{R} * \mathbb{R} - \mathbb{i} * \mathbb{i} $$
+
 
 Remember that an imaginery number times by an imaginery number is -1.
 
 To find the imaginery part you mix a little bit of both:
 
+
 $$\mathbb{R} = \mathbb{i} * \mathbb{R} + \mathbb{i} * \mathbb{i} $$
 
+
 To find the complex number you do:
+
 
 $$ z = (ac - bd) + \mathbb{i}(ad + bc)$$
 
@@ -171,5 +176,6 @@ In normal division we can view the operation p/q as multiplying p by the recipro
 A similar approach is used for complex division where we multiply p by the complex number $$v^-1$$.
 
 As in standard arthimetic, p/q must satisfy q != 0 as dividing by 0 is bad, so we have a precondition that |z| != 0.
+
 
 $$\frac{\mathbb{R}(z)}{|z|^2} - \mathbb{i}\frac{\mathbb{i}(z)}{|z|^2}

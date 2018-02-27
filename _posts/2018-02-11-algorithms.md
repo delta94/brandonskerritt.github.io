@@ -491,6 +491,10 @@ Think of stacks like leaving breadcrumbs for yourself. If you're ever lost in a 
 
 Linked Lists are a linear collection of data elements except the linear order is not defined by their physical placement in memory but instead each data node points to the next.
 
+Linked lists are much faster for inserting data into because you don't need to shift the entire array to add an item. They're very useful for when the space of the plausiable values could be very large but you don't know when you will grow to that size.
+
+Linked lists are scalable and adaptable.
+
 The order is determined by a pointer (rather than array indices) TK
 Each element (node) has a data field and one or two pointers linking to the next or previous elements in the list
 
@@ -1167,11 +1171,6 @@ If the list is empty OR the first element (head.data) is larger than what we wan
 
 Else we should check element by element to find one larger than node.data.
 
-Linked lists are faster for shifting because you don't need to shift the entire array.
-
-The space of the plausible values will be very very large but you don't know when you'll grow to such big data.
-
-Using linked lists are scalable and are adaptable.
 
 
 

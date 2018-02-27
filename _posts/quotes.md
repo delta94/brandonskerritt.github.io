@@ -21,3 +21,4 @@ Even if you run slowly you're still lapping everyone who sits on the sofa.
 
 When you want to succeed as bad as you want to breathe, then you’ll be successful
 
+What gets measured gets improved
