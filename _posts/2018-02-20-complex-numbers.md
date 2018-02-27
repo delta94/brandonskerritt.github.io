@@ -4,6 +4,22 @@ categories:
   - University
 ---
 
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+<!-- code_chunk_output -->
+# Table of Contents
+* [Table of Contents](#table-of-contents)
+* [Origins](#origins)
+* [The Formal Definition of the set of complex numbers](#the-formal-definition-of-the-set-of-complex-numbers)
+* [Some facts](#some-facts)
+* [Complex Numbers](#complex-numbers)
+	* [Adding and Subtracting Complex Numbers](#adding-and-subtracting-complex-numbers)
+* [Multiplication using complex numbers](#multiplication-using-complex-numbers)
+* [Complex Division](#complex-division)
+* [Other Representations of Complex Numbers](#other-representations-of-complex-numbers)
+* [Another idea from exponent form](#another-idea-from-exponent-form)
+
+<!-- /code_chunk_output -->
+
 # Origins
 
 We know that there are roots for every polynomial however there are 'problem polynomials' such as:
@@ -218,6 +234,18 @@ $$ \frac{6}{25} + {17}{25}i$$
 Reduce your answer if you can. In this case we cannot.
 
 # Other Representations of Complex Numbers
+
+We can represent complex numbers on a **complex plane**. This idea isn't new to you, as it was used earlier to explain how complex numbers exist.
+
+Let's say we have the complex number:
+
+$$3 - 5i$$
+
+The number has a real part of 3 and an imaginery part of -5.
+
+We can express this on a plane like so:
+
+![khan academy](https://screenshotscdn.firefoxusercontent.com/images/fe5c7624-49b0-4ddf-b6f8-82906c177a9f.png)
 
 
 # Another idea from exponent form

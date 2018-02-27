@@ -4,6 +4,38 @@ categories:
   - University
 ---
 
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+<!-- code_chunk_output -->
+
+* [What is an Operating System?](#what-is-an-operating-system)
+* [Essential Managers of Operating Systems](#essential-managers-of-operating-systems)
+	* [Memory Manager](#memory-manager)
+	* [Processor Manager](#processor-manager)
+	* [Device Manager](#device-manager)
+	* [File Manager](#file-manager)
+	* [Network Manager](#network-manager)
+* [Interaction between OS and Managers](#interaction-between-os-and-managers)
+	* [Example](#example)
+* [Evolution of Operating Systems](#evolution-of-operating-systems)
+* [Multi programming](#multi-programming)
+* [Multi-Access (Time-sharing)](#multi-access-time-sharing)
+	* [Time-sharing the CPU](#time-sharing-the-cpu)
+* [Interrupts](#interrupts)
+* [Processes](#processes)
+* [OS Structure](#os-structure)
+* [System Initialisation](#system-initialisation)
+* [Command Interpreter](#command-interpreter)
+* [System calls](#system-calls)
+* [Processes](#processes-1)
+	* [Process states](#process-states)
+	* [Process creation](#process-creation)
+	* [Zombies and Orphans](#zombies-and-orphans)
+	* [Daemons](#daemons)
+
+<!-- /code_chunk_output -->
+
+
 # What is an Operating System?
 
 The operating system is a piece of software whose job it is to take the base hardware of a device and turn it into a usuable machine for the user. It acts as the intermediary between hardware and user-usage, allowing the user to easily interact directly with the hardware; even when the user does not know they are accessing the hardware.

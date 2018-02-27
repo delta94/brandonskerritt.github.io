@@ -3,6 +3,35 @@ title: "Assembley"
 categories:
   - University
 ---
+# Table of Contents
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+<!-- code_chunk_output -->
+
+* [Table of Contents](#table-of-contents)
+	* [Registers](#registers)
+	* [Jump Instructions](#jump-instructions)
+		* [Conditional Jump](#conditional-jump)
+	* [Comparing values](#comparing-values)
+		* [Conditional jumps using comparison operators](#conditional-jumps-using-comparison-operators)
+	* [Loops](#loops)
+* [Addresses and values](#addresses-and-values)
+* [Subroutines (functions)](#subroutines-functions)
+* [The Stack](#the-stack)
+	* [Push](#push)
+	* [Pop instruction](#pop-instruction)
+	* [Adjusting the stack](#adjusting-the-stack)
+* [Parameters](#parameters)
+	* [Value parameters](#value-parameters)
+	* [Reference parameters](#reference-parameters)
+* [Calling external functions](#calling-external-functions)
+* [Calling formatted printf's](#calling-formatted-printfs)
+* [Stack frame](#stack-frame)
+* [ESP and EBP](#esp-and-ebp)
+* [Recursion](#recursion)
+	* [Mutual recursion](#mutual-recursion)
+
+<!-- /code_chunk_output -->
 
 Note: This is more of just my notes on x86 Assembley language than it is an actual blog post.
 
@@ -30,7 +59,7 @@ anything after ";" is a comment.
 
 This can be translated to binary usign an assembler. _asm.
 
-## Registers
+# Registers
 
 EAX - Accumulator Register
 Register for general purpose data storage. On an x86 CPU it looks like this:
