@@ -162,7 +162,7 @@ z = u - v is:
 
 $$ (a - c) + \mathbb{i}(b - d)$$
 
-# Multiplication using complex numbers
+## Multiplication using complex numbers
 
 This is where things get a little snazzy!
 
@@ -185,7 +185,7 @@ To find the complex number you do:
 
 $$ z = (ac - bd) + \mathbb{i}(ad + bc)$$
 
-# Complex Division
+## Complex Division
 
 In normal division we can view the operation p/q as multiplying p by the reciprocal of q.
 

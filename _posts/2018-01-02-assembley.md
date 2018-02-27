@@ -9,7 +9,7 @@ categories:
 <!-- code_chunk_output -->
 
 * [Table of Contents](#table-of-contents)
-	* [Registers](#registers)
+* [Registers](#registers)
 	* [Jump Instructions](#jump-instructions)
 		* [Conditional Jump](#conditional-jump)
 	* [Comparing values](#comparing-values)
