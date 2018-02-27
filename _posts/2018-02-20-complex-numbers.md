@@ -13,8 +13,8 @@ categories:
 * [Some facts](#some-facts)
 * [Complex Numbers](#complex-numbers)
 	* [Adding and Subtracting Complex Numbers](#adding-and-subtracting-complex-numbers)
-* [Multiplication using complex numbers](#multiplication-using-complex-numbers)
-* [Complex Division](#complex-division)
+	* [Multiplication using complex numbers](#multiplication-using-complex-numbers)
+	* [Complex Division](#complex-division)
 * [Other Representations of Complex Numbers](#other-representations-of-complex-numbers)
 * [Another idea from exponent form](#another-idea-from-exponent-form)
 

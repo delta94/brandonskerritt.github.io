@@ -32,6 +32,15 @@ categories:
 	* [Process creation](#process-creation)
 	* [Zombies and Orphans](#zombies-and-orphans)
 	* [Daemons](#daemons)
+	* [Process Interaction](#process-interaction)
+		* [Syncrhonisation vs Communication](#syncrhonisation-vs-communication)
+		* [Unix Signals](#unix-signals)
+		* [Responding to Signals](#responding-to-signals)
+		* [Pipes and Sockets](#pipes-and-sockets)
+		* [Sockets](#sockets)
+* [Threads](#threads)
+	* [Thread benefits](#thread-benefits)
+	* [Issues](#issues)
 
 <!-- /code_chunk_output -->
 
@@ -359,3 +368,126 @@ Some examples include:
 - Printer spooler
 - Email servers
 - FTP server
+
+## Process Interaction
+
+Processes that do not need oti nteract with any other processes are known as independant processes.
+
+In modern operating systems many processes work together.
+
+The operating system will need some way to syncrhonise these processes.
+### Syncrhonisation vs Communication
+
+Synchronisation requires us to know when a process reaches a certain point in its operation.
+
+TK complete
+
+### Unix Signals
+
+A process can usually be terminated by pressing CRTL + C
+
+This sends a  signal to the process. The process responds by aborting.
+
+Signalls can be sent from one process to another using the signal() call.
+
+Signals can be sent from the command line using the kill command:
+
+```
+kill -<signal> <pid>
+```
+
+sometimes the kill signal isn't always used to kill the process, it can allow you to send **any signal** to a given process.
+
+You need to specify which signal you want to send and to what process ID you want to send it to.
+
+### Responding to Signals
+
+Example kill signals:
+
+```
+1 - hang up
+2 - interrupt
+3 - quit
+6 - aboort
+9 - kill
+14 - alarm
+15 - software termination signal
+```
+
+The process can choose to ignore the signal, it does not have to terminate.
+
+However you cannot ignore the kill signal, it HAS to take effect.
+
+A process can "catch" a signal
+
+Kil all sends the signal to all processes with a given range of PID or with a name or a sub name.
+
+### Pipes and Sockets
+
+A pipe is a command that allows it to pipe data into something. It attaches the standard output of one program to the standard input of another.
+
+### Sockets
+
+A socket is a communication endpoint of a channel between two processes.
+
+Unlike pipes, the processes:
+- do not have to be related to eachother
+Unlike processes where each process spawns from process 1, they all have the same lineage sockets do not need this.
+- do not need to be on the same machine
+- do not need to be on the same local-area network (LAN)
+
+When two processes communicate using sockets, one is designated to the server and the other to the client. In some cases it does not matter which one is which.
+
+More usually a daemon server process offers a service to many clients.
+
+# Threads
+
+Threads are a sort of mini-process in many modern systems.
+
+A thread represents ana ctivity that can be executed independentally (and in parallel) with other parts of the process.
+
+Each thread must has its own:
+* program counter
+* its own stack space
+
+But unlike any process, threads **share**:
+- program code
+- data
+- open files
+
+In many systems threads are handled at a higher level than processes and can be switched without involvement of the operating system kernel.
+
+If this is the case, thread switching is very rapid and efficient. Such threads are commonly known as user-level threads.
+
+Threads are super useful in event driven programming.
+
+A thread can be thought of as a light-weight process.
+
+Threads are created within a normal (**heavyweight**) process:
+
+* example 1 - a web browser
+    - one thread for retriving data from internet
+    - another thread displays text and images
+* example 2 - a word processor:
+    - one thread for display
+    - one for responding to key strokes
+    - one for spell checking
+
+## Thread benefits
+
+- Ease of programming
+Many applications need ot perform several distinct tasks simultaentously
+- Responsivness
+In a web browser the user waiting for the image to download but cna sitll interact with other parts of another part of the page
+- Resource sharing
+threads share memoryh and resources of the process they belong to
+- Economy
+Threads are more economical to create and context switch as they share resources
+- Utilisation of parallel architectures
+In a multiprocessor architecture, where each thread may be running in parallel on a different processor, the benefits of multithereading can be increased.
+
+## Issues
+
+The abillity to run tasks brings many benefits.
+
+We we shall see, it also introduces a number of challenges for the programmer.
