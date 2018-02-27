@@ -41,6 +41,8 @@ categories:
 * [Threads](#threads)
 	* [Thread benefits](#thread-benefits)
 	* [Issues](#issues)
+* [Introduction to Concurrent Programming](#introduction-to-concurrent-programming)
+* [Java Threads](#java-threads)
 
 <!-- /code_chunk_output -->
 
@@ -491,3 +493,55 @@ In a multiprocessor architecture, where each thread may be running in parallel o
 The abillity to run tasks brings many benefits.
 
 We we shall see, it also introduces a number of challenges for the programmer.
+
+# Introduction to Concurrent Programming
+
+It is possible to run sections of code at the same time in a multiprocessing system.
+
+You need to identify what can be run concurrently, in parallel.
+
+# Java Threads
+
+When a java program starts up, a single thread is always created for the program.
+
+The JVM also has its own threads for garbage collection, screen updates, event handling etc.
+
+You can make a thread in java with like so:
+
+Example:
+
+```java
+class TwoChar extends Thread {
+    private char out1, out2;
+
+    public TwoChar(char first, char second){
+        out1 = first; out2 = second;
+    }
+    public void run() {
+        System.out.println(out1);
+        System.out.println(out2);
+    }
+}
+
+public class ThreadEx {
+    public static void main(String args[]){
+        // thread declartion
+        TwoChar let = new TwoChar('A', 'B');
+        TwoChar dig = new TwoChar ('1', '2');
+
+        let.start(); dig.start();
+    }
+}
+```
+Dear Paul,
+
+In comp109 Boris took a very unusual approach to exams. He gave us the exam paper (with 1 or 2 questions very slightly changed)a week before the exam itself, essentially making it a mix of coursework and exams. In both Comp109 and AI the exam papers were published on the website the night of the exam, allowing students to look over the paper. Frank and Boris both published the same paper with answers on them, where Boris explained why the answer is the way it is (in both exams 1 & 2) whereas Frank only did this for exam 2.
+
+I believe that the practice in the CS department is only for exams worth more than 10% and are MCQ, exams that are considered "check ups" to see if the students understand the past couple of weeks has been fine (in my 1 semester here). However, you are in charge of the course so you decide what happens.
+
+I only ask because I froze up in the exam during the matrices questions as I didn't manage to get to the matrices questions in tutorial 2, resulting in a poorer than expected grade. I want to re-go over the matrix and graphical manipulation questions to see if I could do them now, having completed the tutorial and going over the graphical manipulation slides.
+
+Kind regards,
+Brandon
+
+???? If there is one cpu can there only be 1 thread
