@@ -178,10 +178,48 @@ A similar approach is used for complex division where we multiply p by the compl
 As in standard arthimetic, p/q must satisfy q != 0 as dividing by 0 is bad, so we have a precondition that |z| != 0.
 <br>
 
-$$\frac{\mathbb{R}(z)}{|z|^2} - \mathbb{i}\frac{\mathbb{i}(z)}{|z|^2}
+Here's a super simple way to divide complex numbers.
+
+1. To divide complex numbers, you must multiply by the conjugate. To find the conjugate of a complex number all you have to do is change the sign between the two terms in the denominator.
+2. Distribute (or FOIL) in both the numerator and denominator to remove the parenthesis.
+3. Simplify the powers of i, specifically remember that i2 = –1.
+4. Combine like terms in both the numerator and denominator, that is, combine real numbers with real numbers and imaginary numbers with imaginary numbers.
+5. Write you answer in the form a + bi.
+6. Reduce your answer if you can.
+
+Let's do an example.
+
+$$ \frac{3 + 2i}{4 - 3i}$$
+
+To perform the division we need to multiply by the reciporcal and to find the reciporcal (called the conjugate) is change the sign between the two terms in the denominator and make that into its own fraction like so:
+
+$$ \frac{4 + 3i}{4 + 3i}$$
+
+See, super easy! Now we need to multiply.
+
+$$ \frac{3 + 2i}{4 - 3i} * \frac{4 + 3i}{4 + 3i}$$
+
+Now we distribute (or FOIL) in both the numerator and denominator to remove the parathesis.
+
+$$\frac{12 + 9i + 8i + 6i^2}{16 + 12i - 12i - 9i^2}$$
+
+Now we simplfy the powers of i:
+
+$$ \frac{12 + 9i + 8i + 6(-1)}{16 + 12i - 12i - 9(-1)} = \frac{12 + 9i + 8i - 6}{16 + 12i - 12i + 9} $$
+
+Combine the like terms:
+
+$$ \frac{6 + 17i}{25} $$
+
+Write your answer in the form a + bi
+
+$$ \frac{6}{25} + {17}{25}i$$
+
+Reduce your answer if you can. In this case we cannot.
+
+# Other Representations of Complex Numbers
 
 
 # Another idea from exponent form
 
 We take the size of the complex number (always a positive number) and then take the positive squareroot of that value and then we multiply the positive squareroot by e^i(0/2)z
-
