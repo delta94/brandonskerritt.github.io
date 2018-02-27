@@ -58,6 +58,10 @@ body {
   font-size: 1em;
 }
 
+#bio-links a:hover {
+  color: red;
+}
+
 
 .bio-icons a {
   color: black;
