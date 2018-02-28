@@ -796,7 +796,8 @@ The selection sort algorithms tries to do the following:
 
 Example, where bolded means it's in the right place.
 
-    [34, 10, 64, 51, 32, 21]     |   To Swap
+
+[34, 10, 64, 51, 32, 21]     |   To Swap
 -------------------------------- | ------------
 [34, 10, 64, 51, 32, 21]         | 34, 10
 [*10*, 34, 64, 51, 32, 21        | 34, 21
