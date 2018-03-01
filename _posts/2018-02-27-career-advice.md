@@ -4,6 +4,8 @@ categories:
   - University
 ---
 
+16 internships. That's the number of internships my friend got in his first semester of his first year at university. 63 jobs. That's the number of jobs (some voluntary) that I've gotten. I would say that this makes us qualfied to talk about employabillity.
+
 # Personalise your CV
 
 Seriously, customise your CV per job. Don't send the same CV out to many jobs. Think about what you've done that's important to the job.
@@ -32,9 +34,11 @@ If you know a little tiny bit about computers you can Google "LaTeX CV templates
 
 Want to get a job in London? Then write "London" on your CV. No company wants to worry about someone commuting from Kent every day. They don't have to know.
 
+But make sure it's not too much of a lie. Saying you live in London when you're from Skegness or St. Ives is a blatent lie.
+
 # Writing a CV
 
-Make it 1 page. If you customise your CV per job, you should only ever need 1 page. If you have 20+ years of experience, 2 pages is okay.
+Make it 1 page. If you customise your CV per job, you should only ever need 1 page. If you have 20+ years of experience, 2 pages is okay, but 1 page is preferable.
 
 Use a CV template and fill it out.
 
@@ -50,7 +54,58 @@ Use numbers. In the UK we have this English writing rule:
 
 The statistics is important here. If I was to say that I was the best Student Union officer that would make me sound bigheaded. If I was to change that to "changed Student Union approval rating from 30% to 90%" it would sound even more impressive and not so egotisical.
 
+## Make it as easy for your employer as possible
+
+Really think about who you are applying to. If you're applying in the tech industry chances are that they reading your CV on a computer, so hyperlinks in CVs are really cool. If not, maybe don't include them as they don't look good when printed out.
+
+## Use a template
+
+I cannot stress this enough. There are hundreds, if not thousands of amazing CV templates online. Just Google "CV Template" and you'll find one.
+
+## Please just customise it for your job
+
+If you're applying for a job that requires programming, have a "languages" section on your CV that talks about all the languages you know.
+
+## Examples
+
+Here are some examples of CVs. This is my CV
+
+https://drive.google.com/file/d/1u66tSfXWmvBBdCkc7KyUpLxn8A0U8Rar/view
+
+And this is Chris's CV
+
+https://drive.google.com/file/d/1rIBsYaRf6qSg9wND32cw4WAAbCBHG0W2/view
+
+TK maybe have photos
+
+# Email
+
+You need a professional email address.
+
+Make it your name, don't use Yahoo or AOL for tech jobs. If you apply to Google with an AOL email address they'll just laugh at you.
+
+Make sure you think about this carefully. I have 2 email addresses, a Gmail one that has numbers on the end of it and a Proton mail one that's just my name. 
+
+The Proton mail one is for tech companies. They might see I use Proton and subconsciously like me based on the fact that I support encryption.
+
+If your email address looks like "FancyMonkey6969@tiscali.com" you need to change this.
+
+
 # Personal Brand
+
+Everyone has a personal brand, but it's up to you to decide when to take control of your personal brand.
+
+A majority of your posts on social media should be about what you love, but don't make it too fake. Only posting tech stuff / stuff related to your industry makes you seem boring to work with. I genuinely love dogs so much, so I often post adorable dog pictures on my Twitter or pictures / things related to martial arts but I also post alot about technology.
+
+## Create some content
+
+Whether this is writing blog posts, tweeting super nifty tricks you've learnt, weighing in on a converstation on Twitter or contributing to open source software.
+
+The more you create, the more people will care about you. No one cares about you unless you can make them smarter or do something for them.
+
+## LinkedIn
+
+Get a LinkedIn account. Make sure it's professional. Have a nice headshot photograph
 
 # Know yourself
 

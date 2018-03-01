@@ -535,5 +535,101 @@ public class ThreadEx {
 ```
 
 
+# Problem
 
-???? If there is one cpu can there only be 1 thread
+So we gave an object called "thing" gthat has a method in it that just increments:
+
+```java
+public void inc() {
+    count = count + 1;
+}
+```
+
+Let's assume that count is initially zero and we have two threads, T1 and T2 and they both call the increment method.
+
+Indeterminacy means we cannot determine the outcome.
+
+# Mutual Exclusion
+
+Indeterminacy arises because of possible simultaenous access to a share resoruce.
+
+Solution is to only allow one thread to access a variable.
+
+When a thread / process accesses any shared resource, it is in a **critical section**.
+
+One way to enforce mutual exclusion is via **semaphores**.
+
+# Semaphores
+
+A semaphore is an integer-valued variable that is used as a flag to signal when a resource is free and can be accessed
+
+Only two operations possible, **Wait** and **signal**. Also called p and v, test and increment, down and up.
+
+## Wait() signal ()
+
+Wait and signal are indisible. When one thread / process is executing the code in square brackets, no other may do the same.
+
+They can also be used to enforce mutual exclusion.
+
+There situations where you may want more than 2 threads to get access to a resource.
+
+# Syncrhonisation problems
+
+There are a number of famous problems that charecterise the general issue of concuerrency control.
+
+One of them is called
+
+## Producer-Consumer problem
+
+Syncrhonisation: The producer-consumer problem
+* definition
+* java
+* issues
+
+A producer process (eg secretary) and a consumer process commmunicates via a buffer.
+
+The secretary puts the letter in a letter tray and the manager picks up and processes that lecture.
+
+Both running in parallel
+
+- Producer cycle
+    * produce item
+    * deposit in buffer
+- consumer cycle
+    * extract item from buffer
+    * consume item
+
+these two cycles happen in parallel
+
+May have many producers and many consumers
+
+**Problems to solve**
+
+We have to ensure that:
+- producer cannot put items in buffer if it is fully
+- Consumer cannot extract items from buffer if it is empty
+- Buffer is not accessed by two threads simultaenously
+
+## Question
+
+t1 | t2
+--- | ---
+wait(s) | signal(s)
+critical reigion | critical region
+signal(s) | wait(s)
+
+If there was no wait signals at all it wouldnt' crash, you would just get indeterminacy. 
+
+### Answer
+
+Let's suppose t1 gets there first, the semaphore is 1.
+
+wait(s) waits for semaphore to be raised, so it is and it enters the critical region so it stops the wait
+
+let's suppose t2 gets there, what it should do is wait for a lowered flag but it's not, it's raising the flag so t1 and t2 simultaneously access the shared resource.
+
+Let's suppose t2 gets there first, it's raising an already raised flag and s would go to 2, it's still a raised flag. It'll enter its critical region.
+
+T1 gets to its wait operation, sees the flag is raised so it goes to its critical region.
+
+Again t1 and t2 are both inside critical regions.
