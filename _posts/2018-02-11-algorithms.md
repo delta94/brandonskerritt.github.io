@@ -8,6 +8,8 @@ Normally people will make entire articles out of things like Big O notation, Bin
 
 If you're not interested in a certain algorithm (say for example, Min and Max) then simply skip it! Most of the examples given are in Python, but you need not know how Python works to understand the algorithms. Note that later in this article some algorithms may be implemented in Java.
 
+I do not attempt to explain my code used that much. You should really try to implement this yourself in code (if you're a programmer) and perhaps use my code to check over it. My code is definitely not the _best_ way to implement it, but it is a way.
+
 By the end of this article you should have a good understanding of algorithms and data structures.
 
 # Table of Contents
@@ -1224,6 +1226,8 @@ If the list is empty OR the first element (head.data) is larger than what we wan
 Else we should check element by element to find one larger than node.data.
 
 ## Programming an Insertion Sort
+
+Here's some Java code for this.
 
 ```java
 // selection sort ascendingly
