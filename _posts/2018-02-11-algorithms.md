@@ -1143,42 +1143,42 @@ The nodes don't entirely swap over here, you just swap the data of each node ove
 // on array[0] to array[n-1]
 // n is length of array
 static void select_sort(int[] array, int n) {
-		int minloc;
-		int num_comp, num_swap;
-       
-		num_comp = 0;
-		num_swap = 0;
-		System.out.println("Selection sort...");
-       
-		// selection sort on array[], using swap()
-        int i = 0;
-        int loc = 0;
-        int j = 0;
-
-        while (i <= n - 1){
-            loc = i;
-            j = i + 1;
-
-            while (j <= n - 1){
-                num_comp++;
-                if (array[j] < array[loc]){
-                    loc = j;
-                }
-                j = j + 1;
-            }
-            if (i != loc){
-                swap(array, i, loc);
-                num_swap++;
-            }
-            i = i + 1;
-        }
+    int minloc;
+    int num_comp, num_swap;
     
-		
+    num_comp = 0;
+    num_swap = 0;
+    System.out.println("Selection sort...");
+    
+    // selection sort on array[], using swap()
+    int i = 0;
+    int loc = 0;
+    int j = 0;
 
-		print_array(array, n);
-		System.out.println("Number of comparisons is " + num_comp);
-		System.out.println("Number of swaps is " + num_swap);
-	}
+    while (i <= n - 1){
+        loc = i;
+        j = i + 1;
+
+        while (j <= n - 1){
+            num_comp++;
+            if (array[j] < array[loc]){
+                loc = j;
+            }
+            j = j + 1;
+        }
+        if (i != loc){
+            swap(array, i, loc);
+            num_swap++;
+        }
+        i = i + 1;
+    }
+
+    
+
+    print_array(array, n);
+    System.out.println("Number of comparisons is " + num_comp);
+    System.out.println("Number of swaps is " + num_swap);
+}
 ```
 
 <a name="insertion-sort-linked-list"></a>
@@ -1226,44 +1226,39 @@ Else we should check element by element to find one larger than node.data.
 ## Programming an Insertion Sort
 
 ```java
-	// selection sort ascendingly
-	// on array[0] to array[n-1]
-	static void insert_sort(int[] array, int n) {
-		int loc, key;
-		int num_comp, num_shift;
+// selection sort ascendingly
+// on array[0] to array[n-1]
+static void insert_sort(int[] array, int n) {
+    int loc, key;
+    int num_comp, num_shift;
 
-		num_comp = 0;
-		num_shift = 0;
-		System.out.println("Insertion sort...");
+    num_comp = 0;
+    num_shift = 0;
+    System.out.println("Insertion sort...");
 
-		// insertion sort on array[], using swap()
+    // insertion sort on array[], using swap()
 
-		for (int i = 1; i <= n - 1; i++){
-            num_comp++;
-            key = array[i];
+    for (int i = 1; i <= n - 1; i++){
+        num_comp++;
+        key = array[i];
 
-            loc = 0;
-            
+        loc = 0;
+        
 
-            while (loc < i && array[loc] < key){
-                loc = loc + 1;
-                System.out.println("\nhere!!!\n");
-            }
-            for (int j = i; j >= loc+1; j--){
-                System.out.println("\nhere1!!!\n");
-                num_comp++;
-                array[j] = array[j - 1];
-            }
-            System.out.println("\nhere13!!!\n");
-
-            array[loc] = key;
+        while (loc < i && array[loc] < key){
+            loc = loc + 1;
         }
+        for (int j = i; j >= loc+1; j--){
+            num_comp++;
+            array[j] = array[j - 1];
+        }=
+
+        array[loc] = key;
+    }
 
 		print_array(array, n);
-		System.out.println("Number of comparisons is " + num_comp);
-		System.out.println("Number of shifts is " + num_shift);
 	}
-}
+
 ```
 
 # If you enjoyed this article, connect with me to learn more like this :)

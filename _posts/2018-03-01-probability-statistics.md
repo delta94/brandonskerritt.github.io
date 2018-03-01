@@ -198,7 +198,11 @@ So this is just:
 
 $$P(A∪B∪C) = P(A) + P(B) + P(C) - P(A∩B) - P(A∩C) - P(B∩C) + P(A∩B∩C)$$
 
-$$= \frac{36}{216} + \frac{36}{216} + \frac{36}{216} - \frac{6}{216} - \frac{6}{216}  - \frac{6}{216} + \frac{1}{216} = \frac{91}{216} = ~0.42$$
+$$= \frac{36}{216} + \frac{36}{216} + \frac{36}{216}$$
+
+$$ - \frac{6}{216} - \frac{6}{216}  - \frac{6}{216}$$
+
+$$ + \frac{1}{216} = \frac{91}{216} = ~0.42$$
 
 You might have noticed that the intersection is 6/216. This may seem confusing because we didn’t hand-define a set for this. Worry not: The formula for intersection is:
 
@@ -249,15 +253,15 @@ Solving it
 P(B|A) * P(A)
 P(A) = 0.5
 So
-| 0.6 * P(B                  | A)                                               |                                                                                                              |
-| Now we don't know what P(B | A) is, but we want to find out. We know that P(B | A) must be a part of P(A and B) because P(A and B) is the probability that both of these events happen so... |
+0.6 * P(B|A)
+Now we don't know what P(B|A) is, but we want to find out. We know that P(B|A) must be a part of P(A and B) because P(A and B) is the probability that both of these events happen so...
 
 P(A and B) = 0.35
 
 0.35 = P(B|A) * 0.5
 With simple algebraic manipulation
-| 0.35/0.5 = P(B | A)       |
-| P(B            | A) = 0.7 |
+0.35/0.5 = P(B|A)
+P(B|A) = 0.7
 ```
 
 For a visual explanation of conditional probability, watch this video by Khan Academy
