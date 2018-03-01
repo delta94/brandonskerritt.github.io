@@ -533,17 +533,7 @@ public class ThreadEx {
     }
 }
 ```
-Dear Paul,
 
-In comp109 Boris took a very unusual approach to exams. He gave us the exam paper (with 1 or 2 questions very slightly changed) a week before the exam itself, essentially making it a mix of coursework and exams. In both Comp109 and AI the exam papers were published on the website the night of the exam, allowing students to look over the paper. Frank and Boris both published the same paper with answers on them, where Boris explained why the answer is the way it is (in both exams 1 & 2) whereas Frank only did this for exam 2.
 
-I understand that the practice in the department is not to release MCQ exams, but does it matter if te exam is only worth a small percentage of the overall grade? Exams that are considered "check ups" to see if the students understand the past couple of weeks has been fine (in my 1 semester here). However, you are in charge of the course so you decide what happens.
-
-I only ask because I froze up in the exam during the matrices questions as I didn't manage to get to the matrices questions in tutorial 2, resulting in a poorer than expected grade. I want to re-go over the matrix and graphical manipulation questions to see if I could do them now, having completed the tutorial and going over the graphical manipulation slides.
-
-If you do not want to release the paper, is there any way at all for me to get more questions to practice? I'm perfectly willing to put in as many hours as is needed to get a first on this course but I'm quite worried that with a lack of practice questions I'm going to suffer.
-
-Kind regards,
-Brandon
 
 ???? If there is one cpu can there only be 1 thread
