@@ -57,6 +57,8 @@ Use numbers. In the UK we have this English writing rule:
 
 The statistics is important here. If I was to say that I was the best Student Union officer that would make me sound bigheaded. If I was to change that to "changed Student Union approval rating from 30% to 90%" it would sound even more impressive and not so egotisical.
 
+Make sure to give your CV in PDF format, unless they explicitly ask for a different format.
+
 ## Make it as easy for your employer as possible
 
 Really think about who you are applying to. If you're applying in the tech industry chances are that they reading your CV on a computer, so hyperlinks in CVs are really cool. If not, maybe don't include them as they don't look good when printed out.
@@ -327,7 +329,26 @@ Quite often an employer will require you to take an online test to pass onto the
 
 ## Assessment Centres
 
-You will go to an assessment centre where you will be interviewed and tested, usually on your problem solving skills and your abillity to work in a team.
+You will go to an assessment centre where you will be interviewed and tested, usually on your problem solving skills and your abillity to work in a team. Here are some typical assessment centre activities, taken from [here](https://careerhub.liv.ac.uk/docs/4/Assessment_Centres.pdf).
+
+Assessment | What's Involved | What they're looking for
+--- | --- | ---
+Social Events | Meeting other candiates | Interpersonal skills
+Group activities like discussing a topic, or making an object | Team work, time management, creativity, problem solving
+Presentations | Giving an oral presentation to an individual or group which you may or may not have prepared | Candiates who can organise their matieral and speak fluently
+Interviews | In depth discussions | Competence to do job, enthusiasm, interpersonal skills
+Personality questionaires | Asess what you are like as a person and how you might react in different situations | Candiates who fit their company culture
+Psychometric tests | Timed tests, verbal tests, numeric tests | Ability / apitude for the job
+Information sessions | Presentation on opportunties available | Active listening - cues you are paying attention.
+
+
+### Social events
+
+Any part of the assessment centre that is said to be "informal". This can and will still effect your outcome. Use the time to ask lots of questions, make notes that may be useful in any future interviews with the company. This can either be a small networking event, having lunch or having dinner.
+
+### Group Activities
+
+So this is probably some problem solving topic that you have to solve in a group.
 
 ## Panel Interview
 
