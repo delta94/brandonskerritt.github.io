@@ -1297,7 +1297,7 @@ The topmost vertex is called the **root** of the tree. Where it all comes from.
 
 A vertex might have **children** below it, connecting to the vertex. In this case we say the ones below it are the **children / child** and the original vertex is the **parent** of the vertex.
 
-In a **rooted tree** there is an implicit direction of the tree that is often not drawn in rooted trees.
+In a **rooted tree** there is an implicit direction of the tree that is often not drawn in rooted trees, usually it goes downwards.
 
 The **degree of a vertex** is the number of children it has.
 

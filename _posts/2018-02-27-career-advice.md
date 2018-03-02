@@ -296,9 +296,30 @@ Some companies (such as Barclays) use Artifical Inatelligence to read your face 
 
 The employer will skype you and will ask you questions as if it is face to face. Whatever you do, make sure you're in a quiet environment with good internet.
 
+Some tips for Skype and Online VIdeo interviews:
+
+* Make sure to look the part
+* Prepare the environment. Look behhind you, that's what they'll see. Make sure it's nice a mess. Try to interview with a white background behind you.
+* Practice it, skype a friend and ask them to help out.
+* Smile, a lot.
+* Stay present. Don't go googling stuff mid interview.
+* You can have notes in front of you. Take this to your advantage. Place your CV, company info, quesitons you want to ask infront of you so but make it so your interviewer can't see them.
+* DO NOT wear a headset or headphones. It looks unprofessional.
+
 ## Phone Interview
 
 Normally used to determine if you're worth coming into the company for an interview. Almost always one employer interviewing you. 
+
+Some tips for phone interviews:
+
+* You can have your stuff in front of you. Have your CV, questions for the company, whatever you want. Just don't play around with paper too loudly.
+* Make sure it's a high quality phone call
+* You can Google things (quietly). But never google the answer to a question.
+* Disable phone notifcations when on the phone
+* Do not have your pets / children / family disrupt you.
+* Answer your phone with "Hello, YOUR NAME here."
+* Smile, even if they can't see you. It'll come through on the phone.
+* Watch your body language. Don't fidget too much.
 
 ## Online Tests
 
@@ -334,6 +355,14 @@ It doesn't even have to be an email. It can even be on a social network as long 
 Here's a direct message I sent to someone after going to one of their talks:
 
 >Dear Cain, I was at your Natwest talk at the University of Liverpool. I really enjoyed it and I noticed you talked about API's and Cryptocurrencies. Being a computer scientist this really intrigued me! Do you happen to have any upcoming talks about fintech, cryptocurrencies, apps or maybe even personal brand development at Natwest?
+
+Here's a message my friend [Kunal](https://www.linkedin.com/in/kunal-agarwala/) sent to someone as a follow up:
+
+>Hello, 
+> I was at the technology showcase event in Manchester today and found your input in the panel very intereting. I have already secured a place on the spring week in Radbroke and look forward to potentially working with you.
+>
+> Many thanks,
+> Kunal Agarwala
 
 # Styles of Interview
 
