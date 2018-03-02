@@ -4,7 +4,6 @@ categories:
   - University
 ---
 
-16 internships. That's the number of internships my friend got in his first semester of his first year at university. 63 jobs. That's the number of jobs (some voluntary) that I've gotten. I would say that this makes us qualfied to talk about employabillity.
 
 # Personalise your CV
 
@@ -163,9 +162,51 @@ Act and believe that you want this job because you love it!
 
 Customise this question again. Reflect the job description within this question.
 
+This is not the time to be humble.
+
+An example of this answer could be something like:
+
+"I'm an extremely hard worker. I often don't pick up many projects but when I do I go all in. Recently I've picked up blogging, managing to amass more than 8000 monthly readers in less than 5 months."
+
+Do use statistics. This is really important. Statistics lets you talk big about yourself without sounding too egostitcal.
+
+There's a difference between saying "God, if everyone who read my articles was their own country it would be a small country. I must be an amazing writer" and saying "I have 8000 monthly reads in 5 months".
+
+But only say what's relevant. If I was applying to a job at a students union or anything to do with students I would say "I increased student satisfaction and approval ratings from 30% to ~90%".
+
+You don't have to be given a statistic to use it. You can work it out yourself. You know all these maths classes you took? Now's a good time to use them. Do you deal with customers alot and do always say you're doing well? Put that into a statistic. 
+
 4. What are your greatest weaknesses?
 
+DO NOT USE weaknesses such as:
+* I'm a hard worker
+* I overwork so much
+* I obsess with team work
+
+Yeah sure this may have worked 30 - 40 years ago but employers can see the lies from miles away. Use an actual weakness but don't say something like:
+
+>Sometimes I get really vivid thoughts of murdering someone
+
+Use something that was a problem and talk about how you've overcome this. If you're still overcoming it say so. My example would be:
+
+"I used to be terrified of phone calls. The idea of phoning someone was a no go for me. Having worked in a students union and at multiple events it was inevtiable for me to phone people so I've gotten use to it. I'm still overcoming this but I'm not as bad as I was a year or two ago."
+
+
 5. What will your skills and ideas bring to this company?
+
+This question is basically:
+
+> Why should we care about you? What can you do that others can't?
+
+And this question, is one of the best questions possible.
+
+> What can you do that others can't?
+
+They are literally asking you to mow down your competition. Do not show mercy, destroy them. 
+
+If you've worked on a __preproject__ (mentioned in this article) this is the time to say so. Something like:
+
+> I saw your company used this Python package on GitHub but that Python package is deprecated. I've actually made a Python package that works the same but uses all the conventions that Python requires now. It's also a little bit faster.
 
 6. What’s your preferred management style?
 
@@ -177,7 +218,29 @@ Customise this question again. Reflect the job description within this question.
 
 10. What did you like and dislike about your last job?
 
+# Change "uhhhh" to "    "
+
+Instead of saying "uhhhh" and "ehhhhhh" just pause. Smile. DO NOT rush through your interview.
+
+# Ask for a pause
+
+In Karate we have something called a Kata, which is like a dance of all the moves you're supposed to know at your level. It's perfectly okay that _between_ moves you take a short pause, a little break to think about what your next move is but when you perform the next move you do it strongly and fast.
+
+The same can be said for interviews. It's perfectly okay to say
+
+> Sorry, I'm feeling a little nervous. Do you mind if I have a few seconds to myself so I can calm down?
+
+The interviewer knows your nervous. The difference here is that you've recgonised this and you've done something to try to mitigate it. Most people who are interviewed are nervous and they never stop being nervous. They just talk and talk and talk and rush through everything.
+
+In Karate if you rushed through your Kata it would be extremely ugly and convulated. The same holds for interviews. Do not rush through questions. Don't even worry about a time limit. If you're calm and careful the interviwer will keep track of time.
+
 # Types of interviews
+
+# Preprojects
+
+This is a project you take prior to working at the company. It's something that benefits them before you work for them.
+
+# TODO 
 
 Personalise your cover letter
 
