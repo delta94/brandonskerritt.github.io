@@ -4,8 +4,12 @@ categories:
   - University
 ---
 
+So I got really sick and tired of seeing "How to get the perfect job" and then them only giving you like 3 paragraphs and saying "buy my book or sign up to my email list to get the rest XDDDDDDD" so I'm releasing all the informatiomn I've learnt from these scam artists for free.
 
-# Personalise your CV
+Also I'm really sick and tired of Medium articles that are 5 - 7 minutes long and they talk about how amazing the author is and then they release a single sentence of information that's useful. So this is a no-thrills no-handrails guide to jobs.
+# CV
+
+## Personalise your CV
 
 Seriously, customise your CV per job. Don't send the same CV out to many jobs. Think about what you've done that's important to the job.
 
@@ -29,13 +33,13 @@ Then instead of writing "Microsoft office" on your CV you write:
 
 If you know a little tiny bit about computers you can Google "LaTeX CV templates" to get some really nice templates for free. If it's on Overleaf or ShareLaTeX than good. LaTeX is basically like a programming language but for writing.
 
-# Lie about your location
+## Lie about your location
 
 Want to get a job in London? Then write "London" on your CV. No company wants to worry about someone commuting from Kent every day. They don't have to know.
 
 But make sure it's not too much of a lie. Saying you live in London when you're from Skegness or St. Ives is a blatent lie.
 
-# Writing a CV
+## Writing a CV
 
 Make it 1 page. If you customise your CV per job, you should only ever need 1 page. If you have 20+ years of experience, 2 pages is okay, but 1 page is preferable.
 
@@ -65,6 +69,45 @@ I cannot stress this enough. There are hundreds, if not thousands of amazing CV 
 
 If you're applying for a job that requires programming, have a "languages" section on your CV that talks about all the languages you know.
 
+## Have a "profile" section
+
+This profile is a small section of your CV that includes a brief summary of your skills, experiences and goals. It is your elevator pitch.
+
+It really is customised to you. I can't tell you what to write. You can find examples of profiles in the example CV section.
+
+## Bullet Points in a CV
+
+Do not write paragraphs. Have bullet points instead.
+
+For any past work or experience you will want to include accomplishments at this job that relate to the job you are applying to.
+
+Try not to include your duties. It's much more impessible to show your accomplishments.
+
+In your bullet points use action verbs. These are words like "accomplished", "designed", "initated", "supervised".
+
+## Things to include in a CV
+
+Let's say you have a template and you want to change a few few things,here are some things you might want to include:
+
+* Personal details - Telephone, professional email, location - Name
+* Work experience
+* Achievements
+* Education
+* Hobbies and interests that relate to the job
+* Key skills relating to the job
+* Know any languages that relate to the job? Put them down!
+
+What not to include:
+* A headshot / image of you. Unless the company specifies that they require this, do not do this. Unless you are Alex Turner or Emma Watson they do not want to see you.
+* Age and date of birth - It's illegal for employers to ask about your age under the Equality Act of 2010.
+* Martial / Relationship status - Again under the Equality Act of 2010 they cannot ask this.
+
+Depending on your work and education, you'll need to balence these correctly. Do you have a really good education but not much work experience? Make your education 60% of your CV. Do you have lots of work experience but not much education? Make that 60% of your CV.
+
+What if you have both? Well, just list your education shortly and have your work experience.
+
+How do you list education shortly? Just include the modules that sound the most impressive, try to limit it to 4 maximum along with your grades and university name. Or, again, personalise it. You're applying for a job that involves Artifical Intelligence? Include the modules you've done in this.
+
 ## Examples
 
 Here are some examples of CVs. This is my CV
@@ -88,7 +131,6 @@ Make sure you think about this carefully. I have 2 email addresses, a Gmail one 
 The Proton mail one is for tech companies. They might see I use Proton and subconsciously like me based on the fact that I support encryption.
 
 If your email address looks like "FancyMonkey6969@tiscali.com" you need to change this.
-
 
 # Personal Brand
 
@@ -193,7 +235,7 @@ Yeah sure this may have worked 30 - 40 years ago but employers can see the lies 
 
 Use something that was a problem and talk about how you've overcome this. If you're still overcoming it say so. My example would be:
 
-"I used to be terrified of phone calls. The idea of phoning someone was a no go for me. Having worked in a students union and at multiple events it was inevtiable for me to phone people so I've gotten use to it. I'm still overcoming this but I'm not as bad as I was a year or two ago."
+>"I used to be terrified of phone calls. The idea of phoning someone was a no go for me. Having worked in a students union and at multiple events it was inevtiable for me to phone people so I've gotten use to it. I'm still overcoming this but I'm not as bad as I was a year or two ago."
 
 
 5. What will your skills and ideas bring to this company?
@@ -268,11 +310,24 @@ You will go to an assessment centre where you will be interviewed and tested, us
 
 ## Panel Interview
 
-You will be interviewed by a panel of people.
+You will be interviewed by a panel of people, as oppose to just 1 or 2 people.
 
 ## Group Interview
 
-You will be interviewed as a group. Lush does this.
+You will be interviewed as a group. As in multiple candiates will be interviewed by one interviewer (or panel).
+
+Employers do this type of interview becaues it is extremely efficient.
+
+In this style you want to stand out. You can do this by:
+
+* Being confident and respectful. Understand that group interviews are efficient and no, the employers do not hate you for doing it.
+* Be a leader. If you are working on a team project, find an opportunity to lead.
+* Be yourself and be authentic.
+* Follow up - Send a thank you email after the interview.
+
+## Following up after an interview
+
+After the interview, email the interviewer to say thank you. Try to mention something specific so the interview will remember you.
 
 # Styles of Interview
 

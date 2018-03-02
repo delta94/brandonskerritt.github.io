@@ -1265,6 +1265,48 @@ static void insert_sort(int[] array, int n) {
 
 ```
 
+# Tree Data Structure
+
+A tree T = (V, E) consists of a set of vertices (V) and a set of edges (E). 
+
+The vertices are the "Nodes" in a tree and the edges are the "lines connecting them".
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/25d405df-4f0c-470a-aa0f-437096a92d46.png)
+
+Tree's have **exactly** one path between two vertices. You cannot have more than one path between any 2 vertices.
+
+The number of paths that lead into and out of a vertice is called the __degree__ of a vertice.
+
+There is only 1 way from x to v.
+
+This is not a tree:
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/08d2b9ee-df7f-4eab-bc65-dc4ac6161ab9.png)
+
+Because there are 2 paths from x to y.
+
+A __cycle__ is where you can "Move all the way around". Notice the vertices y, u, and v. You can "move all the way around" these 3 vertices. **Acyclic** means there is no cycle in the graph. If it is Acylic it implies it is a tree.
+
+A tree is often used to represent something that has a hierarchical sturcture, such as files and folders in a desktop.
+
+A **rooted tree** has a direction where it goes from the top to the bottom but in some cases we can have an **unrooted** tree where it is not drawn top to bottom.
+
+TK image here of unrooted tree
+
+The topmost vertex is called the **root** of the tree. Where it all comes from.
+
+A vertex might have **children** below it, connecting to the vertex. In this case we say the ones below it are the **children / child** and the original vertex is the **parent** of the vertex.
+
+In a **rooted tree** there is an implicit direction of the tree that is often not drawn in rooted trees.
+
+The **degree of a vertex** is the number of children it has.
+
+The **degree of a tree** is the max degree from a vertex in the tree. So if a vertex has a degree of 3 and no other vertex has a degree higher than 3 then the degree of the tree is 3.
+
+A vertex with no children (degree 0) is called a **leaf**.
+
+Vertexs other than leaves / roots are called **internal vertices**. These are sometimes called downward branches in a **rooted tree**.
+
 # If you enjoyed this article, connect with me to learn more like this :)
 [LinkedIn](https://www.linkedin.com/in/brandonls/) | [Website](www.brandonskerritt.github.io) | Twitter
 upscribe
