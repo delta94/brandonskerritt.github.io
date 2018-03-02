@@ -104,7 +104,11 @@ The more you create, the more people will care about you. No one cares about you
 
 ## LinkedIn
 
-Get a LinkedIn account. Make sure it's professional. Have a nice headshot photograph
+Get a LinkedIn account. Make sure it's professional. Have a nice headshot photograph.
+
+Here's a good LinkedIn inforgraphic from [here](https://www.leisurejobs.com/getasset/7a3e4167-6675-4ae3-be01-6ff723b80f2a/).
+
+![img](https://www.leisurejobs.com/getasset/7a3e4167-6675-4ae3-be01-6ff723b80f2a/)
 
 # Know yourself
 
@@ -234,11 +238,108 @@ The interviewer knows your nervous. The difference here is that you've recgonise
 
 In Karate if you rushed through your Kata it would be extremely ugly and convulated. The same holds for interviews. Do not rush through questions. Don't even worry about a time limit. If you're calm and careful the interviwer will keep track of time.
 
-# Types of interviews
+# Interview Formats
+
+## Face to Face
+
+The normal interview format. You'll be interviewed by 1 or 2 people at most. They'll ask you questions relating to the job.
+
+## Online Video Interview
+
+You will be given a set of questions and you will have to record yourself for 15 - 30 minutes answering the questions. The interviewer loves this format because if you bore them after the first 15 seconds they can just stop watching. They can't just walk out in a face to face interview.
+
+Some companies (such as Barclays) use Artifical Inatelligence to read your face and use that to determine whether or not you go onto the next stage.
+
+## Skype Interview
+
+The employer will skype you and will ask you questions as if it is face to face. Whatever you do, make sure you're in a quiet environment with good internet.
+
+## Phone Interview
+
+Normally used to determine if you're worth coming into the company for an interview. Almost always one employer interviewing you. 
+
+## Online Tests
+
+Quite often an employer will require you to take an online test to pass onto the real interview. These can include numerical reasoning, verbal reasoning, and problem solving. These will all be talked about shortly.
+
+## Assessment Centres
+
+You will go to an assessment centre where you will be interviewed and tested, usually on your problem solving skills and your abillity to work in a team.
+
+## Panel Interview
+
+You will be interviewed by a panel of people.
+
+## Group Interview
+
+You will be interviewed as a group. Lush does this.
+
+# Styles of Interview
+
+There can be many different styles of interviews that match the formats of interviews.
+
+## Competency Interview
+
+These types of interviews require applicants to give specific encounters of times they have solved problems. They want to see you are compotent. This is where the _pre-project_ comes into play as well. What better way to prove you're good at something if you've actually done it?
+
+## Strength Based Interviews
+
+## Stress Based Interviews
+
+## Technical Interviews
+
+## Structured Interview
+
+## Unstructured Interview
+
+## Behavioral Interview
+
+## Watching you on the job interview
+
+## The case interview
+
+## The Lunch interview
+
+## Career Fair Interview
+
+# numerical reasoning, verbal reasoning, and problem solving tests
 
 # Preprojects
 
 This is a project you take prior to working at the company. It's something that benefits them before you work for them.
+
+Take for example this website: [Nina4AirBnB](http://www.nina4airbnb.com/).
+
+This website lists all the things AirBnB are doing badly and talks about how they can improve. This even made it into National Newspapers:
+
+http://www.independent.co.uk/news/people/airbnb-ceo-san-francisco-middle-east-travel-and-tourism-cv-linkedin-employment-a8158311.html
+
+Because of this pre-project, she got an interview straight away:
+
+![img](https://cdn-images-1.medium.com/max/1600/1*dzgczF9zljYaDwaGHq89Gg.png)
+
+I know it takes time, research and dedication to do this but once you've done it you're almost guranteed an interview. What better way to show a company that you're hard working, dedicated to their cause and the company, and are a good researcher than to actually do a project like this?
+
+Sure, you could say you are these things. But to go out of your way to do something for a company way before you even have an interview? That's something they'll love.
+
+At YCombinator's Startup school they talk about how all employees must be passionate and dedicated to the business. It is rumoured that at Airbnb they ask the question "If you only have 1 year to live, would you still work here?" to see how passionate someone is about their cause.
+
+Preprojects don't just work for tech, they can work for basically any business that has projects and all businesses have projects.
+
+Let's say you want to work at an amusement park, like Dreamland or Thorpe Park. You can research and perhaps suggest an event for them or something along those lines. Like, hey, there's alot of this population in Margate (where Dreamland is) that don't fall into the demographiv "White - British". These people also celebrate this holiday on this day, maybe you should make an event out of it at Dreamland?
+
+# Questions to ask your interviewer
+
+# Personal Hygine
+
+# Dressing right
+
+# Networking
+
+# Passionate about your field
+
+
+
 
 # TODO 
 
