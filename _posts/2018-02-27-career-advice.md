@@ -163,7 +163,8 @@ Fully understand everything there is to know about yourself.
 # Pre project
 
 # Answereing interview questions
-STAR METHOD
+
+Always answer using the STAR method - Situation, task, action, result.
 
 # 15 Interview Questions
 
@@ -341,6 +342,12 @@ Personality questionaires | Asess what you are like as a person and how you migh
 Psychometric tests | Timed tests, verbal tests, numeric tests | Ability / apitude for the job
 Information sessions | Presentation on opportunties available | Active listening - cues you are paying attention.
 
+In group exercises you have to be inclusive, you have to include everyone in solving a problem.
+
+Most of the time you will be asked to give a presentation, practice this a lot. Do as many presentations as you can before the assessment.
+
+Very commonly you'll be asked to retake the tests you've done online such as verbal reasoning, numerical reasoning. Sometimes people get their friends to do these online, so this is a test to make sure you know what you're doing.
+
 
 ### Social events
 
@@ -349,6 +356,28 @@ Any part of the assessment centre that is said to be "informal". This can and wi
 ### Group Activities
 
 So this is probably some problem solving topic that you have to solve in a group.
+
+Normally you'll encounter one of these problems:
+
+Business scenarios - Often linked to the business. This can include coming up with new ideas for the company, setting a budget, planning a holiday, how to make a new product, case studies of charities.
+
+Ranking exercises - This can be anything from your top 10 favourite songs to being given a 4 page list of 40 different people and being told that only 10 of them can survive on an island, the rest will have to die.
+
+Physical tasks - Building things etc.
+
+Role plays - Customers facing problems, sales positions (having to sell an item to someone), management roles.
+
+Normally one or two instructors will watch you.
+
+Don't dominate the discussion, let everyone speak and if someones quiet ask them for their input. Try to present your idea as it'll make you stand out from the group. Don't worry if one person is being seen as too dominating as it likely won't impress the recruiter.
+
+### Presentations
+
+You will likely be asked to give a presentation about something, often you will not know the topic and will be given 20 - 30 minutes to present. See the Presentations section for more information on this.
+
+### Tests
+
+See the tests section for more information on this. These can come up at assessment centres.
 
 ## Panel Interview
 
@@ -413,7 +442,54 @@ These types of interviews require applicants to give specific encounters of time
 
 ## Career Fair Interview
 
-# numerical reasoning, verbal reasoning, and problem solving tests
+# Psychometric Tests
+
+All of these tests are strictly timed, usually giving you 30 minutes for 30 questions. Some companies do not care if you don't complete the entire test in time. One recruiter even told me that they make them harder to put people under stress.
+
+## Numeracy tests
+
+A numeracy test is a test designed to gauge how well your daily maths skills are and how well they can be applied to a companies situation.
+
+There isn't really any tricks to this other than to practice. You can Google "Numerical Reasoning tests" to find some online.
+
+You should take your own calculator (or have your own).
+
+You should know your calculator. Watch some Youtube videos on it to learn all the cool tricks.
+
+Use any rough paper for calculations.
+
+The more you practice the more you can understand graphs.
+
+Check units, don't mix different units unless you know how to convert.
+
+
+## Verbal Reasoning
+
+Normally involves reading a bit of paper and answering questions about it.
+
+Tips:
+
+Take every word literally. You are being asked a question and the answer is in some text they gave you.
+
+## Personality Test
+
+A test to find out your personallity.
+
+Usually indicates:
+
+* How you relate to other people
+* How you work with other people
+* How you work
+* Your motivation
+* Your preferences and attitudes
+
+There is no right or wrong answer here,
+
+# Presentations
+
+Have lots of pictures on your presentation. Steve Jobs **NEVER** had any writing on his presentations and he's really good, so follow that. But do try to write a little bit if it helps. Don't read off the script or the slides. Make sure they engage with you. Don't speak monotone. Act excited. 
+
+Make sure your presentation follows a linear story, human beings are more prone to paying attention to stories.
 
 # Preprojects
 

@@ -1283,12 +1283,9 @@ The number of paths that lead into and out of a vertice is called the __degree__
 
 ![img](tree_vertex.png)
 
-This is not a tree:
-
-
-Because there are 2 paths from d to e.
-
 A __cycle__ is where you can "Move all the way around". Notice the vertices y, u, and v. You can "move all the way around" these 3 vertices. **Acyclic** means there is no cycle in the graph. If it is Acylic it implies it is a tree.
+
+If it has more than 2 paths from 1 vertex to another or it has a cycle then it is not a tree.
 
 ![img](cycle.png)
 
