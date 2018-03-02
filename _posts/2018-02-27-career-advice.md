@@ -329,6 +329,12 @@ In this style you want to stand out. You can do this by:
 
 After the interview, email the interviewer to say thank you. Try to mention something specific so the interview will remember you.
 
+It doesn't even have to be an email. It can even be on a social network as long as it's professional.
+
+Here's a direct message I sent to someone after going to one of their talks:
+
+>Dear Cain, I was at your Natwest talk at the University of Liverpool. I really enjoyed it and I noticed you talked about API's and Cryptocurrencies. Being a computer scientist this really intrigued me! Do you happen to have any upcoming talks about fintech, cryptocurrencies, apps or maybe even personal brand development at Natwest?
+
 # Styles of Interview
 
 There can be many different styles of interviews that match the formats of interviews.

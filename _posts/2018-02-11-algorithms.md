@@ -1307,6 +1307,11 @@ A vertex with no children (degree 0) is called a **leaf**.
 
 Vertexs other than leaves / roots are called **internal vertices**. These are sometimes called downward branches in a **rooted tree**.
 
+A **subtree** is a tree that comes from a vertex that isn't the **root** vertex. You can have a subtree of a subtree.
+
+TK have images here
+
+
 # If you enjoyed this article, connect with me to learn more like this :)
 [LinkedIn](https://www.linkedin.com/in/brandonls/) | [Website](www.brandonskerritt.github.io) | Twitter
 upscribe
