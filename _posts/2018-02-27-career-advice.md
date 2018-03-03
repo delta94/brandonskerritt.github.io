@@ -71,6 +71,8 @@ I cannot stress this enough. There are hundreds, if not thousands of amazing CV 
 
 If you're applying for a job that requires programming, have a "languages" section on your CV that talks about all the languages you know.
 
+Most people fire off blankets of CV's to every single recruiter on their LinkedIn like North Korea launching nukes without ever customising it. Do not do this.
+
 ## Have a "profile" section
 
 This profile is a small section of your CV that includes a brief summary of your skills, experiences and goals. It is your elevator pitch.
@@ -240,6 +242,23 @@ Use something that was a problem and talk about how you've overcome this. If you
 
 >"I used to be terrified of phone calls. The idea of phoning someone was a no go for me. Having worked in a students union and at multiple events it was inevtiable for me to phone people so I've gotten use to it. I'm still overcoming this but I'm not as bad as I was a year or two ago."
 
+But don't make the weakness a part of the job description. If the job descritpion says "you ne
+ed to be really good at talking to people" never say "I'm really bad at talking to someone".
+
+Make sure you say how you overcame your weakness and turn it into something positive. Make it into a mini story.
+
+Make sure this won't be a problem at your current company. Say something like "I believe this won't be a problem in this company" and then say why. Mine would be:
+
+>"I used to be terrified of phone calls. The idea of phoning someone was a no go for me. Having worked in a students union and at multiple events it was inevtiable for me to phone people so I've gotten use to it. I'm still overcoming this but I'm not as bad as I was a year or two ago. I believe this won't be a problem at this company because I'm passionate for the cause of this company which would allow me to talk more on the phone to people revoling around this company. That's one of the reasons I want to join this company, because I get to do what I love and I get to push my bounadries and get out of my comfort zone, to grow both personally and professionally."
+
+Make it very clear that this question is as normal as giving your name and address, do not act like they are forcing information out of you.
+
+Whatever you do, under all circumstances, NEVER ever EVER reply with any of these:
+
+* I'm a perfectionist! (If you do this honestly, you don't deserve the job.)
+* I work too hard
+* I don't have any!
+* Chocolate / food
 
 5. What will your skills and ideas bring to this company?
 
@@ -257,13 +276,43 @@ If you've worked on a __preproject__ (mentioned in this article) this is the tim
 
 > I saw your company used this Python package on GitHub but that Python package is deprecated. I've actually made a Python package that works the same but uses all the conventions that Python requires now. It's also a little bit faster.
 
+You have to really customise this one per company. Play your A-game here.
+
+Do not talk badly about other people, just focus on your srengths.
+
+Normally you will want to focus on what you're good at here. Talk about that
+
 6. What’s your preferred management style?
+
+This question is just the interviewer wanting to know if you are going to get along together.
 
 7. Where do you see yourself in five years’ time?
 
-8. How would you do this job?
+This question is the employer wanting to know if you plan to work there for a long time. Every employer wants to know you'll work there for a long time, even if it's just a waitering job.
+
+Say something along the lines of:
+
+> I don't know your company well enough, but I would like to think I would still be working here. In 5 years time I would have liked to learnt enough to be able to train people in future roles.
+
+8. How would you approach this job?
+
 
 9. What have you achieved in other roles?
+
+This is the question which gives you permission to not be humbled. Talk about what ever you're produest of. Mine would be:
+
+> My role as Higher Education Vice President started off on a bad turn. There were supposed to be 5 student union officers, but only I wanted to do the job. Effectively leaving me in charge of the work of 5 people, all whilest the student union staff who work with us had left to go to another job.
+>
+> Luckily this was perfect for me, as I stepped up when no one else would. I travelled to every campus as much as possible to make sure all students were listened to. When a group of students came to me telling me that their course isn't being properly funded I demanded a meeting with the principle of East Kent College to fix this.
+>
+> As well as this I repeatedly represented the students in a democratic way at both a local (Kent) way and in a national way. I was chosen to attend the National Union of Student's National Confernece, where I elected the next NUS officer team and chose to represent my college on a national scale.
+>
+> By the end of the year the students were asked to fill out a survey about their time at college. Student union approval ratings were previously laying around 30%, with about 5 questions about the student's union. By the time I finished, it laid around 90% with comments from students saying about how amazing it was for their problems to be fixed so easily.
+> 
+> On top of this, I received a letter from the Chief Executive President of Student Welfare saying that I was the best Student Union's Officer ever and rewarding me with a £50 Amazon voucher.
+
+Notice how I'm tooting my own horn here, this question allows you to do that.
+
 
 10. What did you like and dislike about your last job?
 
@@ -422,10 +471,42 @@ There can be many different styles of interviews that match the formats of inter
 
 These types of interviews require applicants to give specific encounters of times they have solved problems. They want to see you are compotent. This is where the _pre-project_ comes into play as well. What better way to prove you're good at something if you've actually done it?
 
+Competency based interviews will usually have the interviewer read questions off of a bit of paper or their laptop, and they will probably take notes. 
+
+The type of questions that come up here will be very strictly formatted. The questions proposed above are mainly compotency based interview questions.
+
 ## Strength Based Interviews
+
+A strength based interview focuses on what you enjoy doing, rather than what you can do like in a competency based interview. Strength based interviews come from "positive" psychology. The theory states that by matching you with what you enjoy doing you'll be happier in your role, will perform better and stay with the company for longer.
+
+The interviewer will likely not have any questions written done for this, or not many. They may ask something like "tell me about your favourite day out" and they will ask questions based on your answers, to really gage you as a person. These types of interviews will normally feel like a formal chat with a friend rather than a one on one interview.
+
+More and more companies are switching to strength based interviews, with these companies publicly saying they use them:
+
+* Aviva
+* BAE Systems
+* Barclays
+* Cisco 
+* EY 
+* Nestle
+* Royal Mail
+
+Strength based questions don't have a binary "right or wrong" answer. However, do be a decent human being. Don't talk badly about other people, don't lie, just be nice.
+
+Just like every other type of interview you'll need to incldude examples to back up your responses.
+
+
 
 ## Stress Based Interviews
 
+A stress based interview is designed to make you stressed, to put you under pressure to see how well you do.
+
+
+The logic is that the way you respond under stress during the interview is indicative of the way you'll handle similar situations on the job.
+
+Creating an emotionally chaotic setting puts candidates under psychological stress to see if they will crack, remain calm, or even thrive under pressure.
+
+Stress interviews can be controversial because they create a sensitive and emotionally charged relationship between the applicant and the hiring manager, and thereby the company. Sometimes, even the most successful applicants will turn down an offer on account of the nature of the interview alone. 
 ## Technical Interviews
 
 ## Structured Interview
