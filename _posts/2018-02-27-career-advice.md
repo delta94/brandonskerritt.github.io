@@ -156,6 +156,10 @@ Here's a good LinkedIn inforgraphic from [here](https://www.leisurejobs.com/geta
 
 ![img](https://www.leisurejobs.com/getasset/7a3e4167-6675-4ae3-be01-6ff723b80f2a/)
 
+## Meet Pauline
+
+Pauline is a powerhouse and the queen of personal branding.
+
 # Know yourself
 
 Questions will come up about you, about what you've done, about your CV.
@@ -188,6 +192,9 @@ Here's my own example:
 
 >While at college I became the student union's higher education vice president. During this role I improved the collective college partnership consisting of 5 colleges. Towards the end of my role the annual student survey was completed and every section for the student union, most noticably the student union satisfaction and representation area went up by 30% to around ~85%. The skills I learnt was to be an effecticve team player, to communicate complicated ideas to board members in meetings, interviewing skills and how to deal with deadlines which i believe will help me in this position during work.
 
+Most candiates fail this question because they don't know what to talk about.
+
+This question is asked in pretty much every interviewer. It allows the interviewer to get a rough idea of your background and experience and it also allows you to calm down.
 
 2. Why are you applying?
 
@@ -213,7 +220,7 @@ Act and believe that you want this job because you love it!
 
 Customise this question again. Reflect the job description within this question.
 
-This is not the time to be humble.
+This is not the time to be humble, but do try to not sound arrogant.
 
 An example of this answer could be something like:
 
@@ -226,6 +233,20 @@ There's a difference between saying "God, if everyone who read my articles was t
 But only say what's relevant. If I was applying to a job at a students union or anything to do with students I would say "I increased student satisfaction and approval ratings from 30% to ~90%".
 
 You don't have to be given a statistic to use it. You can work it out yourself. You know all these maths classes you took? Now's a good time to use them. Do you deal with customers alot and do always say you're doing well? Put that into a statistic. 
+
+Make sure your strengths match the job description. If the employer asks for good knowledge of Python (or German) talk about that. 
+
+You see this?
+
+![img](http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_720/images/live/p0/3j/nd/p03jndhw.jpg)
+
+Do you remember this game? The idea is to get the shapes in the right holes.
+
+Now, you could have the best blocks. The best blocks in the USA, the best blocks in the world. No one could ever have better blocks than you. But as long as you're trying to fit this amazing diamond cube into a triangular hole, it'll never ever work. 
+
+The same can be said for job interviews. Often it's better to present something that you're only 60 - 80% good at that matches the job description rather than talking about something you are absolutely amazing at that doesn't match the job description.
+
+The recruiter wants to find the right person for the job. They want to find the right shape for the right hole. Make sure you mould yourself into the shape they want.
 
 4. What are your greatest weaknesses?
 
@@ -553,9 +574,15 @@ Here's some stress based interview questions, taken from [here](https://www.bett
 
 ## Technical Interviews
 
+A technical interview is used heavily in the computer science industry. It usually involves coding.
+
 ## Structured Interview
 
+A structured interview is just another describing word for an interview. A structured interview will usually follow a structure, where the questions are asked in a standard pace and are normally read off of a sheet of paper.
+
 ## Unstructured Interview
+
+Like above, an unstructured interview is just another describing word. These usually have perhaps 1 or 2 questions to start you off but all questions will mainly come from the interviewer curious as to your life.
 
 ## Behavioral Interview
 
@@ -658,12 +685,32 @@ Let's say you want to work at an amusement park, like Dreamland or Thorpe Park. 
 
 # How to negoiate in a job
 
-
 # Luck
 
+# How to buy a suit
+
+# How to buy a dress
 Luck can be expressed as the mathemtical formula:
 
 luck = hard work * [random number between 0.1 and 1]
+
+https://www.reddit.com/r/jobs/comments/5nhmp3/finally_have_a_new_job_and_its_all_because_i_was/
+
+https://www.reddit.com/r/jobs/comments/7y8k6p/im_an_exrecruiter_for_some_of_the_top_companies/
+
+    Find a job you're interested in that you could be a good fit for. If you're a fit for 70% of the job requirements that's probably okay
+    Don't apply for it immediately. It's tempting but if you do it will actually reduce your chances later on. If I applied first without a referral I got an interview 14% of the time. If I applied and then got a referral it only went up to 17% of the time. This is because the recruiter may have already looked at my resume and rejected me and they usually won't take a second look just because someone referred me.
+    Instead, look up the company page on LinkedIn and click 'See all employees on LinkedIn'
+    Look for 1st or 2nd degree connections. Do not trust the LinkedIn filter for 2nd or 3rd degree connections. For some reason I found that the filter would show nobody as a 2nd degree connection but if I scrolled through the pages I would find several 2nd degree connections.
+    If you have a 1st degree connection, send them a message. "Hey [friend, old coworker, childhood nemesis]! I've been looking around at new jobs and see that you're working at [company]. Can I buy you a coffee and pick your brain about it a bit? I can meet you somewhere close to your office so it's easy for you. Any days next week work well?"
+    If you have a 2nd degree connection, send your existing friend a message. "Hey, it's been a while since we talked, I hope that [something you know about them] is going well! I'm looking for a new job and saw that you know [person] at [company]. I'd love to get in touch with them and figure out what it's like working there. Do you know them well enough to put me in touch? If it's helpful I can email you a quick intro blurb about me that you can just forward on to them."
+    If you absolutely can't find someone you know at a company, go ahead and apply for it normally.
+    Here's the priority order of people to reach out to. People who would be your peers (most relevant discussion, most relevant possible referral) -> the hiring manager for the role you want (most relevant discussion) -> sales people (always open to networking) -> anybody else (hey, there's a chance they can introduce you to the people above) -> recruiters (used to being annoyed by job seekers, actively trying to filter out candidates).
+    Figure out some questions you have about the company that don't have the answer somewhere on their website. "What do you think about what [competitor] is doing?" or "I saw in the news that you just launched [new product]. Where did the idea for that come from?" or "How do you guys usually handle [thing related to the job you want]?" Focus on questions that are related to the role you want to do so that you have knowledge you can use in interviews later.
+    Meet the person for coffee or over the phone. Ask your intelligent questions. Be interested in what they do and their company. You're 1) having a nice, social conversation, 2) showing them that you're smart / interested and 3) having them like you enough to root for you. Try not to bring up the job until they do or until you have about 5 minutes left. They'll usually ask how they can help you.
+    Mention that you saw a role and that you think you'd be a good fit for it because of [reason, reason, reason]. If the rest of the conversation went well they'll usually offer to refer you. If they don't, ask things like "Do you know who I could get in touch with about that role? Do you know who might be the hiring manager for it?" Send the resume along.
+
+
 
 
 
