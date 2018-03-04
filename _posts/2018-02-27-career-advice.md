@@ -358,6 +358,14 @@ Some tips for Skype and Online VIdeo interviews:
 * You can have notes in front of you. Take this to your advantage. Place your CV, company info, quesitons you want to ask infront of you so but make it so your interviewer can't see them.
 * DO NOT wear a headset or headphones. It looks unprofessional.
 
+Here's an example of a Skype interview:
+
+https://www.youtube.com/watch?v=d1CT5wr0I1c
+
+Here's a very famous example of a bad Skype interview:
+
+https://www.youtube.com/watch?v=d1CT5wr0I1c
+
 ## Phone Interview
 
 Normally used to determine if you're worth coming into the company for an interview. Almost always one employer interviewing you. 
@@ -493,20 +501,56 @@ More and more companies are switching to strength based interviews, with these c
 
 Strength based questions don't have a binary "right or wrong" answer. However, do be a decent human being. Don't talk badly about other people, don't lie, just be nice.
 
-Just like every other type of interview you'll need to incldude examples to back up your responses.
+Just like every other type of interview you'll need to incldude examples to back up your responses.#
+
+Here are some examples of strength based interview quesitons, taken from [here](https://www.prospects.ac.uk/careers-advice/interview-tips/strength-based-interviews).
+
+* What do you like to do in your spare time?
+* What energises you?
+* How would your close friends describe you?
+* Do you most like starting tasks or finishing them?
+* Do you prefer the big picture or the small details?
+* Describe a successful day. What made it successful?
+* What are you good at?
+* What are your weaknesses?
+* What did you enjoy studying at school or university?
+* When did you achieve something you’re really proud of?
+* What do you enjoy doing the least?
+* Do you find there are enough hours in the day to complete your to-do list?
+* What tasks are always left on your to-do list?
+* How do you stay motivated?
+* How do you feel about deadlines?
+* Have you ever done something differently the second time around?
+* Do you think this role will play to your strengths?
 
 
 
 ## Stress Based Interviews
 
 A stress based interview is designed to make you stressed, to put you under pressure to see how well you do.
-
-
+0
 The logic is that the way you respond under stress during the interview is indicative of the way you'll handle similar situations on the job.
 
 Creating an emotionally chaotic setting puts candidates under psychological stress to see if they will crack, remain calm, or even thrive under pressure.
 
-Stress interviews can be controversial because they create a sensitive and emotionally charged relationship between the applicant and the hiring manager, and thereby the company. Sometimes, even the most successful applicants will turn down an offer on account of the nature of the interview alone. 
+Stress interviews can be controversial because they create a sensitive and emotionally charged relationship between the applicant and the hiring manager, and thereby the company. Sometimes, even the most successful applicants will turn down an offer on account of the nature of the interview alone.
+
+Here's some stress based interview questions, taken from [here](https://www.betterteam.com/stress-interview-questions).
+
+* How do you feel this interview is going?
+* How would you handle undeserved criticism from a superior?
+* How many other jobs are you applying for?
+* What would you do if you saw a colleague stealing supplies or equipment?
+* What did you do when you had a boss you didn’t get along with?
+* What would you do if a colleague took credit for your idea, and got a promotion?
+* Was the stress of your previous job too much for you?
+* What would you do if a colleague admitted to lying on their resume to get the job?
+* What would you do if a customer verbally insulted you in front of co-workers?
+* What would you change about the design of a baseball hat?
+* Why were you fired from your previous job?
+* How successful do you think you've been so far?
+
+
 ## Technical Interviews
 
 ## Structured Interview
@@ -605,6 +649,21 @@ Let's say you want to work at an amusement park, like Dreamland or Thorpe Park. 
 # Networking
 
 # Passionate about your field
+
+# How to find the right job
+
+# Job hunting
+
+# Make sure the job you want won't disappoint you
+
+# How to negoiate in a job
+
+
+# Luck
+
+Luck can be expressed as the mathemtical formula:
+
+luck = hard work * [random number between 0.1 and 1]
 
 
 
