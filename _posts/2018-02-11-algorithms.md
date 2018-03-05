@@ -1359,7 +1359,25 @@ We first traverse the left subtree, and then the right subtree, and then finally
 
 Image from [here](https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm)
 
-https://www.youtube.com/watch?v=GJ9rSCZsTEw
+https://www.youtube.com/watch?v=GJ9rSCZsTEw TK watch this
+
+## Expression Trees
+
+TK expression tree here
+
+In fix notation is written as:
+
+$$ (2 + 5 * 4) * 3$$
+
+This is what we normally use. The operator (addition, multiplication) is **in** the expression.
+
+Postfix notation looks like:
+
+$$ 2 5 4 * + 3 * $$
+
+The operator is at the end of the expression it is evaluating. Computers often use this notation more than in-fix notation.
+
+If we look at the in order traversal for the expression tree we get the in fix notation. If we want to get the post fix we need to use post order traversal.
 
 # Eviction Algorithms
 
