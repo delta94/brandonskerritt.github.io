@@ -261,12 +261,15 @@ Once a subroutine goes to a place in code, how does it know where to return?
 It stores the return address into the instruction pointer register which always points at the next instruction.
 
 So let's say you have the code
+
 ```
 100
 101
 102
 ```
+
 and 101 points to a memory location which is a subroutine. The subroutine is 5 lines long, so the code changes to
+
 ```
 100
 201
@@ -277,6 +280,7 @@ and 101 points to a memory location which is a subroutine. The subroutine is 5 l
 206
 102
 ```
+
 where 20-something is the address of each instruction in the sub routine.
 
 A subroutine in assembley is programmed as
@@ -289,7 +293,9 @@ label ENDP
 
 The procedure is called by
 
+
  ```call label```
+
 
 You can use C functions inside assembley
 
