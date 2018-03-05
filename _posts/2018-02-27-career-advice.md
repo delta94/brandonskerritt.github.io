@@ -545,7 +545,6 @@ Here are some examples of strength based interview quesitons, taken from [here](
 * Do you think this role will play to your strengths?
 
 
-
 ## Stress Based Interviews
 
 A stress based interview is designed to make you stressed, to put you under pressure to see how well you do.
@@ -584,15 +583,23 @@ A structured interview is just another describing word for an interview. A struc
 
 Like above, an unstructured interview is just another describing word. These usually have perhaps 1 or 2 questions to start you off but all questions will mainly come from the interviewer curious as to your life.
 
-## Behavioral Interview
-
-## Watching you on the job interview
-
-## The case interview
-
 ## The Lunch interview
 
 ## Career Fair Interview
+
+## Interview Red Flags
+
+Here are some red flags of interviews:
+
+* Your interviewer is very late
+* Your interviwer disrespects members of staff in front of you
+* They haven't read your CV
+* They speak negatively about past employees
+* They swear and cuss
+* The company has high turnover, they repeatedly lose employees
+* The companies online reviews are bad
+
+If any of these appear in the interivew, you should think twice about working there.
 
 # Psychometric Tests
 
@@ -713,14 +720,8 @@ Like most things in job hunting you'll want to customise these questions per com
 
 # How to negoiate a wage
 
-# Luck
-
 # How to buy a suit
 
-# How to buy a dress
-Luck can be expressed as the mathemtical formula:
-
-luck = hard work * [random number between 0.1 and 1]
 
 https://www.reddit.com/r/jobs/comments/5nhmp3/finally_have_a_new_job_and_its_all_because_i_was/
 
