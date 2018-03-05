@@ -729,6 +729,33 @@ Avoid questions that can be answered "yes" or "no".
 
 Like most things in job hunting you'll want to customise these questions per company. The ones above are general but a good specific question about something the interviewer said will show you are listening.
 
+# Career Fairs
+
+Career Fairs are really popular in universities, sixth forms, and colleges so this section will all be about career fairs.
+
+## Preperation
+
+Some people have business cards, but outside of Asia they're not really much of a thing. They still exist, and you can have them, but they're not used so much.
+
+Research the companies that will be attending. Make a priority list of all the companies that you want to see.
+
+Make sure your CV is up to scratch and good looking, as you'll be handing this out a lot. Also make sure you print lots of copies of it.
+
+Have an elevator pitch ready for yourself. An elevator pitch is a 30 second pitch designed to let someone roughly know what you're about. It should feature your current positions, any important past positions and your general goals and life motto. Mine is:
+
+> Hi, I'm Brandon. Obsessive Learner and Problem Solver. Future world changer. Currently a computer science student at the University of Liverpool and a journalist for Hacker Noon. Previously Higher Education Vice President of the East Kent Group.
+
+Your elevator pitch needs to be persusive, it should make the listener interested in you. It should detail some skills you know and what your future goals are.
+
+Avoid rambling when giving an elevator pitch, don't frown or speak monotonely and don't restrict yourself to just one elevator pitch. You can haved more than 1 depending on who you talk to.
+
+## What to wear
+
+Dress smart. Imagine it's like a job interview.
+
+## Best Questions to Ask at a Careers Fair
+
+
 # Personal Hygine
 
 # Dressing right

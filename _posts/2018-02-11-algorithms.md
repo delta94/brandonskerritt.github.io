@@ -1329,7 +1329,7 @@ A binary tree has a degree of most 2. No vertex has a degree higher than 2. The 
 
 The left hand side tree is smaller, the right hand side tree is larger.
 
-TK image of binary tree
+![img](binary_tree.png)
 
 You can traverse binary trees using these 3 algorithms, but note that these only work on binary trees because we need to have a "left" subtree and a "right" subtree.
 
@@ -1360,6 +1360,10 @@ We first traverse the left subtree, and then the right subtree, and then finally
 Image from [here](https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm)
 
 https://www.youtube.com/watch?v=GJ9rSCZsTEw TK watch this
+
+### What if you forget which one's which?
+
+Luckily there's this "dot" notation you can use!
 
 ## Expression Trees
 
@@ -1398,6 +1402,10 @@ We would want to **evict** something from the cache in order to allow us to put 
 ## No Eviction
 
 The easiest algorithm would be to not evict any data at all. This is bad because that means that the data in the cache will stay that way forever. But obviously humans over time evole, what if we **never** use the number "4" but we always
+
+# Graphs
+
+
 
 # If you enjoyed this article, connect with me to learn more like this :)
 [LinkedIn](https://www.linkedin.com/in/brandonls/) | [Website](www.brandonskerritt.github.io) | Twitter

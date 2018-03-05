@@ -403,3 +403,42 @@ Let's say we want to pick a random person from a set of all people who read the 
 $$P(S_i:Chosen) = P_i$$
 
 A probability distribution is a sample space where every item has a probability value between 0 and 1 assigned to them that represents how likely they are to be picked.
+
+In total, if s is an element of S, that is, if an element s is a part of the set (group) of sample space, S, then:
+
+$$ \sum^{}_{s \in S} D(s) = 1$$
+
+If you add the probability of every element in the sample space, it has to sum to 1.
+
+When we want to sample this data set, we could just go through every single person in the dataset to get a good feel of the generalness of this sample. However, if there were 7 billion people in this dataset that may take a very very long time.
+
+There are 2 ways we can now sample the data.
+
+We can either randomly choose people from the dataset and use that as our sample or we can hand-pick a specific subset of the data to use.
+
+A __uniform__ dataset is one where everyone is equally likely to be picked. A __biased__ sample is not uniform, the people were hand picked.
+
+__Unbiased__ data sets seem "fair" whereas unbiased seem "unfair". With an unbiased sample we cannot fix the outcome. We cannot change the data to our favor.
+
+Sometimes we don't care about "fairness" and sometimes unbiased samples can lead to unexpected results.
+
+# Mean Average Value
+
+Given a population, S, whose members are sampled according to a distribution, D. The mean (expected) value of the random variable (remember random variables?) r(s) under D is denoted as
+
+$$e_d[S] = \sum^{}_{s \in S} D(s)r(s)$$
+
+This is simply states that the expected value is a "weighted" sum (taken over all the members, s, of the total population, S) of:
+
+> the chance that D selects s multipled by the value of the function returned by r for s, ie r(s).
+
+## In Unbiased Distributions
+
+In unbiased distributions the expected value is just the total sum of all the random variables divided by the population size:
+
+$$ \textbf{E}[S] = \frac{\sum_{s \in S} r(s)}{|S|}$$
+
+Suppose S 
+
+
+?? biased samples use random variables??
