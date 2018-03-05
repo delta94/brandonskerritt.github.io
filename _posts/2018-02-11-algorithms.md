@@ -1365,6 +1365,22 @@ https://www.youtube.com/watch?v=GJ9rSCZsTEw TK watch this
 
 Luckily there's this "dot" notation you can use!
 
+![img](dot_notation.png)
+
+So, firstly you need to know these dot positions. They'll come in handy in a second!
+
+So let's say you want to find the the pre-order traversal, you put the dot to the left of the node like in the picture above.
+
+![img](dot_notation_2.png)
+
+Then you write S on the left hand side of the root node and F on the right hand side of the root node.
+
+Now you simply draw a line from S to F
+
+![img](post_traversal.png)
+
+Try not to go back on yourself. We could of gone to 6 and then 5, but that would of made a mess and it would be hard for us to go back on ourselves without the lines looklikg like they touch.
+
 ## Expression Trees
 
 TK expression tree here
