@@ -669,6 +669,34 @@ Let's say you want to work at an amusement park, like Dreamland or Thorpe Park. 
 
 # Questions to ask your interviewer
 
+1. What skills and experiences would make an ideal candidate?
+
+This question makes the interviewer say out loud what they are looking for.
+
+2. How would you describe a typical day and week in this position?
+
+This question is just making sure that you are a good match for the position.
+
+3. When can I expect to hear from you?
+
+This question is handy to prevent your nerves from getting the better of you.
+
+4. Describe the culture of the company.
+
+This makes sure you are comfortable with the culture of the company.
+
+6. What do you like most about working for this company?
+
+This let's you connect with the interviewer on a personal level.
+
+## Some small hints
+
+Avoid questions that are about you like the salary, vacation time, work hours etc.
+
+Avoid questions that can be answered "yes" or "no".
+
+Like most things in job hunting you'll want to customise these questions per company. The ones above are general but a good specific question about something the interviewer said will show you are listening.
+
 # Personal Hygine
 
 # Dressing right
@@ -683,7 +711,7 @@ Let's say you want to work at an amusement park, like Dreamland or Thorpe Park. 
 
 # Make sure the job you want won't disappoint you
 
-# How to negoiate in a job
+# How to negoiate a wage
 
 # Luck
 
@@ -709,11 +737,6 @@ https://www.reddit.com/r/jobs/comments/7y8k6p/im_an_exrecruiter_for_some_of_the_
     Figure out some questions you have about the company that don't have the answer somewhere on their website. "What do you think about what [competitor] is doing?" or "I saw in the news that you just launched [new product]. Where did the idea for that come from?" or "How do you guys usually handle [thing related to the job you want]?" Focus on questions that are related to the role you want to do so that you have knowledge you can use in interviews later.
     Meet the person for coffee or over the phone. Ask your intelligent questions. Be interested in what they do and their company. You're 1) having a nice, social conversation, 2) showing them that you're smart / interested and 3) having them like you enough to root for you. Try not to bring up the job until they do or until you have about 5 minutes left. They'll usually ask how they can help you.
     Mention that you saw a role and that you think you'd be a good fit for it because of [reason, reason, reason]. If the rest of the conversation went well they'll usually offer to refer you. If they don't, ask things like "Do you know who I could get in touch with about that role? Do you know who might be the hiring manager for it?" Send the resume along.
-
-
-
-
-
 
 # TODO 
 

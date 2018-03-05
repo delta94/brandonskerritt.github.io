@@ -1323,6 +1323,25 @@ A **subtree** is a tree that comes from a vertex that isn't the **root** vertex.
 
 Any vertex can be considered a sub-tree with 1 single leaf in it.
 
+# Eviction Algorithms
+
+Let's say you have a slow hard drive, k, which contains the following data:
+
+$$ k = [4, 5, 3, 7, 9, 4] $$
+
+And you have a faster memory storage, called a __cache__, n, that has the rule n < k and n is a subset of k. So in other words, the cache can never be the same size as the hard drive or larger than the hard drive and all items in the cache must be in the hard drive. So we can have a cache like this:
+
+$$ n = [4, 5, 3, 7] $$
+
+And then in this instance we can say that cache can only hold 4 items.
+
+What if we wanted to add another item to the cache? What if we use the number "5" a lot? 
+
+We would want to **evict** something from the cache in order to allow us to put another item into the cache.
+
+## No Eviction
+
+The easiest algorithm would be to not evict any data at all. This is bad because that means that the data in the cache will stay that way forever. But obviously humans over time evole, what if we **never** use the number "4" but we always
 
 # If you enjoyed this article, connect with me to learn more like this :)
 [LinkedIn](https://www.linkedin.com/in/brandonls/) | [Website](www.brandonskerritt.github.io) | Twitter
