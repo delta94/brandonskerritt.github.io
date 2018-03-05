@@ -285,11 +285,6 @@ where 20-something is the address of each instruction in the sub routine.
 
 A subroutine in assembley is programmed as
 
-```label PROC
- BLAH
- BLAH BLAH
-label ENDP
-```
 
 The procedure is called by
 
