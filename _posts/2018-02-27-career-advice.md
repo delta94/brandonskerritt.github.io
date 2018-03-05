@@ -583,7 +583,21 @@ A structured interview is just another describing word for an interview. A struc
 
 Like above, an unstructured interview is just another describing word. These usually have perhaps 1 or 2 questions to start you off but all questions will mainly come from the interviewer curious as to your life.
 
-## The Lunch interview
+## The Lunch interview 
+
+One of the more informal types of interviews. The interviewer will buy you lunch and will interview you over lunch.
+
+Do some research on the restaurent you are going to. Try to decide what you will order in advance, before reaching the restaurent. Although a restaurent might feel more informal than an interview, make sure to dress the part.
+
+If you're applying for a company like Google, where everyone wears jeans and hoodies then wear jeans and a hoodie. Make sure you know what the company expects. Most businesses will require suits.
+
+Try to arrive 15 minutes before the time of the reservation and meet the employer outside the restaurent. 
+
+best thing you can do is take the lead from your interviewers. When you sit down, casually ask if they’ve been to the restaurant before and what they think are good options—hopefully their recommendations will give you a sense of an appropriate price range. If not, when the wait staff arrives, try to have your interviewer order first and choose something at that price point (or less).
+
+Also, be sure to pick an option that will be easy to eat while you’re talking. (Hint: Forkfuls of Caesar salad are easier to maneuver than a massive, messy sandwich.)
+
+Finally, no matter how casual your employer may be, you want to put forward your very, very best self. This means: Stay away from ordering alcohol, even if the interviewers do. If you get the job, you will have plenty of opportunities to share a drink with them—the interview is not the time or place to start.
 
 ## Career Fair Interview
 
@@ -592,11 +606,22 @@ Like above, an unstructured interview is just another describing word. These usu
 Here are some red flags of interviews:
 
 * Your interviewer is very late
+A little late is okay, but very late? They obviously do not care about you.
+
 * Your interviwer disrespects members of staff in front of you
+If they disrespect other members of staff, they are likely going to disrespect you.
+
 * They haven't read your CV
+
 * They speak negatively about past employees
+Again, if they disrespect past employees they'll likely disrespect you.
+
 * They swear and cuss
+Not professional. At all.
+
 * The company has high turnover, they repeatedly lose employees
+There's a reason they lose a lot of emplyoees.
+
 * The companies online reviews are bad
 
 If any of these appear in the interivew, you should think twice about working there.

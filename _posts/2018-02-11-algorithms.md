@@ -1323,6 +1323,44 @@ A **subtree** is a tree that comes from a vertex that isn't the **root** vertex.
 
 Any vertex can be considered a sub-tree with 1 single leaf in it.
 
+## Binary Tree
+
+A binary tree has a degree of most 2. No vertex has a degree higher than 2. The two subtrees are called the left subtree and the right subtree.
+
+The left hand side tree is smaller, the right hand side tree is larger.
+
+TK image of binary tree
+
+You can traverse binary trees using these 3 algorithms, but note that these only work on binary trees because we need to have a "left" subtree and a "right" subtree.
+
+### Pre-order Traversal
+
+A preorder traversal method visits the left subtree first, then the right and then eventually the right subtree. It tries to go down as far left as possible and stick to the left hand side as much as possible.
+
+![img](http://108.61.119.12/wp-content/uploads/2014/10/binary-tree-1-pre-order.gif)
+
+Gif from [here](http://108.61.119.12/wp-content/uploads/2014/10/binary-tree-1-pre-order.gif).
+
+### In-order Traversal
+
+The left subtree is visited first, then the root vertext and then the right sub-tree is visited.
+
+![img](https://www.tutorialspoint.com/data_structures_algorithms/images/inorder_traversal.jpg)
+
+Image from [here](https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm)
+
+In-order traversal gives us numbers in ascending order.
+
+### Post-order Traversal
+
+We first traverse the left subtree, and then the right subtree, and then finally the root node. The root node is visited **last**. 
+
+![img](https://www.tutorialspoint.com/data_structures_algorithms/images/postorder_traversal.jpg)
+
+Image from [here](https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm)
+
+https://www.youtube.com/watch?v=GJ9rSCZsTEw
+
 # Eviction Algorithms
 
 Let's say you have a slow hard drive, k, which contains the following data:
