@@ -451,7 +451,52 @@ This is just your typical mean value, the one you learn in school. My teacher ta
 
 > Hey diddle diddle the median is the middle we add and divide for the mean. The mode is the one you see the most, and the range is the difference in between!
 
-Suppose S 
+Suppose S is a collection of outcomes that may appear by rolling a die 6,000 times
+
+Then for a "fair" die you would expect to see each outcome 1,000 times.
+
+Suppose we have a game where players stake £1 and if the die lands on one of {1, 2, 3} the player gets £2 afterwards otherwise they lose their stake. In a fair game the player can expect to win 3/6 = 1/2 = half of the time.
+
+# Confidence Testing
+
+Let's say the hypothesis of an experiment's outcome is X, and the actual outcome is Y. 
+
+The outcome Y is so far away from the prediction that the hypothesis is false. This is called __significance__.
+
+A __null hypothesis__ states that the outcome **will** be X.
+
+__Significance__ represents that the likelihood of the **observed outcome** being "consistent" with the **predicted outcome**.
+
+An hypothesis can be "rejected" with observed outcomes with three increasing levels of confience:
+
+1. The probability that X holds given Y is at most 0.05 (significant)
+2. The probability that X holds given that Y has resulted is at most 0.01 (highly significant)
+3. The probability that X holds given that Y has resulted is 0.001 (very highly siginificant)
+
+There are two types of errors that can occur here:
+
+**Type 1 error** - A true hypothesis is rejected
+**Type 2 error** - A false hypothesis is accecpted
+
+## Measuring Signifcance
+
+The outcome of the event will get "closer and closer" towards the expected value can be expressed as a formula called the deviance. Recall that the event of a random variable in a sample space is:
+
+$$\textbf{E}_D[S] = \sum_{s \in S} D(s)r(s) $$
+
+Variance is just:
+
+> "How far away a chosen member is from the expected variable"
+
+$$ v_D(S) = \frac{1}{|S|} \sum_{s \in S} (r(s) - \textbf{E}_D[S])^2$$
+
+Doesn't that look horrible? Well, if we were to put the first formula in it would look like:
+
+$$ v_D(S) = \frac{1}{|S|} \sum_{s \in S} (r(s) - \sum_{s \in S} D(s)r(s))^2$$
+
+Doesn't that look like the most horrible formula ever?
+
+the r(s) part is the random variable, the subset of the population. The $$\textbf{E}_D[S]$$ part is the expected value of a random member.
 
 
 ?? biased samples use random variables??

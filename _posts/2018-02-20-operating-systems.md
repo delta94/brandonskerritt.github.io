@@ -634,6 +634,11 @@ T1 gets to its wait operation, sees the flag is raised so it goes to its critica
 
 Again t1 and t2 are both inside critical regions.
 
+A producer will wait while the buffer is full, a consumer will wait while it is empty. This is called **spinlock** or **busy-waiting**.
+
+# Dining Philosophers Problem
+
+
 
 
 
@@ -659,9 +664,12 @@ I'm also a:
 journalist at hackernoon and politics means politics
 show screenshot of getting 8k reads a month
 
+slide_3.5
+previously higher education vice president where i increased student satisfaction from ~30% to ~95%
+
 slide_4
 winner of 4 hackathons
 show images of hackathon socieites
 
 slide_5 
-- as many pictures as possible
+Social media links - website
