@@ -5,6 +5,41 @@ categories:
 ---
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+<!-- code_chunk_output -->
+
+* [High Level Probability](#high-level-probability)
+* [Discrete Probability](#discrete-probability)
+	* [Example](#example)
+* [An Introduction to Solving Probability Problems](#an-introduction-to-solving-probability-problems)
+	* [Sample Space](#sample-space)
+	* [Outcome](#outcome)
+	* [Probability Space](#probability-space)
+	* [Example](#example-1)
+* [Events](#events)
+	* [Why are Events Important?](#why-are-events-important)
+	* [The Probability of the Complement of an Event](#the-probability-of-the-complement-of-an-event)
+	* [Why is the Complement Useful?](#why-is-the-complement-useful)
+* [The Union of Two Events (Inlcusion-Exclusion Principle)](#the-union-of-two-events-inlcusion-exclusion-principle)
+	* [Union of Three Disjoint Events](#union-of-three-disjoint-events)
+	* [Example Question](#example-question)
+* [Conditional Probability](#conditional-probability)
+* [Bayes Therom](#bayes-therom)
+* [Random Variables](#random-variables)
+* [Joint Probability Distributions](#joint-probability-distributions)
+* [Full Joint Probability Distribution](#full-joint-probability-distribution)
+* [Maginilization](#maginilization)
+* [Conditonal / Posterior Probability](#conditonal-posterior-probability)
+* [Expected Value](#expected-value)
+* [Statistics](#statistics)
+* [Sample Space](#sample-space-1)
+* [Probability Distribution](#probability-distribution)
+* [Random Variables](#random-variables-1)
+* [Mean Average Value with Random Variables](#mean-average-value-with-random-variables)
+	* [In Unbiased Distributions](#in-unbiased-distributions)
+* [Confidence Testing](#confidence-testing)
+	* [Measuring Signifcance](#measuring-signifcance)
+
+<!-- /code_chunk_output -->
 
 
 https://unsplash.com/photos/piG9Ye_oHrI

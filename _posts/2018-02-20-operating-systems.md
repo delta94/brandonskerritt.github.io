@@ -658,6 +658,8 @@ The philospher with index K must be able to use both chopsticks
 
 k and (k+1) mod 5 chopsticks
 
+**deadlock** occurrs in a concurrenct system when each participant is waiting on others to do something. When EVERY process in that set is waiting for another member of the set to do something then you've got deadlock.
+
 
 slide 1
 Hi I'm Brandon.
