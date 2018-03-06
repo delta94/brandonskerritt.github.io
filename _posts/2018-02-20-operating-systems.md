@@ -660,34 +660,4 @@ k and (k+1) mod 5 chopsticks
 
 **deadlock** occurrs in a concurrenct system when each participant is waiting on others to do something. When EVERY process in that set is waiting for another member of the set to do something then you've got deadlock.
 
-
-slide 1
-Hi I'm Brandon.
-Picture of me?
-interested in:
-blockchain
-artifical intelligence
-python
-web dev
-
-slide_2
-I'm currently a:
-CS student @ UoL
-HSC health and welfare rep
-Faculty rep
-course rep
-
-slide_3
-I'm also a:
-journalist at hackernoon and politics means politics
-show screenshot of getting 8k reads a month
-
-slide_3.5
-previously higher education vice president where i increased student satisfaction from ~30% to ~95%
-
-slide_4
-winner of 4 hackathons
-show images of hackathon socieites
-
-slide_5 
-Social media links - website
+**Starvation** means one or more of the participants in a concurrent system is denied access resources.

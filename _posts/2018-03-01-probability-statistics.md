@@ -533,9 +533,28 @@ Doesn't that look like the most horrible formula ever?
 
 the r(s) part is the random variable, the subset of the population. The $$\textbf{E}_D[S]$$ part is the expected value of a random member.
 
+Variance always produces a non negative value.
+
 The standard deviation is just this formula, square rooted.
 
 $$ \sigma = \sqrt{\frac{1}{|S|} \sum_{s \in S} (r(s) - \sum_{s \in S} D(s)r(s))^2}$$
 
+It's actually more commonly written as:
 
-?? biased samples use random variables??
+$$\sqrt{v_D(S)}$$
+
+I just wanted to see how convuluted the formula could become.
+
+The standard deviation is just:
+
+> "How far away the largest (or smallest) data point is from the mean average".
+
+## Q-test
+
+Given a predicted outcome, X, of an experiment and the actual outcome, Y. If we know the **standard deviation** for the environment in which the experiment is set, then we can compute the value:
+
+$$ q = \frac{|Y-X|}{\sigma}$$
+
+If q > 0.01 then X holds with probability at best 0.05
+If q > 2.33 then X holds with probability at best 0.01
+If q > 3.09 then X holds with probability at best 0.001

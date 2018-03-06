@@ -755,7 +755,22 @@ Dress smart. Imagine it's like a job interview.
 
 ## Best Questions to Ask at a Careers Fair
 
-One of the best questions you can do is ask employees what they think 
+The questions to ask can either be generic or tailored to the industry (which usually impresses recruiters but requires prior commercial awareness).
+
+Some common generic questions to ask are:
+
+* Where do you see yourself in 5 years time?
+This forces the recruiter to talk about themselves and people love talking about themselves.
+
+* What are some of the interesting projectrs you are working on right now?
+
+* What are the challenges facing the company?
+
+## General Tips
+
+At the very end of every converstation always ask "can I contact you with further questions, do you have a business card?" and if they don't write down their name, add their LinkedIn and add a customised message to the add so they know who you are.
+
+Make sure to have lots of copies of your CV!
 
 # Personal Hygine
 
