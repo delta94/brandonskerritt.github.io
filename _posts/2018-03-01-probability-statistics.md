@@ -498,5 +498,9 @@ Doesn't that look like the most horrible formula ever?
 
 the r(s) part is the random variable, the subset of the population. The $$\textbf{E}_D[S]$$ part is the expected value of a random member.
 
+The standard deviation is just this formula, square rooted.
+
+$$ \sigma = \squareroot{\frac{1}{|S|} \sum_{s \in S} (r(s) - \sum_{s \in S} D(s)r(s))^2}$$
+
 
 ?? biased samples use random variables??

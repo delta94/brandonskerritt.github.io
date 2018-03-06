@@ -638,9 +638,25 @@ A producer will wait while the buffer is full, a consumer will wait while it is 
 
 # Dining Philosophers Problem
 
+The producer-consumer problem models a synchronization environment which processes with dinstinct roles have to coordinate with each other.
 
+## General Setting
 
+n "philosphers" and all they do is eat-think-eat-think all day long.
 
+Philsophers need nothing in order to think, but in order to eat a philsopher needs 2 items of cutlery (2 chopsticks).
+
+Only n chopsticks, however, are provided.
+
+This means that if a philsopher is hungry BUT either neighbour is eating thne he / she must wait until both chopsticks are available.
+
+If there are 5 philsophers then there are 5 chopsticks. So they have to share, becasue you need 2 chopsticks to eat.
+
+Each philsopher has a unique index value {0, 1, 2, 3, 4}.
+
+The philospher with index K must be able to use both chopsticks
+
+k and (k+1) mod 5 chopsticks
 
 
 slide 1
