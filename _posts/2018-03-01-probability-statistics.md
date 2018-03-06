@@ -500,7 +500,7 @@ the r(s) part is the random variable, the subset of the population. The $$\textb
 
 The standard deviation is just this formula, square rooted.
 
-$$ \sigma = \squareroot{\frac{1}{|S|} \sum_{s \in S} (r(s) - \sum_{s \in S} D(s)r(s))^2}$$
+$$ \sigma = \sqrt{\frac{1}{|S|} \sum_{s \in S} (r(s) - \sum_{s \in S} D(s)r(s))^2}$$
 
 
 ?? biased samples use random variables??
