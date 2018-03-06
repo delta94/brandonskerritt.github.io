@@ -346,7 +346,7 @@ K|
 And we add an item, X, like so
 
 X |
-:---:
+:---: | 
 N|
 Y|
 Q|

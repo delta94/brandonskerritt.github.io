@@ -295,8 +295,6 @@ The polar coordinate system we work in a 2 dimensional plane, the complex plane,
 
 In the Euler form we have a complex number who's modulus is |z| and size is z has an angle with the x axis given by theta as an argument theta and in this case the given complex number is simply r multiplied by the exponential function raised to the value r * theta.
 
-
-
 # Another idea from exponent form
 
-We take the size of the complex number (always a positive number) and then take the positive squareroot of that value and then we multiply the positive squareroot by e^i(0/2)z
+We take the size of the complex number (always a positive number) and then take the positive squareroot of that value and then we multiply the positive squareroot by e^i(0/2).
