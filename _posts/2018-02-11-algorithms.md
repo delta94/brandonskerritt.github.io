@@ -1383,7 +1383,9 @@ Try not to go back on yourself. We could of gone to 6 and then 5, but that would
 
 ## Expression Trees
 
-TK expression tree here
+![img](https://screenshotscdn.firefoxusercontent.com/images/7857d7ec-2240-41d8-9fea-b29cee899dc4.png)
+
+A mathematical expression can be expressed as a tree like so.
 
 In fix notation is written as:
 
@@ -1393,7 +1395,9 @@ This is what we normally use. The operator (addition, multiplication) is **in** 
 
 Postfix notation looks like:
 
-$$ 2 5 4 * + 3 * $$
+$$ 2\space 5\space4 * + 3 * $$
+
+We can use post-fix traversal to get the postfix notational representation of 
 
 The operator is at the end of the expression it is evaluating. Computers often use this notation more than in-fix notation.
 
@@ -1419,9 +1423,74 @@ We would want to **evict** something from the cache in order to allow us to put 
 
 The easiest algorithm would be to not evict any data at all. This is bad because that means that the data in the cache will stay that way forever. But obviously humans over time evole, what if we **never** use the number "4" but we always
 
-# Graphs
+# Graph and Graph Theory
+
+If you want to learn **a lot** about Graph Theory, check out this [article](https://medium.freecodecamp.org/i-dont-understand-graph-theory-1c96572a1401)
+
+The seven bridges of Konigsberg is the foundation and birth of graph theory.
+
+![img](https://cdn-images-1.medium.com/max/2000/1*Yiwa1Lzpj6XHAXW3G9KcqA.png)
+
+There was a puzzle that stated:
+
+> Can you cross all seven bridges exactly once?
+
+![img](https://i.ytimg.com/vi/Gp9kV1UAjz8/maxresdefault.jpg)
+
+There are 2 rules for this problem:
+
+1. Do not cross any bridge twice
+2. All bridges must be crossed
 
 
+In the 18th Century a 
+mathematician in Euler 
+
+An __undirected__ graph G = (V, E) consists of a set of vertices V and a set of edges. It is an undirected graph because the edges do not have any direction. 
+
+TK image of undirect graph here
+
+Each edge is an unordered pair of vertices, {c, b} refers to {b, c}.
+
+A __direct__ graph G = (V, E) is where each vertice has a direction.
+
+TK image of directed graph here.
+
+Think of it like Facebook and Twitter. On Facebook when you friend someone, the other person is automatically a friend of you. 
+
+TK image of facebook undirected graph
+
+Graphs are used to model computer networks, state spaces of finite games such as Chess.
+
+simple graph definition
+
+at mosto n edge between two vextrexs, no self loop (an edge from a vertex to itself)
+
+multigraph - more than one edge between two vertices
+
+in an undirected graph, G, suppose that e = {u, v} is an edg eof G
+
+u and v are said to be __adjacent__ and are called _neighbours__ of each other
+
+u and v are called endpoints of e
+
+e is said to be incident with u and v
+
+e is said to connect u and v
+
+see photos ****
+
+the degree of the graph is the maximum edges connected to a particualr vertex.
+
+she talks about matrices
+
+adjanecy matrix, M by M matrix which is the same size as when we have M vertexes.
+
+We use 1 and 0 to represent wehn a pair of vertexes are connected or not.
+
+slide 12 on 06/03/2018
+
+we can represent this as a linked list
 
 # If you enjoyed this article, connect with me to learn more like this :)
 [LinkedIn](https://www.linkedin.com/in/brandonls/) | [Website](www.brandonskerritt.github.io) | Twitter

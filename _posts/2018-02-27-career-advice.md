@@ -755,6 +755,7 @@ Dress smart. Imagine it's like a job interview.
 
 ## Best Questions to Ask at a Careers Fair
 
+One of the best questions you can do is ask employees what they think 
 
 # Personal Hygine
 

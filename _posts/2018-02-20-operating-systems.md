@@ -633,3 +633,35 @@ Let's suppose t2 gets there first, it's raising an already raised flag and s wou
 T1 gets to its wait operation, sees the flag is raised so it goes to its critical region.
 
 Again t1 and t2 are both inside critical regions.
+
+
+
+
+
+slide 1
+Hi I'm Brandon.
+Picture of me?
+interested in:
+blockchain
+artifical intelligence
+python
+web dev
+
+slide_2
+I'm currently a:
+CS student @ UoL
+HSC health and welfare rep
+Faculty rep
+course rep
+
+slide_3
+I'm also a:
+journalist at hackernoon and politics means politics
+show screenshot of getting 8k reads a month
+
+slide_4
+winner of 4 hackathons
+show images of hackathon socieites
+
+slide_5 
+- as many pictures as possible

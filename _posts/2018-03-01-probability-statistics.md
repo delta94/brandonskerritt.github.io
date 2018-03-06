@@ -422,9 +422,18 @@ __Unbiased__ data sets seem "fair" whereas unbiased seem "unfair". With an unbia
 
 Sometimes we don't care about "fairness" and sometimes unbiased samples can lead to unexpected results.
 
-# Mean Average Value
+# Random Variables
 
-Given a population, S, whose members are sampled according to a distribution, D. The mean (expected) value of the random variable (remember random variables?) r(s) under D is denoted as
+Remember earlier when we said that random variables are functions? Well, if you apply a random variable to a sample space, a population like so:
+
+$$ r(s) $$
+
+You get a **biased** data set from that sample space. It's biased because we're not randomly picking people in the set; we are applying a filter - a rule to the set to get a subset of the population.
+
+# Mean Average Value with Random Variables
+
+Given a population, S, whose members are sampled according to a distribution, D. The mean (expected) value of the random variable 
+r(s) under D is denoted as
 
 $$e_d[S] = \sum^{}_{s \in S} D(s)r(s)$$
 
@@ -437,6 +446,10 @@ This is simply states that the expected value is a "weighted" sum (taken over al
 In unbiased distributions the expected value is just the total sum of all the random variables divided by the population size:
 
 $$ \textbf{E}[S] = \frac{\sum_{s \in S} r(s)}{|S|}$$
+
+This is just your typical mean value, the one you learn in school. My teacher taught me a cool song to remember the differences between mean, range, median etc.
+
+> Hey diddle diddle the median is the middle we add and divide for the mean. The mode is the one you see the most, and the range is the difference in between!
 
 Suppose S 
 
