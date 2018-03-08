@@ -1505,33 +1505,39 @@ u and v are called __endpoints__ of e
 
 e is said to __connect__ u and v
 
+The degree of a vertex is how many edges are connected to it.
+
+The degree of the graph is the maximum edges connected to a particualr vertex. In this graph the degree is 3, since vertex u has degree 3 and is the largest degree in the graph.
+
 ## Matrix Representation of Graphs
 
 An undirected graph can be represented by an adjanecy matrix.
 
 A matrix is like a vector or a set, it's a storage unit to store numbers in it.
 
-An adjacency matrix, M, for a simple undirected graph with n vertices is called an __n x n matrix__.
+An __adjacency matrix__, M, for a simple undirected graph with n vertices is called an __n x n matrix__.
 
 In this matrix if vertex i and vertex j are adjacent (neighbours) then you can represent this on the matrix with the number 1.
 
 If they are not, use the number 0.
 
-$\begin{pmatrix}0 & 0 & 1 & 1 & 0\\\ 0 & 0 & 1 & 1 & 0 \\\ 1 & 1 & 0 & 1 & 1\\\ 1 & 1 & 1 & 0 & 1 \\\ 0 & 0 & 1 & 1 & 0 \end{pmatrix}$
+![img](matrix1.png)
 
-The degree of a vertex is how many edges are connected to it.
+To represent this in a matrix, we can do the following:
 
-The degree of the graph is the maximum edges connected to a particualr vertex. In this graph the degree is 3, since vertex u has degree 3 and is the largest degree in the graph.
+![img](matrix.png)
 
-she talks about matrices
 
-adjanecy matrix, M by M matrix which is the same size as when we have M vertexes.
+An __incident matrix__ is an m x n matrix where m is the number of edges in the graph.
 
-We use 1 and 0 to represent wehn a pair of vertexes are connected or not.
+For this graph again:
 
-slide 12 on 06/03/2018
+![img](matrix1.png)
 
-we can represent this as a linked list
+We can use this incidence matrix to represent it:
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/288aaf09-2802-4332-9844-07a7da4665ad.png)
+
 
 # If you enjoyed this article, connect with me to learn more like this :)
 [LinkedIn](https://www.linkedin.com/in/brandonls/) | [Website](www.brandonskerritt.github.io) | Twitter
