@@ -661,3 +661,30 @@ k and (k+1) mod 5 chopsticks
 **deadlock** occurrs in a concurrenct system when each participant is waiting on others to do something. When EVERY process in that set is waiting for another member of the set to do something then you've got deadlock.
 
 **Starvation** means one or more of the participants in a concurrent system is denied access resources.
+
+# Deadlock
+
+When two trains approach each other at a crossing,both shall come to a full stop and neither shall start up again until the other has gone.
+
+Deadlock happens when every process is waiting on a process to finish.
+
+# Resource Allocation
+
+# Resource allocation graphs
+
+* no cycles in this graph mean there is no deadlock
+* diagraph
+
+quest: how many resources in r4? slide 7 comp124-18
+
+r boxes are type of resource
+
+dots in boxes are number of that type of resource
+
+p circles are processes
+
+in general, a cycle __indicates__ there _**may**_ be deadlock.
+
+# Ways to deal with deadlock
+
+Most operating systems ignore deadlock because it is costly to deal with.

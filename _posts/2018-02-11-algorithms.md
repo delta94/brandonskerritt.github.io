@@ -1443,44 +1443,85 @@ There are 2 rules for this problem:
 2. All bridges must be crossed
 
 
-In the 18th Century a 
-mathematician in Euler 
+In the 18th Century a mathematician called Euler realised this problem was impossible. Every bit of land you enter has to have 2 bridges, or an even number of bridges. One you can leave on, one you can enter on.
+
+You'll notice a part of the land does not have an even number of bridges, it actually has 3 bridges. 
 
 An __undirected__ graph G = (V, E) consists of a set of vertices V and a set of edges. It is an undirected graph because the edges do not have any direction. 
 
-TK image of undirect graph here
+![img](undirected_graph.png)
 
-Each edge is an unordered pair of vertices, {c, b} refers to {b, c}.
+Excuse my messy drawing but it is incredibly hard to draw on Paint with a touchpad.
 
-A __direct__ graph G = (V, E) is where each vertice has a direction.
+Each edge is an unordered pair of vertices. So {a, b} is the same as {b, a}.
 
-TK image of directed graph here.
+A __directed__ graph G = (V, E) is where each vertice has a direction.
+
+![img](directed_graph.png)
 
 Think of it like Facebook and Twitter. On Facebook when you friend someone, the other person is automatically a friend of you. 
 
-TK image of facebook undirected graph
+![img](https://www.safaribooksonline.com/library/view/mining-the-social/9781449368180/httpatomoreillycomsourceoreillyimages1815321.png)
+
+image from [here](https://www.safaribooksonline.com/library/view/mining-the-social/9781449368180/ch02.html)
 
 Graphs are used to model computer networks, state spaces of finite games such as Chess.
 
-simple graph definition
+Here are some of the different types of graphs:
 
-at mosto n edge between two vextrexs, no self loop (an edge from a vertex to itself)
+**Simple Graph**
 
-multigraph - more than one edge between two vertices
+The Simple Graph has at most 1 edge between 2 vertices and it has no self-loop. It has no edges that come from a vertex and go back to that same vertex.
 
-in an undirected graph, G, suppose that e = {u, v} is an edg eof G
+This is **not** a simple graph:
 
-u and v are said to be __adjacent__ and are called _neighbours__ of each other
+![img](simplegraph.png)
 
-u and v are called endpoints of e
+And this is not a simple graph, because a vertex exists with no edges connecting to it:
 
-e is said to be incident with u and v
+![img](simplegraph2.png)
 
-e is said to connect u and v
+This is a simple graph:
 
-see photos ****
+![img](simplegraph3.png)
 
-the degree of the graph is the maximum edges connected to a particualr vertex.
+**Multi Graph**
+
+A multi graph allows more than one edge between two vertices:
+
+![img](multigraph.png)
+
+## More on Undirected Graphs and Terminology
+
+In an undirected graph, G, suppose that e = {u, v} is an edge of G
+
+![img](multigraph.png)
+
+u and v are said to be __adjacent__ and are called __neighbours__ of each other
+
+e is said to be __incident__ with u and v
+
+u and v are called __endpoints__ of e
+
+e is said to __connect__ u and v
+
+## Matrix Representation of Graphs
+
+An undirected graph can be represented by an adjanecy matrix.
+
+A matrix is like a vector or a set, it's a storage unit to store numbers in it.
+
+An adjacency matrix, M, for a simple undirected graph with n vertices is called an __n x n matrix__.
+
+In this matrix if vertex i and vertex j are adjacent (neighbours) then you can represent this on the matrix with the number 1.
+
+If they are not, use the number 0.
+
+$\begin{pmatrix}0 & 0 & 1 & 1 & 0\\\ 0 & 0 & 1 & 1 & 0 \\\ 1 & 1 & 0 & 1 & 1\\\ 1 & 1 & 1 & 0 & 1 \\\ 0 & 0 & 1 & 1 & 0 \end{pmatrix}$
+
+The degree of a vertex is how many edges are connected to it.
+
+The degree of the graph is the maximum edges connected to a particualr vertex. In this graph the degree is 3, since vertex u has degree 3 and is the largest degree in the graph.
 
 she talks about matrices
 
