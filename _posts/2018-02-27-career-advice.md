@@ -7,6 +7,7 @@ categories:
 So I got really sick and tired of seeing "How to get the perfect job" and then them only giving you like 3 paragraphs and saying "buy my book or sign up to my email list to get the rest XDDDDDDD" so I'm releasing all the informatiomn I've learnt from these scam artists for free.
 
 Also I'm really sick and tired of Medium articles that are 5 - 7 minutes long and they talk about how amazing the author is and then they release a single sentence of information that's useful. So this is a no-thrills no-handrails guide to jobs.
+
 # CV
 
 ## Personalise your CV
@@ -166,13 +167,12 @@ Questions will come up about you, about what you've done, about your CV.
 
 Fully understand everything there is to know about yourself.
 
-# Pre project
 
 # Answereing interview questions
 
 Always answer using the STAR method - Situation, task, action, result.
 
-# 15 Interview Questions
+## 15 Interview Questions
 
 According to Reed, there are really only 15 interview questions. All other interview questions stem from them.
 
@@ -336,6 +336,16 @@ Notice how I'm tooting my own horn here, this question allows you to do that.
 
 
 10. What did you like and dislike about your last job?
+
+11. How did you hear about this position?
+
+This question is simply the inteerview asking you a normal question. No unique tricks here. Use this question to show your passion for the company, but be genuine. If you've known about a company for years then say so.
+
+12. Why should we hire / choose you?
+
+You should come up with a standardised answer here that can be customised per company.
+
+
 
 # Change "uhhhh" to "    "
 
