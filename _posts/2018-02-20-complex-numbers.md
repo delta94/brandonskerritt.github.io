@@ -265,7 +265,7 @@ The complex conjugate is shown below the original complex number.
 
 We can think of a complex number z = x + iy as a vector from <0, 0> to <x, y>.
 
-The _length_ of this vector is the modulus |Z|.
+The _length_ of this vector is the modulus \|Z\|.
 
 The _conjugate_ is just the reflection of z in the x-axis.
 
