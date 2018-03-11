@@ -1548,7 +1548,7 @@ An __out-degree__ of a vertex, v, is the number of edges leading away from v.
 
 The __in-degree__ is the same as the __out-degree__. It's also the same as the number of edges.
 
-$$ in\spacedegree\spacesum = out\spacedegree\spacesum = number\spaceof\spaceedges$$
+$$ in \space degree \space sum = out \space degree \space sum = number \spaceof\space edges$$
 
 A directed graph can be represented by an adjacency matrix or an incidence matrix.
 
@@ -1637,7 +1637,7 @@ You may notice this looks different from Big O notation, well, for some reason a
 
 $$ O(|v|)$$
 
-Where |v| is the number of nodes.
+Where \|v\| is the number of nodes.
 
 ### Disadvantages
 
