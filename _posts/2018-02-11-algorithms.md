@@ -1548,7 +1548,7 @@ An __out-degree__ of a vertex, v, is the number of edges leading away from v.
 
 The __in-degree__ is the same as the __out-degree__. It's also the same as the number of edges.
 
-$$ in-degree-sum = out-degree-sum = number-of-edges$$
+$$ in\spacedegree\spacesum = out\spacedegree\spacesum = number\spaceof\spaceedges$$
 
 A directed graph can be represented by an adjacency matrix or an incidence matrix.
 
@@ -1595,6 +1595,14 @@ A __simple__ circuit visits an edge at most once (so never goes back to the same
 
 An __Euler circuit__ is a circuit visiting every edge exactly once (so can go back to the same vertex).
 
+This is the exact same circuit Euler wanted to create on the Kronenbeig problem earlier. To cross every bridge (edge) exactly once, but allowing you to go to the vertexes (islands) as many times as you want.
+
+An __Hamiltonian circuit__ (not named after Alexandria Hamilton) is a circuit containing **every vertex** of a graph, G, exactly once.
+
+It does not matter in a Hamiltonian circuit whether or not you visit all of the edges.
+
+Determining whether a graph contains a Hamiltonian circuit is an NP-hard problem. For information on NP-hardness click [here](https://stackoverflow.com/questions/1857244/what-are-the-differences-between-np-np-complete-and-np-hard).
+
 # Searching on Trees / Graphs
 
 Okay, so we've met trees and graphs. But how do we search them? We can use some of these nifty search algorithms!
@@ -1610,6 +1618,8 @@ The Breadth First Search Algorithm has a queue which is vital to how it works. B
 Because of the first in first out nature, the first ones added to the queue are the first ones out of the queue, so it would search in the order 4, 3, 6, 5.
 
 Breadth first search searches in "levels". It starts at level 1, [1], then goes down to level 2, [1:2, 1:3, 1:4].
+
+![img](https://upload.wikimedia.org/wikipedia/commons/5/5d/Breadth-First-Search-Algorithm.gif)
 
 ### Advantages
 
@@ -1651,6 +1661,8 @@ The time complexity of DFS is 1+ b² + b³ + … +b^m
 
 The advantage of DFS over BFS is the space complexity. Once a path has been fully explored it can be removed from memory, so DFS only needs to store the root node, all the children of the root node and where it currently is. DFS requires space complexity of bm where b is the branching factor and m is the longest path in the graph.
 
+![img](https://upload.wikimedia.org/wikipedia/commons/7/7f/Depth-First-Search.gif)
+
 ## Uniform Cost Search
 
 ![img](https://cdn-images-1.medium.com/max/800/1*ddvmo7Xf05rQpoKJC9ARog.gif)
@@ -1668,6 +1680,8 @@ In other words, if Uniform Cost Search expands into a node with a cost path of z
 We can gurantee completeness using this search method by making sure the cost of every step is greater than or equal to a small positive constant.
 
 Uniform Cost Search is guided by path costs and not lengths so it’s complexity cannot easily be shown. Instead, let X be the cost of the optimal solution and assume that every action costs at least Y. Then the algorithms worst case scenario is O(b[X/Y]) which can be much greater than B^d, which makes Uniform Cost Search slower and more resource hungry than Breadth First Search.
+
+![img](https://media.giphy.com/media/Qdoy3PeuyBxdu/source.gif)
 
 ## Depth Limited Search
 

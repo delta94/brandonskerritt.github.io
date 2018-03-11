@@ -96,7 +96,7 @@ The complex conjugate of z is denoted $$\mathbb{z}$$ and is the complex number:
 
 $$\hat{z} = \hat{x + \mathbb{i}} = x - \mathbb{i}y$$
 
-The modulus of Z, denoted |Z|is the positive real number given by:
+The modulus of Z, denoted \|Z\| is the positive real number given by:
 
 $$|Z| = |x + \mathbb{i}y| = \sqrt{x^2 + y^2}$$
 

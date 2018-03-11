@@ -189,8 +189,9 @@ Make sure it has a definite end. Don't just end it willy-nilly and expect the in
 Here's my own example:
 
 >I'm a computer science student at the university of liverpool aiming to get a first class degree, previously studying computing at a local college.
-
->While at college I became the student union's higher education vice president. During this role I improved the collective college partnership consisting of 5 colleges. Towards the end of my role the annual student survey was completed and every section for the student union, most noticably the student union satisfaction and representation area went up by 30% to around ~85%. The skills I learnt was to be an effecticve team player, to communicate complicated ideas to board members in meetings, interviewing skills and how to deal with deadlines which i believe will help me in this position during work.
+>
+>While at college I became the student union's higher education vice president. During this role I ran the collective college partnership's Student Union consisting of 5 colleges. Towards the end of my role the annual student survey was completed and every section for the student union, most noticably the student union satisfaction and representation area went up from 30% to around ~85%. The skills I learnt were to be an effecticve team player, to communicate complicated ideas to board members in meetings, interviewing skills and how to deal with deadlines which i believe will help me in this position during work.
+> If there is anything else you would like to know, feel free to ask me.
 
 Most candiates fail this question because they don't know what to talk about.
 
