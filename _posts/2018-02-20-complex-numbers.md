@@ -293,7 +293,7 @@ We can view them as coordinates in 2-dimensional systems such as in Argang diagr
 
 The polar coordinate system we work in a 2 dimensional plane, the complex plane, but now insetad of thinking explicitly in terms of how far along the x axis how far along the y axis we view the complex numbers given by the length fo ap articular line and the angle formed by the vector to the origin roatetd anti-clockwise from the x axis.
 
-In the Euler form we have a complex number who's modulus is |z| and size is z has an angle with the x axis given by theta as an argument theta and in this case the given complex number is simply r multiplied by the exponential function raised to the value r * theta.
+In the Euler form we have a complex number who's modulus is \|z\| and size is z has an angle with the x axis given by theta as an argument theta and in this case the given complex number is simply r multiplied by the exponential function raised to the value r * theta.
 
 # Another idea from exponent form
 
