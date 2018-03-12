@@ -14,6 +14,12 @@ You do not need to calculate 3 + 4 and then calculate 3 * 2, you can calculate t
 
 When you do these calculations at the same time, this is called a "thread". We will show how threads work in Java.
 
+# Threds
+
+
+
+"A thread in computer science is short for a thread of execution. Threads are a way for a program to divide (termed "split") itself into two or more simultaneously (or pseudo-simultaneously) running tasks. Threads and processes differ from one operating system to another but, in general, a thread is contained inside a process and different threads in the same process share same resources while different processes in the same multitasking operating system do not."
+
 # Java Threads
 
 When a Java program starts up, a single thread is always created for the program.

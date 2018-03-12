@@ -346,8 +346,6 @@ This question is simply the inteerview asking you a normal question. No unique t
 
 You should come up with a standardised answer here that can be customised per company.
 
-
-
 # Change "uhhhh" to "    "
 
 Instead of saying "uhhhh" and "ehhhhhh" just pause. Smile. DO NOT rush through your interview.
@@ -788,6 +786,10 @@ Make sure to have lots of copies of your CV!
 # Dressing right
 
 # Networking
+
+Networking is the **science** of meeting like minded people and befriending them in order to advance yourself in your career. Networking can happen anywhere, anytime - but it is normally undertaken at a __networking event__. You can find networkin events by using [Meetup](https://www.meetup.com) or using LinkedIn.
+
+When at a networking event do try to look and act professional. Depending on the event you may not need to wear attire suitable for an interview. If it's a casual breakfast / lunch event normal work clothes will be fine.
 
 # Passionate about your field
 

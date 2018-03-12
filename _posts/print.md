@@ -40,7 +40,10 @@ Cyberists are intrigued by unexplored technology. Dedicated to fulfilling a bigg
 10. Why should we hire you?
 
 > Firstly, I'm an extremely fast learner. This is demonstrated by my awards from hackathons, where I'm usually put in a team using a language I do not know to use an API I do not know in order to create a program which I have never made anything similar for before.
-> Secondly,I feel like I have a bigger role to fufill in society. Coming from a not so nice background, I want to change the world. I want to enable people to easily learn whatever they want, I want to keep everyone safe from these new complicated viruses and cyber security threats. I started my blog as a way to not only teach my self new topics but to help teach others difficult topics.
+> Secondly,I feel like I have a bigger role to fufill in society. Coming from a not so nice background, I want to change the world. I want to enable people to easily learn whatever they want, I want to keep everyone safe from these new complicated viruses and cyber security threats.
 
 11. Why do you want this job?
 
+12. Have you ever done anything related to cyber security before?
+
+A few years ago I was in a cafe and asked for the Wi-Fi password. The password given to me was for the cafe's home network. A quick NMAP scan showed that they had their personal devices on this personal network and they were giving out their wifi password to anyone who asked. I wrote a letter to the business explaining how this is bad and explained how they could fix it. I never went back but I would like to assume they fixed the issue.

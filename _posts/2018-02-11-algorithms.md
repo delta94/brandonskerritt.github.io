@@ -151,6 +151,15 @@ Selection Sort  | O(n^2)
 | Queue              | O(n)   | O(n)   | O(1)      | O(1)     |
 | Singly-Linked List | O(n)   | O(n)   | O(1)      | O(1)     |
 | Doubly-Linked List | O(n)   | O(n)   | O(1)      | O(1)     |
+| Binary Trees       | O(Log n)|O(log n)|O(log n)  | O(log n) |
+
+Search Algorithms for Graphs / Trees | Time Complexity | Space Complexity
+--- | --- | --- | ---
+Breadth First Search | $$B^d$$ | $$B^d$$
+Depth First Searxh | $$B^m$$ | bm
+Depth Limited Search | $$B^{l}$$ - where l is the depth limit | bl where l is the depth limit
+Iterative Deepening Search | $$B^d$$ | bd
+Bi-directional search | $$\frac{b}{2}$$ | $$\frac{b}{2}
 
 
 <a name="sequential-search"></a>
@@ -1621,11 +1630,13 @@ Breadth first search searches in "levels". It starts at level 1, [1], then goes 
 
 ![img](https://upload.wikimedia.org/wikipedia/commons/5/5d/Breadth-First-Search-Algorithm.gif)
 
+
+
 ### Advantages
 
 Breadth-first search is complete, as in it will always find a path and the shortest path to the goal, assuming the goal is at a finite depth.
 
-### Space and Time Complexity
+### Space and Time Complexity - A Quick Detour
 
 Time complexity is how long it takes the algorithm to run given an input, usually denoted in Big O notation. Space complexity is how much the algorithm takes up in memory. Although this depends on the hardware factors, just like with Big O notation we can use a notation to represent how much space it’ll take up.
 
@@ -1639,9 +1650,15 @@ $$ O(|v|)$$
 
 Where \|v\| is the number of nodes.
 
+I believe this notation is used because it is the notation used in the book "Artificial Intelligence: A Modern Approach" by Russel and Norvig and because this book is **the** book on Artifical Intelligence everyone uses their notation.
+
+**b** is the branching factor of the tree.
+**d** is the shallowest goal node (the lowest level at which a node is a goal for a given search problem)
+**m** is the maximum length of any path in the state space.
+
 ### Disadvantages
 
-Breadth First Search is very, very slow and requires a lot of memory.
+Breadth First Search is very, very slow and requires a lot of memory, however, on a smaller graph / tree it is efficient.
 
 ## Depth First Search
 
