@@ -1924,7 +1924,7 @@ If we have a tree with n vertexes, the number of edges connecting all the vertex
 
 $$ # \space of \space spanning \space trees = {# \space of \space edges}\choose{# \space of \space vertices-1}$$
 
-$$ # of spanning trees = {# of edges}\choose{# of vertices-1}$$
+$$ \# of spanning trees = {\# of edges}\choose{\# of vertices-1}$$
 
 ![img](https://www.tutorialspoint.com/data_structures_algorithms/images/spanning_trees.jpg)
 
