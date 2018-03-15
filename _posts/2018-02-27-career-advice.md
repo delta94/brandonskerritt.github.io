@@ -163,7 +163,7 @@ Pauline is a powerhouse and the queen of personal branding. She's an amazing exa
 
 ### Twitter
 
-Pauline is VERY active on Twitter.
+Pauline is VERY active on Twitter. She regularly posts professionally about her life, and only ever positive things, or in her words, "pawsitive".
 
 # Know yourself
 

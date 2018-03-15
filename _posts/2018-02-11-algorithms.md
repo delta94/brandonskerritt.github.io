@@ -1427,9 +1427,94 @@ What if we wanted to add another item to the cache? What if we use the number "5
 
 We would want to **evict** something from the cache in order to allow us to put another item into the cache.
 
+A **hit** is what happens when a user requests data and it is in the cache. A **miss** is what happens when the data isn't in the cache.
+
 ## No Eviction
 
-The easiest algorithm would be to not evict any data at all. This is bad because that means that the data in the cache will stay that way forever. But obviously humans over time evole, what if we **never** use the number "4" but we always
+The easiest algorithm would be to not evict any data at all. This is bad because that means that the data in the cache will stay that way forever. But obviously humans over time evole, what if we **never** use the number "4" but we always use another number? Well, luckily there are algorithms that actually evict things!
+
+## Evict Largest
+
+This eviction algorithm goes through the array and evicts the number that is the largest of all of them. This is where the min / max algorithm seen earlier comes into play. Once we find the largest number in the list, which for n is 7, we evict it and we insert something new into it.
+
+Here we insert the miss, the item that wasn't in the cache when the user requested it, into the cache.
+
+## Evict First in First Out
+
+This algorithm reads the cache and the first item put into the cache is the first one evicted.
+
+If we have the cache:
+
+$$ n = [4, 5, 3, 7] $$
+
+And we want to insert a missed item, 31, into the cache we will remove the first item from the cache and replace it with 31 like so:
+
+$$ n = [31, 5, 3, 7] $$
+
+This is where it changes every so slightly! Instead of always sticking with the first in first out principle, we ignore 31 and go onto the next number. If we always remove the first one, we would just only change the first item. We need a "head" variable which always points to the first (but not inserted into) item in the cache.
+
+So the head would first point at array index 0, then array index 1, then array index 2.
+
+## Least Frequently Used
+
+This cache makes the most sense, but take's a lot to implement. The item in the cache that is least frequently used is evicted from the cache.
+
+There are 2 main methods to implement this. The first is using a dictionary, hash, hashmap, map, any data structure that has a key : definition style.
+
+I prefer calling it a dictionary, as it looks like a dictionary. You have a definition and you have the meaning of the definition. A dictionary entry may look like:
+
+```
+Love
+
+lʌv
+noun
+
+a strong feeling of affection.
+```
+
+The important part here are these parts:
+
+```
+definition: Love
+Description: A strong feeling of affection.
+```
+
+This can be expressed in Python as:
+
+```python
+a = {"Love" : "A strong feeling of affection."}
+```
+
+So we can build a cache, like this:
+
+```python
+a = {31: 1, 5: 1, 3: 1, 7: 1}
+```
+
+Where every definition starts out with a descrption which is how many times it has been searched of "1".
+
+Now whenever the user makes a request to the cache and the item is in the cache we increment it by 1. So if the user wanted 5, we would do:
+
+```python
+a = {31: 1, 5: 2, 3: 1, 7: 1}
+```
+
+What if the user requests something that isn't in the cache, like 6?
+
+Well what we have to do is evict the item with the lowest number of requests. However in this example 3 items have the same number of hits, 1. So what we do is we just evict the left-most item.
+
+```python
+a = {6: 1, 5: 2, 3: 1, 7: 1}
+```
+
+If the user requests 31 again, it just places it back into the dicitonary with a value of 1.
+
+Another way to do this is to have 2 lists (arrays) both of length n. The first list contains the data and the second list contain the hit counters. It would look something like this:
+
+```python
+a = [6, 5, 3, 7]
+b = [1, 2, 1, 1]
+```
 
 # Graph and Graph Theory
 
