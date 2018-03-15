@@ -171,7 +171,6 @@ Questions will come up about you, about what you've done, about your CV.
 
 Fully understand everything there is to know about yourself.
 
-
 # Answereing interview questions
 
 Always answer using the STAR method - Situation, task, action, result.

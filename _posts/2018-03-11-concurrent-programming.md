@@ -295,6 +295,7 @@ public void run(){
 ```
 
 Chopstick code:
+
 ```java
 class Chopstick{
     private volatile boolean in_use = false;
@@ -316,3 +317,22 @@ class Chopstick{
 }
 ```
 
+What if every philosopher picks up the chopstick to their right? Well, when they go to pick up the chopstick to their left they have seen that the stick on the left is being used by someone else. So all the philsophers would wait indefinitely for a chopstick to be released. A situation like this is called **deadlock (deadly embrace)**. Where every process is waiting on something.
+
+One of the solutions to this is to only allow n-1 philosophers to dine simultaenously.
+
+We could also make even numbered philosophers pick up chocksticks in the order right then left and we can make odd philsophers pick up left then right.
+
+We can also insist that both chopsticks are claimed at the same time.
+
+But all of this complicates the code.
+
+Now let's suppose Phillosopher 0 and Phillosopher 2 grab their chopsticks first, then  P1, P3, and P4 have to wait to eat. If P0 and P2 put down their chopsticks and then immedtiailly claim them again, the others will never eat.
+
+Even if p0 and p2 took turns, p1 would never eat!
+
+This is called **starvation**. Starvation occurs when one or more of the partiticpants in a concurrent system is denied access to resources.
+
+# Shortest Remaining Time First
+
+Preemptive version of the 

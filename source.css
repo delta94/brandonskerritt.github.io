@@ -4,6 +4,10 @@
 }
 */
 
+.card {
+  width: 30rem;
+}
+
 body {
   background-color: rgb(250, 250, 250);
 }
@@ -142,10 +146,25 @@ body {
   text-align: center;
 }
 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: red !important;
+  background-color: gray;
+}
+
+.btn-primary{
+  background-color: gray;
+  border-color: gray;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  outline: none;
+  margin: 5px;
+}
+
 .btn {
   background-color: gray;
   font-family: 'Roboto', sans-serif;
   color: white;
+  outline: none;
   margin: 5px;
 }
 
@@ -216,14 +235,15 @@ body {
 
 .code-item {
   overflow: hidden;
-  background-color: white;
-  padding-left: 1%;
-  padding-right: 1%;
+  background-color: rgb(230, 230, 230);
+  padding-left: 3%;
+  padding-right: 3%;
   padding-bottom: 1%;
   padding-top: 1%;
   margin: 2%;
-  width: 100%;
-  height: 95%;
+  +
+  /*width: 75%;
+  height: 75%;*/
   
 }
 

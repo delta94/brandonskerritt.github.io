@@ -1886,7 +1886,7 @@ There is also a second list, a list of every node that has already been visited 
 
 TK alpha beta pruning
 
-# Greedy Algorithm
+# Greedy Algorithms
 
 It's best to show how a Greedy algorithm works with an example.
 
@@ -1924,20 +1924,23 @@ If we have a tree with n vertexes, the number of edges connecting all the vertex
 
 $$ # \space of \space spanning \space trees = {# \space of \space edges}\choose{# \space of \space vertices-1}$$
 
-$$ \# of spanning trees = {\# of edges}\choose{\# of vertices-1}$$
+$$ number of spanning trees = {number of edges}\choose{number of vertices-1}$$
 
 ![img](https://www.tutorialspoint.com/data_structures_algorithms/images/spanning_trees.jpg)
 
 ## Kruskal's Algorithm
 
-![vid](https://www.youtube.com/watch?v=71UQH7Pr9kU)
+https://www.youtube.com/watch?v=71UQH7Pr9kU
 
 Kruskal's algorithm let's us find the minimum spanning tree of a graph.
 
 We choose the edge with the least weight, and then we continue adding the smallest weight. If we form a cycle, don't include that edge.
 
-![img](https://upload.wikimedia.org/wikipedia/commons/5/5c/MST_kruskal_en.gif).
+![img](https://upload.wikimedia.org/wikipedia/commons/5/5c/MST_kruskal_en.gif)
 
+It's really quite a simple and greedy algorithm to find a miinmum spanning tree of a graph.
+
+Honestly that Wikimedia gif does a way bettter job at explaining Kruskal's algorithm then I could.
 
 # If you enjoyed this article, connect with me to learn more like this :)
 [LinkedIn](https://www.linkedin.com/in/brandonls/) | [Website](www.brandonskerritt.github.io) | Twitter
