@@ -159,7 +159,11 @@ Here's a good LinkedIn inforgraphic from [here](https://www.leisurejobs.com/geta
 
 ## Meet Pauline
 
-Pauline is a powerhouse and the queen of personal branding.
+Pauline is a powerhouse and the queen of personal branding. She's an amazing example at how to build a personal brand.
+
+### Twitter
+
+Pauline is VERY active on Twitter.
 
 # Know yourself
 

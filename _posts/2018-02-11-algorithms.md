@@ -142,7 +142,6 @@ Bubble Sort     | O(n^2)
 Insertion Sort  | O(n^2)
 Selection Sort  | O(n^2)
 
-<br>
 
 |   Data Structure   | Access | Search | Insertion | Deletion |
 | ------------------ | ------ | ------ | --------- | -------- |
@@ -159,7 +158,7 @@ Breadth First Search | $$B^d$$ | $$B^d$$
 Depth First Searxh | $$B^m$$ | bm
 Depth Limited Search | $$B^{l}$$ - where l is the depth limit | bl where l is the depth limit
 Iterative Deepening Search | $$B^d$$ | bd
-Bi-directional search | $$\frac{b}{2}$$ | $$\frac{b}{2}
+Bi-directional search | $$\frac{b}{2}$$ | $$\frac{b}{2}$$
 
 
 <a name="sequential-search"></a>
@@ -1630,7 +1629,9 @@ Breadth first search searches in "levels". It starts at level 1, [1], then goes 
 
 ![img](https://upload.wikimedia.org/wikipedia/commons/5/5d/Breadth-First-Search-Algorithm.gif)
 
+When we look at a neighbour we need to see if it's neighbours have been visited yet. In order to do this we need to "mark" the vertex to signify we haven't looked at it yet.
 
+Here's some psuedocode fopr this with a linked list / queue
 
 ### Advantages
 
@@ -1797,6 +1798,60 @@ In a game such as chess the trees are extremely large. In chess the number of mo
 Minimax tries to reduce the maximum damage the opponent can do whilest reaping the maximum possible reward for us assuming the opponent plays optimally.
 
 There is also a second list, a list of every node that has already been visited in the search tree.
+
+TK alpha beta pruning
+
+# Greedy Algorithm
+
+It's best to show how a Greedy algorithm works with an example.
+
+Let's say we have 3 coins:
+
+10p
+
+![img](http://www.checkyourchange.co.uk/wp-content/uploads/2015/03/10p1992rev.jpg)
+
+20p
+
+![img](http://www.checkyourchange.co.uk/wp-content/uploads/2015/03/20p1982rev.jpg)
+
+50p
+
+![img](https://i.ebayimg.com/images/g/JIwAAOSwM8ZZePIj/s-l300.jpg)
+
+What is the minimum number of coins needed to make 80p, £1, or £1.40?
+
+Sure, we could make 80p with 8 10p coins but we want to find a way to do it with the least number of coins, one of the solutions are: 10p + 20p + 50p.
+
+The idea is for every step try to make the best move you can make and keep going until you're done.
+
+Let's say we have an **undirected connected** graph, G, which has edges that are labelled by weight.
+
+This is a weighted graph:
+
+![img](http://d2vlcm61l7u1fs.cloudfront.net/media%2Fbdd%2Fbdd8745f-583a-4851-bd09-104c78fe7afc%2FphpCNXNbc.png)
+
+A **spanning tree** of G is a tree containing all vertices in G.
+
+A **minimum spanning tree** is a spanning tree of G with minimum weight.
+
+If we have a tree with n vertexes, the number of edges connecting all the vertexes are n - 1. The number of possible spanning trees is:
+
+$$ # \space of \space spanning \ space trees = {# \space of \ space edges}\choose{# \space of \space vertices-1}$$
+
+![img](https://www.tutorialspoint.com/data_structures_algorithms/images/spanning_trees.jpg)
+
+## Kruskal's Algorithm
+
+![vid](https://www.youtube.com/watch?v=71UQH7Pr9kU)
+
+Kruskal's algorithm let's us find the minimum spanning tree of a graph.
+
+We choose the edge with the least weight, and then we continue adding the smallest weight. If we form a cycle, don't include that edge.
+
+![img](https://upload.wikimedia.org/wikipedia/commons/5/5c/MST_kruskal_en.gif).
+
+
 # If you enjoyed this article, connect with me to learn more like this :)
 [LinkedIn](https://www.linkedin.com/in/brandonls/) | [Website](www.brandonskerritt.github.io) | Twitter
 upscribe

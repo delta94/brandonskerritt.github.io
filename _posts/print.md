@@ -26,7 +26,7 @@ Cyberists are intrigued by unexplored technology. Dedicated to fulfilling a bigg
 > Hopefully having started to change the world. I don't know enough about this role, but I aim to continue working for this company as a graduate and perhaps in 5 years time I would have liked to learnt enough to be able to train people and help them in future roles, to really make a difference to this world.
 
 9. What have you achieved in other roles?
-
+z
 > My role as Higher Education Vice President started off on a bad turn. There were supposed to be 5 student union officers, but only I wanted to do the job. Effectively leaving me in charge of the work of 5 people, all whilest the student union staff who work with us had left to go to another job.
 >
 > Luckily this was perfect for me, as I stepped up when no one else would. I travelled to every campus as much as possible to make sure all students were listened to. When a group of students came to me telling me that their course isn't being properly funded I demanded a meeting with the principle of East Kent College to fix this.
@@ -47,3 +47,17 @@ Cyberists are intrigued by unexplored technology. Dedicated to fulfilling a bigg
 12. Have you ever done anything related to cyber security before?
 
 A few years ago I was in a cafe and asked for the Wi-Fi password. The password given to me was for the cafe's home network. A quick NMAP scan showed that they had their personal devices on this personal network and they were giving out their wifi password to anyone who asked. I wrote a letter to the business explaining how this is bad and explained how they could fix it. I never went back but I would like to assume they fixed the issue.
+
+13. Describe a diffficult problem you had and had to solve
+
+# Questions to ask the interviewer
+
+What skills and experiences would make an ideal candidate?
+
+When can I expect to hear from you?
+
+Describe the culture of the company.
+
+What do you like most about working for this company?
+
+What's your favourite part of the job?
