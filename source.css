@@ -80,7 +80,7 @@ body {
 
 .main {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-justify: auto;
 }
 
@@ -154,7 +154,7 @@ body {
 .btn-primary{
   background-color: gray;
   border-color: gray;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
   outline: none;
   margin: 5px;
@@ -162,7 +162,7 @@ body {
 
 .btn {
   background-color: gray;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
   outline: none;
   margin: 5px;
@@ -219,7 +219,7 @@ body {
 .education-text {
   font-weight: 300;
   font-size: 1.5rem;
-  font-family: 'Alegreya', serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 5%;
 }
 
@@ -257,7 +257,7 @@ body {
 
 .time {
   font-weight: bold;
-  font-family: 'Alegreya', serif;
+  font-family: 'Scope One', serif;
   text-align: center;
   font-size: 1.25em;
 }

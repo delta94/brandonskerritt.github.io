@@ -1924,7 +1924,7 @@ If we have a tree with n vertexes, the number of edges connecting all the vertex
 
 $$ # \space of \space spanning \space trees = {# \space of \space edges}\choose{# \space of \space vertices-1}$$
 
-$$ number of spanning trees = {number of edges}\choose{number of vertices-1}$$
+$$ number of spanning trees = {number of edges \choose number of vertices-1}$$
 
 ![img](https://www.tutorialspoint.com/data_structures_algorithms/images/spanning_trees.jpg)
 
@@ -1941,6 +1941,20 @@ We choose the edge with the least weight, and then we continue adding the smalle
 It's really quite a simple and greedy algorithm to find a miinmum spanning tree of a graph.
 
 Honestly that Wikimedia gif does a way bettter job at explaining Kruskal's algorithm then I could.
+
+## Single Source Shortest Paths
+
+If we have 2 vertices and we want to find the **shortest** (shortest means lowest weight) paths from vertex 1 to vertex 2 then we will want to use an algorithm to find this.
+
+### Dijkstra's Algorithm
+
+Dijkstra's algorithm assumes that the weights of the edges are not negative.
+
+The steps are to:
+
+1. Choose the edge adjacent to the chosen vertex such that the cost of the path to the vertex is minimum
+
+![img](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiJlvfn6fDZAhWrC8AKHf-FDnEQjRx6BAgAEAU&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDijkstra%2527s_algorithm&psig=AOvVaw2P-jAojat3t37pH602wLGz&ust=1521289087604817)
 
 # If you enjoyed this article, connect with me to learn more like this :)
 [LinkedIn](https://www.linkedin.com/in/brandonls/) | [Website](www.brandonskerritt.github.io) | Twitter

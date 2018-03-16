@@ -333,6 +333,177 @@ Even if p0 and p2 took turns, p1 would never eat!
 
 This is called **starvation**. Starvation occurs when one or more of the partiticpants in a concurrent system is denied access to resources.
 
-# Shortest Remaining Time First
+# Resource Allocation Graph
 
-Preemptive version of the 
+![img](https://screenshotscdn.firefoxusercontent.com/images/d1004006-92e6-4a35-972a-112622f20db1.png)
+
+A resource allocation graph is a graph which has processes (circles) and resources (squares). The number of dots inside a resource square is the number of resources it can give out. Arrows pointing to processes from resources indicate that Process X is using resource Y.
+
+When a resource graph has no cycles, it has no deadlock. Typically a cycle **indicates** deadlock, but not always.
+
+# Dealing with Deadlock
+
+You can prevent deadlock by making a system which deadlock cannot possibly occur. You can avoid deadlock by making decisions dynamically as to which resource requests can be granted. You can always allow deadlock to occur, then cure it or to just ignore the problem.
+
+## Deadlock Prevention
+
+- Force processes to claim all resources in one operation
+- Require processes to claim resources in pre-defined manner
+- Grant requests only if all allocated resources released first
+
+## Deadlock Avoidance
+
+- Requires information about which resources a process plans to use
+- When a request is made, system analyses allocation graph to see if it may lead to deadlock
+
+## Detection and Recovery
+
+- Requires analysis of graph
+- Recovery could involve process termination
+
+## Ignoring deadlock
+
+Used by Windows, Unix, JVM. Deadlock rarely happens in the real world and its costly to avoid / prevent / recover from it.
+
+# Process Scheduling
+
+In any multiprogramming situation, processes must be scheduled.
+
+The **scheduler** selects the next job from the "ready queue". The ready queue is a queue where processes go when they are ready to go onto the next step of their programming.
+
+Scheduling algorithms may be **preemptive** or **non-preemptive**. 
+
+None preemptive scheduling is where once the CPU has been allocated to a process the process keeps it until it is released unpon termination of the process orby switching to the "waiting" state.
+
+## Scheduling Policies
+
+Several criteria need to be considered:
+
+- **Maximise Throughput** - Complete as many processes as possible in a given amount of time
+- **Minimise response time** - Minimise amount of time it takes from when a request was submitted until the first response is produced
+- **Minimise turnaround time** - Move entire processes in and out of the system quickly
+- **Minimise waiting time** - Minimise amount of time a process spends waiting in the ready queue
+- **Maximise CPU efficieny** - Keep the CPU constantly busy
+- **Ensure fairness** - Give every process an equal amount of CPU and I/O time.
+
+## Scheduling Algorithms
+
+The scheduler relies on algorithms that are based on a specific policy to allocate the CPU.
+
+Process scheduling algorithms that have been widely used are:
+
+- first come, first serve
+- shortest job first
+- shortest remaining time first
+- priority scheduling
+- round robin
+- multilevel queues
+
+### First Come, First Served
+
+Simplest of the algorithms to implement and understand. Uses a first in first out queue.
+
+Non-preemptive algorithm that deals with jobs according to their arrival time. The sooner a process arrives in the scheduler, the sooner it gets the CPU.
+
+When a new process enters the system its PCB is linked to the end of the "ready" queue.
+
+The process is removed from the front of the queue when the CPU becomes available.
+
+#### Example
+
+Suppose we have three processes arrving in the following order:
+
+- p1 with burst of 13 milliseconds
+- p2 with cpu burst of 5 milliseconds
+- p3 with cpu burst of 1 millisecond
+
+Using the FCFS algorithm we can view the result as:
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/21896c18-590c-44d9-881e-8083296ee905.png)
+
+### First Come, First Served
+
+Given the CPU burst times of the process, we know what their individual wait times will be:
+
+- 0 milliseconds for p1
+- 13 milliseconds for p2
+- 18 milliseconds for p3
+
+The average wait time will be (0 + 13 + 18) / 3 = 10.3 milliseconds
+
+**Advantages**
+Very easy policy to implement
+
+**Disadvantages**
+The average wait time using a FCFS policy is generally not minimal and can vary substaniatlly.
+
+### Shortest Job First
+Non-preemptive algorithm that deals with processes addording to their CPU time.
+- When the CPU becomes available it is assigned to the next process that has the smallest burst time
+- If two processes have the same burst time, FCFS is used to determine which one gets the CPU
+
+
+Suppose we have four processes as follows:
+- P1 with CPU burst of 5 milliseconds
+- P2 with CPU burst of 9 millioseconds
+- P3 with CPU burst of 6 milliseconds
+- P4 with CPU burst of 3 milliseconds
+
+Using the SJF algorithm the processes can be viewed in the following Gantt chart:
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/94ffb5f6-850c-4805-97f7-5c05010aae09.png)
+
+**Advantages**
+SJF reduces the overall waiting time
+
+**Disadvantages**
+
+Can lead to starvation.
+May be difficult to estimate execution times.
+
+### Shortest Remaining Time First
+
+Preemptive version of the shortest job first
+
+Jobs can arrive at different times, doesn't have to be in queue.
+
+CPU is allocated to job that is closet to being completed
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/6b3e747a-8ce6-4f0b-8d38-45719da93204.png)
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/dc88e67e-6cfa-42ac-a2fe-47f34cd2e95a.png)
+
+Gantt charts **will** come up on the exan,
+
+## Priority Scheduling
+
+Algorithms that give preferential treatment to important jobs.
+
+Each process is given a priority and the one with the highest prioty is granted the CPU.
+
+With priorities, the higher the number the higher the priority.
+
+# Round Robin
+
+Prempetive Algorithm that gives a set CPU time to all active processes.
+Similar to FCFS but allows for preemptive by switching between processes
+
+Hence the name round robin it just goes around a queue.
+
+Time is defined by a **time quantum**; a small unit of time varying between 10 and 100 milliseconds.
+
+Ready queue treated as first-in-first-out queue.
+
+CPU scheduler selects the process at the front of the queue, sets the timer, once the timer runs out takes it away from the CPU.
+
+If the process' CPU burst timne is less than the specified time quantum it will release the CPU upon completion.
+
+If the process' CPU burst time is more than the specified time quantum, the timer will expire and cause an interrupt.
+
+questions:
+
+what is pcb
+When a new process enters the system its PCB is linked to the end of the "ready" queue.
+
+what is burst
+p1 with burst of 13 milliseconds
