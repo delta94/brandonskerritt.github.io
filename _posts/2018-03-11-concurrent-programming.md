@@ -507,3 +507,9 @@ When a new process enters the system its PCB is linked to the end of the "ready"
 
 what is burst
 p1 with burst of 13 milliseconds
+
+750. Aproximately the number of visitors to your coffee shop every day. 465,700. The number of citizens in Liverpool that you can advertise to using Google Adwords. Adwords lets you advertise to a specific geographical audience. You can quadruple the number of daily visitors in a week - max, if you use Adwords.
+
+40,000. The number of Google searches every second. You could rank top for "niche coffee shop" and have millions of people want to go to your coffee shop.
+
+Newspapers are old methods of advetisement. Why advertise to the 20% of people who read newspapers when you can advertise to every single person in your market in Liverpool?
