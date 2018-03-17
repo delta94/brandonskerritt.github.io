@@ -163,7 +163,33 @@ Pauline is a powerhouse and the queen of personal branding. She's an amazing exa
 
 ### Twitter
 
+https://twitter.com/paulienuh
+
 Pauline is VERY active on Twitter. She regularly posts professionally about her life, and only ever positive things, or in her words, "pawsitive".
+
+She uses her own hashtaghs such as "#Pawgainz".
+
+Pauline has a professional twitter username, a nice coverphoto explaining exactly what she does and what she's all about and a nice profile picture.
+
+Her bio neatly sums up all of her jobs and the things she likes. Her location displays where she's from and where she lives. 
+
+She regularly tweets about things she is passionate about and makes sure to tag and hashtag appropriately. 
+
+With Twitter it's important to hashtag correctly. Try to meld your hashtags into your text so it's readable. Don't just dump them all at the end of a tweet to try and gain peoples attention. Take for example, Pauline's tweet here:
+
+https://twitter.com/paulienuh/status/975085689682448384
+
+Notice how when she talks about a company, she tags them in it and when she talks about a community or something she hashtags it in. Notice how it reads so cleanly. Now look at this:
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Hey <a href="https://twitter.com/ShfWit?ref_src=twsrc%5Etfw">@ShfWit</a>! Happy to see a <a href="https://twitter.com/hashtag/WiT?src=hash&amp;ref_src=twsrc%5Etfw">#WiT</a> group in Sheffield - thanks for starting a conversation locally ♥️<br><br>At <a href="https://twitter.com/sheffielduni?ref_src=twsrc%5Etfw">@sheffielduni</a> we&#39;ve created a student WiT community with ladies that have taken part in <a href="https://twitter.com/CodeFirstGirls?ref_src=twsrc%5Etfw">@CodeFirstGirls</a>: <a href="https://twitter.com/hashtag/shefcodefirst?src=hash&amp;ref_src=twsrc%5Etfw">#shefcodefirst</a>. 💖 Should definitely collaborate in some way! <a href="https://twitter.com/hashtag/ShfWIT?src=hash&amp;ref_src=twsrc%5Etfw">#ShfWIT</a></p>&mdash; Pauline P. Narvas (@paulienuh) <a href="https://twitter.com/paulienuh/status/975085689682448384?ref_src=twsrc%5Etfw">March 17, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="nl" dir="ltr">Snapchat UI developer team:)<a href="https://twitter.com/hashtag/gaming?src=hash&amp;ref_src=twsrc%5Etfw">#gaming</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://twitter.com/hashtag/drones?src=hash&amp;ref_src=twsrc%5Etfw">#drones</a> <a href="https://twitter.com/hashtag/VR?src=hash&amp;ref_src=twsrc%5Etfw">#VR</a> <a href="https://twitter.com/hashtag/tech?src=hash&amp;ref_src=twsrc%5Etfw">#tech</a> <a href="https://twitter.com/hashtag/code?src=hash&amp;ref_src=twsrc%5Etfw">#code</a> <a href="https://twitter.com/hashtag/anime?src=hash&amp;ref_src=twsrc%5Etfw">#anime</a> <a href="https://twitter.com/hashtag/STEM?src=hash&amp;ref_src=twsrc%5Etfw">#STEM</a> <a href="https://twitter.com/hashtag/AR?src=hash&amp;ref_src=twsrc%5Etfw">#AR</a> <a href="https://twitter.com/hashtag/DevOps?src=hash&amp;ref_src=twsrc%5Etfw">#DevOps</a> <a href="https://twitter.com/hashtag/AI?src=hash&amp;ref_src=twsrc%5Etfw">#AI</a> <a href="https://twitter.com/hashtag/CSS?src=hash&amp;ref_src=twsrc%5Etfw">#CSS</a> <a href="https://twitter.com/hashtag/spotify?src=hash&amp;ref_src=twsrc%5Etfw">#spotify</a> <a href="https://twitter.com/hashtag/design?src=hash&amp;ref_src=twsrc%5Etfw">#design</a> <a href="https://twitter.com/hashtag/iTunes?src=hash&amp;ref_src=twsrc%5Etfw">#iTunes</a> <a href="https://twitter.com/hashtag/Python?src=hash&amp;ref_src=twsrc%5Etfw">#Python</a> <a href="https://twitter.com/hashtag/snap?src=hash&amp;ref_src=twsrc%5Etfw">#snap</a> <a href="https://t.co/CQBFZFjdwE">pic.twitter.com/CQBFZFjdwE</a></p>&mdash; PitchCrunch (@PitchCrunch) <a href="https://twitter.com/PitchCrunch/status/975104344482705409?ref_src=twsrc%5Etfw">March 17, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+![img](https://www.reactiongifs.com/wp-content/uploads/2012/12/too-much.gif)
+
+Sorry if you're PitchCrunch but the way this hashtagging is done makes it look like a bunch of 50 year olds sat around a table in an office at a Social Media Stratergy and Marketting meeting to discuss the exact hashtags they'll use to "maximise" their outreach without ever using social media properly.
 
 # Know yourself
 
