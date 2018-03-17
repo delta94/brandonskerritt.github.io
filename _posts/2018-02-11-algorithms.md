@@ -141,6 +141,7 @@ Mergesort       | O(n log n)
 Bubble Sort     | O(n^2)
 Insertion Sort  | O(n^2)
 Selection Sort  | O(n^2)
+Dijkstra's      | O(n^2)
 
 
 |   Data Structure   | Access | Search | Insertion | Deletion |
@@ -1934,13 +1935,110 @@ https://www.youtube.com/watch?v=71UQH7Pr9kU
 
 Kruskal's algorithm let's us find the minimum spanning tree of a graph.
 
-We choose the edge with the least weight, and then we continue adding the smallest weight. If we form a cycle, don't include that edge.
+First we sort the edges, so the smallest weighted edge is first.
 
-![img](https://upload.wikimedia.org/wikipedia/commons/5/5c/MST_kruskal_en.gif)
+We then choose the edge with the least weight, and then we continue adding the smallest weight. If we form a cycle, don't include that edge.
 
-It's really quite a simple and greedy algorithm to find a miinmum spanning tree of a graph.
+Let's say we have a graph like so:
 
-Honestly that Wikimedia gif does a way bettter job at explaining Kruskal's algorithm then I could.
+![img](https://screenshotscdn.firefoxusercontent.com/images/3309a595-89c7-4a71-96c5-361e0329b4f2.png)
+
+How would we go around finding the minimum spanning tree?
+
+Before you say it, yes I have bad hand writing. Should I be ashemed of having bad handwriting? Nope. Don't worry. If anything looks unreadable I'm going to write it out here so it's readable for you. Just understand that to be a computer scientist you absolutely do not need to have handwriting other people can read, as we have computers to make readable handwriting for us.
+
+We first must order all the edges from smallest to largest like so:
+
+![img](kruskals1.png)
+
+To save your eyes some strain, here's the edges in a nice table:
+
+Done? | Edge | Weight
+--- | --- | ---
+ | (G, H) | 1
+ | (C, I) | 2
+ | (F, G) | 2
+ | (A, B) | 4
+ | (C, F) | 4
+ | (C, D) | 7
+ | (H, I) | 7
+ | (A, H) | 8
+ | (B, C) | 8
+ | (D, E) | 9
+ | (E, F) | 10
+ | (B, H) | 11
+ | (D, F) | 14
+
+Now we colour in (or choose) the smallest edge. How do we know what's the smallest edge? We just give the table we made.
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/b4b3acd6-dfe3-4689-a916-f5815bca1fe0.png)
+
+And the next one
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/995ce0a8-bf48-40e7-b87b-0be18132adc7.png)
+
+You can skip a few of these, i'll write **STOP!!!!** when something interesting happens.
+
+Next one...
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/df794f73-910a-45c1-9f99-30963b47ad68.png)
+
+If you take your time to look at every image of this graph, highlight this!
+PS: this edge is "4" not "14".
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/3be1b14d-0e66-4c4e-a03d-c085658a575c.png)
+
+![img](https://media.giphy.com/media/xThuWcZzGnonnG3ayQ/giphy.gif)
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/52170435-bb12-447c-b561-dc041a2e2549.png)
+
+Now the next one to highlight is (H,I).
+**STOPPPP!!!!!!!!!!!!!!!**
+
+(H, I)? But that makes a triangle. You can go all aroudn the triangle. Wait, is this a cycle? Yes it is! 
+
+See how easy it is to recgonise when a cycle happens as a human? As a computer, it's a lot harder. You can't just tell it to "see" and "guess" where a cycle will be formed. We'll come back to this topic later, but for now we'll skip (H, I).
+
+Look, if we add (H, I) we get a cycle!
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/a39be5ed-5cdb-4852-8971-d001392b0628.jpg)
+
+So let's not do that.
+Now we just need to add (A, H)
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/b34fb8cf-f238-46db-9b70-3abf36fab2ae.png)
+
+If we want to add (B, C) the next smallest edge we will make a cycle so let's not do that.
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/69bd45e0-ab42-422f-9884-bb3dd90c83b3.jpg)
+
+We can't include (E, F) as it's a cycle. So let's skip that.
+Actually, we can't include any of the remaining edges, since they all form a cycle. So now we have a minimum spanning tree.
+It's really quite a simple and greedy algorithm to find a minimum spanning tree of a graph.
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/1f1ead79-3687-4272-b0ad-d4d7cb617665.png)
+
+
+Here's a nice gif!
+
+![img](kruskals_gif.gif)
+
+Okay, back to detecting cycles. Let's say you want to insert the edge (E, V) into the minimum spanning tree. We need to check to see if it is possible to get from V, to E, so a path exists from (V, E). 
+
+This sounds confusing, so let's look at this picture again.
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/b34fb8cf-f238-46db-9b70-3abf36fab2ae.png)
+
+So we want to insert edge (H, I). To do that we need to see if a path exists which takes us from I to H already without the added edge. We can see that the path:
+I > C > F > G > H
+is a path from I to H. Because this path exists, we cannot add the edge as it would form a cycle.
+
+You can use any of the searches above such as Breadth First Search or DFS to find this path.
+
+You could also check the ancestors of the graph if it is a directed graph. You can navigate up until you find a parent node that is equal to the end of the edge you are wanting to add.
+
+There is lots of ways you could do this.
+
 
 ## Single Source Shortest Paths
 
@@ -1950,11 +2048,50 @@ If we have 2 vertices and we want to find the **shortest** (shortest means lowes
 
 Dijkstra's algorithm assumes that the weights of the edges are not negative.
 
-The steps are to:
-
-1. Choose the edge adjacent to the chosen vertex such that the cost of the path to the vertex is minimum
+The main concept of this algorithm is to choose the edge adjacent to the chosen vertex such that the cost of the path to the vertex is minimum
 
 ![img](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiJlvfn6fDZAhWrC8AKHf-FDnEQjRx6BAgAEAU&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDijkstra%2527s_algorithm&psig=AOvVaw2P-jAojat3t37pH602wLGz&ust=1521289087604817)
+
+I highly reccomend this article from Vaidelhi.
+
+https://medium.com/basecs/finding-the-shortest-path-with-a-little-help-from-dijkstra-613149fbdc8e
+
+One of the things I believe in is:
+
+> "Why bother trying to do something when someone has already done it better than you could ever do it?".
+
+So if you want to know how this algorithm works, watch the Gif or read that article as it's explained better than I ever could!
+
+Dijkstra's algorithm is super cool. Ever wanted to know how your SatNav finds the fastest route from your home to somewhere? It uses this algorithm. Well, their algorithm is probably slightly modified. But it's the same principles!
+
+#### Psuedocode
+
+To describe the algorithm using psuedo code we need to give some notations first:
+
+Each vertex, V, is labelled with two labels:
+- A numeric label d(V) which indicates the length of the shortest path from the source to v found so far.
+- Another label, p(V), which indicates next-to-last vertex on that path. IE the vertexc immeditally preceeding v on that shortest path.
+
+Given a graph, G = (V, E) and a source vertex s:
+
+```
+for every vertex v in the graph:
+    set d(v) and p(v) as ∞
+set d(s) and Vr = 0
+while v or Vr != 0:
+    choose the vertex v in v or Vr with minimum d(u)
+    set Vr = Vr ∪ u
+    for every vertex v in v or Vr that is a neighbour of u:
+        if d(u) + w(u, v) < d(v) then
+            set d(v) = d(u) + w(u, v) and p(v) = u
+```
+
+#### Big O notation
+
+Dijkstra's algorithm is O(n^2).
+
+
+
 
 # If you enjoyed this article, connect with me to learn more like this :)
 [LinkedIn](https://www.linkedin.com/in/brandonls/) | [Website](www.brandonskerritt.github.io) | Twitter
