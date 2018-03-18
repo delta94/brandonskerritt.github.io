@@ -4,7 +4,7 @@ categories:
   - University
 ---
 
-So I got really sick and tired of seeing "How to get the perfect job" and then them only giving you like 3 paragraphs and saying "buy my book or sign up to my email list to get the rest XDDDDDDD" so I'm releasing all the informatiomn I've learnt from these scam artists for free.
+So I got really sick and tired of seeing "How to get the perfect job" and then them only giving you like 3 paragraphs and saying "buy my book or sign up to my email list to get the rest XDDDDDDD" so I'm releasing all the information I've learnt from these scam artists for free.
 
 Also I'm really sick and tired of Medium articles that are 5 - 7 minutes long and they talk about how amazing the author is and then they release a single sentence of information that's useful. So this is a no-thrills no-handrails guide to jobs.
 
@@ -16,13 +16,13 @@ Seriously, customise your CV per job. Don't send the same CV out to many jobs. T
 
 Customising your CV enables you to pass the keyword test.
 
-When you apply for a job, some jobs will read your CV to see if it contains certain keywords. If it doesn't, no job for you.
+When you apply for a job, most jobs will read your CV to see if it contains certain keywords. If it doesn't, no job for you. This is either done by a human, which is a little forgiving or a machine which doesn't care about you.
 
-Your CV will impress the person reading it if its customiesd to them. Everyone likes a customiesd birthday cake more than a regular Tesco own brand birthday cake.
+Your CV will impress the person reading it if its customised to them. Everyone likes a customised birthday cake more than a regular Tesco own brand birthday cake.
 
-To customise your CV analyse thejob description. Read it multiple times and highlight keywords that come up. They say that they want someone with strong self motivation? Find something you've done that proves this and put it onto your CV.
+To customise your CV analyse the job description. Read it multiple times and highlight keywords that come up. They say that they want someone with strong self motivation? Find something you've done that proves this and put it onto your CV.
 
-Read the job description, the responsibillities, the specific requirements, the location. Any words you don't know? They're probably keywords. Google them.
+Read the job description, the responsibilities, the specific requirements, the location. Any words you don't know? They're probably keywords. Google them.
 
 Let's say a job description has this sentence in it:
 
@@ -32,13 +32,11 @@ Then instead of writing "Microsoft office" on your CV you write:
 
 > Advance knowledge of Microsoft Software (Word, Excel, Powerpoint).
 
-If you know a little tiny bit about computers you can Google "LaTeX CV templates" to get some really nice templates for free. If it's on Overleaf or ShareLaTeX than good. LaTeX is basically like a programming language but for writing.
-
 ## Lie about your location
 
 Want to get a job in London? Then write "London" on your CV. No company wants to worry about someone commuting from Kent every day. They don't have to know.
 
-But make sure it's not too much of a lie. Saying you live in London when you're from Skegness or St. Ives is a blatent lie.
+But make sure it's not too much of a lie. Saying you live in London when you're from Skegness or St. Ives is a blatant lie.
 
 ## Writing a CV
 
@@ -46,9 +44,11 @@ Make it 1 page. If you customise your CV per job, you should only ever need 1 pa
 
 Use a CV template and fill it out.
 
+If you know a little tiny bit about computers you can Google "LaTeX CV templates" to get some really nice templates for free. If it's on Overleaf or ShareLaTeX than good. LaTeX is basically like a programming language but for writing.
+
 List your achievements at a job, not the duties you had to do.
 
-Avoid spelling and grammar mistakes at all costs. Pay someone to read over it if you have to.
+Avoid spelling and grammar mistakes at all costs. Pay someone to read over it if you have to. Message me if you need help with this. I'm not an expert at spell checking, but I can be another pair of eyes.
 
 Don't fill it chock full of information. Keep it short and sweet.
 
@@ -56,9 +56,17 @@ Use numbers. In the UK we have this English writing rule:
 
 >A FOREST. A Alliteration F Facts O Opinion R Repetition / Rhetorical questions E Emotive language S Statistics T Triples (Three, rule of) 
 
-The statistics is important here. If I was to say that I was the best Student Union officer that would make me sound bigheaded. If I was to change that to "changed Student Union approval rating from 30% to 90%" it would sound even more impressive and not so egotisical.
+The statistics is important here. If I was to say that I was the best Student Union officer that would make me sound big headed. If I was to change that to "changed Student Union approval rating from 30% to 90%" it would sound even more impressive and not so egotistical.
 
 Make sure to give your CV in PDF format, unless they explicitly ask for a different format.
+
+If they require the CV in plaintext (copy and paste) you have to format it differently. You can make sections using "----". Like so:
+
+```
+Achievements
+------------
+Changed Student Union approval rating from 30% to 90%
+```
 
 ## Make it as easy for your employer as possible
 
@@ -86,13 +94,13 @@ Do not write paragraphs. Have bullet points instead.
 
 For any past work or experience you will want to include accomplishments at this job that relate to the job you are applying to.
 
-Try not to include your duties. It's much more impessible to show your accomplishments.
+Try not to include your duties. It's much more impressive to show your accomplishments.
 
-In your bullet points use action verbs. These are words like "accomplished", "designed", "initated", "supervised".
+In your bullet points use action verbs. These are words like "accomplished", "designed", "initiated", "supervised".
 
 ## Things to include in a CV
 
-Let's say you have a template and you want to change a few few things,here are some things you might want to include:
+Let's say you have a template and you want to change a few few things, here are some things you might want to include:
 
 * Personal details - Telephone, professional email, location - Name
 * Work experience
@@ -103,15 +111,19 @@ Let's say you have a template and you want to change a few few things,here are s
 * Know any languages that relate to the job? Put them down!
 
 What not to include:
-* A headshot / image of you. Unless the company specifies that they require this, do not do this. Unless you are Alex Turner or Emma Watson they do not want to see you.
+* A head-shot / image of you. Unless the company specifies that they require this, do not do this. Unless you are Alex Turner or Emma Watson they do not want to see you.
 * Age and date of birth - It's illegal for employers to ask about your age under the Equality Act of 2010.
 * Martial / Relationship status - Again under the Equality Act of 2010 they cannot ask this.
 
-Depending on your work and education, you'll need to balence these correctly. Do you have a really good education but not much work experience? Make your education 60% of your CV. Do you have lots of work experience but not much education? Make that 60% of your CV.
+Note: The Equality act is a UK act. I'm not sure about the US, but you probably don't want to include them anyway.
+
+Depending on your work and education, you'll need to balance these correctly. Do you have a really good education but not much work experience? Make your education 60% of your CV. Do you have lots of work experience but not much education? Make that 60% of your CV.
 
 What if you have both? Well, just list your education shortly and have your work experience.
 
 How do you list education shortly? Just include the modules that sound the most impressive, try to limit it to 4 maximum along with your grades and university name. Or, again, personalise it. You're applying for a job that involves Artifical Intelligence? Include the modules you've done in this.
+
+Employers find work experience more impressive than academia. Unless you're applying for a job in academia.
 
 ## Examples
 
@@ -157,7 +169,7 @@ Here's a good LinkedIn inforgraphic from [here](https://www.leisurejobs.com/geta
 
 ![img](https://www.leisurejobs.com/getasset/7a3e4167-6675-4ae3-be01-6ff723b80f2a/)
 
-## Meet Pauline
+## Meet Pauline - A Case Study
 
 Pauline is a powerhouse and the queen of personal branding. She's an amazing example at how to build a personal brand.
 
@@ -177,12 +189,10 @@ She regularly tweets about things she is passionate about and makes sure to tag 
 
 With Twitter it's important to hashtag correctly. Try to meld your hashtags into your text so it's readable. Don't just dump them all at the end of a tweet to try and gain peoples attention. Take for example, Pauline's tweet here:
 
-https://twitter.com/paulienuh/status/975085689682448384
-
-Notice how when she talks about a company, she tags them in it and when she talks about a community or something she hashtags it in. Notice how it reads so cleanly. Now look at this:
-
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Hey <a href="https://twitter.com/ShfWit?ref_src=twsrc%5Etfw">@ShfWit</a>! Happy to see a <a href="https://twitter.com/hashtag/WiT?src=hash&amp;ref_src=twsrc%5Etfw">#WiT</a> group in Sheffield - thanks for starting a conversation locally ♥️<br><br>At <a href="https://twitter.com/sheffielduni?ref_src=twsrc%5Etfw">@sheffielduni</a> we&#39;ve created a student WiT community with ladies that have taken part in <a href="https://twitter.com/CodeFirstGirls?ref_src=twsrc%5Etfw">@CodeFirstGirls</a>: <a href="https://twitter.com/hashtag/shefcodefirst?src=hash&amp;ref_src=twsrc%5Etfw">#shefcodefirst</a>. 💖 Should definitely collaborate in some way! <a href="https://twitter.com/hashtag/ShfWIT?src=hash&amp;ref_src=twsrc%5Etfw">#ShfWIT</a></p>&mdash; Pauline P. Narvas (@paulienuh) <a href="https://twitter.com/paulienuh/status/975085689682448384?ref_src=twsrc%5Etfw">March 17, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Notice how when she talks about a company, she tags them in it and when she talks about a community or something she hashtags it in. Notice how it reads so cleanly. Now look at this:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="nl" dir="ltr">Snapchat UI developer team:)<a href="https://twitter.com/hashtag/gaming?src=hash&amp;ref_src=twsrc%5Etfw">#gaming</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://twitter.com/hashtag/drones?src=hash&amp;ref_src=twsrc%5Etfw">#drones</a> <a href="https://twitter.com/hashtag/VR?src=hash&amp;ref_src=twsrc%5Etfw">#VR</a> <a href="https://twitter.com/hashtag/tech?src=hash&amp;ref_src=twsrc%5Etfw">#tech</a> <a href="https://twitter.com/hashtag/code?src=hash&amp;ref_src=twsrc%5Etfw">#code</a> <a href="https://twitter.com/hashtag/anime?src=hash&amp;ref_src=twsrc%5Etfw">#anime</a> <a href="https://twitter.com/hashtag/STEM?src=hash&amp;ref_src=twsrc%5Etfw">#STEM</a> <a href="https://twitter.com/hashtag/AR?src=hash&amp;ref_src=twsrc%5Etfw">#AR</a> <a href="https://twitter.com/hashtag/DevOps?src=hash&amp;ref_src=twsrc%5Etfw">#DevOps</a> <a href="https://twitter.com/hashtag/AI?src=hash&amp;ref_src=twsrc%5Etfw">#AI</a> <a href="https://twitter.com/hashtag/CSS?src=hash&amp;ref_src=twsrc%5Etfw">#CSS</a> <a href="https://twitter.com/hashtag/spotify?src=hash&amp;ref_src=twsrc%5Etfw">#spotify</a> <a href="https://twitter.com/hashtag/design?src=hash&amp;ref_src=twsrc%5Etfw">#design</a> <a href="https://twitter.com/hashtag/iTunes?src=hash&amp;ref_src=twsrc%5Etfw">#iTunes</a> <a href="https://twitter.com/hashtag/Python?src=hash&amp;ref_src=twsrc%5Etfw">#Python</a> <a href="https://twitter.com/hashtag/snap?src=hash&amp;ref_src=twsrc%5Etfw">#snap</a> <a href="https://t.co/CQBFZFjdwE">pic.twitter.com/CQBFZFjdwE</a></p>&mdash; PitchCrunch (@PitchCrunch) <a href="https://twitter.com/PitchCrunch/status/975104344482705409?ref_src=twsrc%5Etfw">March 17, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -190,6 +200,85 @@ Notice how when she talks about a company, she tags them in it and when she talk
 ![img](https://www.reactiongifs.com/wp-content/uploads/2012/12/too-much.gif)
 
 Sorry if you're PitchCrunch but the way this hashtagging is done makes it look like a bunch of 50 year olds sat around a table in an office at a Social Media Stratergy and Marketting meeting to discuss the exact hashtags they'll use to "maximise" their outreach without ever using social media properly.
+
+PS: It took me 2 seconds to find this tweet. Steps to reproduce:
+1. Type a tech buzzword into Twitter as a hashtag, like #AI or #Python
+2. Go to "recent tweets"
+3. Click first tweet and there is a 85% chance it will look exactly like this
+
+## Pauline's Blog
+
+Pauline has a blog. 
+
+https://pawlean.com/
+
+Her blog is 10 years old this year. But don't worry, you don't need to have been writing that long. Pauline writes about pretty much everything from love to how her months go to events she goes to.
+
+Here's how she describes it:
+
+"[PAWLEAN]...is a personal blog where I share and reflect on my life in the UK, my interests and experiences. I've run a blog since the days I used to wear my hair up in high bunches (like Boo from Monsters Inc) and during the time in my life when my purple Game Boy Advance completed me. "
+
+Not every one needs to have blogs. But it's important to create some kind of content. As a developer you can work in open source by either directly changing code, opening issues or by writing blog posts.
+
+One of my friends answers Quora questions as a way to create content.
+
+Some other friends make software.
+
+Honestly, as long as you're providing value they will come.
+
+## Instagram
+
+Pauline also has a pretty professional instagram, with a professional username too.
+
+Her bio says:
+
+>⚡️ .🐾💪🏻{ 📌🇬🇧 · 🏠🇵🇭🇪🇸; 👩🏻‍🔬 BMS @ TUoS; 👩🏻‍💻 Dev · PaulineNarvas.com; 🎬 YouTube.com/PaulineNarvas; 🚀 #explaw🐾 · #pawgainz · #A47DA4; 💭🧘🏻‍♀️✏️🏋️🏻‍♂️🗺🌠; }
+
+If you read GB and PHES, that's becasue your browser (most browsers) render flags as the names of those flags.
+
+So Pauline opens up with ".🐾💪🏻{". In CSS (she is a web developer) this is how you would open up and design a class. So she already has a cool little web dev thing in her bio. Her bio goes on to list her YouTube and her other website (we'll get to that in a second) before listing the hashtags she uses. She has a colour, noted as "#A47DA4" which I am to assume is her favourite colour.
+
+Pauline always posts professional photographs of her, doing work, having done work, enjoying life, or just being a human like so:
+
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/BgMi2SglL29/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BgMi2SglL29/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Last year, I was inspired by @ttszen&#39;s vision w/ #HackMed17 and had to come back to contribute. Soo... #HackMed18 happened and was a HUGE success!! 👏🏻 I was very impressed by the quality of work produced in just 24 hours with people especially from non-tech, non-compsci, non-coding backgrounds. You all inspire me SO MUCH. 🙌🏻 - So much to take in from this weekend but for now, I just wanted to say thank you to my @medtechsheffield family, sponsors, mentors, university (especially diamond staff who helped us out all weekend) and of course, all 51 hackers✨ I had an amazing weekend, such a positive experience and made such great friends (especially when I played Disney - it attracts friendships 💖😆) - 📸: Also thank you to my brother @clarknarvas for helping me document the whole event. NOT A SECOND MISSED 😂 What can I say? It&#39;s in the genes. Geddit?! Cuz this is hack med. Ha ha ha ha ha heh heh I need sleep Pls 8 hrs Pls - #mlh #hackers #hackathon #medicine #healthcare #biomedicalsciences #bms #mlhlocalhost #tech #yoga #meditation</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/paw.lean/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Pauline P. Narvas ⚡️</a> (@paw.lean) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2018-03-11T20:16:15+00:00">Mar 11, 2018 at 1:16pm PDT</time></p></div></blockquote>
+<script async defer src="//www.instagram.com/embed.js"></script>
+
+What's important to note here is that her instagram isn't entirely work, it's also fun human stuff too. You have to be **authentic**. You can't pretend to enjoy being in an office 24 / 7.
+
+## Personal Website
+
+As well as having a blog, Pauline has a personal website. Most of the successful people I know have personal websites. They're there as an online CV.
+
+Look at Paulines website
+http://paulinenarvas.com/
+
+Some other notable websites that are impressive and act as online CV's are:
+
+Chris' http://iamchrisjim.com/
+Matt Burrmans - https://mattburman.com/
+Simon Fish's - http://simon.fish/
+
+All of these are computer scientists / coders, but you don't need to know how to code to have an online website.
+
+This is my friend Shannen, who's an amazing photographer and has no coding experience:
+
+https://shannenlong.pixieset.com/
+
+Tim Ferris - who is everything but a coder - has a website too. Sure, he got people to code his website for him but back in the day (2002) he probably did it himself for his company at the time, brainQUICKEN.
+
+"But Brandon, doesn't having a website cost money?"
+
+You can use GitHub to host your website for free
+
+https://pages.github.com/
+
+And if you have no coding experience you can use something like Jekyll (google it)to create an easy website. Here's a GitHub reposotory that you can fork and change to have your own website:
+
+https://github.com/jabranham/github-pages-academic-starter-kit
+
+If you want to pay a little, Squarespace looks pretty nifty. Or you can pay one of the many developers I've listed (myself included) to make your website for you. Or any other developer you may know.
+
+One of the advantages of having your own domain name is that you get an email for your domain name. How cool is it to email someone with the email address "pauline@paulinenarvas.com"?
 
 # Know yourself
 
