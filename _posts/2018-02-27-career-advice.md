@@ -445,13 +445,13 @@ Say something along the lines of:
 
 9. What have you achieved in other roles?
 
-This is the question which gives you permission to not be humbled. Talk about what ever you're produest of. Mine would be:
+This is the question which gives you permission to not be humbled. Talk about what ever you're proudest of. Mine would be:
 
-> My role as Higher Education Vice President started off on a bad turn. There were supposed to be 5 student union officers, but only I wanted to do the job. Effectively leaving me in charge of the work of 5 people, all whilest the student union staff who work with us had left to go to another job.
+> My role as Higher Education Vice President started off on a bad turn. There were supposed to be 5 student union officers, but only I wanted to do the job. Effectively leaving me in charge of the work of 5 people, all whilst the student union staff who work with us had left to go to another job.
 >
 > Luckily this was perfect for me, as I stepped up when no one else would. I travelled to every campus as much as possible to make sure all students were listened to. When a group of students came to me telling me that their course isn't being properly funded I demanded a meeting with the principle of East Kent College to fix this.
 >
-> As well as this I repeatedly represented the students in a democratic way at both a local (Kent) way and in a national way. I was chosen to attend the National Union of Student's National Confernece, where I elected the next NUS officer team and chose to represent my college on a national scale.
+> As well as this I repeatedly represented the students in a democratic way at both a local (Kent) way and in a national way. I was chosen to attend the National Union of Student's National Conference, where I elected the next NUS officer team and chose to represent my college on a national scale.
 >
 > By the end of the year the students were asked to fill out a survey about their time at college. Student union approval ratings were previously laying around 30%, with about 5 questions about the student's union. By the time I finished, it laid around 90% with comments from students saying about how amazing it was for their problems to be fixed so easily.
 > 
@@ -462,9 +462,10 @@ Notice how I'm tooting my own horn here, this question allows you to do that.
 
 10. What did you like and dislike about your last job?
 
+
 11. How did you hear about this position?
 
-This question is simply the inteerview asking you a normal question. No unique tricks here. Use this question to show your passion for the company, but be genuine. If you've known about a company for years then say so.
+This question is simply the interviewer asking you a normal question. No unique tricks here. Use this question to show your passion for the company, but be genuine. If you've known about a company for years then say so.
 
 12. Why should we hire / choose you?
 
@@ -850,9 +851,13 @@ This question is handy to prevent your nerves from getting the better of you.
 
 This makes sure you are comfortable with the culture of the company.
 
-6. What do you like most about working for this company?
+5. What do you like most about working for this company?
 
 This let's you connect with the interviewer on a personal level.
+
+6. Do you have an email address so If I have any questions I can follow up with you?
+
+This question lets you send a thank you email after every interview.
 
 ## Some small hints
 
@@ -905,9 +910,6 @@ At the very end of every converstation always ask "can I contact you with furthe
 
 Make sure to have lots of copies of your CV!
 
-# Personal Hygine
-
-# Dressing right
 
 # Networking
 
@@ -915,17 +917,6 @@ Networking is the **science** of meeting like minded people and befriending them
 
 When at a networking event do try to look and act professional. Depending on the event you may not need to wear attire suitable for an interview. If it's a casual breakfast / lunch event normal work clothes will be fine.
 
-# Passionate about your field
-
-# How to find the right job
-
-# Job hunting
-
-# Make sure the job you want won't disappoint you
-
-# How to negoiate a wage
-
-# How to buy a suit
 
 
 https://www.reddit.com/r/jobs/comments/5nhmp3/finally_have_a_new_job_and_its_all_because_i_was/
