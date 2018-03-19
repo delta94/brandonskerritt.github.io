@@ -121,18 +121,18 @@ Depending on your work and education, you'll need to balance these correctly. Do
 
 What if you have both? Well, just list your education shortly and have your work experience.
 
-How do you list education shortly? Just include the modules that sound the most impressive, try to limit it to 4 maximum along with your grades and university name. Or, again, personalise it. You're applying for a job that involves Artifical Intelligence? Include the modules you've done in this.
+How do you list education shortly? Just include the modules that sound the most impressive, try to limit it to 4 maximum along with your grades and university name. Or, again, personalise it. You're applying for a job that involves Artificial Intelligence? Include the modules you've done in this.
 
 Employers find work experience more impressive than academia. Unless you're applying for a job in academia.
 
 ## Examples
 
 Here are some examples of CVs. This is my CV
-
+TK
 https://drive.google.com/file/d/1u66tSfXWmvBBdCkc7KyUpLxn8A0U8Rar/view
 
-And this is Chris's CV
-
+And this is Chris' CV
+TK
 https://drive.google.com/file/d/1rIBsYaRf6qSg9wND32cw4WAAbCBHG0W2/view
 
 TK maybe have photos
@@ -147,23 +147,25 @@ Make sure you think about this carefully. I have 2 email addresses, a Gmail one 
 
 The Proton mail one is for tech companies. They might see I use Proton and subconsciously like me based on the fact that I support encryption.
 
+The gmail one with numbers on the end is just a semi-professional email I use.
+
 If your email address looks like "FancyMonkey6969@tiscali.com" you need to change this.
 
 # Personal Brand
 
 Everyone has a personal brand, but it's up to you to decide when to take control of your personal brand.
 
-A majority of your posts on social media should be about what you love, but don't make it too fake. Only posting tech stuff / stuff related to your industry makes you seem boring to work with. I genuinely love dogs so much, so I often post adorable dog pictures on my Twitter or pictures / things related to martial arts but I also post alot about technology.
+A majority of your posts on social media should be about what you love, but don't make it too fake. Only posting tech stuff / stuff related to your industry makes you seem boring to work with. I genuinely love dogs so much, so I often post adorable dog pictures on my Twitter or pictures / things related to martial arts but I also post a lot about technology.
 
 ## Create some content
 
-Whether this is writing blog posts, tweeting super nifty tricks you've learnt, weighing in on a converstation on Twitter or contributing to open source software.
+Whether this is writing blog posts, tweeting super nifty tricks you've learnt, weighing in on a conversation on Twitter or contributing to open source software.
 
 The more you create, the more people will care about you. No one cares about you unless you can make them smarter or do something for them.
 
 ## LinkedIn
 
-Get a LinkedIn account. Make sure it's professional. Have a nice headshot photograph.
+Get a LinkedIn account. Make sure it's professional. Have a nice head-shot photograph.
 
 Here's a good LinkedIn inforgraphic from [here](https://www.leisurejobs.com/getasset/7a3e4167-6675-4ae3-be01-6ff723b80f2a/).
 
@@ -179,30 +181,30 @@ https://twitter.com/paulienuh
 
 Pauline is VERY active on Twitter. She regularly posts professionally about her life, and only ever positive things, or in her words, "pawsitive".
 
-She uses her own hashtaghs such as "#Pawgainz".
+She uses her own hash tags such as "#Pawgainz".
 
-Pauline has a professional twitter username, a nice coverphoto explaining exactly what she does and what she's all about and a nice profile picture.
+Pauline has a professional twitter username, a nice cover photo explaining exactly what she does and what she's all about and a nice profile picture.
 
 Her bio neatly sums up all of her jobs and the things she likes. Her location displays where she's from and where she lives. 
 
-She regularly tweets about things she is passionate about and makes sure to tag and hashtag appropriately. 
+She regularly tweets about things she is passionate about and makes sure to tag and hash tag appropriately. 
 
-With Twitter it's important to hashtag correctly. Try to meld your hashtags into your text so it's readable. Don't just dump them all at the end of a tweet to try and gain peoples attention. Take for example, Pauline's tweet here:
+With Twitter it's important to hash tag correctly. Try to meld your hash tags into your text so it's readable. Don't just dump them all at the end of a tweet to try and gain peoples attention. Take for example,Pauline's tweet here:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Hey <a href="https://twitter.com/ShfWit?ref_src=twsrc%5Etfw">@ShfWit</a>! Happy to see a <a href="https://twitter.com/hashtag/WiT?src=hash&amp;ref_src=twsrc%5Etfw">#WiT</a> group in Sheffield - thanks for starting a conversation locally ♥️<br><br>At <a href="https://twitter.com/sheffielduni?ref_src=twsrc%5Etfw">@sheffielduni</a> we&#39;ve created a student WiT community with ladies that have taken part in <a href="https://twitter.com/CodeFirstGirls?ref_src=twsrc%5Etfw">@CodeFirstGirls</a>: <a href="https://twitter.com/hashtag/shefcodefirst?src=hash&amp;ref_src=twsrc%5Etfw">#shefcodefirst</a>. 💖 Should definitely collaborate in some way! <a href="https://twitter.com/hashtag/ShfWIT?src=hash&amp;ref_src=twsrc%5Etfw">#ShfWIT</a></p>&mdash; Pauline P. Narvas (@paulienuh) <a href="https://twitter.com/paulienuh/status/975085689682448384?ref_src=twsrc%5Etfw">March 17, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Notice how when she talks about a company, she tags them in it and when she talks about a community or something she hashtags it in. Notice how it reads so cleanly. Now look at this:
+Notice how when she talks about a company, she tags them in it and when she talks about a community or something she hash tags it in. Notice how it reads so cleanly. Now look at this:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="nl" dir="ltr">Snapchat UI developer team:)<a href="https://twitter.com/hashtag/gaming?src=hash&amp;ref_src=twsrc%5Etfw">#gaming</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://twitter.com/hashtag/drones?src=hash&amp;ref_src=twsrc%5Etfw">#drones</a> <a href="https://twitter.com/hashtag/VR?src=hash&amp;ref_src=twsrc%5Etfw">#VR</a> <a href="https://twitter.com/hashtag/tech?src=hash&amp;ref_src=twsrc%5Etfw">#tech</a> <a href="https://twitter.com/hashtag/code?src=hash&amp;ref_src=twsrc%5Etfw">#code</a> <a href="https://twitter.com/hashtag/anime?src=hash&amp;ref_src=twsrc%5Etfw">#anime</a> <a href="https://twitter.com/hashtag/STEM?src=hash&amp;ref_src=twsrc%5Etfw">#STEM</a> <a href="https://twitter.com/hashtag/AR?src=hash&amp;ref_src=twsrc%5Etfw">#AR</a> <a href="https://twitter.com/hashtag/DevOps?src=hash&amp;ref_src=twsrc%5Etfw">#DevOps</a> <a href="https://twitter.com/hashtag/AI?src=hash&amp;ref_src=twsrc%5Etfw">#AI</a> <a href="https://twitter.com/hashtag/CSS?src=hash&amp;ref_src=twsrc%5Etfw">#CSS</a> <a href="https://twitter.com/hashtag/spotify?src=hash&amp;ref_src=twsrc%5Etfw">#spotify</a> <a href="https://twitter.com/hashtag/design?src=hash&amp;ref_src=twsrc%5Etfw">#design</a> <a href="https://twitter.com/hashtag/iTunes?src=hash&amp;ref_src=twsrc%5Etfw">#iTunes</a> <a href="https://twitter.com/hashtag/Python?src=hash&amp;ref_src=twsrc%5Etfw">#Python</a> <a href="https://twitter.com/hashtag/snap?src=hash&amp;ref_src=twsrc%5Etfw">#snap</a> <a href="https://t.co/CQBFZFjdwE">pic.twitter.com/CQBFZFjdwE</a></p>&mdash; PitchCrunch (@PitchCrunch) <a href="https://twitter.com/PitchCrunch/status/975104344482705409?ref_src=twsrc%5Etfw">March 17, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ![img](https://www.reactiongifs.com/wp-content/uploads/2012/12/too-much.gif)
 
-Sorry if you're PitchCrunch but the way this hashtagging is done makes it look like a bunch of 50 year olds sat around a table in an office at a Social Media Stratergy and Marketting meeting to discuss the exact hashtags they'll use to "maximise" their outreach without ever using social media properly.
+Sorry if you're PitchCrunch but the way this hash tagging is done makes it look like a bunch of 50 year olds sat around a table in an office at a Social Media Strategy and Marketing meeting to discuss the exact hash tags they'll use to "maximise" their outreach without ever using social media properly.
 
 PS: It took me 2 seconds to find this tweet. Steps to reproduce:
-1. Type a tech buzzword into Twitter as a hashtag, like #AI or #Python
+1. Type a tech buzzword into Twitter as a hash tag, like #AI or #Python
 2. Go to "recent tweets"
 3. Click first tweet and there is a 85% chance it will look exactly like this
 
@@ -212,13 +214,13 @@ Pauline has a blog.
 
 https://pawlean.com/
 
-Her blog is 10 years old this year. But don't worry, you don't need to have been writing that long. Pauline writes about pretty much everything from love to how her months go to events she goes to.
+Her blog is 10 years old this year (2018). But don't worry, you don't need to have been writing that long. Pauline writes about pretty much everything from love to how her months go to events she goes to.
 
 Here's how she describes it:
 
 "[PAWLEAN]...is a personal blog where I share and reflect on my life in the UK, my interests and experiences. I've run a blog since the days I used to wear my hair up in high bunches (like Boo from Monsters Inc) and during the time in my life when my purple Game Boy Advance completed me. "
 
-Not every one needs to have blogs. But it's important to create some kind of content. As a developer you can work in open source by either directly changing code, opening issues or by writing blog posts.
+Not every one needs to have a blog. But it's important to create some kind of content. As a developer you can work in open source by either directly changing code, opening issues or by writing blog posts.
 
 One of my friends answers Quora questions as a way to create content.
 
@@ -234,9 +236,9 @@ Her bio says:
 
 >⚡️ .🐾💪🏻{ 📌🇬🇧 · 🏠🇵🇭🇪🇸; 👩🏻‍🔬 BMS @ TUoS; 👩🏻‍💻 Dev · PaulineNarvas.com; 🎬 YouTube.com/PaulineNarvas; 🚀 #explaw🐾 · #pawgainz · #A47DA4; 💭🧘🏻‍♀️✏️🏋️🏻‍♂️🗺🌠; }
 
-If you read GB and PHES, that's becasue your browser (most browsers) render flags as the names of those flags.
+If you read GB and PHES, that's because your browser (most browsers) render flags as the names of those flags.
 
-So Pauline opens up with ".🐾💪🏻{". In CSS (she is a web developer) this is how you would open up and design a class. So she already has a cool little web dev thing in her bio. Her bio goes on to list her YouTube and her other website (we'll get to that in a second) before listing the hashtags she uses. She has a colour, noted as "#A47DA4" which I am to assume is her favourite colour.
+So Pauline opens up with ".🐾💪🏻{". In CSS (she is a web developer) this is how you would open up and design a class. So she already has a cool little web dev thing in her bio. Her bio goes on to list her YouTube and her other website (we'll get to that in a second) before listing the hash tags she uses. She has a colour, noted as "#A47DA4" which I am to assume is her favourite colour.
 
 Pauline always posts professional photographs of her, doing work, having done work, enjoying life, or just being a human like so:
 
@@ -249,13 +251,13 @@ What's important to note here is that her instagram isn't entirely work, it's al
 
 As well as having a blog, Pauline has a personal website. Most of the successful people I know have personal websites. They're there as an online CV.
 
-Look at Paulines website
+Look at Pauline's website
 http://paulinenarvas.com/
 
-Some other notable websites that are impressive and act as online CV's are:
+Some other notable websites that are impressive and act as online CVs are:
 
 Chris' http://iamchrisjim.com/
-Matt Burrmans - https://mattburman.com/
+Matt Burrman's - https://mattburman.com/
 Simon Fish's - http://simon.fish/
 
 All of these are computer scientists / coders, but you don't need to know how to code to have an online website.
@@ -272,13 +274,13 @@ You can use GitHub to host your website for free
 
 https://pages.github.com/
 
-And if you have no coding experience you can use something like Jekyll (google it)to create an easy website. Here's a GitHub reposotory that you can fork and change to have your own website:
+And if you have no coding experience you can use something like Jekyll (google it)to create an easy website. Here's a GitHub repository that you can fork and change to have your own website:
 
 https://github.com/jabranham/github-pages-academic-starter-kit
 
 If you want to pay a little, Squarespace looks pretty nifty. Or you can pay one of the many developers I've listed (myself included) to make your website for you. Or any other developer you may know.
 
-One of the advantages of having your own domain name is that you get an email for your domain name. How cool is it to email someone with the email address "pauline@paulinenarvas.com"?
+One of the advantages of having your own domain name is that you get an email for your domain name. How cool is it to email someone with an email address that ends in their name?
 
 # Know yourself
 
@@ -286,9 +288,13 @@ Questions will come up about you, about what you've done, about your CV.
 
 Fully understand everything there is to know about yourself.
 
-# Answereing interview questions
+They will ask questions about your CV. People regularly forget what they have put on their CV. Make sure you understand the projects and work you've put on there.
 
-Always answer using the STAR method - Situation, task, action, result.
+# Answering interview questions
+
+Always answer using the STAR method - Situation, task, action, result - if appropriate.
+
+Describe a situation you had, the task you had to solve, what action you took to solve it and the result. Not all interview questions can be answered with the STAR method but it is recommended.
 
 ## 15 Interview Questions
 
@@ -296,9 +302,9 @@ According to Reed, there are really only 15 interview questions. All other inter
 
 1. Tell me about yourself
 
-They don't care aobut your personal life. They want to hear your professional story. Tell a story, not some bullet points. 
+They don't care about your personal life. They want to hear your professional story. Tell a story, not some bullet points. 
 
-This question is a combintion of of a candiate's self confidence and how well they have prepared. You need to answer this, right now. And memorise it. You know how businesses have elevator pitches? **YOU** need one.
+This question is a combination of of a candidate's self confidence and how well they have prepared. You need to answer this, right now. And memorise it. You know how businesses have elevator pitches? **YOU** need one.
 
 Don't make it sound like you've never been asked this question before. Don't "uhm" or "ehh" before answering. Look them in the eye, smile, and rehearse it like you've always known this.
 
@@ -308,10 +314,10 @@ Here's my own example:
 
 >I'm a computer science student at the university of liverpool aiming to get a first class degree, previously studying computing at a local college.
 >
->While at college I became the student union's higher education vice president. During this role I ran the collective college partnership's Student Union consisting of 5 colleges. Towards the end of my role the annual student survey was completed and every section for the student union, most noticably the student union satisfaction and representation area went up from 30% to around ~85%. The skills I learnt were to be an effecticve team player, to communicate complicated ideas to board members in meetings, interviewing skills and how to deal with deadlines which i believe will help me in this position during work.
+>While at college I became the student union's higher education vice president. During this role I ran the collective college partnership's Student Union consisting of 5 colleges. Towards the end of my role the annual student survey was completed and every section for the student union, most noticeably the student union satisfaction and representation area went up from 30% to around ~85%. The skills I learnt were to be an effective team player, to communicate complicated ideas to board members in meetings, interviewing skills and how to deal with deadlines which i believe will help me in this position during work.
 > If there is anything else you would like to know, feel free to ask me.
 
-Most candiates fail this question because they don't know what to talk about.
+Most candidates fail this question because they don't know what to talk about.
 
 This question is asked in pretty much every interviewer. It allows the interviewer to get a rough idea of your background and experience and it also allows you to calm down.
 
@@ -345,13 +351,13 @@ An example of this answer could be something like:
 
 "I'm an extremely hard worker. I often don't pick up many projects but when I do I go all in. Recently I've picked up blogging, managing to amass more than 8000 monthly readers in less than 5 months."
 
-Do use statistics. This is really important. Statistics lets you talk big about yourself without sounding too egostitcal.
+Do use statistics. This is really important. Statistics lets you talk big about yourself without sounding too egoistical.
 
 There's a difference between saying "God, if everyone who read my articles was their own country it would be a small country. I must be an amazing writer" and saying "I have 8000 monthly reads in 5 months".
 
 But only say what's relevant. If I was applying to a job at a students union or anything to do with students I would say "I increased student satisfaction and approval ratings from 30% to ~90%".
 
-You don't have to be given a statistic to use it. You can work it out yourself. You know all these maths classes you took? Now's a good time to use them. Do you deal with customers alot and do always say you're doing well? Put that into a statistic. 
+You don't have to be given a statistic to use it. You can work it out yourself. You know all these maths classes you took? Now is a good time to use them. Do you deal with customers a lot and do always say you're doing well? Put that into a statistic. 
 
 Make sure your strengths match the job description. If the employer asks for good knowledge of Python (or German) talk about that. 
 
@@ -380,16 +386,16 @@ Yeah sure this may have worked 30 - 40 years ago but employers can see the lies 
 
 Use something that was a problem and talk about how you've overcome this. If you're still overcoming it say so. My example would be:
 
->"I used to be terrified of phone calls. The idea of phoning someone was a no go for me. Having worked in a students union and at multiple events it was inevtiable for me to phone people so I've gotten use to it. I'm still overcoming this but I'm not as bad as I was a year or two ago."
+>"I used to be terrified of phone calls. The idea of phoning someone was a no go for me. Having worked in a students union and at multiple events it was inevitable for me to phone people so I've gotten use to it. I'm still overcoming this but I'm not as bad as I was a year or two ago."
 
-But don't make the weakness a part of the job description. If the job descritpion says "you ne
+But don't make the weakness a part of the job description. If the job description says "you ne
 ed to be really good at talking to people" never say "I'm really bad at talking to someone".
 
 Make sure you say how you overcame your weakness and turn it into something positive. Make it into a mini story.
 
 Make sure this won't be a problem at your current company. Say something like "I believe this won't be a problem in this company" and then say why. Mine would be:
 
->"I used to be terrified of phone calls. The idea of phoning someone was a no go for me. Having worked in a students union and at multiple events it was inevtiable for me to phone people so I've gotten use to it. I'm still overcoming this but I'm not as bad as I was a year or two ago. I believe this won't be a problem at this company because I'm passionate for the cause of this company which would allow me to talk more on the phone to people revoling around this company. That's one of the reasons I want to join this company, because I get to do what I love and I get to push my bounadries and get out of my comfort zone, to grow both personally and professionally."
+>"I used to be terrified of phone calls. The idea of phoning someone was a no go for me. Having worked in a students union and at multiple events it was inevitable for me to phone people so I've gotten use to it. I'm still overcoming this but I'm not as bad as I was a year or two ago. I believe this won't be a problem at this company because I'm passionate for the cause of this company which would allow me to talk more on the phone to people revolving around this company. That's one of the reasons I want to join this company, because I get to do what I love and I get to push my boundaries and get out of my comfort zone, to grow both personally and professionally."
 
 Make it very clear that this question is as normal as giving your name and address, do not act like they are forcing information out of you.
 
@@ -418,7 +424,7 @@ If you've worked on a __preproject__ (mentioned in this article) this is the tim
 
 You have to really customise this one per company. Play your A-game here.
 
-Do not talk badly about other people, just focus on your srengths.
+Do not talk badly about other people, just focus on your strengths.
 
 Normally you will want to focus on what you're good at here. Talk about that
 
@@ -428,7 +434,7 @@ This question is just the interviewer wanting to know if you are going to get al
 
 7. Where do you see yourself in five years’ time?
 
-This question is the employer wanting to know if you plan to work there for a long time. Every employer wants to know you'll work there for a long time, even if it's just a waitering job.
+This question is the employer wanting to know if you plan to work there for a long time. Every employer wants to know you'll work there for a long time, even if it's just a waitering job. TK waitering
 
 Say something along the lines of:
 
