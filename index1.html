@@ -11,6 +11,20 @@
 
     gtag('config', 'UA-115991128-1');
   </script>
+  <script>
+      /**
+      * Function that tracks a click on an outbound link in Analytics.
+      * This function takes a valid URL string as an argument, and uses that URL string
+      * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+      * using 'navigator.sendBeacon' in browser that support it.
+      */
+      var trackOutboundLink = function(url) {
+         ga('send', 'event', 'CV', 'Clicked_CV', url, {
+           'transport': 'beacon',
+           'hitCallback': function(){document.location = url;}
+         });
+      }
+      </script> 
 
 
   <!-- Required meta tags -->
@@ -54,8 +68,8 @@
           <hr id="bio-hr">
           <p id="bio-links">
             <a href="#code">Code</a>
-            <a href="#experience">Experience</a>
-            <a href="https://drive.google.com/file/d/1ceyTuBwItj2PafE9Jltrr2qgStL69eYe/view?usp=sharing">CV</a>
+            <a href="#languages">Experience</a>
+            <a href="http://www.example.com" onclick="trackOutboundLink('https://drive.google.com/file/d/1ceyTuBwItj2PafE9Jltrr2qgStL69eYe/view?usp=sharing'); return false;">CV</a>
           </p>
           <p class="bio-icons">
             <a href="https://medium.com/@brandonskerritt51">
@@ -78,7 +92,8 @@
       <br>
     </div>
 
-    <div class="containertwo container-even" id="code">
+    <div class="code"></div>
+    <div class="containertwo container-even">
       <h2 class="title">I'm a programmer 👨‍💻</h2>
       <div class="card-deck">
         <div class="card code-item">
