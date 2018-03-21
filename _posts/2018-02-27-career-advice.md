@@ -72,6 +72,8 @@ Changed Student Union approval rating from 30% to 90%
 
 Really think about who you are applying to. If you're applying in the tech industry chances are that they reading your CV on a computer, so hyperlinks in CVs are really cool. If not, maybe don't include them as they don't look good when printed out.
 
+Always send your CV as a PDF unless they absolutely specify it has to be sent in a format they require. 
+
 ## Use a template
 
 I cannot stress this enough. There are hundreds, if not thousands of amazing CV templates online. Just Google "CV Template" and you'll find one.
