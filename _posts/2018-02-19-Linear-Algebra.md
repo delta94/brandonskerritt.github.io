@@ -221,7 +221,7 @@ $$\begin{pmatrix}0 & 5 & 2\\\ 3 & 0 & 4\\\ 10 & 7 & 0\end{pmatrix}$$
 
 So because it is not a 2 x 2 matrix we have to form sub matrices by deleting the first row and then the first column, then the first row and second column, then the first row and third column to form these matrices:
 
-$$a_{11} = \begin{pmatrix}0 & 4\\\7 & 0 \end{pmatrix}; a_{12} = \begin{pmatrix}3 & 4\\\10 & 0 \end{pmatrix}; a_{13} = \begin{pmatrix}3 & 0\\\10 & 7 \end{pmatrix}$$
+$$a_{11} = \begin{pmatrix}0 & 4 \\\ 7 & 0 \end{pmatrix}; a_{12} = \begin{pmatrix}3 & 4 \\\ 10 & 0 \end{pmatrix}; a_{13} = \begin{pmatrix}3 & 0 \\\ 10 & 7 \end{pmatrix}$$
 
 You'll notice that the notation:
 
@@ -232,7 +232,7 @@ is used here to define what rows are **missing**. In this case, if you take off 
 
 To find the determinant of a 2x2 matrix, we multiply the items along the main diagonal and subtract the entries by the opposite diagonal.
 
-$$det A_{11} = \begin{pmatrix}0 & 4\\\7 & 0 \end{pmatrix} = 0 * 0 - 4 * 7 = -28$$
+$$det A_{11} = \begin{pmatrix}0 & 4\\\ 7 & 0 \end{pmatrix} = 0 * 0 - 4 * 7 = -28$$
 
 Do you see how it's diagnonal?
 
@@ -282,4 +282,24 @@ I can only guess that we times by -1 because the determinant involves the invers
 
 The determinant of the matrix is 242.
 
+## Adjoint of a Matrix
+
+We have an n x n matrix A, then we look at the ith row and jth column of that matrix and for each value of that matrix add the determinant formed by deleting ith row and jth column then the adjoint of any matrix is the n x n matrix whose individal lengths are given in the following way:
+
+$$ a_{ij} = (-1)^{i+j}|A_{ji}|$$
+
+This formula finds the inverse of a matrix.
+
+We need the determinants of the matrix and the determinant of the three sub matrices, calculated earlier.
+
+We work out the determinant of every possible sub matrix:
+
+
+$$\begin{pmatrix}0 & 5 & 2\\\ 3 & 0 & 4\\\ 10 & 7 & 0\end{pmatrix}^{-1} = \frac{1}{242}\begin{pmatrix}-28 & 14 & 20\\\ 40 & -20 & 6\\\ 21 & 50 & -15\end{pmatrix} = \textbf{I}$$
+
+When we multiply a matrix by its inverse matrix we get the identity matrix.
+
+Paul explicitly said that "which of these determinants arrising from this 4x4 matrix
+
+TK work out identity matrix
 TK identity matrix?
