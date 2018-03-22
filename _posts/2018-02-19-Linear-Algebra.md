@@ -299,7 +299,17 @@ $$\begin{pmatrix}0 & 5 & 2\\\ 3 & 0 & 4\\\ 10 & 7 & 0\end{pmatrix}^{-1} = \frac{
 
 When we multiply a matrix by its inverse matrix we get the identity matrix.
 
-Paul explicitly said that "which of these determinants arrising from this 4x4 matrix
+Paul explicitly said that this won't come up in the test.
+
+# Charecteristic Matrices
+
+Suppose we have a real valued n x n matrix, A. Suppose further we want to find all the n-vectors, X, that have the following properties with respect to A:
+
+1. X != 0. X has no zero component.
+2. There is a value, λ , for which Ax^t = λx^t
+
+How do we go about finding X and λ?
+
 
 TK work out identity matrix
 TK identity matrix?
