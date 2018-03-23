@@ -945,6 +945,8 @@ Here's some stress based interview questions, taken from [here](https://www.bett
 
 A technical interview is used heavily in the computer science industry. It usually involves coding.
 
+Honestly there is so much out there about technical interviews ranging from 800 page books to entire video guides on how to pass technical interviews. If you're offered a technical interview I'm going to guess you're technical enough to google this. I highly reccomend Cracking the Coding Interview.
+
 ## Structured Interview
 
 A structured interview is just another describing word for an interview. A structured interview will usually follow a structure, where the questions are asked in a standard pace and are normally read off of a sheet of paper.
@@ -968,8 +970,6 @@ best thing you can do is take the lead from your interviewers. When you sit down
 Also, be sure to pick an option that will be easy to eat while you’re talking. (Hint: Forkfuls of Caesar salad are easier to maneuver than a massive, messy sandwich.)
 
 Finally, no matter how casual your employer may be, you want to put forward your very, very best self. This means: Stay away from ordering alcohol, even if the interviewers do. If you get the job, you will have plenty of opportunities to share a drink with them—the interview is not the time or place to start.
-
-## Career Fair Interview
 
 ## Interview Red Flags
 
@@ -1038,6 +1038,18 @@ Normally involves reading a bit of paper and answering questions about it.
 Tips:
 
 Take every word literally. You are being asked a question and the answer is in some text they gave you.
+Practice, practice, practice.
+Read questions carefully.
+Don't use general knowledge, everything you need to know is in the passage of the text.
+
+Here's a very good video on verbal reasoning tests:
+
+https://www.youtube.com/watch?v=U4z0FGt0Nss
+
+And here's some practice tests:
+
+https://www.practiceaptitudetests.com/verbal-reasoning-tests/
+
 
 ## Personality Test
 
@@ -1051,13 +1063,39 @@ Usually indicates:
 * Your motivation
 * Your preferences and attitudes
 
-There is no right or wrong answer here,
+There is no right or wrong answer here, although some tips can be provided:
+
+Find out what your employer wants and answer accordingly.
+Get to know some of the questions they might ask.
+Practice!
+
+And here's some free personallity tests:
+
+https://www.psychometricinstitute.com.au/Free-Personality-Test.asp
 
 # Presentations
 
-Have lots of pictures on your presentation. Steve Jobs **NEVER** had any writing on his presentations and he's really good, so follow that. But do try to write a little bit if it helps. Don't read off the script or the slides. Make sure they engage with you. Don't speak monotone. Act excited. 
+Have lots of pictures on your presentation. Steve Jobs didn't have much writing on his presentations and he's really good, so follow that. But do try to write a little bit if it helps. Don't read off the script or the slides. Make sure they engage with you. Don't speak monotone. Act excited. 
 
 Make sure your presentation follows a linear story, human beings are more prone to paying attention to stories.
+
+When presenting, don't stand in front of the screen.
+
+Try to talk a lot, use a lot of body motion to convey messages.
+
+Use the rule of 3. A list of 3 things is more interesting than a list of 2 things.
+
+Make sure to use high quality images and graphics. If the presentation is scaled up to a large resolution the images may become distorted.
+
+Use templates to build a powerful and beautful presentation.
+
+https://www.youtube.com/watch?v=Iwpi1Lm6dFo
+
+Honestly presentations are just practice and practice. No one likes public speaking but we all have to do it at one point or another. In my city, Liverpool, there's a presentation practice group that let's people practice presentations on other people who are practicing presentations. You can find these groups through Meetup.com or the likes.
+
+You can alternatively ask friends or your family to help you practice your presentation skills.
+
+The more you publicly speak, the better at it you'll become.
 
 # Preprojects
 
@@ -1081,9 +1119,11 @@ At YCombinator's Startup school they talk about how all employees must be passio
 
 Preprojects don't just work for tech, they can work for basically any business that has projects and all businesses have projects.
 
-Let's say you want to work at an amusement park, like Dreamland or Thorpe Park. You can research and perhaps suggest an event for them or something along those lines. Like, hey, there's alot of this population in Margate (where Dreamland is) that don't fall into the demographiv "White - British". These people also celebrate this holiday on this day, maybe you should make an event out of it at Dreamland?
+Let's say you want to work at an amusement park, like Dreamland or Thorpe Park. You can research and perhaps suggest an event for them or something along those lines. Like, hey, there's alot of this population in Margate (where Dreamland is) that don't fall into the demographic "White - British". These people also celebrate this holiday on this day, maybe you should make an event out of it at Dreamland?
 
 # Questions to ask your interviewer
+
+After an interview you want to make sure to ask questions to seem intrigued. Normally you'll generate questions when talking to the interviewer but if you can't think of any here are some useful questions to ask:
 
 1. What skills and experiences would make an ideal candidate?
 
@@ -1186,13 +1226,25 @@ This advice comes from [Andrew Osayemi](https://www.linkedin.com/in/andrew-osaye
 
 >Please share it with anyone who is doing a spring or summer internship"
 
-
-
 # Networking
 
-Networking is the **science** of meeting like minded people and befriending them in order to advance yourself in your career. Networking can happen anywhere, anytime - but it is normally undertaken at a __networking event__. You can find networkin events by using [Meetup](https://www.meetup.com) or using LinkedIn.
+Networking is the art of meeting like minded people and befriending them in order to advance yourself in your career or make new friends. Networking can happen anywhere, anytime - but it is normally undertaken at a __networking event__. You can find networking events by using [Meetup](https://www.meetup.com) or using LinkedIn.
 
 When at a networking event do try to look and act professional. Depending on the event you may not need to wear attire suitable for an interview. If it's a casual breakfast / lunch event normal work clothes will be fine.
+
+Everyone is nervous at a networking event. Go up to random people and say "Hi I'm [your name here]".
+
+Do you remember that feeling when that one person talked to you once in a coffee shop or at a party? How that one perosn picked you out of everyone else to talk to? This is what you're doing to other people when you approach them first and talk to them.
+
+Try to make friends instead of people who can elevate your status in life.
+
+Always be nice to everyone you meet. Whether this is in a job interview or whether you're at a networking event. Here's a nice reddit post:
+
+https://www.reddit.com/r/jobs/comments/5nhmp3/finally_have_a_new_job_and_its_all_because_i_was/
+
+>I've been job hunting for about eight months. A few weeks ago I went to an interview and handed off my car to the valet guy. As I was waiting for the elevator I heard him tell his coworker that he would kill for a coffee, so after my interview I stopped at the cafe in the lobby and grabbed one for him. He was super grateful and asked for my business card. I gave it to him, thinking maybe he wanted to send me a thank you email or something.
+
+>The next day I got a call from the manager at this big staffing agency in our city. She was the valet guy's cousin and he asked her to call me. I ended up meeting with her in person, and after only a week she found me my dream job. Today was my first day, and it went perfectly.
 
 # Reccomended reading
 
@@ -1202,31 +1254,9 @@ https://www.youtube.com/watch?v=1eOKwU0LLTE
 
 My favourite book of all time is How to Win Friends and Influence People, I highly reccomend it!
 
-
-
-
-
-
-
-https://www.reddit.com/r/jobs/comments/5nhmp3/finally_have_a_new_job_and_its_all_because_i_was/
+This is a good read on Reddit:
 
 https://www.reddit.com/r/jobs/comments/7y8k6p/im_an_exrecruiter_for_some_of_the_top_companies/
-
-    Find a job you're interested in that you could be a good fit for. If you're a fit for 70% of the job requirements that's probably okay
-    Don't apply for it immediately. It's tempting but if you do it will actually reduce your chances later on. If I applied first without a referral I got an interview 14% of the time. If I applied and then got a referral it only went up to 17% of the time. This is because the recruiter may have already looked at my resume and rejected me and they usually won't take a second look just because someone referred me.
-    Instead, look up the company page on LinkedIn and click 'See all employees on LinkedIn'
-    Look for 1st or 2nd degree connections. Do not trust the LinkedIn filter for 2nd or 3rd degree connections. For some reason I found that the filter would show nobody as a 2nd degree connection but if I scrolled through the pages I would find several 2nd degree connections.
-    If you have a 1st degree connection, send them a message. "Hey [friend, old coworker, childhood nemesis]! I've been looking around at new jobs and see that you're working at [company]. Can I buy you a coffee and pick your brain about it a bit? I can meet you somewhere close to your office so it's easy for you. Any days next week work well?"
-    If you have a 2nd degree connection, send your existing friend a message. "Hey, it's been a while since we talked, I hope that [something you know about them] is going well! I'm looking for a new job and saw that you know [person] at [company]. I'd love to get in touch with them and figure out what it's like working there. Do you know them well enough to put me in touch? If it's helpful I can email you a quick intro blurb about me that you can just forward on to them."
-    If you absolutely can't find someone you know at a company, go ahead and apply for it normally.
-    Here's the priority order of people to reach out to. People who would be your peers (most relevant discussion, most relevant possible referral) -> the hiring manager for the role you want (most relevant discussion) -> sales people (always open to networking) -> anybody else (hey, there's a chance they can introduce you to the people above) -> recruiters (used to being annoyed by job seekers, actively trying to filter out candidates).
-    Figure out some questions you have about the company that don't have the answer somewhere on their website. "What do you think about what [competitor] is doing?" or "I saw in the news that you just launched [new product]. Where did the idea for that come from?" or "How do you guys usually handle [thing related to the job you want]?" Focus on questions that are related to the role you want to do so that you have knowledge you can use in interviews later.
-    Meet the person for coffee or over the phone. Ask your intelligent questions. Be interested in what they do and their company. You're 1) having a nice, social conversation, 2) showing them that you're smart / interested and 3) having them like you enough to root for you. Try not to bring up the job until they do or until you have about 5 minutes left. They'll usually ask how they can help you.
-    Mention that you saw a role and that you think you'd be a good fit for it because of [reason, reason, reason]. If the rest of the conversation went well they'll usually offer to refer you. If they don't, ask things like "Do you know who I could get in touch with about that role? Do you know who might be the hiring manager for it?" Send the resume along.
-
-# TODO 
-
-Personalise your cover letter
 
 
 Sources:
