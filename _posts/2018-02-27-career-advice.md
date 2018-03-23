@@ -148,6 +148,7 @@ What not to include:
 * A head-shot / image of you. Unless the company specifies that they require this, do not do this. Unless you are Alex Turner or Emma Watson. They do not want to see you.
 * Age and date of birth - It's illegal for employers to ask about your age under the Equality Act of 2010.
 * Martial / Relationship status - Again under the Equality Act of 2010 they cannot ask this.
+* Every single thing you have ever done - Make it short and customise it per job.
 
 Note: The Equality act is a UK act. I'm not sure about the US, but you probably don't want to include them anyway.
 
@@ -622,9 +623,75 @@ https://www.youtube.com/watch?v=Xk9zZwP-XLY
 
 12. What do your coworkers say about you?
 
-Bring along testimonials. Reference letters. Show them when this question is asked.
+Bring along testimonials. Reference letters. Show them when this question is asked. Show LinkedIn testimonials, on your personal website, testimonials on paper. Never just pull out your phone or any items without asking if it's okay by them to take out your testimonials.
 
-You should come up with a standardised answer here that can be customised per company.
+Here's a good answer that doesn't refer to a testimonial from The Balence
+
+>My colleagues have told me that I am extremely organized and excellent at time management. During one project, my team members praised me for developing and sticking to a timeline for all the phases of the project. (Give a brief summary of what the project was.) We ended up successfully completing it ahead of time, and it was a hit!
+
+13. How do you deal with stress and failure?
+
+Don't pretend like you've never experienced stress. Talk about how you deal with stress and failure. This is highly personal so again customise this to you. My answer would be:
+
+>I once was rejected by 5 universties. I had no idea what I would be doing come September. This was a highly stressful time for me because I expected to get into at least one university. I went running, I took a few days off work and I decided on my options. I could either of been sad, moany and upset for the rest of that month or I could of manned up, accecpted what had happened and decided on my next step. I chose the latter.
+
+14. How much money do you want?
+
+Quincy Larson has a good article on this here:
+
+https://medium.freecodecamp.org/salary-negotiation-how-not-to-set-a-bunch-of-money-on-fire-605aabbaf84b
+
+If the salary is given in the job description, don't try to negoiate it. 
+
+Questions on salary are difficult. Once you give a number, you lose. They know that's your maximum, so don't try and be the first one to give a number. The interviewer might ask:
+
+"What's your current salary?"
+
+Which is just a trick to find out how much money you're okay with.
+
+You should avoid these questions, don't give them any numbers. If they ask one of these simply say:
+
+>I’m not comfortable sharing that information at this point
+
+>At some point in the process you achieve something which I describe as “Yes, if…” rather than “No, but…”. “Yes, we want to work with you, if we can come to a mutually satisfactory offer,” which is distinguished from, “No, we don’t want to work with you, but we might work with you if it turns out that you’re disgustingly cheap.” After you have agreement in principle that, “We want you to work here. What’ll it take to make that happen?” — then and only then do you start talking about money. — Patrick McKenzie
+
+Quincy suggests that switching this salary neogiation over to email is good. You have time to think about what's being said and time to reply. You also have concrete proof of a salary in the emails.
+
+Once the employer asks something like "but we have to negoiate salary at some point" just say "can you email me at all?".
+
+It never hurts to negoiate, statistics show that 87% of companies won't pull a job offer if a candiate neogiates their salary (Why You? - James Reed).
+
+You need to prepare for this question. You need to research what other employees are earning at this company, what people with the same job title but at different companies are earning. You can use Google, Glassdoor, Payscale to find this information. The location of the job matters too and will effect salary.
+
+Have 3 numbers in your head. The perfect amount which is the highest amount possible for this job. The lowest amount, at which point you may as well walk away from the job offer and the medium amount, which is the middle of the 2.
+
+If the company offers you stock options, don't play around with that. Nothing beats cold hard salary. It's very unlikely the company you work at is going to be the next Facebook. In some cases stock options are worth more than cash but normally this is not true.
+
+When you get to the point of emailing the employer, ask "what do you think I'm wroth?" or "How much were you thinking?". The first person to give a solid number loses. You know how in Pawn Stars they always haggle down? That's because the seller always gives the price first. They know that's their maximum, so they try to save themselves money.
+
+Once you give a number the employer will do exactly the same. They'll haggle down.
+
+If your maximum salary number is £100k, and they offer you £100k I wouldn't try to bargain. Unless you're absolutely amazing, some kind of super human who's absolutely worth more than the maximum salary in the industry I wouldn't do it. But then again, 87% of companies won't pull a job offer because of negoiation so you can try anyway.
+
+However in the real world this probably isn't going to happen. They'll likely offer you £50k or half of your highest maximum salary number. This is where you can haggle up. They're allowed to haggle you down, so why don't you haggle up?
+
+Here's a story of a guy who negoiated and got a compenstation package worth £250k.
+
+https://haseebq.com/farewell-app-academy-hello-airbnb-part-i/
+
+In busines school you learn to pit sellers against each other.
+
+"Yes, I really love this car but this store down the road is offering it to me 10% cheaper. I really like this store, is there anyway you can offer it to me cheaper?"
+
+Here's a good discussion on Hacker News about salary negoiation
+
+https://news.ycombinator.com/item?id=11314803
+
+And here's a very good video from Ramit Sethi
+
+https://www.youtube.com/watch?v=twJbXSpTVFA
+
+15. Show me your creativity
 
 # Change "uhhhh" to "    "
 
