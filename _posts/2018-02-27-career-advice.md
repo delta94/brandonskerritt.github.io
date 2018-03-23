@@ -4,7 +4,7 @@ categories:
   - University
 ---
 
-So I got really sick and tired of seeing "How to get the perfect job" and then them only giving you  3 paragraphs and saying "buy my book or sign up to my email list to get the rest XDDDDDDD" so I'm releasing all the information I've learnt from these scam artists for free.
+So I got really sick and tired of seeing "How to get the perfect job" and then them only giving you  3 paragraphs and saying "buy my book or sign up to my email list to get the rest" so I'm releasing all the information I've learnt from these scam artists for free.
 
 As a side note, if you have any questions you **DO NOT** have to sign up to my email list, follow me or pay me. I will answer all of your questions and help you, for free. Feel free to leave them down in the comments or message me on any of my social media accounts.
 
@@ -693,6 +693,20 @@ https://www.youtube.com/watch?v=twJbXSpTVFA
 
 15. Show me your creativity
 
+This question can come out in many forms, but they all reference creativity.
+
+Almost all employers look for creativity. 
+
+Creativity does not have to be you painting a picture or creating a sculpture.
+
+You might decide to create a Google Sheets document so everyone on your course knows all the deadline dates for course work.
+
+As with all interview questions it's important to provide examples here.
+
+Here's a good answer from [here](https://everydayinterviewtips.com/behavioral-interview-question-give-an-example-of-a-time-you-were-creative/):
+
+>While working at SalesCompany, I developed a lead generalization email that generated an unheard of 37% response rate – well above the previous record of 12%, using a friendly tone that made the email prepare casual and personally written, despite being a template.
+
 # Change "uhhhh" to "    "
 
 Instead of saying "uhhhh" and "ehhhhhh" just pause. Smile. DO NOT rush through your interview.
@@ -711,6 +725,8 @@ In Karate if you rushed through your Kata it would be extremely ugly and convula
 
 # Interview Formats
 
+These interview formats can be mix and matched or may just be on their own. It depends entirely on how the employer wants to do things.
+
 ## Face to Face
 
 The normal interview format. You'll be interviewed by 1 or 2 people at most. They'll ask you questions relating to the job.
@@ -719,7 +735,7 @@ The normal interview format. You'll be interviewed by 1 or 2 people at most. The
 
 You will be given a set of questions and you will have to record yourself for 15 - 30 minutes answering the questions. The interviewer loves this format because if you bore them after the first 15 seconds they can just stop watching. They can't just walk out in a face to face interview.
 
-Some companies (such as Barclays) use Artifical Inatelligence to read your face and use that to determine whether or not you go onto the next stage.
+Some companies (such as Barclays) use Artifical Inatelligence to read your face and use that to determine whether or not you go onto the next stage. If you know an AI is going to face read you please have a good interview connection and camera quality.
 
 ## Skype Interview
 
@@ -900,7 +916,6 @@ Here are some examples of strength based interview quesitons, taken from [here](
 * Have you ever done something differently the second time around?
 * Do you think this role will play to your strengths?
 
-
 ## Stress Based Interviews
 
 A stress based interview is designed to make you stressed, to put you under pressure to see how well you do.
@@ -925,7 +940,6 @@ Here's some stress based interview questions, taken from [here](https://www.bett
 * What would you change about the design of a baseball hat?
 * Why were you fired from your previous job?
 * How successful do you think you've been so far?
-
 
 ## Technical Interviews
 
@@ -986,11 +1000,17 @@ If any of these appear in the interivew, you should think twice about working th
 
 All of these tests are strictly timed, usually giving you 30 minutes for 30 questions. Some companies do not care if you don't complete the entire test in time. One recruiter even told me that they make them harder to put people under stress.
 
+If you're currently a university student your employabillity team may have access to online psychometric tests for you to take.
+
+Otherwise the below website has some good free tests you can take:
+
+https://www.practiceaptitudetests.com
+
 ## Numeracy tests
 
 A numeracy test is a test designed to gauge how well your daily maths skills are and how well they can be applied to a companies situation.
 
-There isn't really any tricks to this other than to practice. You can Google "Numerical Reasoning tests" to find some online.
+There isn't really any tricks to this other than to practice.
 
 You should take your own calculator (or have your own).
 
@@ -998,9 +1018,17 @@ You should know your calculator. Watch some Youtube videos on it to learn all th
 
 Use any rough paper for calculations.
 
-The more you practice the more you can understand graphs.
+The more you practice the better you can do these tests.
 
 Check units, don't mix different units unless you know how to convert.
+
+This is a good resource for free numeracy tests:
+
+https://www.practiceaptitudetests.com/numerical-reasoning-tests/
+
+And here's a good video on someone solving numerical tests:
+
+https://www.youtube.com/watch?v=VM6zkJ-_RRU
 
 
 ## Verbal Reasoning
