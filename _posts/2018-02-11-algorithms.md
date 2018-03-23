@@ -65,20 +65,18 @@ From [here](http://cs-exhibitions.uni-klu.ac.at/index.php?id=193)
 
 Normally algorithms break down things that we as humans think are very simple and easy into little steps that a computer can perform.
 
-An example of this is let's say you want to find the number 3 in the list [1, 2, 3]. You look at it and you see it, but a computer can't see the number 3 in the list until it goes through every single item to check.
+Let's say you want to find the number 3 in the list [1, 2, 3]. You look at it and you see it, but a computer can't see the number 3 in the list until it goes through every single item to check.
 
 Computers are the fastest dumbest things to ever be created.
 
-Algorithms are essential in Computer Science, you simply cannot live without them. Something computer scientists do alot is compare how long an algorithm takes to run against other algorithms.
+Algorithms are essential in Computer Science, you simply cannot live without them. Something computer scientists do a lot is compare how long an algorithm takes to run against other algorithms.
 
 <a name="big-o"></a>
 # How do we measure how long an algorithm takes to run?
 
-TK have coding book tips here
-
 We could simply run an algorithm 10,000 times and measure the average time taken but let's say we have an algorithm that took different inputs, like say for example we have an algorithm that takes a list of items and prints every item to the screen. If we only input lists of length 1 (1 item), the average time would be around 0.1 seconds. If we entered items of length 1500, the average would be different. Of course you can use some advance statistical knowledge to work out the true average by inputting lists of varying lengths or you could use Big O notation.
 
-Big 0 notation is notation used to describe how efficient an algorithm is. It's incredibly important to know this since every major employer will question you on this and it'll most likely come up in any algorithms exams (Hello University of Liverpool people <3 )
+Big 0 notation is notation used to describe how efficient an algorithm is. It's incredibly important to know this since every major employer will question you on this and it'll most likely come up in any algorithms exams (Hello University of Liverpool people <3 ).
 
 A hierarchy of functions exist:
 
@@ -86,7 +84,7 @@ A hierarchy of functions exist:
 -------- | --------- | ------------------- | -----------
 Constant | Logarithm | Polynomial          | Exponential
 
-Where the further right they are, the longer it takes. Big O notation uses these functions to describe algorithm efficiency. O(2^n) is larger than O(1).
+Where the further right they are, the longer it takes. Big O notation uses these functions to describe algorithm efficiency.
 
 Log is called a logarithm (typically in base 2 binary but can differ). I shan't explain the logistics of logarithms for someone has already done it far better than I can. You do not need to watch the whole video, perhaps just the first two minutes.
 
@@ -98,9 +96,9 @@ A "constant" value is something that does not change depending on its input. So 
 
 In Big O notation, we always use the *worst case* scenario for our calculations.
 
-To calculate the Big O of an algorithm or selection of code, well... it's basically an educated guess. If your algorithm touches EVERY item in a list, the algorithm is 0(n). If your algorithm does not rely on input size (like an algorithm which just does 2 * n) then it is considered 0(1). If your algorithm appears to be halfing / going down alot it is _probably_ log n. If your algorithm looks like it's counting up in how memory is counted (16, 32, 64, 128, 256, ..., 1024) then it is probably 2^n. 
+To calculate the Big O of an algorithm or selection of code, well... it's basically an educated guess. If your algorithm touches EVERY item in a list, the algorithm is 0(n). If your algorithm does not rely on input size (like an algorithm which just does 2 * n) then it is considered 0(1). If your algorithm appears to be halving / going down a lot it is _probably_ log n. If your algorithm looks like it's counting up in how memory is counted (16, 32, 64, 128, 256, ..., 1024) then it is probably 2^n. 
 
-There are some super useful rules you have to obey in order to simplfy your algorithm.
+There are some super useful rules you have to obey in order to simplify your algorithm.
 
 <a name="big-o-tips"></a>
 ## Drop the constants
@@ -122,7 +120,7 @@ Bet you were expecting some hard to understand guide to Big O huh? Well, this is
 
 Big O notation only represents how long an algorithm can take but sometimes we care about the memory (space complexity) of an algorithm too.
 
-TK other forms of measuring algirhtms.
+There are other forms of measuring algorithm time complexity such as Big Theta which is the least (smallest) amount of time an algorithm takes.
 
 <a name="big-o-cheatsheet"><a>
 ## Cheatsheet
@@ -163,9 +161,9 @@ Bi-directional search | $$\frac{b}{2}$$ | $$\frac{b}{2}$$
 
 
 <a name="sequential-search"></a>
-# Seqeuntial search & Searching
+# Sequential search & Searching
 
-Let's say you have an array of items [1, 3, 7, 4, 9] and you want to find the number 4. You just look at it, and you see it. What's so hard about that? Well a computer doesn't have super cool abillities like us just to "see" things. It has to go through the list in order to "see" the number. There are many algorithms that allow a computer to search lists / arrays. One of them is sequential search.
+Let's say you have an array of items [1, 3, 7, 4, 9] and you want to find the number 4. You just look at it, and you see it. What's so hard about that? Well a computer doesn't have super cool abilities like us just to "see" things. It has to go through the list in order to "see" the number. There are many algorithms that allow a computer to search lists / arrays. One of them is sequential search.
 
 A sequential search would calculate it like so:
 
@@ -194,12 +192,12 @@ for i in list: # for every element in the list
         continue # else continue searching
 ```
 
-Now this may seem stupid, but it can work on non-sorted arrays. You use this search alot in daily life, like looking for a book or looking for an item on a menu.
+Now this may seem stupid, but it can work on non-sorted arrays. You use this search a lot in daily life, like looking for a book or looking for an item on a menu.
 
 <a name="Binary-search"></a>
 # Binary search
 
-Binary search only works on sorted arrays. It basically halves the array and checks whether the halfed item is lower or higher than the goal item in the array.
+Binary search only works on sorted arrays. It basically halves the array and checks whether the halved item is lower or higher than the goal item in the array.
 
 Given the array [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] and we want to find 2 we can run binary search like this:
 
@@ -209,7 +207,7 @@ is 5 less than or greater than 2? It's greater than so we throw away the right h
 5 / 2 = 2.5, so we round up here. 
 Is 3 less than or greater than 2? It's greater than so we do:
 3 / 2 = 1.5
-round up to 2 (as we only accecpt integers here)
+round up to 2 (as we only accept integers here)
 2 is goal, goal is found.
 ```
 
@@ -1541,6 +1539,8 @@ In the 18th Century a mathematician called Euler realised this problem was impos
 
 You'll notice a part of the land does not have an even number of bridges, it actually has 3 bridges. 
 
+Let's move straight into graph theory.
+
 An __undirected__ graph G = (V, E) consists of a set of vertices V and a set of edges. It is an undirected graph because the edges do not have any direction. 
 
 ![img](undirected_graph.png)
@@ -1885,7 +1885,9 @@ Minimax tries to reduce the maximum damage the opponent can do whilest reaping t
 
 There is also a second list, a list of every node that has already been visited in the search tree.
 
-TK alpha beta pruning
+If you want to learn more about adveriseral game play I highly reccomend this lecture from MIT:
+
+https://www.youtube.com/watch?v=STjW3eH0Cik
 
 # Greedy Algorithms
 
