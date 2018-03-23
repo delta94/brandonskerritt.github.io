@@ -1,20 +1,32 @@
 ---
-title: "Jobs"
+title: "Untitled - Jobs"
 categories:
   - University
 ---
 
-So I got really sick and tired of seeing "How to get the perfect job" and then them only giving you like 3 paragraphs and saying "buy my book or sign up to my email list to get the rest XDDDDDDD" so I'm releasing all the information I've learnt from these scam artists for free.
+So I got really sick and tired of seeing "How to get the perfect job" and then them only giving you  3 paragraphs and saying "buy my book or sign up to my email list to get the rest XDDDDDDD" so I'm releasing all the information I've learnt from these scam artists for free.
 
-Also I'm really sick and tired of Medium articles that are 5 - 7 minutes long and they talk about how amazing the author is and then they release a single sentence of information that's useful. So this is a no-thrills no-handrails guide to jobs.
+As a side note, if you have any questions you **DO NOT** have to sign up to my email list, follow me or pay me. I will answer all of your questions and help you, for free. Feel free to leave them down in the comments or message me on any of my social media accounts.
+
+# Why should you care?
+
+Well, that's a good question. This really comes down to "who am I?".
+
+I'm not a recruiter, but me and my friends are professionals with lots of experience. This article was written with help from [Chris Jim](https://www.linkedin.com/in/chris-jim-77b090128/) - 17 internships secured at some of the worlds top companies in his first year at university. I like to think of myself as a professional in tech. I have a few job offers and I've worked in tech before. The only thing I can really add is that I've read a lot of those recruitment books (Cracking the Coding Interview, Why You?, Get the Job You Really Want), taken courses at university in professional skills and read pretty much every Medium article revolving around being professional and having a job.
+
+This article features case studies and information from real humans who get real results. This isn't one of those articles written by someone who's never been and done it. All of the people mentioned in this article have internships at some of the UK's top companies or are considered extremely professional.
+
+This is a no-thrills no-handrails completely free as in free beer and free as in speech nose dive straight into stuff that is immediately useful to you.
 
 # CV
+
+We'll start off with the CV, one of the more cruical aspects of the job application process.
 
 ## Personalise your CV
 
 Seriously, customise your CV per job. Don't send the same CV out to many jobs. Think about what you've done that's important to the job.
 
-Customising your CV enables you to pass the keyword test.
+Customising your CV enables you to pass the **keyword test**.
 
 When you apply for a job, most jobs will read your CV to see if it contains certain keywords. If it doesn't, no job for you. This is either done by a human, which is a little forgiving or a machine which doesn't care about you.
 
@@ -24,19 +36,25 @@ To customise your CV analyse the job description. Read it multiple times and hig
 
 Read the job description, the responsibilities, the specific requirements, the location. Any words you don't know? They're probably keywords. Google them.
 
+If you really don't see any keywords, google "Job position Keywords". Like If I wanted to find the keywords for a sales assistant I'll type "Sales Assistant Keywords".
+
 Let's say a job description has this sentence in it:
 
 > Required - Advance knowledge of Microsoft Applications (Word, Excel, Powerpoint).
 
-Then instead of writing "Microsoft office" on your CV you write:
+Then instead of writing "Microsoft Office" on your CV you write:
 
 > Advance knowledge of Microsoft Software (Word, Excel, Powerpoint).
 
 ## Lie about your location
 
-Want to get a job in London? Then write "London" on your CV. No company wants to worry about someone commuting from Kent every day. They don't have to know.
+Want to get a job in London? Then write "London" on your CV.
 
 But make sure it's not too much of a lie. Saying you live in London when you're from Skegness or St. Ives is a blatant lie.
+
+If in the application they call you up on this, then say you're going to relocate and you wanted to specifically find jobs in your new area.
+
+Only do this if you're going to relocate though. Please don't commute 5 hours a day unless you're earning £100k+.
 
 ## Writing a CV
 
@@ -44,7 +62,9 @@ Make it 1 page. If you customise your CV per job, you should only ever need 1 pa
 
 Use a CV template and fill it out.
 
-If you know a little tiny bit about computers you can Google "LaTeX CV templates" to get some really nice templates for free. If it's on Overleaf or ShareLaTeX than good. LaTeX is basically like a programming language but for writing.
+If you know a little tiny bit about computers you can Google "LaTeX CV templates" to get some really nice templates for free. If it's on Overleaf or ShareLaTeX than it's easier to use. LaTeX is basically like a programming language but for writing. If you know LaTeX please don't kill me for saying that. This article isn't for technical people.
+
+Just Google "CV Template" and find one you like.
 
 List your achievements at a job, not the duties you had to do.
 
@@ -68,6 +88,12 @@ Achievements
 Changed Student Union approval rating from 30% to 90%
 ```
 
+## No References Available On Request
+
+No one I know that gets jobs does this. Make it as easy as physically possible for the recruiter. Contacting you to ask for references is another step to them, cut out the middle man and put the contact details for your reference on the CV itself. I know that some references will write you letters, and that's good. You should hand these in when they ask for qualifications (if they do).
+
+If you really want to give them letters, write "letters of recommendation available on request" under the contact details for your references.
+
 ## Make it as easy for your employer as possible
 
 Really think about who you are applying to. If you're applying in the tech industry chances are that they reading your CV on a computer, so hyperlinks in CVs are really cool. If not, maybe don't include them as they don't look good when printed out.
@@ -83,6 +109,8 @@ I cannot stress this enough. There are hundreds, if not thousands of amazing CV 
 If you're applying for a job that requires programming, have a "languages" section on your CV that talks about all the languages you know.
 
 Most people fire off blankets of CV's to every single recruiter on their LinkedIn like North Korea launching nukes without ever customising it. Do not do this.
+
+You'll notice that the last 2 parts have been written about twice here, that's because they are absolutely vital.
 
 ## Have a "profile" section
 
@@ -100,11 +128,15 @@ Try not to include your duties. It's much more impressive to show your accomplis
 
 In your bullet points use action verbs. These are words like "accomplished", "designed", "initiated", "supervised".
 
+Here's a good list of action verbs:
+
+http://career.opcd.wfu.edu/files/2011/05/Action-Verbs-for-Resumes.pdf
+
 ## Things to include in a CV
 
 Let's say you have a template and you want to change a few few things, here are some things you might want to include:
 
-* Personal details - Telephone, professional email, location - Name
+* Personal details - Telephone, professional email, location, name
 * Work experience
 * Achievements
 * Education
@@ -113,7 +145,7 @@ Let's say you have a template and you want to change a few few things, here are 
 * Know any languages that relate to the job? Put them down!
 
 What not to include:
-* A head-shot / image of you. Unless the company specifies that they require this, do not do this. Unless you are Alex Turner or Emma Watson they do not want to see you.
+* A head-shot / image of you. Unless the company specifies that they require this, do not do this. Unless you are Alex Turner or Emma Watson. They do not want to see you.
 * Age and date of birth - It's illegal for employers to ask about your age under the Equality Act of 2010.
 * Martial / Relationship status - Again under the Equality Act of 2010 they cannot ask this.
 
@@ -137,7 +169,6 @@ And this is Chris' CV
 TK
 https://drive.google.com/file/d/1rIBsYaRf6qSg9wND32cw4WAAbCBHG0W2/view
 
-TK maybe have photos
 
 # Email
 
@@ -149,7 +180,7 @@ Make sure you think about this carefully. I have 2 email addresses, a Gmail one 
 
 The Proton mail one is for tech companies. They might see I use Proton and subconsciously like me based on the fact that I support encryption.
 
-The gmail one with numbers on the end is just a semi-professional email I use.
+The Gmail one with numbers on the end is just a semi-professional email I use.
 
 If your email address looks like "FancyMonkey6969@tiscali.com" you need to change this.
 
@@ -172,6 +203,10 @@ Get a LinkedIn account. Make sure it's professional. Have a nice head-shot photo
 Here's a good LinkedIn inforgraphic from [here](https://www.leisurejobs.com/getasset/7a3e4167-6675-4ae3-be01-6ff723b80f2a/).
 
 ![img](https://www.leisurejobs.com/getasset/7a3e4167-6675-4ae3-be01-6ff723b80f2a/)
+
+# Case Studies
+
+These case studies are people I know that inspire me every day and motivate me to do better. I'm listing them here so you can learn from them like I've learnt from them.
 
 ## Meet Pauline - A Case Study
 
@@ -224,7 +259,7 @@ Here's how she describes it:
 
 Not every one needs to have a blog. But it's important to create some kind of content. As a developer you can work in open source by either directly changing code, opening issues or by writing blog posts.
 
-One of my friends answers Quora questions as a way to create content.
+Chris answers Quora questions as a way to create content.
 
 Some other friends make software.
 
@@ -284,19 +319,59 @@ If you want to pay a little, Squarespace looks pretty nifty. Or you can pay one 
 
 One of the advantages of having your own domain name is that you get an email for your domain name. How cool is it to email someone with an email address that ends in their name?
 
-# Know yourself
+# Meet Chris - A Case Study
 
-Questions will come up about you, about what you've done, about your CV.
+Chris, where do I start?
 
-Fully understand everything there is to know about yourself.
+He got 16 internships in his first semester of his first year at university. 
 
-They will ask questions about your CV. People regularly forget what they have put on their CV. Make sure you understand the projects and work you've put on there.
+He is the eptiome of professionalism.
+
+## Linkedin
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/a1a3d0fb-f56e-4ed2-a22d-e12f46e7181d.png)
+
+Chris' LinkedIn is extremely professional. He has 2 of his internship offers in his header plus his ambassador roles. He has a cover photo of him giving a talk, a professional headshot and a nice small bio.
+
+LinkedIn is weird because there's no big button that you can press to make you professional, it's all the little things you do such as a nice headshot photo or a nice cover photo that make you professional.
+
+if I was to list all of Chris' experience, this article would be 20 minutes longer. Seriously, check out his LinkedIn for some inspiration for your own:
+
+https://www.linkedin.com/in/chris-jim-77b090128/
+
+## Website
+
+Chris has an amazing personal website. Unfortunately my screenshot tool messes up on his website (blame FireFox) so I couldn't add screenshots. I highly recommend you visit his website for some inspiration. It lists some of his internships and all of his programming projects in a nice portfolio as well as contact information.
+
+http://iamchrisjim.com/
+
+You'll notice that Chris has a lot of experience with Free Code Camp too. If you're going for a job in tech, showing extra ciricular love to programming or data science or whatever you like is always good.
+
+## Blog
+
+Chris also has a blog!
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/14b876ec-7500-498e-a400-201359929ac5.jpg)
+
+Blogs are really cool because they let you get your voice out there, for companies to see what you're all about.
+
+Check out his blog here!
+
+https://chrisexperiencelondon.wordpress.com/
 
 # Answering interview questions
 
 Always answer using the STAR method - Situation, task, action, result - if appropriate.
 
 Describe a situation you had, the task you had to solve, what action you took to solve it and the result. Not all interview questions can be answered with the STAR method but it is recommended.
+
+## Know yourself
+
+Questions will come up about you, about what you've done, about your CV.
+
+Fully understand everything there is to know about yourself.
+
+They will ask questions about your CV. People regularly forget what they have put on their CV. Make sure you understand the projects and work you've put on there.
 
 ## 15 Interview Questions
 
@@ -322,6 +397,12 @@ Here's my own example:
 Most candidates fail this question because they don't know what to talk about.
 
 This question is asked in pretty much every interviewer. It allows the interviewer to get a rough idea of your background and experience and it also allows you to calm down.
+
+Here's some good YouTube videos on this exact question:
+
+https://www.youtube.com/watch?v=kayOhGRcNt4
+
+https://www.youtube.com/watch?v=OW-yxxPMtro
 
 2. Why are you applying?
 
@@ -371,6 +452,10 @@ Do you remember this game? The idea is to get the shapes in the right holes.
 
 Now, you could have the best blocks. The best blocks in the USA, the best blocks in the world. No one could ever have better blocks than you. But as long as you're trying to fit this amazing diamond cube into a triangular hole, it'll never ever work. 
 
+Well, unless you're a mathematician:
+
+https://www.youtube.com/watch?v=AvFNCNOyZeE
+
 The same can be said for job interviews. Often it's better to present something that you're only 60 - 80% good at that matches the job description rather than talking about something you are absolutely amazing at that doesn't match the job description.
 
 The recruiter wants to find the right person for the job. They want to find the right shape for the right hole. Make sure you mould yourself into the shape they want.
@@ -384,7 +469,7 @@ DO NOT USE weaknesses such as:
 
 Yeah sure this may have worked 30 - 40 years ago but employers can see the lies from miles away. Use an actual weakness but don't say something like:
 
->Sometimes I get really vivid thoughts of murdering someone
+>Sometimes I get really vivid thoughts of murdering people that interview me :)
 
 Use something that was a problem and talk about how you've overcome this. If you're still overcoming it say so. My example would be:
 
@@ -399,11 +484,11 @@ Make sure this won't be a problem at your current company. Say something like "I
 
 >"I used to be terrified of phone calls. The idea of phoning someone was a no go for me. Having worked in a students union and at multiple events it was inevitable for me to phone people so I've gotten use to it. I'm still overcoming this but I'm not as bad as I was a year or two ago. I believe this won't be a problem at this company because I'm passionate for the cause of this company which would allow me to talk more on the phone to people revolving around this company. That's one of the reasons I want to join this company, because I get to do what I love and I get to push my boundaries and get out of my comfort zone, to grow both personally and professionally."
 
-Make it very clear that this question is as normal as giving your name and address, do not act like they are forcing information out of you.
+Make it very clear that this question is as normal as giving your name and address, do not act like they are forcing information out of you like you're some sort of foreign intelligence agent.
 
 Whatever you do, under all circumstances, NEVER ever EVER reply with any of these:
 
-* I'm a perfectionist! (If you do this honestly, you don't deserve the job.)
+* I'm a perfectionist! (If you do this, honestly, you don't deserve the job.)
 * I work too hard
 * I don't have any!
 * Chocolate / food
@@ -428,11 +513,39 @@ You have to really customise this one per company. Play your A-game here.
 
 Do not talk badly about other people, just focus on your strengths.
 
-Normally you will want to focus on what you're good at here. Talk about that
+Normally you will want to focus on what you're good at here. Talk about that.
+
+If you haven't done a preproject, talk about what you've done in the past. Specific measurable achievements and make it sound like you can do this to this company.
+
+> "I turned a failing product from 30 sales a month to 10,000 a week, I want to sell as many of Product X as possible".
+
+Or take this answer from [The Balence](https://www.thebalance.com/what-can-you-contribute-to-the-company-2061254)
+
+> I will bring my unique vision to your company. I am experienced in the many areas related to this company’s current goals, including expanding international sales. For example, I helped improve international sales at a previous company by over 25%. My sales background, along with my ability to plan ahead, will help facilitate that growth.
 
 6. What’s your preferred management style?
 
 This question is just the interviewer wanting to know if you are going to get along together.
+
+There's 3 main steps to this question.
+
+1. Define what good management is
+
+They obviously care about good management, so it's important that you and the interviewer get on the same page about what good management is. Here's an answer from [The Muse](https://www.themuse.com/advice/how-to-answer-whats-your-management-style)
+
+> Management style is so hard to put your finger on, but I think in general a good manager gives clear directions and actually stays pretty hands-off, but is ready and available to jump in to offer guidance, expertise, and help when needed. I try my best to make that my management style.
+
+2. Add your on take
+
+Now say something that makes you unique. You want to stand out, not appear to be another sheep in the candiate pool. Here's a good response for the second part from [Forbes](https://www.forbes.com/sites/dailymuse/2014/10/16/how-to-answer-whats-your-management-style/#16e96a34256d)
+
+>"In terms of what makes me unique, I also go out of my way to make sure I know when my team needs help. I don’t hang around and wait to be called upon by my direct reports—I go to them. That means plenty of informal check-ins, both on the work they’re doing and on their general job satisfaction and mental well-being."
+
+3. Add an example
+
+Examples always work in interview answers. Back up what you've said. Here's an answer to this part, again from The Muse
+
+> I remember one project in particular at my most recent position where I supervised seven staff that involved everyone working on a separate aspect of the product. This meant a lot of independent work for my team, but rather than bog everyone down with repetitive meetings to update me and everyone else on progress made, I created a project wiki that allowed us to communicate new information when necessary without disrupting another team member’s work. I then made it my job to make sure no one was ever stuck on a problem too long without a sounding board.
 
 7. Where do you see yourself in five years’ time?
 
@@ -442,8 +555,28 @@ Say something along the lines of:
 
 > I don't know your company well enough, but I would like to think I would still be working here. In 5 years time I would have liked to learnt enough to be able to train people in future roles.
 
+Here's a sample answer video:
+
+https://www.youtube.com/watch?v=LZBNDlZSxJs
+
+I actually prefer Linda Raynier's video on this:
+
+https://www.youtube.com/watch?v=tt4TF1wqz9U
+
+She has many good examples of interview questions and how to answer them.
+
+Learning is a multi step process, you can't just read something and expect to be an expert in it. You have to practice for yourself and see what works for you and customise it per job.
+
 8. How would you approach this job?
 
+This question is a bit weird.. It's kind of a trap. Because you will never completely know how a company works without working at that company, don't answer like you're an expert on this but you do need to answer like you have a relatively good idea of what you're doing.
+
+An answer like this could work:
+
+> Well, the best way to do this job won't come clear to me until I start this job. But I'll start by getting to know my colleauges and team, listening, taking notes, building relationships, and helping people out where I can.
+> After all that, I'll have a good idea of how to do this job in the best way possible. At my last job I did...
+
+Notice the example again. Talk about how you best undertook your last job but don't go on and on forever.
 
 9. What have you achieved in other roles?
 
@@ -461,15 +594,35 @@ This is the question which gives you permission to not be humbled. Talk about wh
 
 Notice how I'm tooting my own horn here, this question allows you to do that.
 
-
 10. What did you like and dislike about your last job?
 
+On one hand, you don't want to sound like a moaner who hated your last job but you also want to appear authentic.
 
-11. How did you hear about this position?
+The interviewer is inviting you to say something negative about your last job, because everyone doesn't like something about their job.
 
-This question is simply the interviewer asking you a normal question. No unique tricks here. Use this question to show your passion for the company, but be genuine. If you've known about a company for years then say so.
+Since it's easy to talk about what you like most of your last job, this part will focus on mainly how to talk about the negatives.
 
-12. Why should we hire / choose you?
+Don't discuss people, discuss circumstances or tasks.
+
+Here's a good answer from [here](https://www.myperfectresume.com/how-to/interview-tips/what-did-you-like-least-about-your-last-job/)
+
+>I must say that I loved many things about my previous job: amazing people and an environment where I was challenged at every turn. However- there was one thing I didn’t like: expectations sometimes were unclear. I would be assigned a project with loose guidelines and turn it in on time to specifications. I’d then be told I did the project wrong. I’ve since learned to communicate better- to ask my supervisor if I have questions- and I’ve learned to never assume. Two people can look at project guidelines and draw vastly different interpretations of what is to be done. I’ll always be thankful for that learning experience and for the great folks at the company.
+
+11. Tell me about a time you worked in a team
+
+You're very likely going to work in a team, so the interviewer wants to know how good you are at team work.
+
+Talk about an experience you've had within a team, what you did, how well your team did. Use the STAR method here.
+
+This is really personal and customised to you, so no examples from me here. You should **really** form your own answers.
+
+This is a really good video on this question:
+
+https://www.youtube.com/watch?v=Xk9zZwP-XLY
+
+12. What do your coworkers say about you?
+
+Bring along testimonials. Reference letters. Show them when this question is asked.
 
 You should come up with a standardised answer here that can be customised per company.
 
@@ -684,7 +837,7 @@ Here are some examples of strength based interview quesitons, taken from [here](
 ## Stress Based Interviews
 
 A stress based interview is designed to make you stressed, to put you under pressure to see how well you do.
-0
+
 The logic is that the way you respond under stress during the interview is indicative of the way you'll handle similar situations on the job.
 
 Creating an emotionally chaotic setting puts candidates under psychological stress to see if they will crack, remain calm, or even thrive under pressure.
@@ -912,12 +1065,51 @@ At the very end of every converstation always ask "can I contact you with furthe
 
 Make sure to have lots of copies of your CV!
 
+# Turning Internships into Jobs
+
+This advice comes from [Andrew Osayemi](https://www.linkedin.com/in/andrew-osayemi/). 
+
+>"So, you are fortunate to have a spring or summer internship & are looking for 1 piece of unconventional advice, to help increase your chances of being offered a full-time graduate job?
+
+>Well the advice is very simple – Ask everyone on your team if they would like a tea or coffee every 2-3 hours each day”
+
+>Do it with a warm smile.
+
+>If they say no – still smile & politely say “no problem, please let me know if you need anything!”
+
+>And if they say yes, write down their order carefully so you don’t mess it up including any special requests (soya milk, 10 sugars etcs)
+
+>When you return with their beverage of choice, again make sure you give it to them with a warm smile!
+
+>Now the next 10 seconds is crucial 
+
+>You have an opening to ask how their day is going, if they have any work for you to do, if you can book a convenient time to work shadow them, did they watch the latest reality show etc.
+
+>Very soon your likeability factor will be increased which greatly impacts your chances of being offered a full-time graduate offer!
+
+>I’ve given this advice to countless students whom I have coached via Rare Recruitment & the feedback is “ It works”!
+
+>Please share it with anyone who is doing a spring or summer internship"
+
+
 
 # Networking
 
 Networking is the **science** of meeting like minded people and befriending them in order to advance yourself in your career. Networking can happen anywhere, anytime - but it is normally undertaken at a __networking event__. You can find networkin events by using [Meetup](https://www.meetup.com) or using LinkedIn.
 
 When at a networking event do try to look and act professional. Depending on the event you may not need to wear attire suitable for an interview. If it's a casual breakfast / lunch event normal work clothes will be fine.
+
+# Reccomended reading
+
+This video by Ramit Sethi is amazing!
+
+https://www.youtube.com/watch?v=1eOKwU0LLTE
+
+My favourite book of all time is How to Win Friends and Influence People, I highly reccomend it!
+
+
+
+
 
 
 

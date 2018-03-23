@@ -229,7 +229,6 @@ $$ a_{11}$$
 
 is used here to define what rows are **missing**. In this case, if you take off the first row and first column of the original matrix you get left with $$a__{11}$$.
 
-
 To find the determinant of a 2x2 matrix, we multiply the items along the main diagonal and subtract the entries by the opposite diagonal.
 
 $$det A_{11} = \begin{pmatrix}0 & 4\\\ 7 & 0 \end{pmatrix} = 0 * 0 - 4 * 7 = -28$$
@@ -293,7 +292,6 @@ This formula finds the inverse of a matrix.
 We need the determinants of the matrix and the determinant of the three sub matrices, calculated earlier.
 
 We work out the determinant of every possible sub matrix:
-
 
 $$\begin{pmatrix}0 & 5 & 2\\\ 3 & 0 & 4\\\ 10 & 7 & 0\end{pmatrix}^{-1} = \frac{1}{242}\begin{pmatrix}-28 & 14 & 20\\\ 40 & -20 & 6\\\ 21 & 50 & -15\end{pmatrix} = \textbf{I}$$
 
