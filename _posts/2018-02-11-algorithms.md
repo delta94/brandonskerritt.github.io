@@ -10,7 +10,6 @@ If you're not interested in a certain algorithm (say for example, Min and Max) t
 
 I do not attempt to explain my code used that much. You should really try to implement this yourself in code (if you're a programmer) and perhaps use my code to check over it. My code is definitely not the _best_ way to implement it, but it is a way.
 
-By the end of this article you should have a good understanding of algorithms and data structures. Note: In this article algorithmic arrays start at [1] instead of [0].
 
 # Table of Contents
 1. [What is an Algorithm?](#what-algorithm)
@@ -120,7 +119,7 @@ Bet you were expecting some hard to understand guide to Big O huh? Well, this is
 
 Big O notation only represents how long an algorithm can take but sometimes we care about the memory (space complexity) of an algorithm too.
 
-I read somewhere that if you have a for loop and another for loop nested inside of that for loop (2 for loops) then it's likely to be n^2. 3 for loops is n^3.
+I read somewhere that if you have a for loop and another for loop nested inside of that for loop (2 for loops) then it's likely to be $$n^2$$. 3 for loops is $$n^3$$.
 
 There are other forms of measuring algorithm time complexity such as Big Theta which is the least (smallest)amount of time an algorithm takes.
 
@@ -169,12 +168,12 @@ Let's say you have an array of items [1, 3, 7, 4, 9] and you want to find the nu
 
 A sequential search would calculate it like so:
 
-Current number | Description
--------------- | -----------
-1              | Not goal
-2              | Not goal
-3              | Not goal
-4              | Goal found
+Index | Current number | Description
+--------------| --- | -----------
+0             | 1 | Not goal
+1             | 3 | Not goal
+2             | 7 | Not goal
+3             | 4 | Goal found
 
 Note: this type of table is called a trace table. It shows the values and names of all variables in the algorithm every single time the algorithm / loop is run until the algorithm finishes.
 
@@ -305,8 +304,8 @@ So given an array, A, of positive only numbers this is how you would find the ma
 Quick note: read ":" as "then".
 
 ```python
-i = 1
-m = 0
+i = 0
+m = A[0]
 while i <= n:
     if A[i] > m:
         m = A[i]
@@ -314,7 +313,7 @@ while i <= n:
 print(M)
 ```
 
-Assume A is an array of n positive numbers and m is the maximum number. Also note that arrays are indexed at 1 here. Normally in computer science arrays are indexed at 0, as in they start from 0.
+Assume A is an array of n positive numbers and m is the maximum number.
 
 Can you guess the time complexity of this?
 
@@ -327,11 +326,11 @@ Well, we'll simply run the code.
 At first, 2 is the largest number. Then 6 is, 3 isn't larger than 6 and 4 isn't larger than 6 so we return 6 as the largest number in the array.
 
 <a name="min-code"></a>
-## Finding minimum from N +ve (positive) numbers
+## Finding minimum from N +ve (positive) numbers (code)
 
 What if we wanted to find the minimum? Well, we simply turn the ">" sign into a "<" sign.
 ```python
-i = 1
+i = 0
 m = A[1]
 while i <= n:
     if A[i] < m:
@@ -340,25 +339,10 @@ while i <= n:
 print(m)
 ```
 
-<a name="max-code"></a>
-## Findig the maximum number from N +ve (positive) numbers
-
-```python
-i = 1
-m = A[1]
-while i <= n:
-    if A[i] > m:
-        m = A[i]
-    i = i + 1
-print(m)
-```
-
-You literally just change "if A[i] < m" to "if A[i] > m" 
-
 <a name="datastructures"><a>
 # Dipping our toes into data structures - Queues and Stacks
 
-A datastructure is a way to structure data in such a way that the data becomes easily usable and maybe even faster to use than a typical list or array.
+A data structure is a way to structure data in such a way that the data becomes easily usable and maybe even faster to use than a typical list or array.
 
 <a name="queue"></a>
 ## Queues
@@ -375,8 +359,8 @@ So given an array (list) as an example
 [15, 20, 10, 0]
 ```
 
-The *head* points to array[1] which is the first item in the array, it does not point to the data contained in the first item.
-The *tail* points to array[end], where end is the length of the array + 1. In this instance tail results in 5,for their are 4 items in the list and then you add 1.
+The *head* points to array[0] which is the first item in the array, it does not point to the data contained in the first item.
+The *tail* points to array[end], where end is the length of the array + 1. In this instance tail results in 5, for their are 4 items in the list and then you add 1.
 
 It's actually up to the developer who designs this as to whether tail points to length + 1 or whether it points to length.
 
@@ -388,7 +372,7 @@ If we want to *enqueue* 12 into the queue, we would add it onto the end like so:
 [15, 20, 10, 0, 12]
 ```
 
-And the tail increases to a length of 6, but head stays at 1.
+And the tail increases to index 6, but head stays at index.
 
 *Dequeue* takes the [head] of the list and enqueue places an item at the [tail] of the list.
 
@@ -396,7 +380,7 @@ And the tail increases to a length of 6, but head stays at 1.
 x = [20, 10, 0, 12]
 ```
 
-which results in head = 2 and tail = 5. The head variable increased because we dequeued something. The head variable is also useful for other things such as knowing how many items have been taken out of a queue. 
+which results in head = 1 and tail = 5. The head variable increased because we dequeued something. The head variable is also useful for other things such as knowing how many items have been taken out of a queue. 
 
 If the head and the tail are the same and you have a 1 dimensional array like so:
 
@@ -429,7 +413,7 @@ Stacks have 2 functions:
 * Push - Insert element to the location top + 1
 * Pop - Delete element from top
 
-Where "top" is the variable for the number of items in the stack.
+Where "top" is the variable for the number of items in the stack. If there are 2 items in the stack, the top pointer will point to stack index [1]. Because we always index from 0, this represents 2 which is 2 items in the stack.
 
 Let's see some examples.
 
@@ -437,7 +421,7 @@ Let's see some examples.
 x = [20, 10, 15]
 ```
 
-Where top is "3" because there are 3 elements.
+Where top is "2" because there are 3 elements.
 
 So to push 12 onto this stack we'll get
 
@@ -445,9 +429,9 @@ So to push 12 onto this stack we'll get
 x = [20, 10, 15, 12]
 ```
 
-Now top becomes 4.
+Now top becomes 3.
 
-You may be wondering "what happened to adding +1 to head?". Well, like I said, you can use both notations. I want to expose you to as much variance in algorithms as possible to enrich your learning... Well, at least that's what my professor said to me.
+You may be wondering "what happened to adding +1 to head?". Well, like I said, you can use both notations. I want to expose you to as much variance in algorithms as possible to enrich your learning... Well, at least that's what my professor said to me once.
 
 Now if we want to pop() a stack we'll get:
 
@@ -455,7 +439,7 @@ Now if we want to pop() a stack we'll get:
 x = [20, 10, 15]
 ```
 
-and head = 3, since we've popped the top!
+and head = 2, since we've popped the top!
 
 Stacks are super useful, especially in browser history. Say for example you go to Google, then Medium, then my profile (follow me 😉). The stack will look like:
 
@@ -464,21 +448,25 @@ Brandon's Profile |
 Medium |
 Google |
 
-Now how much would it suck if you pressed "back" and it went back to Google? It would suck alot! So when we click "back" the browser, quite literally, pops the current webpage off of the stack and brings you to the next item.
+Now how much would it suck if you pressed "back" and it went back to Google? It would suck a lot! So when we click "back" the browser, quite literally, pops the current web-page off of the stack and brings you to the next item.
 
 Stacks grow _downwards_ by placing stuff on top of it. This may sound confusing, so I'll try to explain it.
 
 When you *push* something onto a stack, you're changing the head of the stack to go down 1 level. We'll visualise this. Let's imagine a stack that looks like this:
+
 ```
 [a][b][c]
 ```
+
 There are no rules as to whether stacks can be sideways or top down, but normally they're top down. If we want to *push* something into the stack we do this:
+
 ```
 [x][a][b][c]
 ```
+
 Which pushes all the contents of the stack down.
 
-In normal stack-like behavior this looks like:
+In normal stack-like behaviour this looks like:
 
 Follow me on Twitter|
 :------------------: |
@@ -504,11 +492,11 @@ Think of stacks like leaving breadcrumbs for yourself. If you're ever lost in a 
 
 Linked Lists are a linear collection of data elements except the linear order is not defined by their physical placement in memory but instead each data node points to the next.
 
-Linked lists are much faster for inserting data into because you don't need to shift the entire array to add an item. They're very useful for when the space of the plausiable values could be very large but you don't know when you will grow to that size.
+Linked lists are much faster for inserting data into because you don't need to shift the entire array to add an item. They're very useful for when the space of the plausible values could be very large but you don't know when it will grow to that size.
 
 Linked lists are scalable and adaptable.
 
-The order is determined by a pointer (rather than array indices) TK
+The order is determined by a pointer (rather than array indices).
 Each element (node) has a data field and one or two pointers linking to the next or previous elements in the list
 
 There are two types of linked lists, singly linked and doubly linked.
@@ -519,13 +507,14 @@ Singly link looks like
 [15][-]-> 
 ```
 
-Where ```->``` represents a pointer and each ```[]``` represents a componenet.
+Where ```->``` represents a pointer and each ```[]``` represents a component.
 
 ![img](https://he-s3.s3.amazonaws.com/media/uploads/1b76d10.png)
 
 In a singly linked list the node stores one piece of data (the 15) and it stores a pointer linking it to the right hand side. The pointer does not contain data, just a pointer. In my badly drawn diagram the pointer, the arrow which is literally pointing out of the right hand side box is a pointer pointing to the next node. Each set of these data with pointers is a node.
 
 A singly linked list cannot point to the previous node.
+
 <a name="doubly-linked-list"></a>
 Doubly linked list looks like:
 
@@ -533,7 +522,7 @@ Doubly linked list looks like:
 <-[-][15][-]->
 ```
 
-In a doubly linked list the node has a forward and backward pointer as well as a data object. Each node has 3 componenets, 1 piece of data and 2 pointers. In a doubly linked list you can go to the previous node.
+In a doubly linked list the node has a forward and backward pointer as well as a data object. Each node has 3 components, 1 piece of data and 2 pointers. In a doubly linked list you can go to the previous node.
 
 Linked lists have a few functions we can use such as:
 
@@ -573,7 +562,7 @@ Notice how we are using the node.next function to traverse a linked list.
 
 At Merriam Webster they have dictionaries with reversed words. So Ecology would be ygolcoe. If you wanted to know how many words ended in "cology" you simply would search all words that ended in "ygolco". Of course, reading it like this is annoying so you can use a doubly linked list to be able to search a dictionary both the original alphabetical way and the reverse way. [Thanks 99PI](https://99percentinvisible.org/episode/mini-stories-volume-4/).
 
-You could probably program a data structure (doubly linked list) that when you go to a previous node it displays the data in reverse.
+You could program a data structure (doubly linked list) that when you go to a previous node it displays the data in reverse if you really wanted too. This is just an example of something I thought about whilest writing this.
 
 ## Big O
 
@@ -583,8 +572,6 @@ Searching for and traversing through linked lists is O(n).
 # Programming Linked Lists
 
 Because the linked lists data structure isn't in every language (very commonly it is not) we have to program linked lists ourselves.
-
-Unfortunately my lectuer decided to switch to Java at this point in the class, however I'll do my best to explain every piece of java code.
 
 So below is a node for a doubly linked list. The node has 3 components, previous, data, next. A class is a template you can apply to objects, so in this instance we can make new nodes using this class.
 
@@ -604,11 +591,13 @@ class Node {
 ```
 
 In this instance the node has 3 methods that can be applied to it. Each method can be applied like:
+
 ```
 Node.next
 Node.prev
 Node.data
 ```
+
 using the dot notation.
 
 
@@ -646,7 +635,7 @@ First we create a new empty node with value as data.
 [ ][value][ ]
 ```
 
-Then we set the next pointer to point at the head of the linked lists
+Then we set the next pointer to point at the head of the linked lists. This assumes that there is already a linked list we are adding to.
 
 ```
 [ ][value][-]-[>][HEAD][ ]
@@ -658,17 +647,18 @@ After this we set the previous definition to be NULL
 NULL<-[-][value][-]-[>][HEAD][ ]
 ```
 
-Then we run a simple if statement. If head is not empty, set the previous node of the head node to be our new node.
+Then we run a simple if statement. If head is not empty, set the previous node (new node) as our head node. Otherwise if head is empty (as in this node is the only node in the linked list) do something. Normally you'll set head to the new node to the head but in some cases you may not want this.
 
 ```
 NULL<-[-][value][<-]-[>][HEAD][ ]
 ```
 
-Notice how you can now travel from the HEAD node to the new node.
-
-If head is empty, set the tail (last) node to be the new node. This is because if you insert this node into a linked list that doesn't exist, the next node would be nothing so the node you just inserted will be both the head and tail. Otherwise, just ignore the next node as it contains data.
+In some programming languages, the following logic may be used: If head is empty, set the tail (last) node to be the new node. This is because if you insert this node into a linked list that doesn't exist, the next node would be nothing so the node you just inserted will be both the head and tail. Otherwise, just ignore the next node as it contains data.
 
 The last line sets the head pointer to point to the new node which is at the front of the list.
+
+This part is entirely down to the programmer as to how they want to implement linked lists. This is the part where you write in your documentation how your linked list works (assuming you have documentation).
+
 <a name="delete-head-lniked-list"></a>
 We can also delete a node at the front of the linked list in a similar fashion:
 
@@ -688,7 +678,8 @@ static Node deleteHead() {
 
 We assume here that curr is a pointer that points at a node in the linked list.
 
-So we point the current pointer at head, if head is not null (if it is not empty) then we set the head to the next node and from this new head (which is the second item in the linked list) we set the previous (old head) to null (nothing, doesn't exist). We then return the pointer.
+So we point the current pointer at head, if head is not null (if it is not empty) then we set the head to the next node and from this new head (which is the second item in the linked list) we set the previous (old head) to null (null definition: nothing, doesn't exist).
+
 <a name="inserting-linked-list"></a>
 ## Inserting items into a linkedlist
 
@@ -708,11 +699,11 @@ Whenever we want to insert a new node, we just have to tell the node what the ne
 <a name="searching-linked-list"></a>
 ## Searching over a sorted linked list
 
-Recall that values stored in a linked list are sorted. We could use binary search to search the list. However, this is a bad idea. We don't know where the middle of a linked list is. Everytime we wanted to find the middle we would have to count every single node in the list and half that by 2.`
+Recall that values stored in a linked list are normally sorted (again, entirely down to the programmer). We could use binary search to search the list. However, this is a bad idea. We don't know where the middle of a linked list is. Everytime we wanted to find the middle we would have to count every single node in the list and half that by 2.
 
 We can use a modified version of sequential search to search a linked list.
 
-Because the linked list is sorted, let's say in ascending order, we can use this information to make seqential search faster.
+Because the linked list is sorted, let's say in ascending order, we can use this information to make sequential search faster.
 
 ```python
 node = head
@@ -726,22 +717,39 @@ else:
     print("found")
 ```
 
-Since the linked list is sorted sequentially we know that the nodes in the linked list go in some order, like 1, 2, 3, 4, 5 for example. If node.data is more than the key (what we're looking for) we know it's not in the list, because it is sorted in some order.
+Since the linked list is sorted sequentially we know that the nodes in the linked list go in some order, like 1, 2, 3, 4, 5 for example. If node.data is more than the key (what we're looking for) we know it's not in the list, because it is sorted.
+
+So if we wanted to find 2.5 we would do this:
+
+```
+1 is selected
+is 1 goal? - no
+is 1 > 2.5? no
+2 is selected
+is 2 goal? no
+is 2 > 2.5? no
+3 is selected
+is 3 goal? no
+is 3 > 2.5? yes - we can assume 2.5 is not in list and thus end the search here
+```
 
 There are many, many search algorithms but most of the time if you know a little bit of information about the data you can change some search algorithm to be more efficient for that specific problem. In general, binary search is extremely effective but here it's not so good. Don't just use an algorithm because Stack Overflow says that it is the fastest, best algorithm for the job.
 
-Algorithms are like programming languages, we all have our favourites and sometimes we say that one programming language is better than another (Python, I love you) but at the end of the day it would be foolish and naieve to say that one programming language is better than all the others. Use the right tool for the job, and change it if you want to!
+Algorithms are like programming languages, we all have our favourites and sometimes we say that one programming language is better than another (Python, I love you) but at the end of the day it would be foolish and naive to say that one programming language is better than all the others. Use the right tool for the job, and change it if you want to!
 
-Personally whenever I am presented with a problem I like to imagine it is in its own seperate world. I try to imagine what rules of life apply to this world. Once you understand the rules 
+Personally whenever I am presented with a problem I like to imagine it is in its own separate world. I try to imagine what rules of life apply to this world. Once you understand the rules (a rule being like our linked list is sorted ascending) you can work out the best tool and change that tool to fit perfectly to the job.
 
 <a name="sorting-algorithms"></a>
 # Sorting Algorithms
 
 Let's say you have a bookshelf and you want to arrange the books alphabetically, this is a sorting problem and the way you go around sorting the books is a sorting algorithm.
+
 <a name="bubble-sort"></a>
 ## Bubble Sort
 
 The idea of a bubble sort is simple. Starting from the first element, swap adjacent items if they are not in ascending order. When the last item is reached, the last item is the largest. Repeat these steps for the remaining items to find the second largest, third largest and so on.
+
+Most of these sorts are shown as sorting in ascending order. You can sort in descending too if you wanted. If it has some sort of hierarchy, if it can be sorted by some set of rules than you can modify a sorting algorithm to sort it.
 
 Bubble sort is often the first sorting algorithm one learns because it's easy to implement.
 
@@ -794,7 +802,7 @@ public static void BubbleSort( int [ ] num )
 }
 ```
 
-You'll notice that bubblesort heavily uses a temporary variable for temporary storage.
+You'll notice that bubble sort heavily uses a temporary variable for temporary storage.
 
 <a name="selection-sort"></a>
 ## Selection Sort Algorithm
@@ -802,10 +810,10 @@ You'll notice that bubblesort heavily uses a temporary variable for temporary st
 The selection sort algorithms tries to do the following:
 * Find minimum key from the input sequence
 * Delete it from input sequence
-* Append it ot the resulting sequence
+* Append it to the resulting sequence
 * Repeat until nothing left in input sequence
 
-Example, where bolded means it's in the right place.
+Example, where bold face means it's in the right place.
 
 
 [34, 10, 64, 51, 32, 21]     |   To Swap
@@ -817,7 +825,7 @@ Example, where bolded means it's in the right place.
 [*10*, *21*, *32*, *34*, 64, 51] | 51, 64
 [*10*, *21*, *32*, *34*, 51, 64] | Fully sorted
 
-As you can see there is fewer swaps than in Bubble Sort. It basically finds the lowest value and swaps it with the closet to first in the list where it isn't in the right place.
+As you can see there is fewer swaps than in Bubble Sort. It finds the lowest value and swaps it with the closet to first in the list where it isn't in the right place.
 
 Here's a gif representing how selection sort works:
 
@@ -902,7 +910,7 @@ cur
 
 The word "cur" is a pointer pointing at the current item being looked at.
 
-We compare 34 and 10 and becaue 10 is smaller than 34, we swap them.
+We compare 34 & 10 and because 10 is smaller than 34, we swap them.
 
 ```
             cur
@@ -921,9 +929,9 @@ And then we just continue this until we finish it. 34 < 64, so no swaps.
 [ ][10][-]---[>][34][-]---[>][21][-]---[>][64][ ]
 ```
 
-Cur moves through the linked list by using the ".next" function we saw earlier. But in this instance, Cur cannot move back because Cur.next is NIL, it is nothing. You cannot go any further. You also can't go back, because this is a singly linked list. So what do we do?
+Cur moves through the linked list by using the ".next" function we saw earlier. But in this instance, Cur cannot move forward because Cur.next is NIL, it is nothing. You cannot go any further. You also can't go back, because this is a singly linked list. So what do we do?
 
-We want to move Cur back to the start but we also don't want to look at the whole list, just the second last one because the start of the list has already been sorted.
+We want to move Cur back to the start but we also don't want to look at the whole list, just the second to last one because the start of the list has already been sorted.
 
 In the first round, we want to see if we reach the last possible element. In the second round we want to know we are at the second to last item. But how do we know this?
 
@@ -969,17 +977,17 @@ Then we simply go through the linked list again
 
 ```
                 cur           LAST
-[ ][10][-]---[>][34][-]---[>][21][-]---[>][64][ ]
+[ ][10][-]---[>][21][-]---[>][34][-]---[>][64][ ]
 ```
 
-Now cur.next == last, so we stop. We've sorted the whole list.
+We continue doing this until curr and last are one the same node at the start.
 
 <a name="programming-bubble-sort-linked-list"></a>
 ### Programming a bubble sort for a linkedlist
 
 Here is some psuedocode for a bubble sort in a linkedlist:
 
-```
+```python
 if head == NIL then:
     empty list and STOP!
 last = NIL.curr = head
@@ -1125,11 +1133,10 @@ class SampleLinkedListBubbleSort {
 	}
 
 }
+
 ```
 <a name="selection-sort-linked-list"></a>
 ### Selection Sort with Linked List
-
-TK add code
 
 So it's the same example with bubblesort but we want to see it done with a selection sort:
 
@@ -1144,7 +1151,7 @@ curr            min
 [ ][34][-]---[>][10][-]---[>][64][-]---[>][64][-]---[>][21][ ]
 ```
 
-The nodes don't entirely swap over here, you just swap the data of each node over using a temporary value. The idea is that you always placed the *smallest unsorted* node (data of a node) in the correct place until the "curr" pointer points at the end of the list (we know it points at the end when curr.next equates to NIL, None, Null).
+The nodes don't entirely swap over here, you just swap the data of each node over using a temporary value. The idea is that you always place the *smallest unsorted* node (data of a node) in the correct place until the "curr" pointer points at the end of the list (we know it points at the end when curr.next equates to NIL, None, Null).
 
 ## Programming a Selection Sort
 
@@ -1202,21 +1209,21 @@ head
 [ ][34][ ]
 ```
 
-Now we have 10, which is the new smallest element so it gets inserted to the start of the linked list like so:
+Now we have 10, which is the new smallest element so it gets inserted to the start of the linked list.
 
 ```
 head
 [ ][10][-]---[>][34][ ]
 ```
 
-64 is the largest number we've seen so we insert it at the very end. We know it's the largest number becaues we can either iterate over the list to check or keep a MIN_VALUE variable which tells us what the smallest number is we have inserted into the linked list.
+64 is the largest number we've seen so we insert it at the very end. We know it's the largest number because we can either iterate over the list to check or keep a MIN_VALUE variable which tells us what the smallest number is we have inserted into the linked list and a MAX_VALUE variable.
 
 ```
 head
 [ ][10][-]---[>][34][-]---[>][64][ ]
 ```
 
-The next round we need to find a node that is smaller than our target (21) and larger than our target (21). So we insert it into the middle after finding this:
+The next round we need to find a node that is smaller than our target (21) and a node that is larger than our target (21). So we insert it into the middle after finding this:
 
 ```
 head
@@ -1228,7 +1235,7 @@ head
 
 Okay, what if we get given some new data and we want to sort this appropriately?
 
-We need to assume that the linked list is already sorted ascendantly, and we want to insert a node in the proper position.
+We need to assume that the linked list is already sorted ascendingly, and we want to insert a node in the proper position.
 
 If the list is empty OR the first element (head.data) is larger than what we want to insert (node.data) we should put the new node as the head of the list.
 
@@ -1288,7 +1295,7 @@ And this is also a tree:
 
 Tree's have **exactly** one path between two vertices. You cannot have more than one path between any 2 vertices.
 
-The number of paths that lead into and out of a vertice is called the __degree__ of a vertice.
+The number of paths that lead into and out of a vertex is called the __degree__ of a vertex.
 
 ![img](tree_vertex.png)
 
@@ -1303,8 +1310,6 @@ A tree is often used to represent something that has a hierarchical sturcture, s
 ![img](file.png)
 
 A **rooted tree** has a direction where it goes from the top to the bottom but in some cases we can have an **unrooted** tree where it is not drawn top to bottom.
-
-TK image here of unrooted tree
 
 The topmost vertex is called the **root** of the tree. Where it all comes from.
 
@@ -1324,7 +1329,7 @@ The **degree of a tree** is the max degree from a vertex in the tree. So if a ve
 
 A vertex with no children (degree 0) is called a **leaf**.
 
-Vetrices other than leaves / roots are called **internal vertices**. These are sometimes called downward branches in a **rooted tree**.
+Vertices other than leaves / roots are called **internal vertices**. These are sometimes called downward branches in a **rooted tree**.
 
 A **subtree** is a tree that comes from a vertex that isn't the **root** vertex. You can have a subtree of a subtree.
 
@@ -1336,7 +1341,9 @@ Any vertex can be considered a sub-tree with 1 single leaf in it.
 
 A binary tree has a degree of most 2. No vertex has a degree higher than 2. The two subtrees are called the left subtree and the right subtree.
 
-The left hand side tree is smaller, the right hand side tree is larger.
+The left hand side tree is smaller, the right hand side tree is larger. This is a really cool feature of binary trees. If we want to find the number 34 and we have 2 subtrees where one root (left hand side subtree) is 12 and one root is 24 (right hand subtree) we know that the data must be in the right hand side subtree so we can cut off the entirety of the left hand side.
+
+We can actually do this to every single subtree until we find a leaf that contains the data we're looking for.
 
 ![img](binary_tree.png)
 
@@ -1344,7 +1351,7 @@ You can traverse binary trees using these 3 algorithms, but note that these only
 
 ### Pre-order Traversal
 
-A preorder traversal method visits the left subtree first, then the right and then eventually the right subtree. It tries to go down as far left as possible and stick to the left hand side as much as possible.
+A pre-order traversal method visits the left subtree first, then the left and right subtrees of that subtree the right and then eventually the right subtree. It tries to go down as far left as possible and stick to the left hand side as much as possible.
 
 ![img](http://108.61.119.12/wp-content/uploads/2014/10/binary-tree-1-pre-order.gif)
 
@@ -1352,13 +1359,13 @@ Gif from [here](http://108.61.119.12/wp-content/uploads/2014/10/binary-tree-1-pr
 
 ### In-order Traversal
 
-The left subtree is visited first, then the root vertext and then the right sub-tree is visited.
+The left subtree is visited first, then the root vertex and then the right sub-tree is visited.
 
 ![img](https://www.tutorialspoint.com/data_structures_algorithms/images/inorder_traversal.jpg)
 
 Image from [here](https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm)
 
-In-order traversal gives us numbers in ascending order.
+In-order traversal gives us numbers in ascending order, which is a really cool feature of this traversal.
 
 ### Post-order Traversal
 
@@ -1368,7 +1375,7 @@ We first traverse the left subtree, and then the right subtree, and then finally
 
 Image from [here](https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm)
 
-https://www.youtube.com/watch?v=GJ9rSCZsTEw TK watch this
+https://www.youtube.com/watch?v=GJ9rSCZsTEw
 
 ### What if you forget which one's which?
 
@@ -1404,9 +1411,9 @@ This is what we normally use. The operator (addition, multiplication) is **in** 
 
 Postfix notation looks like:
 
-$$ 2\space 5\space4 * + 3 * $$
+$$ 2 \space 5 \space 4 * + 3 * $$
 
-We can use post-fix traversal to get the postfix notational representation of 
+We can use post-fix traversal to get the postfix notational representation of equations.
 
 The operator is at the end of the expression it is evaluating. Computers often use this notation more than in-fix notation.
 
@@ -1521,7 +1528,7 @@ b = [1, 2, 1, 1]
 
 If you want to learn **a lot** about Graph Theory, check out this [article](https://medium.freecodecamp.org/i-dont-understand-graph-theory-1c96572a1401)
 
-The seven bridges of Konigsberg is the foundation and birth of graph theory.
+The seven bridges of Koenigsberg is the foundation and birth of graph theory.
 
 ![img](https://cdn-images-1.medium.com/max/2000/1*Yiwa1Lzpj6XHAXW3G9KcqA.png)
 
@@ -1547,11 +1554,9 @@ An __undirected__ graph G = (V, E) consists of a set of vertices V and a set of 
 
 ![img](undirected_graph.png)
 
-Excuse my messy drawing but it is incredibly hard to draw on Paint with a touchpad.
-
 Each edge is an unordered pair of vertices. So {a, b} is the same as {b, a}.
 
-A __directed__ graph G = (V, E) is where each vertice has a direction.
+A __directed__ graph G = (V, E) is where each vertex has a direction.
 
 ![img](directed_graph.png)
 
@@ -1603,11 +1608,11 @@ e is said to __connect__ u and v
 
 The degree of a vertex is how many edges are connected to it.
 
-The degree of the graph is the maximum edges connected to a particualr vertex. In this graph the degree is 3, since vertex u has degree 3 and is the largest degree in the graph.
+The degree of the graph is the maximum edges connected to a particular vertex. In this graph the degree is 3, since vertex u has degree 3 and is the largest degree in the graph.
 
 ## Matrix Representation of Graphs
 
-An undirected graph can be represented by an adjanecy matrix.
+An undirected graph can be represented by an adjacency matrix.
 
 A matrix is like a vector or a set, it's a storage unit to store numbers in it.
 
@@ -1661,7 +1666,7 @@ This is really nothing different from what we saw earlier.
 
 ### Incidence Matrix
 
-An __indidence matrix__ for a directed graph with n vertices and m edges is an m x n matrix.
+An __incidence matrix__ for a directed graph with n vertices and m edges is an m x n matrix.
 
 These are the basic rules:
 
@@ -1673,7 +1678,7 @@ These are the basic rules:
 
 ![img](https://screenshotscdn.firefoxusercontent.com/images/ac299862-5c00-4c10-9880-c78c1ff7cf98.png)
 
-__Incidence list__ is a list wheere each vertex, u, has a list of vertices pointed to by an edge leading away from u.
+__Incidence list__ is a list where each vertex, u, has a list of vertices pointed to by an edge leading away from u.
 
 ## Circuits
 
@@ -1705,7 +1710,7 @@ Okay, so we've met trees and graphs. But how do we search them? We can use some 
 
 ## Breadth First Search
 
-Breadth First Search (BFS) is a search algorithm developed by Konrad Zeus for his rejected PhD thesis in 1945. Breadth First Search searches all neighbors before it searches child nodes. In the below picture, once the start state (1) has been searched the states 2, 3, and 4 will then be searched.
+Breadth First Search (BFS) is a search algorithm developed by Konrad Zeus for his rejected PhD thesis in 1945. Breadth First Search searches all neighbours before it searches child nodes. In the below picture, once the start state (1) has been searched the states 2, 3, and 4 will then be searched.
 
 ![img](https://cdn-images-1.medium.com/max/800/1*7IzXIx8nxRMD0OSZjj6lBQ.png)
 
@@ -1718,8 +1723,6 @@ Breadth first search searches in "levels". It starts at level 1, [1], then goes 
 ![img](https://upload.wikimedia.org/wikipedia/commons/5/5d/Breadth-First-Search-Algorithm.gif)
 
 When we look at a neighbour we need to see if it's neighbours have been visited yet. In order to do this we need to "mark" the vertex to signify we haven't looked at it yet.
-
-Here's some psuedocode fopr this with a linked list / queue
 
 ### Advantages
 
@@ -1739,7 +1742,7 @@ $$ O(|v|)$$
 
 Where \|v\| is the number of nodes.
 
-I believe this notation is used because it is the notation used in the book "Artificial Intelligence: A Modern Approach" by Russel and Norvig and because this book is **the** book on Artifical Intelligence everyone uses their notation.
+I believe this notation is used because it is the notation used in the book "Artificial Intelligence: A Modern Approach" by Russel and Norvig and because this book is **the** book on Artificial Intelligence everyone uses their notation.
 
 **b** is the branching factor of the tree.
 **d** is the shallowest goal node (the lowest level at which a node is a goal for a given search problem)
@@ -1751,13 +1754,13 @@ Breadth First Search is very, very slow and requires a lot of memory, however, o
 
 ## Depth First Search
 
-Depth First Search expands the deepest node in the current frontier first. Depth first search goes immedtially to the deepest possible point of the search tree until there are no sucessors.
+Depth First Search expands the deepest node in the current frontier first. Depth first search goes immediately to the deepest possible point of the search tree until there are no sucessors.
 
 ![img](https://cdn-images-1.medium.com/max/800/1*7IzXIx8nxRMD0OSZjj6lBQ.png)
 
 In this example, Depth First Search will go straight to 9, then 10 and then to 6.
 
-Whereas Breadth First search uses a first in first out (FIFO) queue Depth First uses a a Last in Last out queue (LIFO). A LIFI queue means that the most recently generated node is chosen for expansion. The most recently generated node must be the deepest possible unexpanded node because it is deeper than its parent node.
+Whereas Breadth First search uses a first in first out (FIFO) queue Depth First uses a a Last in Last out queue (LIFO). A LIFO queue means that the most recently generated node is chosen for expansion. The most recently generated node must be the deepest possible unexpanded node because it is deeper than its parent node.
 
 If Depth First Search is used on a graph which avoids repeated states and redundant paths then it will find its goal in a finite number of states. If however it is used on a search tree then it will expand forever, in other words depth first search is not complete within search trees.
 
@@ -1773,9 +1776,9 @@ The advantage of DFS over BFS is the space complexity. Once a path has been full
 
 ![img](https://cdn-images-1.medium.com/max/800/1*ddvmo7Xf05rQpoKJC9ARog.gif)
 
-Uniform Cost search is Dijkstra’s Algorithm but rather than finding the single shortest path to every point in the search tree it finds the single shortest path to the goal node.
+Uniform Cost search is Dijkstra's Algorithm but rather than finding the single shortest path to every point in the search tree it finds the single shortest path to the goal node.
 
-Breathd first search is only optimal when all steps cost the same, because it always expands the shallowest unexpanded node. With a simple extension to breadth first search we can create an algorithm that is optimal for any cost. Instead of expanding the shallowest node like with BFS it instead expands the node, n, with the **lowest path cost**.
+Breathed first search is only optimal when all steps cost the same, because it always expands the shallowest unexpanded node. With a simple extension to breadth first search we can create an algorithm that is optimal for any cost. Instead of expanding the shallowest node like with BFS it instead expands the node, n, with the **lowest path cost**.
 
 If all steps cost the same then Uniform Cost Search is identical to BFS.
 
@@ -1783,7 +1786,7 @@ Uniform cost search does not care about the number of steps a path has but inste
 
 In other words, if Uniform Cost Search expands into a node with a cost path of zero from a node with a cost path of zero and there are two routes to each other it can get stuck in an infinite loop.
 
-We can gurantee completeness using this search method by making sure the cost of every step is greater than or equal to a small positive constant.
+We can guarantee completeness using this search method by making sure the cost of every step is greater than or equal to a small positive constant.
 
 Uniform Cost Search is guided by path costs and not lengths so it’s complexity cannot easily be shown. Instead, let X be the cost of the optimal solution and assume that every action costs at least Y. Then the algorithms worst case scenario is O(b[X/Y]) which can be much greater than B^d, which makes Uniform Cost Search slower and more resource hungry than Breadth First Search.
 
@@ -1791,11 +1794,11 @@ Uniform Cost Search is guided by path costs and not lengths so it’s complexity
 
 ## Depth Limited Search
 
-Depth Limited Search is a vartion on DFS whereby a limit is set to the depth of DFS so it does not go on forever or too long. It also solves the infinite path problem.
+Depth Limited Search is a variation on DFS whereby a limit is set to the depth of DFS so it does not go on forever or too long. It also solves the infinite path problem.
 
 If the goal is at level N and we choose a depth of D and D < N then Depth Limited Search is incomplete.
 
-The solution found is not guranteed to be the shortest optimal path.
+The solution found is not guaranteed to be the shortest optimal path.
 
 The time complexity of Depth Limited Search is B^d where d is the depth limit.
 
@@ -1803,19 +1806,19 @@ The space complexity of depth limited search is B*d where d is the depth limit.
 
 ## Iterative Deepening
 
-Iterative deepning is a varation on Depth Limited Search whereby the depth limit is increased if the goal is not found. Iterative Deepning often starts at level 0 and then increases by a singular level if the goal isn’t found on that level.
+Iterative deepening is a variation on Depth Limited Search whereby the depth limit is increased if the goal is not found. Iterative Deepening often starts at level 0 and then increases by a singular level if the goal isn't found on that level.
 
-Iterative Deepning Depth First Search combinds the best parts of depth-first search and breadth first search.
+Iterative Deepening Depth First Search combines the best parts of depth-first search and breadth first search.
 
-Iterative Deepning’s memory requirements are small, O(bd) where b is the amount of nodes generated and d is the depth level.
+Iterative Deepening's memory requirements are small, O(bd) where b is the amount of nodes generated and d is the depth level.
 
 Iterative deepening may seem wasteful because nodes are generated multiple times, although this is not very costly. Consider a search tree with the same branching factor at each level; most of the nodes will be on the bottom level so it does not matter much to generate upper level nodes repeatedly.
 
-In iterative deepning, nodes on the bottom level are generated once, those on the next to bottom level are generated twice and so on up to the children of the root node, which are generated d times.
+In iterative deepening, nodes on the bottom level are generated once, those on the next to bottom level are generated twice and so on up to the children of the root node, which are generated d times.
 
 ## Bidirectional Search
 
-The idea of bidrectional search is to run two searches, one forward from the start state and one backward from the goal state, stopping when the two searches meet. The idea is that b^d/2 + b^d/2 is much smaller than b^d.
+The idea of bidirectional search is to run two searches, one forward from the start state and one backward from the goal state, stopping when the two searches meet. The idea is that b^d/2 + b^d/2 is much smaller than b^d.
 
 Bidirectional search works by having one or both of the searches check the next node to see if it is in the fringe (frontier) of the other search tree, if it is then a solution has been found.
 
@@ -1825,7 +1828,7 @@ Bidirectional search must be able to calculate the predecessors of states and mu
 
 ## Informed Heuristic Searches
 
-An informed search stratergy is one that uses problem-specific knowledge to find solutions more efficiently than an uninformed search strartergy.
+An informed search strategy is one that uses problem-specific knowledge to find solutions more efficiently than an uninformed search strategy.
 
 ### Greedy Best-First Search
 
@@ -1839,29 +1842,33 @@ The worst case time complexity of greedy search is O(b^m) where b is the amount 
 
 ### A* Search
 
-The most widely known form of search algorihm is A* (a-star). It chooses its path based on 2 statistics, g(n) and h(n). g(n) is the cost to reach the node and h(n) is the heuristic function that shows the cost from the node to the goal.
+The most widely known form of search algorithm is A* (a-star). It chooses its path based on 2 statistics, g(n) and h(n). g(n) is the cost to reach the node and h(n) is the heuristic function that shows the cost from the node to the goal.
 
 f(n) = g(n) + h(n)
 
 Provided that the heuristic function satisfies certain conditions then A* is both optimal and complete.
 
-A* is optimal if h(n) is an admissable heuristic. That is provided that h(n) does not over estimate the cost to reach the goal. Admissable heuristics are often optimistic as they think the cost of solving the problem is less than it actually is. Since g(n) is the exact cost to reach n, we have an immedtiate consequence that f(n) never overestimates the true cost of a solution through n.
+A* is optimal if h(n) is an admissible heuristic. That is provided that h(n) does not over estimate the cost to reach the goal. Admissible heuristics are often optimistic as they think the cost of solving the problem is less than it actually is. Since g(n) is the exact cost to reach n, we have an immedtiate consequence that f(n) never overestimates the true cost of a solution through n.
 
 A* is normally not suitable for large search problems.
+
+It also makes for some really cool YouTube videos:
+
+https://www.youtube.com/watch?v=J-ilgA_XNI0
 
 ## Games as Search Problems
 
 In traditional search algorithms the user makes all the moves, however in a game we implement search algorithms against an unpredictable enemy.
 
-The best possible way is to calcualate every single possible move the enemy can make and counter them, although this will cause a combinatoral explosion in which the computer will take too long to calculate the correct answer.
+The best possible way is to calculate every single possible move the enemy can make and counter them, although this will cause a combinatorial explosion in which the computer will take too long to calculate the correct answer.
 
 In reality, we need to use heuristics to calculate search problems in games.
 
-In some games we have a fully observable environment, we know everything about the environment such as Chess or Go. In other games we have partial information where we don’t fully know the environment, such as Poker.
+In some games we have a fully observable environment, we know everything about the environment such as Chess or Go. In other games we have partial information where we don't fully know the environment, such as Poker.
 
 ### Minimax Algorithm
 
-n a game, Min and Max are two players. Max wants to win (maximise the utility of each move) whereas Min wants Max to lose (minimise utility for max).
+In a game, Min and Max are two players. Max wants to win (maximise the utility of each move) whereas Min wants Max to lose (minimise utility for max).
 
 The game Minimax is used on has to be a zero sum game, that means that there can only be winners and losers, nothing in between; like Chess.
 
@@ -1883,11 +1890,11 @@ In game playing, minimum would want Max to choose the one with the lowest utilit
 
 In a game such as chess the trees are extremely large. In chess the number of moves grow exponentially, after 4 moves there are 288 billion different possible positions. This is where Alpha-Beta pruning comes in. We cut off large chunks of the tree that we believe we no longer need in order to allow the Minimax algorithm to run in efficient time, that is time that will take less than 10 minutes to run (roughly).
 
-Minimax tries to reduce the maximum damage the opponent can do whilest reaping the maximum possible reward for us assuming the opponent plays optimally.
+Minimax tries to reduce the maximum damage the opponent can do whilst reaping the maximum possible reward for us assuming the opponent plays optimally.
 
 There is also a second list, a list of every node that has already been visited in the search tree.
 
-If you want to learn more about adveriseral game play I highly reccomend this lecture from MIT:
+If you want to learn more about adveriseral game play I highly recommend this lecture from MIT:
 
 https://www.youtube.com/watch?v=STjW3eH0Cik
 
@@ -1927,9 +1934,8 @@ A **minimum spanning tree** is a spanning tree of G with minimum weight.
 
 If we have a tree with n vertexes, the number of edges connecting all the vertexes are n - 1. The number of possible spanning trees is:
 
-$$ # \space of \space spanning \space trees = {# \space of \space edges}\choose{# \space of \space vertices-1}$$
+$$ {number \: of \: spanning \: trees} = {{number \: of \: edges}\choose{number \: of \: vertices-1}}$$
 
-$$ number of spanning trees = {number of edges \choose number of vertices-1}$$
 
 ![img](https://www.tutorialspoint.com/data_structures_algorithms/images/spanning_trees.jpg)
 
@@ -1999,9 +2005,9 @@ PS: this edge is "4" not "14".
 Now the next one to highlight is (H,I).
 **STOPPPP!!!!!!!!!!!!!!!**
 
-(H, I)? But that makes a triangle. You can go all aroudn the triangle. Wait, is this a cycle? Yes it is! 
+(H, I)? But that makes a triangle. You can go all around the triangle. Wait, is this a cycle? Yes it is! 
 
-See how easy it is to recgonise when a cycle happens as a human? As a computer, it's a lot harder. You can't just tell it to "see" and "guess" where a cycle will be formed. We'll come back to this topic later, but for now we'll skip (H, I).
+See how easy it is to recognise when a cycle happens as a human? As a computer, it's a lot harder. You can't just tell it to "see" and "guess" where a cycle will be formed. We'll come back to this topic later, but for now we'll skip (H, I).
 
 Look, if we add (H, I) we get a cycle!
 
@@ -2043,28 +2049,62 @@ You could also check the ancestors of the graph if it is a directed graph. You c
 
 There is lots of ways you could do this.
 
-
-## Single Source Shortest Paths
-
-If we have 2 vertices and we want to find the **shortest** (shortest means lowest weight) paths from vertex 1 to vertex 2 then we will want to use an algorithm to find this.
-
 ### Dijkstra's Algorithm
+
+Dijstra's algorithm finds the shortest path from one node to every other node in the graph.
 
 Dijkstra's algorithm assumes that the weights of the edges are not negative.
 
-The main concept of this algorithm is to choose the edge adjacent to the chosen vertex such that the cost of the path to the vertex is minimum
+The main concept of this algorithm is to choose the edge adjacent to the chosen vertex such that the cost of the path to the vertex is minimum.
+
+![img](dalgo1.jpg)
+
+So we start off with a weighted graph. Let's choose A as our starting node.
+
+We will keep a list of all unvisited nodes as well as the path cost for every node counting from A. The path from A to A is 0, so we write 0.
+
+We don't know the path cost of the other nodes yet, so we write infinity.
+
+![img](dalgo2.jpg)
+
+The next step is to find all the edges we can reach from A. We can reach B and C from A, so we update the table with the correct costs.
+
+Because C is the cheapest vertex that hasn't been visited yet, we choose C.
+
+![img](dalgo3.jpg)
+
+It only costs 3 to go from A>C>B instead of the higher A>B which costs 4 - so we write 3 in B now.
+
+Now we read from our list of paths, which one is the cheapest? A>C is but we've been there (as our unvisited nodes says). We haven't been to B yet and it's the second cheapest, so we go there.
+
+![img](dalgo4.jpg)
+
+We finish up C using the same algorithm as before. Now we pick somewhere to go. D is cheap, so let's go there. Normally we would read all of the edges connecting D to other nodes, but D does not have any edges connecting it to other nodes. Only edges connecting other nodes to D (directed graph, remember?).
+
+![img](dalgo5.jpg)
+
+Now the only node left is E, and we can't get there from D. So we move backwards until we find a point where we can move to E. We can go from B to E, so let's do that.
+
+![img](dalgo6.jpg)
+
+Now we have no more nodes to visit. We know this because our unvisited node list is now empty (all nodes are visited).
+
+You may look at this algorithm and think "wow, this only works on graphs where we know what nodes are on it?". Nope. It'll work on any graph that is weighted and has nodes on it. Instead of having an unvisited list, we can have a visited list to prevent us from going back to the same place.
+
+To know when the algorithm is completed when using a visited list, when you're at a node and all of the edges connecting that node have been visited then you can assume that you have visited every node. You may run across a problem of finding a node and not visiting it and being stuck never having visited that node. In this case, keep a list of all nodes you've seen but not yet visited.
+
+This is what every single path to every single node from A looks like:
+
+![img](dalgo7.jpg)
+
 
 ![img](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiJlvfn6fDZAhWrC8AKHf-FDnEQjRx6BAgAEAU&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDijkstra%2527s_algorithm&psig=AOvVaw2P-jAojat3t37pH602wLGz&ust=1521289087604817)
 
-I highly reccomend this article from Vaidelhi.
+Dijkstra's algorithm is easy once you understand that it always chooses the path that is cheapest.
+
+I highly recommend this article from Vaidelhi for some extra learning:
 
 https://medium.com/basecs/finding-the-shortest-path-with-a-little-help-from-dijkstra-613149fbdc8e
-
-One of the things I believe in is:
-
-> "Why bother trying to do something when someone has already done it better than you could ever do it?".
-
-So if you want to know how this algorithm works, watch the Gif or read that article as it's explained better than I ever could!
 
 Dijkstra's algorithm is super cool. Ever wanted to know how your SatNav finds the fastest route from your home to somewhere? It uses this algorithm. Well, their algorithm is probably slightly modified. But it's the same principles!
 
