@@ -10,7 +10,7 @@ If you're not interested in a certain algorithm (say for example, Min and Max) t
 
 I do not attempt to explain my code used that much. You should really try to implement this yourself in code (if you're a programmer) and perhaps use my code to check over it. My code is definitely not the _best_ way to implement it, but it is a way.
 
-By the end of this article you should have a good understanding of algorithms and data structures.
+By the end of this article you should have a good understanding of algorithms and data structures. Note: In this article algorithmic arrays start at [1] instead of [0].
 
 # Table of Contents
 1. [What is an Algorithm?](#what-algorithm)
@@ -161,7 +161,7 @@ Bi-directional search | $$\frac{b}{2}$$ | $$\frac{b}{2}$$
 
 
 <a name="sequential-search"></a>
-# Sequential search & Searching
+# Sequential Search
 
 Let's say you have an array of items [1, 3, 7, 4, 9] and you want to find the number 4. You just look at it, and you see it. What's so hard about that? Well a computer doesn't have super cool abilities like us just to "see" things. It has to go through the list in order to "see" the number. There are many algorithms that allow a computer to search lists / arrays. One of them is sequential search.
 
@@ -415,11 +415,11 @@ A stack is a *last-in-first-out* array.
 
 In a lot of online tutorials stacks are drawn vertically like so:
 
-  0
-:---:
-  1
-  2
-  3
+  0 |
+:---: |
+  1 |
+  2 | 
+  3 |
 
 Much like a stack of plates, the first item on the top is the first item to come off. You can't pull plates out of the bottom of a stack of plates (if you can, you should become a magician!).
 
@@ -427,7 +427,7 @@ Stacks have 2 functions:
 * Push - Insert element to the location top + 1
 * Pop - Delete element from top
 
-Where "top" is the variable for the top-most item in the stack.
+Where "top" is the variable for the number of items in the stack.
 
 Let's see some examples.
 
@@ -457,16 +457,16 @@ and head = 3, since we've popped the top!
 
 Stacks are super useful, especially in browser history. Say for example you go to Google, then Medium, then my profile (follow me 😉). The stack will look like:
 
-Brandon's Profile
-:---------------:
-     Medium
-     Google
+Brandon's Profile |
+:---------------: |
+Medium |
+Google |
 
 Now how much would it suck if you pressed "back" and it went back to Google? It would suck alot! So when we click "back" the browser, quite literally, pops the current webpage off of the stack and brings you to the next item.
 
 Stacks grow _downwards_ by placing stuff on top of it. This may sound confusing, so I'll try to explain it.
 
-When you *push* something onto a stack, you're changing the head of the stack (the head is normally the first item) to go down 1 level. We'll visualise this. Let's imagine a stack that looks like this:
+When you *push* something onto a stack, you're changing the head of the stack to go down 1 level. We'll visualise this. Let's imagine a stack that looks like this:
 ```
 [a][b][c]
 ```
@@ -478,18 +478,18 @@ Which pushes all the contents of the stack down.
 
 In normal stack-like behavior this looks like:
 
-Follow me on Twitter
-:------------------:
-       Medium
-       Google
+Follow me on Twitter|
+:------------------: |
+Medium |
+Google |
 
 Now we push "University of Liverpool" to the stack and it becomes:
 
-University of Liverpool
-:---------------------:
- Follow me on Twitter
-        Medium
-        Google
+University of Liverpool |
+:---------------------: |
+Follow me on Twitter |
+Medium |
+Google |
 
 Literally pushing the stack down.
 

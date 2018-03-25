@@ -12,7 +12,7 @@ As a side note, if you have any questions you **DO NOT** have to sign up to my e
 
 Well, that's a good question. This really comes down to "who am I?".
 
-I'm not a recruiter, but me and my friends are professionals with lots of experience. This article was written with help from [Chris Jim](https://www.linkedin.com/in/chris-jim-77b090128/) - 17 internships secured at some of the worlds top companies in his first year at university. I like to think of myself as a professional in tech. I have a few job offers and I've worked in tech before. The only thing I can really add is that I've read a lot of those recruitment books (Cracking the Coding Interview, Why You?, Get the Job You Really Want), taken courses at university in professional skills and read pretty much every Medium article revolving around being professional and having a job.
+I'm not a recruiter, but my friends and I are professionals with lots of experience. This article was written with help from [Chris Jim](https://www.linkedin.com/in/chris-jim-77b090128/) - 17 internships secured at some of the worlds top companies in his first year at university. I like to think of myself as a professional in tech. I have a few job offers and I've worked in tech before. The only thing I can really add is that I've read a lot of those recruitment books (Cracking the Coding Interview, Why You?, Get the Job You Really Want), taken courses at university in professional skills and read pretty much every Medium article revolving around being professional and having a job.
 
 This article features case studies and information from real humans who get real results. This isn't one of those articles written by someone who's never been and done it. All of the people mentioned in this article have internships at some of the UK's top companies or are considered extremely professional.
 
@@ -20,7 +20,7 @@ This is a no-thrills no-handrails completely free as in free beer and free as in
 
 # CV
 
-We'll start off with the CV, one of the more cruical aspects of the job application process.
+We'll start off with the CV, one of the more crucial  aspects of the job application process.
 
 ## Personalise your CV
 
@@ -30,9 +30,9 @@ Customising your CV enables you to pass the **keyword test**.
 
 When you apply for a job, most jobs will read your CV to see if it contains certain keywords. If it doesn't, no job for you. This is either done by a human, which is a little forgiving or a machine which doesn't care about you.
 
-Your CV will impress the person reading it if its customised to them. Everyone likes a customised birthday cake more than a regular Tesco own brand birthday cake.
+Your CV will impress the person reading it if it's customised to them. Everyone likes a customised birthday cake more than a regular Tesco own brand birthday cake.
 
-To customise your CV analyse the job description. Read it multiple times and highlight keywords that come up. They say that they want someone with strong self motivation? Find something you've done that proves this and put it onto your CV.
+To customise your CV analyse the job description. Read it multiple times and highlight keywords that come up. They say that they want someone with strong self-motivation? Find something you've done that proves this and put it on to your CV.
 
 Read the job description, the responsibilities, the specific requirements, the location. Any words you don't know? They're probably keywords. Google them.
 
@@ -58,7 +58,7 @@ Only do this if you're going to relocate though. Please don't commute 5 hours a 
 
 ## Writing a CV
 
-Make it 1 page. If you customise your CV per job, you should only ever need 1 page. If you have 20+ years of experience, 2 pages is okay, but 1 page is preferable.
+Make it 1 page. If you customise your CV per job, you should only ever need 1 page. If you have 20+ years of experience, 2 pages are okay, but 1 page is preferable.
 
 Use a CV template and fill it out.
 
@@ -68,7 +68,7 @@ Just Google "CV Template" and find one you like.
 
 List your achievements at a job, not the duties you had to do.
 
-Avoid spelling and grammar mistakes at all costs. Pay someone to read over it if you have to. Message me if you need help with this. I'm not an expert at spell checking, but I can be another pair of eyes.
+Avoid spelling and grammar mistakes at all costs. Pay someone to read it if you have to. Message me if you need help with this. I'm not an expert at spell checking, but I can be another pair of eyes.
 
 Don't fill it chock full of information. Keep it short and sweet.
 
@@ -76,7 +76,7 @@ Use numbers. In the UK we have this English writing rule:
 
 >A FOREST. A Alliteration F Facts O Opinion R Repetition / Rhetorical questions E Emotive language S Statistics T Triples (Three, rule of) 
 
-The statistics is important here. If I was to say that I was the best Student Union officer that would make me sound big headed. If I was to change that to "changed Student Union approval rating from 30% to 90%" it would sound even more impressive and not so egotistical.
+The statistics are important here. If I was to say that I was the best Student Union officer that would make me sound big headed. If I was to change that to "changed Student Union approval rating from 30% to 90%" it would sound even more impressive and not so egotistical.
 
 Make sure to give your CV in PDF format, unless they explicitly ask for a different format.
 
@@ -90,13 +90,13 @@ Changed Student Union approval rating from 30% to 90%
 
 ## No References Available On Request
 
-No one I know that gets jobs does this. Make it as easy as physically possible for the recruiter. Contacting you to ask for references is another step to them, cut out the middle man and put the contact details for your reference on the CV itself. I know that some references will write you letters, and that's good. You should hand these in when they ask for qualifications (if they do).
+No one I know that gets jobs does this. Make it as easy as physically possible for the recruiter. Contacting you to ask for references is another step to them, cut out the middleman and put the contact details for your reference on the CV itself. I know that some references will write you letters, and that's good. You should hand these in when they ask for qualifications (if they do).
 
 If you really want to give them letters, write "letters of recommendation available on request" under the contact details for your references.
 
 ## Make it as easy for your employer as possible
 
-Really think about who you are applying to. If you're applying in the tech industry chances are that they reading your CV on a computer, so hyperlinks in CVs are really cool. If not, maybe don't include them as they don't look good when printed out.
+Really think about whom you are applying to. If you're applying in the tech industry chances are that they reading your CV on a computer, so hyperlinks in CVs are really cool. If not, maybe don't include them as they don't look good when printed out.
 
 Always send your CV as a PDF unless they absolutely specify it has to be sent in a format they require. 
 
@@ -122,7 +122,7 @@ It really is customised to you. I can't tell you what to write. You can find exa
 
 Do not write paragraphs. Have bullet points instead.
 
-For any past work or experience you will want to include accomplishments at this job that relate to the job you are applying to.
+For any past work or experience, you will want to include accomplishments at this job that relate to the job you are applying to.
 
 Try not to include your duties. It's much more impressive to show your accomplishments.
 
@@ -134,7 +134,7 @@ http://career.opcd.wfu.edu/files/2011/05/Action-Verbs-for-Resumes.pdf
 
 ## Things to include in a CV
 
-Let's say you have a template and you want to change a few few things, here are some things you might want to include:
+Let's say you have a template and you want to change a few things, here are some things you might want to include:
 
 * Personal details - Telephone, professional email, location, name
 * Work experience
@@ -150,7 +150,7 @@ What not to include:
 * Martial / Relationship status - Again under the Equality Act of 2010 they cannot ask this.
 * Every single thing you have ever done - Make it short and customise it per job.
 
-Note: The Equality act is a UK act. I'm not sure about the US, but you probably don't want to include them anyway.
+Note: The Equality Act is a UK act. I'm not sure about the US, but you probably don't want to include them anyway.
 
 Depending on your work and education, you'll need to balance these correctly. Do you have a really good education but not much work experience? Make your education 60% of your CV. Do you have lots of work experience but not much education? Make that 60% of your CV.
 
@@ -219,30 +219,30 @@ https://twitter.com/paulienuh
 
 Pauline is VERY active on Twitter. She regularly posts professionally about her life, and only ever positive things, or in her words, "pawsitive".
 
-She uses her own hash tags such as "#Pawgainz".
+She uses her own hashtags such as "#Pawgainz".
 
 Pauline has a professional twitter username, a nice cover photo explaining exactly what she does and what she's all about and a nice profile picture.
 
 Her bio neatly sums up all of her jobs and the things she likes. Her location displays where she's from and where she lives. 
 
-She regularly tweets about things she is passionate about and makes sure to tag and hash tag appropriately. 
+She regularly tweets about things she is passionate about and makes sure to tag and hashtag appropriately. 
 
-With Twitter it's important to hash tag correctly. Try to meld your hash tags into your text so it's readable. Don't just dump them all at the end of a tweet to try and gain peoples attention. Take for example,Pauline's tweet here:
+With Twitter it's important to hashtag correctly. Try to meld your hashtags into your text so it's readable. Don't just dump them all at the end of a tweet to try and gain peoples attention. Take for example, Pauline's tweet here:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Hey <a href="https://twitter.com/ShfWit?ref_src=twsrc%5Etfw">@ShfWit</a>! Happy to see a <a href="https://twitter.com/hashtag/WiT?src=hash&amp;ref_src=twsrc%5Etfw">#WiT</a> group in Sheffield - thanks for starting a conversation locally ♥️<br><br>At <a href="https://twitter.com/sheffielduni?ref_src=twsrc%5Etfw">@sheffielduni</a> we&#39;ve created a student WiT community with ladies that have taken part in <a href="https://twitter.com/CodeFirstGirls?ref_src=twsrc%5Etfw">@CodeFirstGirls</a>: <a href="https://twitter.com/hashtag/shefcodefirst?src=hash&amp;ref_src=twsrc%5Etfw">#shefcodefirst</a>. 💖 Should definitely collaborate in some way! <a href="https://twitter.com/hashtag/ShfWIT?src=hash&amp;ref_src=twsrc%5Etfw">#ShfWIT</a></p>&mdash; Pauline P. Narvas (@paulienuh) <a href="https://twitter.com/paulienuh/status/975085689682448384?ref_src=twsrc%5Etfw">March 17, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Notice how when she talks about a company, she tags them in it and when she talks about a community or something she hash tags it in. Notice how it reads so cleanly. Now look at this:
+Notice how when she talks about a company, she tags them in it and when she talks about a community or something she hashtags it in. Notice how it reads so cleanly. Now look at this:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="nl" dir="ltr">Snapchat UI developer team:)<a href="https://twitter.com/hashtag/gaming?src=hash&amp;ref_src=twsrc%5Etfw">#gaming</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://twitter.com/hashtag/drones?src=hash&amp;ref_src=twsrc%5Etfw">#drones</a> <a href="https://twitter.com/hashtag/VR?src=hash&amp;ref_src=twsrc%5Etfw">#VR</a> <a href="https://twitter.com/hashtag/tech?src=hash&amp;ref_src=twsrc%5Etfw">#tech</a> <a href="https://twitter.com/hashtag/code?src=hash&amp;ref_src=twsrc%5Etfw">#code</a> <a href="https://twitter.com/hashtag/anime?src=hash&amp;ref_src=twsrc%5Etfw">#anime</a> <a href="https://twitter.com/hashtag/STEM?src=hash&amp;ref_src=twsrc%5Etfw">#STEM</a> <a href="https://twitter.com/hashtag/AR?src=hash&amp;ref_src=twsrc%5Etfw">#AR</a> <a href="https://twitter.com/hashtag/DevOps?src=hash&amp;ref_src=twsrc%5Etfw">#DevOps</a> <a href="https://twitter.com/hashtag/AI?src=hash&amp;ref_src=twsrc%5Etfw">#AI</a> <a href="https://twitter.com/hashtag/CSS?src=hash&amp;ref_src=twsrc%5Etfw">#CSS</a> <a href="https://twitter.com/hashtag/spotify?src=hash&amp;ref_src=twsrc%5Etfw">#spotify</a> <a href="https://twitter.com/hashtag/design?src=hash&amp;ref_src=twsrc%5Etfw">#design</a> <a href="https://twitter.com/hashtag/iTunes?src=hash&amp;ref_src=twsrc%5Etfw">#iTunes</a> <a href="https://twitter.com/hashtag/Python?src=hash&amp;ref_src=twsrc%5Etfw">#Python</a> <a href="https://twitter.com/hashtag/snap?src=hash&amp;ref_src=twsrc%5Etfw">#snap</a> <a href="https://t.co/CQBFZFjdwE">pic.twitter.com/CQBFZFjdwE</a></p>&mdash; PitchCrunch (@PitchCrunch) <a href="https://twitter.com/PitchCrunch/status/975104344482705409?ref_src=twsrc%5Etfw">March 17, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ![img](https://www.reactiongifs.com/wp-content/uploads/2012/12/too-much.gif)
 
-Sorry if you're PitchCrunch but the way this hash tagging is done makes it look like a bunch of 50 year olds sat around a table in an office at a Social Media Strategy and Marketing meeting to discuss the exact hash tags they'll use to "maximise" their outreach without ever using social media properly.
+Sorry if you're PitchCrunch but the way this hashtagging is done makes it look like a bunch of 50 year olds sat around a table in an office at a Social Media Strategy and Marketing meeting to discuss the exact hashtags they'll use to "maximise" their outreach without ever using social media properly.
 
 PS: It took me 2 seconds to find this tweet. Steps to reproduce:
-1. Type a tech buzzword into Twitter as a hash tag, like #AI or #Python
+1. Type a tech buzzword into Twitter as a hashtag, like #AI or #Python
 2. Go to "recent tweets"
 3. Click first tweet and there is a 85% chance it will look exactly like this
 
@@ -258,7 +258,7 @@ Here's how she describes it:
 
 "[PAWLEAN]...is a personal blog where I share and reflect on my life in the UK, my interests and experiences. I've run a blog since the days I used to wear my hair up in high bunches (like Boo from Monsters Inc) and during the time in my life when my purple Game Boy Advance completed me. "
 
-Not every one needs to have a blog. But it's important to create some kind of content. As a developer you can work in open source by either directly changing code, opening issues or by writing blog posts.
+Not everyone needs to have a blog. But it's important to create some kind of content. As a developer, you can work in open source by either directly changing code, opening issues or by writing blog posts.
 
 Chris answers Quora questions as a way to create content.
 
@@ -276,7 +276,7 @@ Her bio says:
 
 If you read GB and PHES, that's because your browser (most browsers) render flags as the names of those flags.
 
-So Pauline opens up with ".🐾💪🏻{". In CSS (she is a web developer) this is how you would open up and design a class. So she already has a cool little web dev thing in her bio. Her bio goes on to list her YouTube and her other website (we'll get to that in a second) before listing the hash tags she uses. She has a colour, noted as "#A47DA4" which I am to assume is her favourite colour.
+So Pauline opens up with ".🐾💪🏻{". In CSS (she is a web developer) this is how you would open up and design a class. So she already has a cool little web dev thing in her bio. Her bio goes on to list her YouTube and her other website (we'll get to that in a second) before listing the hashtags she uses. She has a colour, noted as "#A47DA4" which I am to assume is her favourite colour.
 
 Pauline always posts professional photographs of her, doing work, having done work, enjoying life, or just being a human like so:
 
@@ -326,7 +326,7 @@ Chris, where do I start?
 
 He got 16 internships in his first semester of his first year at university. 
 
-He is the eptiome of professionalism.
+He is the epitome of professionalism.
 
 ## Linkedin
 
@@ -342,11 +342,11 @@ https://www.linkedin.com/in/chris-jim-77b090128/
 
 ## Website
 
-Chris has an amazing personal website. Unfortunately my screenshot tool messes up on his website (blame FireFox) so I couldn't add screenshots. I highly recommend you visit his website for some inspiration. It lists some of his internships and all of his programming projects in a nice portfolio as well as contact information.
+Chris has an amazing personal website. Unfortunately, my screenshot tool messes up on his website (blame FireFox) so I couldn't add screenshots. I highly recommend you visit his website for some inspiration. It lists some of his internships and all of his programming projects in a nice portfolio as well as contact information.
 
 http://iamchrisjim.com/
 
-You'll notice that Chris has a lot of experience with Free Code Camp too. If you're going for a job in tech, showing extra ciricular love to programming or data science or whatever you like is always good.
+You'll notice that Chris has a lot of experience with Free Code Camp too. If you're going for a job in tech, showing extra curricular love to programming or data science or whatever you like is always good.
 
 ## Blog
 
@@ -382,7 +382,7 @@ According to Reed, there are really only 15 interview questions. All other inter
 
 They don't care about your personal life. They want to hear your professional story. Tell a story, not some bullet points. 
 
-This question is a combination of of a candidate's self confidence and how well they have prepared. You need to answer this, right now. And memorise it. You know how businesses have elevator pitches? **YOU** need one.
+This question is a combination of a candidate's self confidence and how well they have prepared. You need to answer this, right now. And memorise it. You know how businesses have elevator pitches? **YOU** need one.
 
 Don't make it sound like you've never been asked this question before. Don't "uhm" or "ehh" before answering. Look them in the eye, smile, and rehearse it like you've always known this.
 
@@ -653,6 +653,8 @@ You should avoid these questions, don't give them any numbers. If they ask one o
 
 >I’m not comfortable sharing that information at this point
 
+Here's a good quote relating to this subject:
+
 >At some point in the process you achieve something which I describe as “Yes, if…” rather than “No, but…”. “Yes, we want to work with you, if we can come to a mutually satisfactory offer,” which is distinguished from, “No, we don’t want to work with you, but we might work with you if it turns out that you’re disgustingly cheap.” After you have agreement in principle that, “We want you to work here. What’ll it take to make that happen?” — then and only then do you start talking about money. — Patrick McKenzie
 
 Quincy suggests that switching this salary neogiation over to email is good. You have time to think about what's being said and time to reply. You also have concrete proof of a salary in the emails.
@@ -719,9 +721,9 @@ The same can be said for interviews. It's perfectly okay to say
 
 > Sorry, I'm feeling a little nervous. Do you mind if I have a few seconds to myself so I can calm down?
 
-The interviewer knows your nervous. The difference here is that you've recgonised this and you've done something to try to mitigate it. Most people who are interviewed are nervous and they never stop being nervous. They just talk and talk and talk and rush through everything.
+The interviewer knows your nervous. The difference here is that you've recognised this and you've done something to try to mitigate it. Most people who are interviewed are nervous and they never stop being nervous. They just talk and talk and talk and rush through everything.
 
-In Karate if you rushed through your Kata it would be extremely ugly and convulated. The same holds for interviews. Do not rush through questions. Don't even worry about a time limit. If you're calm and careful the interviwer will keep track of time.
+In Karate if you rushed through your Kata it would be extremely ugly and convoluted. The same holds for interviews. Do not rush through questions. Don't even worry about a time limit. If you're calm and careful the interviewer will keep track of time.
 
 # Interview Formats
 
