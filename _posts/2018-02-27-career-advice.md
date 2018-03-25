@@ -205,6 +205,8 @@ Here's a good LinkedIn inforgraphic from [here](https://www.leisurejobs.com/geta
 
 ![img](https://www.leisurejobs.com/getasset/7a3e4167-6675-4ae3-be01-6ff723b80f2a/)
 
+
+
 # Case Studies
 
 These case studies are people I know that inspire me every day and motivate me to do better. I'm listing them here so you can learn from them like I've learnt from them.
