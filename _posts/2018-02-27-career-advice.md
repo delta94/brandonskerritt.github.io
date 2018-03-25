@@ -229,8 +229,6 @@ If you have a WordPress blog you can directly feed this into your LinkedIn:
 
 “If you have a WordPress blog, we highly recommend feeding your blog into your LinkedIn profile (unless, of course, the content isn’t appropriate for a LinkedIn page.) To enable this setting, Select More in the main nav bar and Select Applications. From there, choose the WordPress application and enter the link to your feed. The blog will then appear in your profile and will update each time a new post is added.” [12Most](http://12most.com/2012/03/21/tricks-for-using-linkedin)
 
-
-
 # Case Studies
 
 These case studies are people I know that inspire me every day and motivate me to do better. I'm listing them here so you can learn from them like I've learnt from them.
@@ -754,7 +752,7 @@ Creativity does not have to be you painting a picture or creating a sculpture.
 
 You might decide to create a Google Sheets document so everyone on your course knows all the deadline dates for course work.
 
-As with all interview questions it's important to provide examples here.
+As with all interview questions it's important to provide examples here and I can't tell you what examples to include as I don't know you.
 
 Here's a good answer from [here](https://everydayinterviewtips.com/behavioral-interview-question-give-an-example-of-a-time-you-were-creative/):
 
@@ -762,7 +760,7 @@ Here's a good answer from [here](https://everydayinterviewtips.com/behavioral-in
 
 # Change "uhhhh" to "    "
 
-Instead of saying "uhhhh" and "ehhhhhh" just pause. Smile. DO NOT rush through your interview.
+Instead of saying "uhhhh" and "ehhhhhh" just pause. Smile.
 
 # Ask for a pause
 
@@ -794,7 +792,11 @@ Some companies (such as Barclays) use Artifical Inatelligence to read your face 
 
 The employer will skype you and will ask you questions as if it is face to face. Whatever you do, make sure you're in a quiet environment with good internet.
 
-Some tips for Skype and Online VIdeo interviews:
+This is probably the easiest interview type to ask for help from friends with. All your friends need to do is read out a list of questions, they could be in bed whilest doing this. You, on the other hand, have to look and act professional though. If you want to get better at something, practice being better.
+
+Practice does not make perfect. Practice makes permanent. Perfect practice makes permanent perfection.
+
+Some tips for Skype and Online Video interviews:
 
 * Make sure to look the part
 * Prepare the environment. Look behhind you, that's what they'll see. Make sure it's nice a mess. Try to interview with a white background behind you.
@@ -1000,6 +1002,8 @@ A technical interview is used heavily in the computer science industry. It usual
 
 Honestly there is so much out there about technical interviews ranging from 800 page books to entire video guides on how to pass technical interviews. If you're offered a technical interview I'm going to guess you're technical enough to google this. I highly reccomend Cracking the Coding Interview.
 
+https://www.themuse.com/advice/how-to-ace-your-technical-interview
+
 ## Structured Interview
 
 A structured interview is just another describing word for an interview. A structured interview will usually follow a structure, where the questions are asked in a standard pace and are normally read off of a sheet of paper.
@@ -1088,8 +1092,6 @@ https://www.youtube.com/watch?v=VM6zkJ-_RRU
 
 Normally involves reading a bit of paper and answering questions about it.
 
-Tips:
-
 Take every word literally. You are being asked a question and the answer is in some text they gave you.
 Practice, practice, practice.
 Read questions carefully.
@@ -1173,6 +1175,8 @@ At YCombinator's Startup school they talk about how all employees must be passio
 Preprojects don't just work for tech, they can work for basically any business that has projects and all businesses have projects.
 
 Let's say you want to work at an amusement park, like Dreamland or Thorpe Park. You can research and perhaps suggest an event for them or something along those lines. Like, hey, there's alot of this population in Margate (where Dreamland is) that don't fall into the demographic "White - British". These people also celebrate this holiday on this day, maybe you should make an event out of it at Dreamland?
+
+If you really want a job at a company you can use this to get your foot in the door.
 
 # Questions to ask your interviewer
 
@@ -1287,7 +1291,7 @@ When at a networking event do try to look and act professional. Depending on the
 
 Everyone is nervous at a networking event. Go up to random people and say "Hi I'm [your name here]".
 
-Do you remember that feeling when that one person talked to you once in a coffee shop or at a party? How that one perosn picked you out of everyone else to talk to? This is what you're doing to other people when you approach them first and talk to them.
+Do you remember that feeling when that one person talked to you once in a coffee shop or at a party? How that one person picked you out of everyone else to talk to? This is what you're doing to other people when you approach them first and talk to them.
 
 Try to make friends instead of people who can elevate your status in life.
 
@@ -1295,9 +1299,38 @@ Always be nice to everyone you meet. Whether this is in a job interview or wheth
 
 https://www.reddit.com/r/jobs/comments/5nhmp3/finally_have_a_new_job_and_its_all_because_i_was/
 
->I've been job hunting for about eight months. A few weeks ago I went to an interview and handed off my car to the valet guy. As I was waiting for the elevator I heard him tell his coworker that he would kill for a coffee, so after my interview I stopped at the cafe in the lobby and grabbed one for him. He was super grateful and asked for my business card. I gave it to him, thinking maybe he wanted to send me a thank you email or something.
+Always make sure to ask the other person if they have a LinkedIn / business card so you can follow up afterwards. And do follow up!
 
->The next day I got a call from the manager at this big staffing agency in our city. She was the valet guy's cousin and he asked her to call me. I ended up meeting with her in person, and after only a week she found me my dream job. Today was my first day, and it went perfectly.
+Follow up messages can be simple. Here's a nice example of a follow up template you can use for free:
+
+> Hello [Their name here]. I met you at [place here / networking event name here]. I really liked your [thing you really liked]. Mind if we connect on LinkedIn?
+
+Make sure you tell them something you liked. Like if they told you a story about something, mention that story. It's really important to try and connect with them on a personal level. If you just said:
+
+> Hello Brandon, I met you at TechCrunch Disrupt. Mind if we connect?
+
+That doesn't really have much of an effect. If I received that, I would accecpt it and not think twice about the person I'm connecting with. But if they said:
+
+> Hello Brandon. I met you at TechCrunch Disrupt. I really liked your story of turning your life around. I did something similar not too long ago. Mind if we connect?
+
+I would actually think about that message, process it, check them out. This person will stay in my mind longer than the first person.
+
+Keep an open posture. Don't cross your arms. 
+
+Make a list of any important people going that you may want to connect with.
+
+Never ever ditch a converstation partner for someone more "important".
+
+Always listen to the other person. Try not to talk too much.
+
+Make sure to take notes at the event.
+
+Always shake peoples hands.
+
+Smile.
+
+Use your elevator pitch.
+
 
 # Reccomended reading
 
