@@ -205,6 +205,30 @@ Here's a good LinkedIn inforgraphic from [here](https://www.leisurejobs.com/geta
 
 ![img](https://www.leisurejobs.com/getasset/7a3e4167-6675-4ae3-be01-6ff723b80f2a/)
 
+Your LinkedIn summary could just be your elevator pitch if you wanted it to be.
+
+Have no typos in your LinkedIn.
+
+Personalise your LinkedIn URL. For example my LinkedIn url is:
+
+https://www.linkedin.com/in/brandonls/
+
+But a friends who hasn't personalised their URL is:
+
+https://www.linkedin.com/in/ciaron-howell-1244b6133/
+
+When a person goes down your profile, they'll see your top 3 skills and how many people have endorsed you for that skill. Make sure those skills are good skills. You can order the way skills are viewed.
+
+Always personalise invitations to connect. It makes you stand out and if the other person doesn't remember you it can help them to jolt their memory and remember you for longer. Also don't add people you don't really know. If you add too many people who say they don't know you LinkedIn can shut down your account.
+
+Publish content, provide content.
+
+Find and join groups. For example, I'm in the Python Community group for people who love Python.
+
+If you have a WordPress blog you can directly feed this into your LinkedIn:
+
+“If you have a WordPress blog, we highly recommend feeding your blog into your LinkedIn profile (unless, of course, the content isn’t appropriate for a LinkedIn page.) To enable this setting, Select More in the main nav bar and Select Applications. From there, choose the WordPress application and enter the link to your feed. The blog will then appear in your profile and will update each time a new post is added.” [12Most](http://12most.com/2012/03/21/tricks-for-using-linkedin)
+
 
 
 # Case Studies
