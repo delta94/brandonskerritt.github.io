@@ -120,7 +120,9 @@ Bet you were expecting some hard to understand guide to Big O huh? Well, this is
 
 Big O notation only represents how long an algorithm can take but sometimes we care about the memory (space complexity) of an algorithm too.
 
-There are other forms of measuring algorithm time complexity such as Big Theta which is the least (smallest) amount of time an algorithm takes.
+I read somewhere that if you have a for loop and another for loop nested inside of that for loop (2 for loops) then it's likely to be n^2. 3 for loops is n^3.
+
+There are other forms of measuring algorithm time complexity such as Big Theta which is the least (smallest)amount of time an algorithm takes.
 
 <a name="big-o-cheatsheet"><a>
 ## Cheatsheet

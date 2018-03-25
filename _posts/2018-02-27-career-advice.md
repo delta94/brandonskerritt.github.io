@@ -759,7 +759,7 @@ https://www.youtube.com/watch?v=d1CT5wr0I1c
 
 Here's a very famous example of a bad Skype interview:
 
-https://www.youtube.com/watch?v=d1CT5wr0I1c
+https://www.youtube.com/watch?v=LuZV9kkzscg
 
 ## Phone Interview
 
