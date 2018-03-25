@@ -1934,7 +1934,7 @@ A **minimum spanning tree** is a spanning tree of G with minimum weight.
 
 If we have a tree with n vertexes, the number of edges connecting all the vertexes are n - 1. The number of possible spanning trees is:
 
-$$ {number \: of \: spanning \: trees} = { {number \: of \: edges}}\choose{{number \: of \: vertices-1} }$$
+$$ {number \: of \: spanning \: trees} = { {number \: of \: edges}\choose{number \: of \: vertices-1} }$$
 
 
 ![img](https://www.tutorialspoint.com/data_structures_algorithms/images/spanning_trees.jpg)
