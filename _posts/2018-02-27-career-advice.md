@@ -336,13 +336,38 @@ Chris' LinkedIn is extremely professional. He has 2 of his internship offers in 
 
 LinkedIn is weird because there's no big button that you can press to make you professional, it's all the little things you do such as a nice headshot photo or a nice cover photo that make you professional.
 
-if I was to list all of Chris' experience, this article would be 20 minutes longer. Seriously, check out his LinkedIn for some inspiration for your own:
+if I was to list all of Chris' experience, this article would be 20 minutes longer.
+
+Previously Chris had a cover photo he had created. It was just his name with a few of his roles / jobs. Extremely impressive to have your own cover photo but relatively easy to create.
 
 https://www.linkedin.com/in/chris-jim-77b090128/
 
 ## Website
 
-Chris has an amazing personal website. Unfortunately, my screenshot tool messes up on his website (blame FireFox) so I couldn't add screenshots. I highly recommend you visit his website for some inspiration. It lists some of his internships and all of his programming projects in a nice portfolio as well as contact information.
+Chris has an amazing personal website. One of the cool things to look at here is his programming portfolio:
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/bbf6f9cc-8643-4bca-b977-7376c2bdc1d8.png)
+
+Each "card" contains links to his source code and a button that says "show details". When clicked this happens:
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/9318f815-ecdd-4c5d-9a68-28e97633c71c.png)
+
+Each image of his portfolio is also a gif demonstrating how each of the programs he has created works.
+
+His website also lists in a timeline some of the positions he has held, nothing special there.
+
+Chris has a nice little portfolio about himself, like most of the websites mentioned in this article. Here is Chris' profile:
+
+
+>I fell in love with programming when I was 17 and have been self-learning ever since.
+>
+>I am a Campus Ambassador of SEO London and Bright Network and a member of Rare Recruitment. These are organizations that train and connect exceptional people to prestigious companies.
+>
+>Won the first hackathon (TADHack London) I joined with a team of 5.
+
+Chris has also listed his programming languages, frameworks & libraries, platforms, tools and databases he knows how to use. 
+
+There isn't really much to his website but it contains everything you need to know to make an informed decision. Simplicity is best.
 
 http://iamchrisjim.com/
 
@@ -354,7 +379,7 @@ Chris also has a blog!
 
 ![img](https://screenshotscdn.firefoxusercontent.com/images/14b876ec-7500-498e-a400-201359929ac5.jpg)
 
-Blogs are really cool because they let you get your voice out there, for companies to see what you're all about.
+Blogs are really cool because they let you get your voice out there, for companies to see what you're all about. You don't need a website or a blog to be considered professional but if you enjoy writing or designing things it couldn't hurt.
 
 Check out his blog here!
 
