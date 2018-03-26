@@ -170,7 +170,7 @@ What if you have both? Well, just list your education shortly and have your work
 How do you list education shortly? Just include the modules that sound the most impressive, try to limit it to 4 maximum along with your grades and university name. Or, again, personalise it. You're applying for a job that involves Artificial Intelligence? Include the modules you've done in this.
 
 Employers find work experience more impressive than academia. Unless you're applying for a job in academia.
-
+ 
 ## Examples
 
 Here are some examples of CVs. This is my CV
