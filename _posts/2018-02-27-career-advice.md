@@ -254,9 +254,15 @@ The first paragraph is where you introduce yourself. What you're applying for. T
 >
 >My name is Brandon Skerritt and I am applying for the position of Book seller at Waterstones, please find enclosed my CV.
 
-In most cases they already know what your name is and what you're applying for, so if you can don't include this part. You can just include:
+In most cases they already know what your name is and what you're applying for, so if you can don't include this part.
 
-> Please find my CV attached
+If you were refereed to the job, mention that contact. Express excitement that you've applied. Use keywords.
+
+>I'm writing to express my interest in the Editorial Assistant position listed on Monster.com. Given my five years of editorial experience and excellent capabilities, I would appreciate your consideration for this position.
+
+or
+
+>I have the pleasure of being acquainted with one of the Counselors on your staff, Eleanor Seville. She let me know about the open position and recommended that I contact you.
 
 The second paragraph is where you talk about your skills and experience. Unlike a CV you do not use blunt bullet pointed language here but instead talk about your experience. You can also explain any gaps that might appear in a CV here.
 
