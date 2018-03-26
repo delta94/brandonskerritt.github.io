@@ -1020,7 +1020,7 @@ You will go to an assessment centre where you will be interviewed and tested, us
 Assessment | What's Involved | What they're looking for
 --- | --- | ---
 Social Events | Meeting other candiates | Interpersonal skills
-Group activities like discussing a topic, or making an object | Team work, time management, creativity, problem solving
+Group activities like discussing a topic, or making an object | Team work, time management, creativity, problem solving | Teamwork, patience, time managment
 Presentations | Giving an oral presentation to an individual or group which you may or may not have prepared | Candiates who can organise their matieral and speak fluently
 Interviews | In depth discussions | Competence to do job, enthusiasm, interpersonal skills
 Personality questionaires | Asess what you are like as a person and how you might react in different situations | Candiates who fit their company culture
