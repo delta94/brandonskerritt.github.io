@@ -213,6 +213,29 @@ This follows a typical story arc. Start off with who you are, why they should ca
 
 Again with a CV you want to use lots of statistics, talk about why you like them, show a genuine interest.
 
+Let's go into some more detail.
+
+The first paragraph is where you introduce yourself. What you're applying for. This is simply:
+
+
+>Dear Sir or Madam,
+>
+>My name is Brandon Skerritt and I am applying for the position of Book seller at Waterstones, please find enclosed my CV.
+
+The second paragraph is where you talk about your skills and experience. Unlike a CV you do not use blunt bullet pointed language here but instead talk about your experience. You can also explain any gaps that might appear in a CV here.
+
+>For as long as I can remember I've been an obsessive reader. I review books on GoodReads, I've written some fiction novellas in my spare time. I've been a book seller for the last 2 years at [Bookshop name here] and have loved every second of it. As well as being a book seller I've trained new employees and managed the general every day running of the store.
+
+The third paragraph is why you're applying. What do you like about the job or company you're applying to? Any nice anecdotes about the company?
+
+>Waterstones has always been my favourite bookstore. I've collected over 11 stampcards and try to go to Waterstones weekly to see what new books have been released. As well as this I regularly go to your Waterstones store. Sometimes I cannot help myself as a fellow book seller to rearrange books that have been misplaced or recommended books for your store based on the shelves. One such instance is a book titled "how to read water"; this book would of looked good next to The Cloud Collectors guide - a book on reading clouds.
+
+Fourth paragraph is the conclusion, where you wrap this all up.
+
+>I would love to work at Waterstones, especially your store since it is my favourite amongst the many I have been to. I hope I have the opportunity to work at this fantastic store and I hope to hear from you soon.
+>
+>With kind regards,
+>Brandon Skerritt
 
 # Email
 
@@ -227,6 +250,38 @@ The Proton mail one is for tech companies. They might see I use Proton and subco
 The Gmail one with numbers on the end is just a semi-professional email I use.
 
 If your email address looks like "FancyMonkey6969@tiscali.com" you need to change this.
+
+## Email Signature
+
+If you're sending email from a phone it'll likely say "Sent from my iPhone" or whatever in your signature. Make sure you delete this.
+
+You can actually customise your own email signature to look more professional.
+
+Here's what mine looks like:
+
+![img](https://screenshotscdn.firefoxusercontent.com/images/4880b55d-2286-4ce2-aa6c-005cf1325faf.png)
+
+Make sure your signature isn't too fully of text like this:
+
+Ernst Stavro Blofeld<br>
+Leader, Number 1<br>
+SPECTRE – Special Executive for Counter-Intelligence, Terrorism, Revenge and Extortion<br>
+12 Rue des Méchants<br>
+75000 Paris, France<br>
+P: +33 1 12 34 56 78<br>
+F: +33 1 87 65 43 21<br>
+M: +33 1 22 33 44 55<br>
+E: number1@spectre.org<br>
+Follow me on Twitter: www.twitter.com/ernieblo<br>
+Skype: meanguyspectre<br>
+www.spectre.org<br>
+www.spectrekids.net<br>
+
+Don't put your email address in your signature. It's like having your table of contents listed in your table of contents or like whenever someone calling you up you answer with "Hello my number is [NUMBER HERE]".
+
+It's nice to have a photo because if you're following up with someone they'll remember you.
+
+
 
 # Personal Brand
 
