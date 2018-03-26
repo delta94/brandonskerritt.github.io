@@ -36,7 +36,11 @@ To customise your CV analyse the job description. Read it multiple times and hig
 
 Read the job description, the responsibilities, the specific requirements, the location. Any words you don't know? They're probably keywords. Google them.
 
-If you really don't see any keywords, google "Job position Keywords". Like If I wanted to find the keywords for a sales assistant I'll type "Sales Assistant Keywords".
+If you really don't see any keywords, google "Job position Keywords". Like If I wanted to find the keywords for a sales assistant I'll type "Sales Assistant Keywords". Some keywords come up and up again such as:
+
+* Teamwork
+* Time management
+* Microsoft Office
 
 Let's say a job description has this sentence in it:
 
@@ -52,17 +56,22 @@ Want to get a job in London? Then write "London" on your CV.
 
 But make sure it's not too much of a lie. Saying you live in London when you're from Skegness or St. Ives is a blatant lie.
 
-If in the application they call you up on this, then say you're going to relocate and you wanted to specifically find jobs in your new area.
+If in the application they call you up on this, then say you're going to relocate and you wanted to specifically find jobs in your new area or you were planning on commuting anyway.
 
-Only do this if you're going to relocate though. Please don't commute 5 hours a day unless you're earning £100k+.
+Where I come from there are no tech jobs, so most people just commute to London anyway.
+
 
 ## Writing a CV
 
-Make it 1 page. If you customise your CV per job, you should only ever need 1 page. If you have 20+ years of experience, 2 pages are okay, but 1 page is preferable.
+Make it 1 page. If you customise your CV per job, you should only ever need 1 page. If you have 15+ years of experience, 2 pages are okay, but 1 page is preferable.
+
+I've read somewhere that an recruiter will spent 7 seconds on your CV but I think this sounds a little too optimistic. Do you know when you're at work, filling out some boring paper work or being forced to read something? If you were given the option of not reading something and it looked boring within the first 1 - 2 seconds, you wouldn't carry on. Same with recruiters. If your CV looks boring, full of boring information, they're not going to bother and spend those 7 seconds on your CV.
 
 Use a CV template and fill it out.
 
 If you know a little tiny bit about computers you can Google "LaTeX CV templates" to get some really nice templates for free. If it's on Overleaf or ShareLaTeX than it's easier to use. LaTeX is basically like a programming language but for writing. If you know LaTeX please don't kill me for saying that. This article isn't for technical people.
+
+https://www.sharelatex.com/templates/cv-or-resume
 
 Just Google "CV Template" and find one you like.
 
@@ -99,6 +108,8 @@ If you really want to give them letters, write "letters of recommendation availa
 Really think about whom you are applying to. If you're applying in the tech industry chances are that they reading your CV on a computer, so hyperlinks in CVs are really cool. If not, maybe don't include them as they don't look good when printed out.
 
 Always send your CV as a PDF unless they absolutely specify it has to be sent in a format they require. 
+
+List your education and employment in reverse chronological so your most recent stuff is right at the top of the page.
 
 ## Use a template
 
@@ -169,6 +180,38 @@ https://drive.google.com/file/d/1u66tSfXWmvBBdCkc7KyUpLxn8A0U8Rar/view
 And this is Chris' CV
 TK
 https://drive.google.com/file/d/1rIBsYaRf6qSg9wND32cw4WAAbCBHG0W2/view
+
+# How to research a company
+
+
+# Cover Letters
+
+A cover letter is a letter that goes with a CV that explains why you want a job. Not all job postings require cover letters.
+
+Try to make your cover letter short. A full page at maximum.
+
+A cover letter should have this at the start in the right hand corner
+
+• First & Last Name
+• Street Address
+• City
+• Postcode
+• Phone Number
+• Email Address
+
+Then comes your salutation. Dear Sir / Madam / Mrs / Mr / Ms / Dr.
+
+Start with an introduction. Make the reader aware of why you're writing this. Include the job you're applying for.
+
+The 2nd paragraph is your skills, what you can provide to the company.
+
+The 3rd paragraph should be why you want to work on for the company.
+
+The 4th paragraph is the conclusion. Mention you look forward to hearing back from them.
+
+This follows a typical story arc. Start off with who you are, why they should care, why you care about them, summarise and end.
+
+Again with a CV you want to use lots of statistics, talk about why you like them, show a genuine interest.
 
 
 # Email
@@ -1004,6 +1047,29 @@ Honestly there is so much out there about technical interviews ranging from 800 
 
 https://www.themuse.com/advice/how-to-ace-your-technical-interview
 
+Something that'll probably come up in a programming interview is FizzBuzz. Here's the problem:
+
+>Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+
+Aparrently not many people can actually code this, despite it sounding easy. This article is a nice read on this problem:
+
+https://blog.codinghorror.com/why-cant-programmers-program/
+
+Here's a good example of how to solve Fizz Buzz in Python.
+
+```python
+for num in xrange(1,101):
+    msg = ''
+    if num % 3 == 0:
+        msg += 'Fizz'
+    if num % 5 == 0:       # no more elif
+        msg += 'Buzz'
+    if not msg:      # check if msg is an empty string
+        msg += str(num)
+    print msg
+```
+
+
 ## Structured Interview
 
 A structured interview is just another describing word for an interview. A structured interview will usually follow a structure, where the questions are asked in a standard pace and are normally read off of a sheet of paper.
@@ -1177,6 +1243,23 @@ Preprojects don't just work for tech, they can work for basically any business t
 Let's say you want to work at an amusement park, like Dreamland or Thorpe Park. You can research and perhaps suggest an event for them or something along those lines. Like, hey, there's alot of this population in Margate (where Dreamland is) that don't fall into the demographic "White - British". These people also celebrate this holiday on this day, maybe you should make an event out of it at Dreamland?
 
 If you really want a job at a company you can use this to get your foot in the door.
+
+Something important to note here is that someone has to see your project for it to matter. This is where your amazing LinkedIn skills come into play.
+
+Do a LinkedIn search for the company you want to work for. Click on "connections" in the tab and select "first and second connections". Find friends that work at the company or find friends who know someone that works at the company. Then go through peoples job titles and look for "recruiter". If you can't find a recruiter look for someone that may be in the same department you are applying to.
+
+Message that person with LinkedIn or their email (if they have it on their profile). Explain who you are, what you've done and tell them to pass it on to the right person if needed.
+
+Something like this:
+
+> Dear Chris,
+>I've seen that Bank of America's website isn't accessible by everyone.. I've redesigned it and written about it here [link here]. I would be grateful if you or someone you know could have a read and improve Bank of America's website.
+>Kind regards,
+>Brandon
+
+Don't ask for a job position. In How to Win Friends and Influence People Carniege talks about never directly asking someone for something but making them think about it first. The idea here is to get them to talk to you, to make friends with them.
+
+Then you start to work with them, help them do whatever. In this case, help them make the website accessible. Eventually you can just slip in "Oh, I applied for a job here too. I hope I can work with you" and if they like you they'll see to it that you get the job.
 
 # Questions to ask your interviewer
 
