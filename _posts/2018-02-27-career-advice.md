@@ -181,7 +181,39 @@ And this is Chris' CV
 TK
 https://drive.google.com/file/d/1rIBsYaRf6qSg9wND32cw4WAAbCBHG0W2/view
 
-# How to research a company
+Let's look at some bad CV's now, taken from [here](https://blog.kickresume.com/2016/03/21/10-worst-resumes-ever-written/):
+
+![img](https://blog.kickresume.com/wp-content/uploads/2016/03/enhanced-buzz-1305-1362086157-6.jpg)
+
+"Losing virginity", "-0-(FUCKS)", "I'm the best in the world at"? Jeeze. This guy.
+
+![img](https://blog.kickresume.com/wp-content/uploads/2016/03/BIb1h.jpg)
+
+Why would you boast about dealing illegal drugs on your CV?
+
+![img](https://blog.kickresume.com/wp-content/uploads/2016/03/my-little-pony.jpg)
+
+No words needed.
+
+![img](https://amp.businessinsider.com/images/500828a96bb3f74f0d000004-960-641.jpg)
+
+This person used a 2 page CV and they used a tiny font to try and make everything fit in. Can you read it? I can't.
+
+They have a really weird email address, make sure your email is professional.
+
+They write in third person. Don't do this. It's creepy and it's weird.
+
+They talk about this one summer job they had where they scooped ice cream for some customers. Don't include non relevant jobs.
+
+They included their photo on the CV. Do not reccomened doing.
+
+They included their religion, social security number and their martial status.
+
+That font, is that comic sans?
+
+What's up with all the colours?
+
+They change colours, fonts, have wacky symbols throughout their CV. Choose a font style and stick with it.
 
 
 # Cover Letters
@@ -222,7 +254,13 @@ The first paragraph is where you introduce yourself. What you're applying for. T
 >
 >My name is Brandon Skerritt and I am applying for the position of Book seller at Waterstones, please find enclosed my CV.
 
+In most cases they already know what your name is and what you're applying for, so if you can don't include this part. You can just include:
+
+> Please find my CV attached
+
 The second paragraph is where you talk about your skills and experience. Unlike a CV you do not use blunt bullet pointed language here but instead talk about your experience. You can also explain any gaps that might appear in a CV here.
+
+Try not to regurgitate your CV in letter form. Think about what you're writing and why you're writing it.
 
 >For as long as I can remember I've been an obsessive reader. I review books on GoodReads, I've written some fiction novellas in my spare time. I've been a book seller for the last 2 years at [Bookshop name here] and have loved every second of it. As well as being a book seller I've trained new employees and managed the general every day running of the store.
 
@@ -236,6 +274,46 @@ Fourth paragraph is the conclusion, where you wrap this all up.
 >
 >With kind regards,
 >Brandon Skerritt
+
+Don't talk about how great the position would be to you. Talk about what you can bring the company, always have the company in mind. Show what you're capable of within a covering letter. Try to tell a story, humans are attracted more to stories than they are to paragraphs or words on a page.
+
+Just like a CV don't make a one-size-fits-all cover letter. Customise it per job. 
+
+As with a CV your cover letter may be keyword tested so try to include some keywords that the employer really wants to see.
+
+Always send your cover letter as a PDF.
+
+Back in the day the same document could be formatted differently on different machines. The reason PDF was invented was to keep this formatting. If you format it as a PDF you'll know for sure the employer will be able to open it and they'll be able to view it formatted to exactly how you formatted it.
+
+Let's analyse some bad cover letters from [here](http://www.businessinsider.com/worst-cover-letters-2011-10?IR=T)
+
+![img](https://amp.businessinsider.com/images/4e95b55ceab8ea173e000010-750-186.jpg)
+
+This just cuts to the chase. No "hello, [persons name]". You should know who your employers name is and if you don't write "To whom it may concern".
+
+![img](https://amp.businessinsider.com/images/4e95b549eab8ea8b4200000d-750-239.jpg)
+
+This person just talks about what they're bad at. They're quite informal too. Only "average" at Excel?
+Not capable of HTML?
+You're sick of applying for jobs? What??? Don't write something like this!!
+
+![img](https://amp.businessinsider.com/images/4e95b12769beddf85f000009-750-553.jpg)
+![img](https://amp.businessinsider.com/images/4e98439169beddba7700000a-750-344.jpg)
+
+This person is too self-obsessed and the cover letter is far too long. It's so long in fact it had to be split up into two pictures!
+
+![img](https://amp.businessinsider.com/images/4e95b57e6bb3f73d5f000018-750-233.jpg)
+
+Does this person even want the job? They seem so negative. 
+
+![img](https://amp.businessinsider.com/images/4e95b59f69bedd766200000e-750-226.jpg)
+
+Too many spelling mistakes!
+
+![img](https://amp.businessinsider.com/images/4e95ea45eab8ea4d29000000-750-274.jpg)
+
+This one is clearly copied and pasted. They do not mention a position or the company at all!
+
 
 # Email
 
@@ -280,8 +358,6 @@ www.spectrekids.net<br>
 Don't put your email address in your signature. It's like having your table of contents listed in your table of contents or like whenever someone calling you up you answer with "Hello my number is [NUMBER HERE]".
 
 It's nice to have a photo because if you're following up with someone they'll remember you.
-
-
 
 # Personal Brand
 
