@@ -84,4 +84,59 @@ From Jesus Christ - the saviour of the world to Kings and Queens; governments, p
 
 This hierarchy is so ingrained in our lives that even parents make decisions for you.
 
-"Duhh that's normal" you sigh. Yes, it's normal for parents to have power over us. But as a metaphorical object it goes to show that we're not only used to having singular beings being given power but that we want it.
+"Duhh that's normal" you sigh. Yes, it's normal for parents to have power over us. But as a metaphorical object it goes to show that we're not only used to having singular beings being given power but that we want it. We want to give power to singular organisations and people.
+
+Now before you try to put your parents on the blockchain, this is just an example to show how deeply ingrained this hierarchical structure is in our society.
+
+Humanity didn't just decide on this hierarchical structure, it naturally occured. This hirarchy that can be seen in all living things is the basis of life as we know it.
+
+Decentralisation is truly the means to implement anarcho-communism on society and as much as people may say they want this equal and fair system - do they actually want an equal and fair system?
+
+Let's say you have a community of 10 people all living in a communistic society. No one rules over one another. They have 10 of resource X, which means that each one has one resource X. No one is "rich" and no one is "poor" but they all live an average life.
+
+Without the means to be able to gather more of resource X this community would just live,breed and die. Without the power, the possibillitie of becoming slightly more rich by having more than 1 of resource X there is no reason for humanity at all. You're born, you serve your community, you reproduce and you die.
+
+Now let's say that this society is different - it's no longer communistic in nature.
+
+Let's say we have this setup:
+
+Mr. Jones: 2 of resource X
+Mr. Mogg: 2 of resource X
+6 normal citizens - 1 of resource X
+2 people - 0 of resource x
+
+Now because we have this hierarchical system in place where 2 people are considered "richer" than everyone else, this may just save society as a whole.
+
+You see, Mr. Jones and Mr. Mogg are clever. They understand they can become rich, either by killing off normal citizens to get more of resource X (in reality this would be murdering people to steal their money) or they can attempt to make more of resource X. They hire the 6 normal citizens to make more of resource X. Let's now say that Mr. Jones and Mr. Mogg keep 50% of the resource and 10 new resource X's have been added to the system.
+
+This means that Mr. Jones and Mr. Mogg now have 2 + 2.5 = 4.5 of resource X and they pay everyone who worked towards generating this resource. There are 6 people so 5 divided by 6 is 0.83.
+
+So the setup now looks like:
+
+Mr. Jones: 4.5 of resource X
+Mr. Mogg: 4.5 of resource X
+6 normal citizens: 1.83 of resource X
+2 people - 0 Of resource X
+
+Now in a communist society you wouldn't work hard to produce more of resource X than possible, because you all get the same share. Why work hard when you get nothing out of it?
+
+But in this society, more resources have been added to the societal pool.
+
+Now let's say Mr. Jones and Mr. Mogg donate a small portion of their wealth, 0.5 each to the people with nothing:
+
+Mr. Jones: 4.5 of resource X
+Mr. Mogg: 4.5 of resource X
+6 normal citizens: 1.83 of resource X
+2 people - 0.5 Of resource X
+
+Because we have this evidently hierarchical system were some people are richer than others we also have this "goal" system where it is possible for a normal citizen to become very rich. They can have dreams and aspirations and if they work hard enough they might one day be richer than the normal citizen.
+
+Because they work hard towards this goal, more resources are produced and because more resources are produced society benefits as a whole. Of course, the 2 normal people are poorer than your average normal citizen but for whatever reason we can assume that they are poor because they do not wish to work. They want to put in no work and have enough resources to survive on.
+
+This system rewards hard work, it reawards ingenunity. Unlike in a communist system where hard work isn't rewarded.
+
+This hierarchical system is what exists today and it is what propells humanity forward. Without this sytem we wouldn't have Elon Musk, Jeff Bezos, Mark Zuckerberg.
+
+# "What does this have to do with technological decentralisation?"
+
+With decentralised technology you can create applications that live outside of the realm of ownership. You can have a true democracy where everyone votes 
