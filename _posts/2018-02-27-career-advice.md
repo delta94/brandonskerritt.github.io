@@ -65,7 +65,9 @@ Where I come from there are no tech jobs, so most people just commute to London 
 
 Make it 1 page. If you customise your CV per job, you should only ever need 1 page. If you have 15+ years of experience, 2 pages are okay, but 1 page is preferable.
 
-I've read somewhere that an recruiter will spent 7 seconds on your CV but I think this sounds a little too optimistic. Do you know when you're at work, filling out some boring paper work or being forced to read something? If you were given the option of not reading something and it looked boring within the first 1 - 2 seconds, you wouldn't carry on. Same with recruiters. If your CV looks boring, full of boring information, they're not going to bother and spend those 7 seconds on your CV.
+Elon Musk's CV is [one page](http://uk.businessinsider.com/elons-musk-resume-all-on-one-page-2016-4).
+
+I've read somewhere that an recruiter will spend 7 seconds on your CV but I think this sounds a little too optimistic. Do you know when you're at work, filling out some boring paper work or being forced to read something? If you were given the option of not reading something and it looked boring within the first 1 - 2 seconds, you wouldn't carry on. Same with recruiters. If your CV looks boring, full of boring information, they're not going to bother and spend those 7 seconds on your CV.
 
 Use a CV template and fill it out.
 
@@ -87,6 +89,10 @@ Use numbers. In the UK we have this English writing rule:
 
 The statistics are important here. If I was to say that I was the best Student Union officer that would make me sound big headed. If I was to change that to "changed Student Union approval rating from 30% to 90%" it would sound even more impressive and not so egotistical.
 
+Try to make your achievements in this format:
+
+> I did X by doing Y as proved by Q
+
 Make sure to give your CV in PDF format, unless they explicitly ask for a different format.
 
 If they require the CV in plaintext (copy and paste) you have to format it differently. You can make sections using "----". Like so:
@@ -96,6 +102,14 @@ Achievements
 ------------
 Changed Student Union approval rating from 30% to 90%
 ```
+
+Personally speaking I'm a big fan of these companies for CV templates:
+
+https://www.cv.me/
+
+https://novoresume.com/
+
+https://enhancv.com/
 
 ## No References Available On Request
 
@@ -1354,6 +1368,21 @@ Honestly presentations are just practice and practice. No one likes public speak
 You can alternatively ask friends or your family to help you practice your presentation skills.
 
 The more you publicly speak, the better at it you'll become.
+
+Use images to convey messages. An image is worth a thousand words. Use graphs or charts to convey information.
+
+Following a linear story is really important. The way the story normally goes is:
+
+Introduction > Problem happens > Things get really bad > problem is neutralised > everyone is happy.
+
+Try to make every slide follow through from the slide before it.
+
+Know your audience. Don't create a very technical in-depth presentation for people who don't know anything about technology. The same presentation likely won't work on multiple audiences.
+
+If information is important, repeat it. Repition repitiion repition. I've repeated some parts of this article just to get into your head how important it is.
+
+Your number one goal as a speaker is to take an idea that means a lot to you and convey this idea to people listening.
+
 
 # Preprojects
 
