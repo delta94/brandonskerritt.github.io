@@ -1343,11 +1343,23 @@ Any vertex can be considered a sub-tree with 1 single leaf in it.
 
 A binary tree has a degree of most 2. No vertex has a degree higher than 2. The two subtrees are called the left subtree and the right subtree.
 
-The left hand side tree is smaller, the right hand side tree is larger. This is a really cool feature of binary trees. If we want to find the number 34 and we have 2 subtrees where one root (left hand side subtree) is 12 and one root is 24 (right hand subtree) we know that the data must be in the right hand side subtree so we can cut off the entirety of the left hand side.
+The left hand side tree is smaller, the right hand side tree is larger. This is a really cool feature of binary trees. Binary trees are based off of comparisons. Is one number bigger than another number?
 
-We can actually do this to every single subtree until we find a leaf that contains the data we're looking for.
+![img](bin_tree.png)
 
-![img](binary_tree.png)
+We start off with the root node, which in this case is 20. Let's say we wanted to insert the numbers 10 and 3 into the tree. 3 is less than 10 so it goes on the left hand side.
+
+![img](bintree2.png)
+
+Now we inset a few mode nodes for some data. Smallest of the 2 compared always goes left, largest always goes right.
+
+![img](bintree3.png)
+
+Now what if we wanted to find the number 8?
+
+Start off at 20. Is 8 larger than 20? No. So it's not on the right hand side. We just halved the entire tree. We don't need to check the right hand side **at all** in order to find out if 8 is in the tree. Okay, so is 8 larger than 3? Yes it is - so 8 must be on the right subtree.
+
+And yes, we found 8! So easy and fast!
 
 You can traverse binary trees using these 3 algorithms, but note that these only work on binary trees because we need to have a "left" subtree and a "right" subtree.
 
@@ -2136,15 +2148,7 @@ while v or Vr != 0:
 
 Dijkstra's algorithm is O(n^2).
 
-# Blockchain
-
-Blockchain is a new datastructure and unless you're living under a rock you would probably have heard of it. Let's approach blockchain from a datastructure standpoint.
-
-The blockchain is an immutable linked-list of blocks of transactions. 
-
-Each block has a "name" - it is identified by a hash using the SHA256 hash algorithm and the name is stored in the __header__ of a block. Each block points to the previous block in the chain. The previous block is called the "parent" block. Each block contains the hash of its parent inside its own header.
-
-This creates a __chain__ of __blocks__ going all the way back to the original block, called the __genesis block__.
+# Hashing Algorithms
 
 ## How does SHA256 work - A detour
 
@@ -2172,7 +2176,7 @@ $$ abc = a9993e364706816aba3e25717850c26c9cd0d89d$$
 
 An important feature we want is that if we were to change the original string even slightly by say one letter the entire outputted hash has to change. If we input abd we get:
 
-$$ abc = cb4cc28df0fdbe0ecf9d9662e294b118092a5735$$
+$$ abd = cb4cc28df0fdbe0ecf9d9662e294b118092a5735$$
 
 So the idea of randomness here is that the first hash does not look anything like the second hash despite us only changing 1 letter. We'll show how sha1 works to get our head around how sha works.
 
@@ -2216,6 +2220,18 @@ state back to the top, pick a new block and do the exact same thing again and ag
 This is a good video from 3blue1brown about the secureness of 256 bit security:
 
 https://www.youtube.com/watch?v=S9JGmA5_unY
+
+# Blockchain
+
+Blockchain is a new datastructure and unless you're living under a rock you would probably have heard of it. Let's approach blockchain from a datastructure standpoint.
+
+The blockchain is an immutable linked-list of blocks of transactions. 
+
+Each block has a "name" - it is identified by a hash using the SHA256 hash algorithm and the name is stored in the __header__ of a block. Each block points to the previous block in the chain. The previous block is called the "parent" block. Each block contains the hash of its parent inside its own header.
+
+This creates a __chain__ of __blocks__ going all the way back to the original block, called the __genesis block__.
+
+
 
 # If you enjoyed this article, connect with me to learn more like this :)
 [LinkedIn](https://www.linkedin.com/in/brandonls/) | [Website](www.brandonskerritt.github.io) | Twitter
