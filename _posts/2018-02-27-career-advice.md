@@ -1383,6 +1383,11 @@ If information is important, repeat it. Repition repitiion repition. I've repeat
 
 Your number one goal as a speaker is to take an idea that means a lot to you and convey this idea to people listening.
 
+Make it a story (seriously). Stories make people emotional. Emotion makes your listeners interested in you.
+
+Any good story needs a character the audience can sympathise with.
+
+Use humour in your presentation. Make the audience laugh, it'll make them more interested in your presentation. 
 
 # Preprojects
 

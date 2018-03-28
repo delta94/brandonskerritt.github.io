@@ -2150,6 +2150,18 @@ Dijkstra's algorithm is O(n^2).
 
 # Hashing Algorithms
 
+A hash-algorithm is like a check digit in a barcode or credit card. The check digit is determined by all the other digits and if you change one of those digits the last check digit changes as well.
+
+A hash algorithm is kind of like that but for an entire file.
+
+What a hash algorithm gives you is generally a hexadecimal number that is a sum-up of everything in that file. You can't work backwards and pull that data backout, but you can put all the data in.
+
+A hashing algorithm needs to be reasonably fast to compute and reasonably fast to verify.
+
+Let's say you want to transfer a file from one computer to another and it's really important it gets there in one piece, no missing bits here.
+
+
+
 ## How does SHA256 work - A detour
 
 SHA stands for Secure Hash Algorithm.
