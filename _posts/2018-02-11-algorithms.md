@@ -739,6 +739,8 @@ Algorithms are like programming languages, we all have our favourites and someti
 
 Personally whenever I am presented with a problem I like to imagine it is in its own separate world. I try to imagine what rules of life apply to this world. Once you understand the rules (a rule being like our linked list is sorted ascending) you can work out the best tool and change that tool to fit perfectly to the job.
 
+PS: A blockchain is an immutable linked list with some extra features.
+
 <a name="sorting-algorithms"></a>
 # Sorting Algorithms
 
@@ -2134,8 +2136,86 @@ while v or Vr != 0:
 
 Dijkstra's algorithm is O(n^2).
 
+# Blockchain
+
+Blockchain is a new datastructure and unless you're living under a rock you would probably have heard of it. Let's approach blockchain from a datastructure standpoint.
+
+The blockchain is an immutable linked-list of blocks of transactions. 
+
+Each block has a "name" - it is identified by a hash using the SHA256 hash algorithm and the name is stored in the __header__ of a block. Each block points to the previous block in the chain. The previous block is called the "parent" block. Each block contains the hash of its parent inside its own header.
+
+This creates a __chain__ of __blocks__ going all the way back to the original block, called the __genesis block__.
+
+## How does SHA256 work - A detour
+
+SHA stands for Secure Hash Algorithm.
+
+A hash function has to be fairly quick to verify and compute. A hash function takes some string and it turns it into some fixed length string of a random bitstring.
+
+So as an example if we have the string "abc" and we want to hash it, we would get a bitstring like so:
+
+$$0101011000111...$$
+
+For a very long time.
+
+There are some important properties we care about that we should talk about.
+
+The output has to appear completely random. Given a normal input of a word the output should look completely random to us. It is in fact psuedo-random.
+
+Let's use Sha1 as an example:
+
+I'm using [this](http://www.sha1-online.com/) as a tool to calculate sha1 hashes.
+
+So if we input abc we get:
+
+$$ abc = a9993e364706816aba3e25717850c26c9cd0d89d$$
+
+An important feature we want is that if we were to change the original string even slightly by say one letter the entire outputted hash has to change. If we input abd we get:
+
+$$ abc = cb4cc28df0fdbe0ecf9d9662e294b118092a5735$$
+
+So the idea of randomness here is that the first hash does not look anything like the second hash despite us only changing 1 letter. We'll show how sha1 works to get our head around how sha works.
+
+SHA-1 takes any length of string and it always outputs a 160 long bit string. Which is 160 "0" and "1"s.
+
+SHA-1 takes a message of blocks in 512 bits in length. This is because if we wanted to hash a movie or something large we want to split it up so SHA-1 can work it out. If there is only one block of 512 then it'll only calculate using the single block.
+
+SHA-1 starts with an internal state and we bring in each block and after every block we have the outputted result.
+
+So let's say our internal state of SHA-1 is:
+
+$$ h_0, h_1, h_2, h_3, h_4$$
+
+The internal state is exactly the same as the length it produces (160). So each internal state H has 160/5 = 32 bit words which is 4 bytes each.
+
+We'll update these h's as we bring in our blocks and we'll output all the h's at the end.
+
+We have to use a compression function which takes in our data and a bit of message and turn it into another set of h values. At the start of our compression function we copy the h values into 5 new internal states for the compression function:
+
+$$ a, b, c, d, e$$
+
+We then perform 80 rounds of the SHA compression function. What this does is takes in blocks of our message and mix it into our 80 rounds shuffle. The states of a, b, c, d, e are all added, shuffled etc more and more to make our data look more "random". At the same time we're bringing in more bits of our message to make things look even more random. 
+
+If we put in a message twice we'll get the same result twice.
+
+Once we've shuffled this we'll be left with a new set of:
+
+$$ a, b, c, d, e$$
+
+We then finish our block of data by adding our original h values to our a, b... values.
+
+$$h_0 + a, h_1 + b, h_2 + c, h_3 + d, h_4 + e$$
+
+So if our original message is 512 bits we're done. We have the hash. But in actual fact we just copy the 
+
+$$h_0 + a, h_1 + b, h_2 + c, h_3 + d, h_4 + e$$
+
+state back to the top, pick a new block and do the exact same thing again and again until we've done all the blocks of data.
 
 
+This is a good video from 3blue1brown about the secureness of 256 bit security:
+
+https://www.youtube.com/watch?v=S9JGmA5_unY
 
 # If you enjoyed this article, connect with me to learn more like this :)
 [LinkedIn](https://www.linkedin.com/in/brandonls/) | [Website](www.brandonskerritt.github.io) | Twitter

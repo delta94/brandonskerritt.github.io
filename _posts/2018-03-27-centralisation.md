@@ -135,8 +135,15 @@ Because they work hard towards this goal, more resources are produced and becaus
 
 This system rewards hard work, it reawards ingenunity. Unlike in a communist system where hard work isn't rewarded.
 
-This hierarchical system is what exists today and it is what propells humanity forward. Without this sytem we wouldn't have Elon Musk, Jeff Bezos, Mark Zuckerberg.
+In a socialist setting where the resources earned by the hard workers is shared amongst people who don't work hard you are discouraging hard work and promoting doing no work.
+
+This hierarchical system is what exists today and it is what propells humanity forward. Without this sytem we wouldn't have Elon Musk, Jeff Bezos, Mark Zuckerberg. This system doesn't punish doing no work, it rewards doing hard work.
 
 # "What does this have to do with technological decentralisation?"
 
-With decentralised technology you can create applications that live outside of the realm of ownership. You can have a true democracy where everyone votes 
+With decentralised technology you can create applications that live outside of the realm of ownership. You can have a true democracy where everyone votes on changes to society. Well, you actually only need 51% of society to vote on something for it to become "fact".
+
+With our previous system which is what could be called "capitalism" you had one central body consisting of 2 people which dictated, rewarded and paid the lives of everyone else. We also saw how taking from the hard workers and giving to the no-workers punishes ingenuinity and hardwork. 
+
+In a technical system one person can create an application
+
