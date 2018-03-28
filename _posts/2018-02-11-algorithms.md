@@ -2152,19 +2152,38 @@ Dijkstra's algorithm is O(n^2).
 
 A hash-algorithm is like a check digit in a barcode or credit card. The check digit is determined by all the other digits and if you change one of those digits the last check digit changes as well.
 
-A hash algorithm is kind of like that but for an entire file.
+So let's say we want to send a document to the Prime Minister. The document contains highly classified information and we want to be 100% sure that the prime minister received the document. Let's say the document says:
 
-What a hash algorithm gives you is generally a hexadecimal number that is a sum-up of everything in that file. You can't work backwards and pull that data backout, but you can put all the data in.
+> "Don't kill the NHS, fund the NHS. Give less to privatisation, more to the nurses."
 
-A hashing algorithm needs to be reasonably fast to compute and reasonably fast to verify.
+we want to make sure the prime minister got this, letter for letter. When you send things digitally, they may corrupt and the other person may not receive the whole document you sent. So if we send this we risk the message corrupting and the Prime Minister getting:
 
-Let's say you want to transfer a file from one computer to another and it's really important it gets there in one piece, no missing bits here.
+> "Kill the NHS. Give less to the nurses."
+
+A hash function is a summation of every single thing in that file. It's describing what's in a file. But you can't reverse a hash function. You can't magically pull a document out of a hash function, you can only put the document into it.
+
+Hashing algorithms have 3 requirements:
+
+1. A hashing algorithm needs to be reasonably fast to compute and reasonably fast to verify.
+2. If you change one single bit anywhere in the file the outputted string must look completely different.
+3. You must avoid collisions.
+
+For number 3 there is a mathematical idea called the Pigeon Hole Principle. If you have 5 pigeons and 4 holes then 2 pigeons must be in the same hole.
+
+Now there are millions and millions of files out there and a relatively large hash output. So that means that there are files which have the same hash and that's okay because it's so unlikely we can deal with that.
+
+But if you can artifically make a file and make that file as the same hash as something then that's an issue because you can fake documents and make the hashes match.
+
+So let's say we have a document that says "don't send nukes to North Korea" and we get a hash to verify that that is the document. But let's say we intercept that document and because we can cause hash collisions we can change it to "send nukes to North Korea" and the hashes will be the same.
+
+Hashes are absolutely not an encryption method. Do not use them to encrypt passwords. On Google if you type an md5 hash and search quite frequently the word that was hashed will come out.
+
+Hash algorithms are used to verify password and **not** for storing passwords.
 
 
+## How does SHA-1 Work?
 
-## How does SHA256 work - A detour
-
-SHA stands for Secure Hash Algorithm.
+SHA stands for Secure Hash Algorithm and is an implementation of a hashing algorithm. We're going to work with SHA-1 here and build up.
 
 A hash function has to be fairly quick to verify and compute. A hash function takes some string and it turns it into some fixed length string of a random bitstring.
 
@@ -2214,6 +2233,12 @@ We then perform 80 rounds of the SHA compression function. What this does is tak
 
 If we put in a message twice we'll get the same result twice.
 
+You know how a blender works right? You put a laod of stuff in it and blend and outcomes this juice? The compression funtions works a lot like this. You put in a block of data and outcomes this nice juice. But insetad of drinking the juice or using the juice, you put another block in and mix it up and outcomes this juice of 2 blocks. Then you do this for 80 times until our 512 bit message is fully blendered. 
+
+This blender of a compression function is where the magic happens. Let's see a more human example. So if you have 2 numbers, 5 and 2 and you add them together you get 7. But if you change one of the numbers, from say a 2 to a 3 you get 5 + 3 = 8 and 8 is completely different from 7 despite us only changing one digit ever so slightly.
+
+The compression function does the same (but not with adding). If you change one ingredient in our blender the entire blendered juice is completely different.
+
 Once we've shuffled this we'll be left with a new set of:
 
 $$ a, b, c, d, e$$
@@ -2227,6 +2252,14 @@ So if our original message is 512 bits we're done. We have the hash. But in actu
 $$h_0 + a, h_1 + b, h_2 + c, h_3 + d, h_4 + e$$
 
 state back to the top, pick a new block and do the exact same thing again and again until we've done all the blocks of data.
+
+So in total the algorithm looks like this:
+
+* Split data up into blocks of 512 bits
+* Assign 32 bit words to 5 internal states each
+* put these 5 states into 5 new states for our compresion function
+* Run the compression function and take a "little bit" of our original message each time
+* assign the output 
 
 
 This is a good video from 3blue1brown about the secureness of 256 bit security:
