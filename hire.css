@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(250, 250, 250);
+}
+.title {
+    text-align: center;
+    font-family: 'Scope One', serif;
+    font-size: 3em;
+    font-weight: 400;
+    color: #000;
+    margin: 2%;
+    display: inline;
+    padding-top: 45% !important;
+}
+
+.containerone {
+    text-align: center;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20%;
+  }
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    background-color: rgb(230, 230, 230);
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+  
+#availability {
+    color: green;
+    display: inline;
+}
+
+card {
+    color: rgb(230, 230, 230);
+}
+
+#hire-contact-info:hover {
+    color: red;
+}
+
+#hire-contact-info a .fab{
+    font-size: 2em;
+    color: black;
+}
+
+#hire-contact-info a .fab:hover{
+    color: red;
+}
+
+.btn:hover {
+    color: red;
+}

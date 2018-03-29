@@ -252,11 +252,36 @@ body {
   
 }
 
+#footer-bar {
+  background-color: rgb(230, 230, 230);
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 2%;
+}
+
+#footer-bar .btn{
+  background-color: rgb(240, 240, 240);
+}
+
+#footer-bar .btn:hover{
+  color: red;
+}
+
+#footer-bar .fab{
+  color: rgb(25, 25, 25);
+  font-size: 2em;
+}
+
+#footer-bar .fab:hover{
+  color: red;
+}
+
+#footer-bar a{
+  color: black;
+}
+
 .experience-list {
   padding-left: 0;
 }
-
-
 
 /* timeline */
 

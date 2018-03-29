@@ -4,12 +4,9 @@ categories:
 - University
 ---
 
-Normally people will make entire articles out of things like Big O notation, Binary search or other algorithms. There simply is no need to blabber on about something when you can convey the same message in a shortened manner, so this is where this article comes into play.
+Ever wanted to make clean and amazing code? Array and sequential search not cutting it for you? After you've read this article you will have gained an unfathomable amount of knowledge about datastructures and algorithms.
 
-If you're not interested in a certain algorithm (say for example, Min and Max) then simply skip it! Most of the examples given are in Python, but you need not know how Python works to understand the algorithms. Note that later in this article some algorithms may be implemented in Java.
-
-I do not attempt to explain my code used that much. You should really try to implement this yourself in code (if you're a programmer) and perhaps use my code to check over it. My code is definitely not the _best_ way to implement it, but it is a way.
-
+If you're not interested in a certain algorithm or data structure(say for example, Min and Max) then simply skip it! Most of the examples given are in Python, but you need not know how Python works to understand the algorithms. Note that later in this article some algorithms may be implemented in Java.
 
 # Table of Contents
 1. [What is an Algorithm?](#what-algorithm)
@@ -54,21 +51,19 @@ I do not attempt to explain my code used that much. You should really try to imp
 <a name="what-algorithm"></a>
 # What is an Algorithm?
 
-An algorithm is a set of instructions typically undertaken by a computer to reach a targeted goal.
+An algorithm is a set of instructions typically undertaken by a computer to reach a targeted goal. But, what does that really mean?
 
-When you make a sandwich, you are performing an algorithm. Habits are algorithms. Do you put your socks and shoes on in the order sock > sock > shoe > shoe or do you do sock > shoe > sock shoe? Both of these are algorithms.
+When you make a sandwich, you are performing an algorithm. Even if you do not know it. Habits are algorithms. Do you put your socks and shoes on in the order sock > sock > shoe > shoe or do you do sock > shoe > sock shoe? Both of these are algorithms.
+
+Where does the word algorithm come from? It's a bit of a funny word. Actually,
 
 >Algorithms have a long history and the word can be traced back to the 9th century. At this time the Persian scientist, astronomer and mathematician Abdullah Muhammad bin Musa al-Khwarizmi, often cited as “The father of Algebra”, was indirect responsible for the creation of the term “Algorithm”. In the 12th century one of his books was translated into Latin, where his name was rendered in Latin as “Algorithmi”.
 
 From [here](http://cs-exhibitions.uni-klu.ac.at/index.php?id=193)
 
-Normally algorithms break down things that we as humans think are very simple and easy into little steps that a computer can perform.
+Normally algorithms break down things that we as humans think are very simple and easy into little steps that a computer can perform, let's say that you want to find the number 3 in the list [1, 2, 3]. You look at it and you see it, but a computer can't see the number 3 in the list until it goes through every single item to check. Computers are the fastest dumbest things to ever be created, because it's so easy for us to just "look" and see.
 
-Let's say you want to find the number 3 in the list [1, 2, 3]. You look at it and you see it, but a computer can't see the number 3 in the list until it goes through every single item to check.
-
-Computers are the fastest dumbest things to ever be created.
-
-Algorithms are essential in Computer Science, you simply cannot live without them. Something computer scientists do a lot is compare how long an algorithm takes to run against other algorithms.
+Algorithms are essential in Computer Science, you simply cannot live without them. Something computer scientists do a lot is compare how long an algorithm takes to run against other algorithms, kind of like a race.
 
 <a name="big-o"></a>
 # How do we measure how long an algorithm takes to run?
@@ -2180,7 +2175,6 @@ Hashes are absolutely not an encryption method. Do not use them to encrypt passw
 
 Hash algorithms are used to verify password and **not** for storing passwords.
 
-
 ## How does SHA-1 Work?
 
 SHA stands for Secure Hash Algorithm and is an implementation of a hashing algorithm. We're going to work with SHA-1 here and build up.
@@ -2297,3 +2291,4 @@ Previous articles
 Link to github repo
 
 Link to PDF
+
