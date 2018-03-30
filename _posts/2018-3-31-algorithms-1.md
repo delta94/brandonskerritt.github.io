@@ -23,3 +23,5 @@ Algorithms exist everywhere. Ants use an algorithm to find the shortest path bet
 Even Medium uses an algorithm to decide what posts get into the top 5 trending posts on Medium.
 
 Algorithms are essential in Computer Science, you simply cannot live without them. Something computer scientists do a lot is compare how long an algorithm takes to run against other algorithms, kind of like a race. This will be the discussion of the next post in this series.
+
+TK next article

@@ -78,40 +78,116 @@ Algorithms are essential in Computer Science, you simply cannot live without the
 <a name="big-o"></a>
 # How do we measure how long an algorithm takes to run?
 
-We could simply run an algorithm 10,000 times and measure the average time taken but let's say we have an algorithm that took different inputs, like say for example we have an algorithm that takes a list of items and prints every item to the screen. If we only input lists of length 1 (1 item), the average time would be around 0.1 seconds. If we entered items of length 1500, the average would be different. Of course you can use some advance statistical knowledge to work out the true average by inputting lists of varying lengths or you could use Big O notation.
+We could run an algorithm 10,000 times and measure the average time taken but this creates a problem. Say we have an algorithm that takes a shopping list and prints out every item on the shopping list. If the shopping list has 3 items at most the algorithm could take 3 seconds to run. If the shopping list has 10 items it may take 10 seconds to run.
 
-Big 0 notation is notation used to describe how efficient an algorithm is. It's incredibly important to know this since every major employer will question you on this and it'll most likely come up in any algorithms exams (Hello University of Liverpool people <3 ).
+A problem is  fabricated here. How do we know what the "perfect" input size is to get the "perfect" measure of how long the algorithm takes? For this reason we use a notation called Big-O (pronounced Big Oh) notation.
 
-A hierarchy of functions exist:
+Big 0 notation is a notation used to describe how efficient an algorithm is. Big-O is easy to read once you know this table:
 
-   1     |   log n   | n, $$n^2$$, $$n^3$$ |   $$2^n$$
+
+
+  1     |   log n   | n, $$n^2$$, $$n^3$$ |   $$2^n$$
 -------- | --------- | ------------------- | -----------
 Constant | Logarithm | Polynomial          | Exponential
 
-Where the further right they are, the longer it takes. Big O notation uses these functions to describe algorithm efficiency.
+Where the further right they are, the longer it takes. Big O notation uses these functions to describe algorithm efficiency. Taking our shopping list as an example then the algorithm will be O(n). We don't know how many items are in the shopping list so we give it an alegrabic varaible such as n. We then print each item to the screen which takes o(n) time. 
 
-Log is called a logarithm (typically in base 2 binary but can differ). I shan't explain the logistics of logarithms for someone has already done it far better than I can. You do not need to watch the whole video, just the first two minutes.
+Let's run through every single one of these.
 
-https://www.youtube.com/watch?v=ZIwmZ9m0byI
+## Constant
 
-A "constant" value is something that does not change depending on its input. So for example, adding 1 to 500 is the same as adding 1 to 4741838148, because it doesn't scale depending on the input size.
+An constant algorithm is an algorithm that doesn't take more time if the input size gets larger. Let's look at a quick example:
+
+```python
+5 + 4
+```
+
+So the numbers here are small but:
+
+```python
+50 + 74
+```
+
+Takes roughly the same amount of time. But what if the numbers were extra large like...
+
+```
+6045883832 + 4242424242
+```
+The numbers are hardcoded in. If you input 50, it will still add these two numbers together. Because of this it doesn't take more time to add them together depending on the input size. They do not scale with input size. They are a constant.
+
+## Log n
+
+You might be wondering "what is log n"? Well...
+
+A  logarithm is sometimes called a log. Frequently in base 2 binary but can differ). Let's do a quick example:
+
+$$ log_3 9$$
+
+In this example what is being asked is "3 to what power gives you 9". So this is 3 to the power of 2 gives us 9, so the whole expression looks like:
+
+$$ log_3 9 = 2$$
+
+A logarithmic algorithm "halves" the list every time it's run. It's what Binary search is (which is explained later). If you give the algorithm a list of 10 items like so:
+
+```python
+a = [1, 2, 3, 4, 5, 6 , 7, 8, 9, 10]
+```
+
+And the algorithm halves it every time like so:
+
+```python
+a = [1, 2, 3, 4, 5]
+a = [1, 2, 3]
+a = [2]
+```
+
+Then it is a logarithmic function.
+
+## Polynomial time
+
+If we have our shopping list from earlier and it looks like this:
+
+```python
+a = ['water', 'vegetables', 'Bose QC35']
+```
+
+If you went through every item in the list and said it out loud then the complexity will be n. This is because there are n items in the list and the number of items can increase or decrease.
+
+For $$n^2$$ it doubles the time of the input. An example of this is:
+
+```python
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for i in a:
+ for x in a:
+ print("x")
+```
+
+If you see a nested for loop like above then it's n^2, if it's 3 nested for loops then it's n^3 and so on.
+
+## Exponential
+
+This type of algorithm is the slowest of them all. An example of this is say you have a password consisting only of numbers (so that's 10 numbers, 0 through to 9). You want to crack a password which has a length of n, so to bruteforce through every combination you'll have:
+
+$$10^n$$
+
+Combinations to work through.
 
 ![img](https://www.daveperrett.com/images/articles/2010-12-07-comp-sci-101-big-o-notation/Time_Complexity.png)
 
-In Big O notation, we always use the *worst case* scenario for our calculations.
+In Big O notation, we always use the *worst case* scenario for our calculations. Computer scientist are pessemistic.
 
-To calculate the Big O of an algorithm or selection of code, well... it's basically an educated guess. If your algorithm touches EVERY item in a list, the algorithm is 0(n). If your algorithm does not rely on input size (like an algorithm which just does 2 * n) then it is considered 0(1). If your algorithm appears to be halving / going down a lot it is _probably_ log n. If your algorithm looks like it's counting up in how memory is counted (16, 32, 64, 128, 256, ..., 1024) then it is probably 2^n. 
+## Simplfying Big O notation
 
-There are some super useful rules you have to obey in order to simplify your algorithm.
+What if your algorithm looks something like O(n + n^2)? Well, there are some super useful rules to simplfy your algorithm.
 
 <a name="big-o-tips"></a>
 ## Drop the constants
 
-If you have an algorithm described as O(2n), drop the 2 so it's just O(n).
+If you have an algorithm described as O(2n), drop the 2 so it's O(n).
 
 ## Drop the non-dominant terms
 
-O(n^2 + n) just becomes O(n^2). Only keep the larger one in Big O.
+O(n^2 + n) becomes O(n^2). Only keep the larger one in Big O.
 
 If you have a special sum such as
 O(b^2 + a)
@@ -120,13 +196,13 @@ you can't drop either because without knowledge of what b and a are.
 <a name="big-o-summary"></a>
 ## Summary
 
-Bet you were expecting some hard to understand guide to Big O huh? Well, this is all it is. You just need to memorise (or learn) the hierarchy, take some algorithms and find out what their Big O notation is. 
+Bet you were expecting some hard to understand guide to Big O huh? Well, this is all it is. You need to memorise (or learn) the hierarchy, take some algorithms and find out what their Big O notation is. 
 
-Big O notation only represents how long an algorithm can take but sometimes we care about the memory (space complexity) of an algorithm too.
+Big O represents how long an algorithm takes but sometimes we care about how much memory (space complexity) an algorithm takes too.
 
-I read somewhere that if you have a for loop and another for loop nested inside of that for loop (2 for loops) then it's likely to be $$n^2$$. 3 for loops is $$n^3$$.
+If you have a for loop and another for loop nested inside of that for loop (2 for loops) then it's likely to be $$n^2$$. 3 for loops is $$n^3$$.
 
-There are other forms of measuring algorithm time complexity such as Big Theta which is the least (smallest)amount of time an algorithm takes.
+There are other forms of measuring algorithm time complexity such as Big Theta which is the least amount of time an algorithm takes.
 
 <a name="big-o-cheatsheet"><a>
 ## Cheatsheet
