@@ -63,6 +63,10 @@ From [here](http://cs-exhibitions.uni-klu.ac.at/index.php?id=193)
 
 Normally algorithms break down things that we as humans think are very simple and easy into little steps that a computer can perform, let's say that you want to find the number 3 in the list [1, 2, 3]. You look at it and you see it, but a computer can't see the number 3 in the list until it goes through every single item to check. Computers are the fastest dumbest things to ever be created, because it's so easy for us to just "look" and see.
 
+This is a good video showing how precise and "stupid" computers can sometimes seem:
+
+https://www.youtube.com/watch?v=cDA3_5982h8
+
 Algorithms are essential in Computer Science, you simply cannot live without them. Something computer scientists do a lot is compare how long an algorithm takes to run against other algorithms, kind of like a race.
 
 <a name="big-o"></a>
@@ -80,7 +84,7 @@ Constant | Logarithm | Polynomial          | Exponential
 
 Where the further right they are, the longer it takes. Big O notation uses these functions to describe algorithm efficiency.
 
-Log is called a logarithm (typically in base 2 binary but can differ). I shan't explain the logistics of logarithms for someone has already done it far better than I can. You do not need to watch the whole video, perhaps just the first two minutes.
+Log is called a logarithm (typically in base 2 binary but can differ). I shan't explain the logistics of logarithms for someone has already done it far better than I can. You do not need to watch the whole video, just the first two minutes.
 
 https://www.youtube.com/watch?v=ZIwmZ9m0byI
 
