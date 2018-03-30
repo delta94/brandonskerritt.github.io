@@ -67,7 +67,13 @@ This is a good video showing how precise and "stupid" computers can sometimes se
 
 https://www.youtube.com/watch?v=cDA3_5982h8
 
-Algorithms are essential in Computer Science, you simply cannot live without them. Something computer scientists do a lot is compare how long an algorithm takes to run against other algorithms, kind of like a race.
+Algorithms exist everywhere. Ants use an algorithm to find the shortest path between food and their nest. Birds and fish use algorithms to locate food. Algorithms are found everywhere in life.
+
+![img](http://www.funpecrp.com.br/gmr/year2005/vol3-4/images/wob09fig2.jpg)
+
+Even Medium uses an algorithm to decide what posts get into the top 5 trending posts on Medium.
+
+Algorithms are essential in Computer Science, you simply cannot live without them. Something computer scientists do a lot is compare how long an algorithm takes to run against other algorithms, kind of like a race. This will be the discussion of the next post in this series.
 
 <a name="big-o"></a>
 # How do we measure how long an algorithm takes to run?
