@@ -245,7 +245,15 @@ Bi-directional search | $$\frac{b}{2}$$ | $$\frac{b}{2}$$
 <a name="sequential-search"></a>
 # Sequential Search
 
-Let's say you have an array of items [1, 3, 7, 4, 9] and you want to find the number 4. You just look at it, and you see it. What's so hard about that? Well a computer doesn't have super cool abilities like us just to "see" things. It has to go through the list in order to "see" the number. There are many algorithms that allow a computer to search lists / arrays. One of them is sequential search.
+A Sequential Search is a search which searches sequentially, as the name implies.
+
+Let's say you have an array of items:
+
+```[1, 3, 7, 4, 9]```
+
+ 
+
+and you want to find the number 4. You look at it, and you see it. What's so hard about that? Well a computer doesn't have super cool abilities like us to "see" things. It has to go through the list to There are many algorithms that allow a computer to search lists / arrays. One of them is sequential search.
 
 A sequential search would calculate it like so:
 
@@ -256,7 +264,8 @@ Index | Current number | Description
 2             | 7 | Not goal
 3             | 4 | Goal found
 
-Note: this type of table is called a trace table. It shows the values and names of all variables in the algorithm every single time the algorithm / loop is run until the algorithm finishes.
+
+Note: this type of table is called a trace table. It shows the values and names of all variables in the algorithm every time the algorithm runs. It will stop when the algorithm stops.
 
 Essentially you are sequentially counting up every single item in an list until you find your goal (if it exists in the list).
 
@@ -264,7 +273,9 @@ Essentially you are sequentially counting up every single item in an list until 
 
 Note: this algorithm is sometimes called linear search.
 
-In the *worst case scenario* the number we are looking at is either not in the list or at the very end, so in time complexity this is O(N).
+In the *worst case scenario* the number we are looking at is either not in the list or at the very end, so in time complexity of this is O(N).
+
+Here is some Python code.
 
 ```python
 for i in list: # for every element in the list
@@ -279,19 +290,50 @@ Now this may seem stupid, but it can work on non-sorted arrays. You use this sea
 <a name="Binary-search"></a>
 # Binary search
 
-Binary search only works on sorted arrays. It basically halves the array and checks whether the halved item is lower or higher than the goal item in the array.
+
+Binary search only works on **sorted arrays**. It halves the array and checks whether the halved item is lower or higher than the goal item in the array.
 
 Given the array [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] and we want to find 2 we can run binary search like this:
 
 ```
 Item in middle of array = 5
-is 5 less than or greater than 2? It's greater than so we throw away the right hand side (greater than) and start again.
-5 / 2 = 2.5, so we round up here. 
-Is 3 less than or greater than 2? It's greater than so we do:
+is 5 less than or greater than 2? It's greater than so we throw away the right hand side (greater than) and start again. 
+Our array now looks like:
+[1, 2, 3, 4, 5]
+5 / 2 = 2.5, so we round up here to 3.
+Is 3 less than or greater than 2? It's greater than so we the right hand side of the array. 
+Our array now looks like:
+[1, 2, 3]
 3 / 2 = 1.5
 round up to 2 (as we only accept integers here)
 2 is goal, goal is found.
 ```
+
+In reality you wouldn't "throw" away half of the array.
+
+Let's visualise this without removing half the array.
+
+So we have the same old array again, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+And we want to find 8 this time. 
+
+```
+length of array / 2 = 10 / 2 = 5
+item at index 5 in array is 5.
+Is 5 less than or greater than 8? It's less than.
+Instead of throwing away half the array we do:
+current_index = current_index + (current_index) / 2
+```
+
+This magical line lets us go "up" without throwing away half the array. The current_index is the halved section of the array.
+
+```
+current_index = current_index + (current_index) / 2 = 5 + 2.5 = 7.5
+round up to 8
+item 8 is found at index 8, goal found so we stop.
+```
+
+To move "down" the array you just half the "middle" or "current_index" variable. You'll see this in the upcoming Java code.
 
 The time complexity here is O(log n) because you're effectively asking how many times can you divide by 2 until you find the answer.
 
@@ -302,34 +344,6 @@ Here is a nice gif of binary search in action
 This is the worst case performance for binary search, beaten by sequential search!
 
 ![img](https://blog.penjee.com/wp-content/uploads/2015/12/linear-vs-binary-search-worst-case.gif)
-
-This code is taken from [here](https://stackoverflow.com/questions/41883258/how-to-implement-a-binary-search). It's not essential to understand the Python code in order to understand the algorithm. 
-
-
-
-```python
-def bsearch(alist, target):
-    left = 0
-    right = len(alist)-1
-
-    while True:
-        mid = int((left + right)/2)
-        if alist[mid] < target :
-            left = mid + 1
-        elif alist[mid] > target :
-            right = mid + 1
-        elif alist[mid] == target :
-            print ("word '" + target + "' found at " + str(mid))
-            break
-        elif left > right:
-            print ("Not Found!")
-            break  
-
-i = input("Enter a search >")
-alist = ["rat","cat","bat","sat","spat"]
-alist.sort()
-bsearch(alist, i)
-```
 
 If you're a Java programmer, have a look at this code:
 
@@ -351,9 +365,11 @@ static void binary_search(int[] sortdata, int n, int key) {
 			}
             else {
                 if (temp < key){
+                    // going down the array
                     temp = temp / 2;
                 }
                 else {
+                    // magically moving up the array in half steps
                     temp = temp + (temp / 2);
 				}
 			count = count + 1;
@@ -368,21 +384,19 @@ static void binary_search(int[] sortdata, int n, int key) {
 }
 ```
 
-This method may suit your book search better because books are normally sorted alphabetically! If you know the alphabet and the positional number of each letter you could easily find any author you wanted!
+This method may suit your book search better because books are sorted alphabetically! If you know the alphabet and the positional number of each letter you could find any author you wanted with ease!
 
 <a name="min-max"></a>
 # Min and Max algorithms
 
 How do you find the biggest and smallest numbers in an array?
 
-Well, first: why is this useful? Can't you just look at a list and tell?
+Well, firstly, why is this useful? Can't you just look at a list and tell?
 Yes, *you* can but a computer cannot.
 
 ## Finding maximum from n +ve (+ve means positive) numbers
 
 So given an array, A, of positive only numbers this is how you would find the maximum.
-
-Quick note: read ":" as "then".
 
 ```python
 i = 0
@@ -423,7 +437,7 @@ print(m)
 <a name="datastructures"><a>
 # Dipping our toes into data structures - Queues and Stacks
 
-A data structure is a way to structure data in such a way that the data becomes easily usable and maybe even faster to use than a typical list or array.
+A data structure is a way to structure data in such a way that the data becomes easy to use and even faster to use than a typical list or array.
 
 <a name="queue"></a>
 ## Queues
@@ -432,7 +446,7 @@ A queue is a first-in-first-out array. The *first* item into the array is the *f
 
 Queues have 2 functions:
 * Enqueue - Insert element to tail (end).
-* Dequeue - Retrive data from head (start) of queue.
+* Dequeue - Retrieve data from head (start) of queue.
 
 So given an array (list) as an example
 
