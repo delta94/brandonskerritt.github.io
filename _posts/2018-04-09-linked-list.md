@@ -127,9 +127,6 @@ https://hackernoon.com/you-need-to-understand-big-o-notation-now-4ada3d2ec93a
 <a name="programming-lniked-lists"></a>
 ## Programming Linked Lists
 
-
- 
-
 Linked Lists aren't available in most languages so we have to program it ourselves.
 
 Because a node will have the same functions and look the same across our linked list it is best to create this as a class.
@@ -205,6 +202,8 @@ static void insertHead(int value){
 }
 ```
 
+![img](LinaaaakedLists.png)
+
 Now from our definition of the node class earlier the node's functions node.next and node.prev points to null. Let's change that.
 
 ```java
@@ -217,6 +216,8 @@ static void insertHead(int value) {
 
 We have not updated the head pointer, so it still points to the head of the linked list which is what we want to make the second node in the linked list. We make the node.next pointer point at where the head pointer is pointing at.
 
+![img](WatLinkedLists.png)
+
 Because we are inserting a new node at the front of the linked list we will need to update the head pointer soon. First, we'll define where the new nodes previous pointer points to.
 
 
@@ -228,6 +229,10 @@ static void insertHead(int value) {
     newNode.prev = null; // makes the previous node empty
 }
 ```
+
+We actually didn't need to update newNode.prev to be null because it's already done in the Node class; however to make things clear the code has been put there.
+
+![img](WatLinkedLists.png)
 
 Now we need to update the second node, the node that the head pointer is still pointing at. It needs to know that node.previous points to an actual node now and not just null.
 
@@ -244,6 +249,8 @@ static void insertHead(int value) {
 		head.prev = newNode;
 }
 ```
+
+![img](LinkedListsHead.png)
 
 If the head pointer is pointing at a node then inform that node that it's .prev function points to the new node we have just inserted.
 
@@ -280,64 +287,118 @@ static void insertHead(int value) {
 }
 ```
 
-TK remove this?
-First we create a new empty node with value as data.
+![img](Link111edLists.png)
 
-```
-[ ][value][ ]
-```
-
-Then we set the next pointer to point at the head of the linked lists. This assumes that there is already a linked list we are adding to.
-
-```
-[ ][value][-]-[>][HEAD][ ]
-```
-
-After this we set the previous definition to be NULL
-
-```
-NULL<-[-][value][-]-[>][HEAD][ ]
-```
-
-Then we run a simple if statement. If head is not empty, set the previous node (new node) as our head node. Otherwise if head is empty (as in this node is the only node in the linked list) do something. Normally you'll set head to the new node to the head but in some cases you may not want this.
-
-```
-NULL<-[-][value][<-]-[>][HEAD][ ]
-```
 
 <a name="delete-head-lniked-list"></a>
 We can also delete a node at the front of the linked list in a similar fashion:
 
 ```java
-// delete the node at the head of the linked list
 static Node deleteHead() {
 	Node curr;
+```
 
-	curr = head;
-	if (curr != null) {
-		head = head.next;
-		head.prev = null;
-	}
-	return curr;
+We assume here that curr is a pointer that points to any node in the linked list.
+
+We then want to set curr to head, since we're deleting the head node:
+
+```java
+static Node deleteHead() {
+	Node curr;
+    curr = head
 }
 ```
 
-We assume here that curr is a pointer that points at a node in the linked list.
+![img](LinkedLists(1).png)
 
-So we point the current pointer at head, if head is not null (if it is not empty) then we set the head to the next node and from this new head (which is the second item in the linked list) we set the previous (old head) to null (null definition: nothing, doesn't exist).
+```java
+static Node deleteHead() {
+	Node curr;
+    curr = head;
+    if (curr != null){
+
+    }
+}
+```
+
+We want to make sure that head is pointing at something. curr is not equal to null as there is a node there.
+
+```java
+static Node deleteHead() {
+	Node curr;
+    curr = head;
+    if (curr != null){
+        head = head.next;
+    }
+}
+```
+
+We move the head pointer 1 to the right.
+
+![img](LinkedLists(2).png)
+
+```java
+static Node deleteHead() {
+	Node curr;
+    curr = head;
+    if (curr != null){
+        head = head.next;
+        head.prev = null;
+    }
+}
+```
+
+Now we remove curr.next's pointer
+
+```java
+static Node deleteHead() {
+	Node curr;
+    curr = head;
+    if (curr != null){
+        head = head.next;
+        head.prev = null;
+        curr.next = null;
+    }
+}
+```
+
+![img](LinkedLists(3).png)
+
+Now we have this node sitting in a space doing nothing. We return the node in case we want to do something else with it.
+
+```java
+static Node deleteHead() {
+	Node curr;
+    curr = head;
+    if (curr != null){
+        head = head.next;
+        head.prev = null;
+    }
+    return curr;
+}
+```
+
+And that's it! The node is no longer connected to the linked list, thus making it 'deleted'.
 
 <a name="inserting-linked-list"></a>
 ## Inserting items into a linkedlist
 
-Linked lists are super cool because we can insert items anywhere in them. Let's say we have a pointer, curr, which points somewhere (let's say the middle) of the list. We can insert a new node after curr like so (in Python now)
+The true power of a linked list is being able to insert items anywhere in them.
 
-```python
-def listInsert(L, curr, newnode):
-    newnode.next = curr.next
-    newnode.prev = curr
-    if curr.next != None:
-        curr.next.prev = newnode
-    curr.next = newnode
+Inserting an item anywhere in a linked list is similar to inserting an item at the head. You just change a few variables, the idea is still the same.
+
+```java
+static void insertHead(int value) {
+	Node newNode = new Node(value);
+
+	newNode.next = curr.next; // Makes the next node the head of the linked list
+    newNode.prev = curr; // makes the previous node empty
+
+    if (head != null) // if the head is not empty
+		curr.next = newNode;
+        curr.prev = newNode;
+    curr.next = newNode
+}
 ```
 
 Whenever we want to insert a new node, we just have to tell the node what the next and previous nodes are.
@@ -345,11 +406,13 @@ Whenever we want to insert a new node, we just have to tell the node what the ne
 <a name="searching-linked-list"></a>
 ## Searching over a sorted linked list
 
-Recall that values stored in a linked list are normally sorted (again, entirely down to the programmer). We could use binary search to search the list. However, this is a bad idea. We don't know where the middle of a linked list is. Everytime we wanted to find the middle we would have to count every single node in the list and half that by 2.
+Linked lists are normally sorted. Items can be inserted anywhere in a linked list, so it makes sense to put them in the right place. If you have a linked list with data of 3, 4, 6 the programmer would likely put the new node containing 5 between 4 and 6. But this is entirely down to the programmer.
+
+We could use binary search to search the list. But, this is a bad idea. We don't know where the middle of a linked list is. Everytime we wanted to find the middle we would have to count every single node in the list and half that by 2.
 
 We can use a modified version of sequential search to search a linked list.
 
-Because the linked list is sorted, let's say in ascending order, we can use this information to make sequential search faster.
+Assume the linked list is sorted in ascending order. we can use this information to make sequential search faster.
 
 ```python
 node = head
@@ -379,13 +442,15 @@ is 3 goal? no
 is 3 > 2.5? yes - we can assume 2.5 is not in list and thus end the search here
 ```
 
-There are many, many search algorithms but most of the time if you know a little bit of information about the data you can change some search algorithm to be more efficient for that specific problem. In general, binary search is extremely effective but here it's not so good. Don't just use an algorithm because Stack Overflow says that it is the fastest, best algorithm for the job.
+There are many search algorithms out there. But most of the time if you know a little bit of information about the data you can change a search algorithm to be more efficient. In general, binary search is extremely effective but here it's not so good. Don't use an algorithm because Stack Overflow says that it is the fastest, best algorithm for the job.
 
-Algorithms are like programming languages, we all have our favourites and sometimes we say that one programming language is better than another (Python, I love you) but at the end of the day it would be foolish and naive to say that one programming language is better than all the others. Use the right tool for the job, and change it if you want to!
+Algorithms are like programming languages. We all have our favourites and sometimes we say that one programming language is better than another (Python, I love you). But at the end of the day it would be foolish and naive to say that one programming language is better than all the others. Use the right tool for the job, and change it if you want to!
 
-Personally whenever I am presented with a problem I like to imagine it is in its own separate world. I try to imagine what rules of life apply to this world. Once you understand the rules (a rule being like our linked list is sorted ascending) you can work out the best tool and change that tool to fit perfectly to the job.
+# Blockchains
 
-PS: A blockchain is an immutable linked list with some extra featur
+Back to blockchain tecnology. Earlier I said:
 
+> A blockchain is an immutable backwards linked list
 
-At Merriam Webster they have dictionaries with reversed words. So Ecology would be ygolcoe. If you wanted to know how many words ended in "cology" you simply would search all words that ended in "ygolco". Of course, reading it like this is annoying so you can use a doubly linked list to be able to search a dictionary both the original alphabetical way and the reverse way. [Thanks 99PI](https://99percentinvisible.org/episode/mini-stories-volume-4/).
+So let's work through this.
+
