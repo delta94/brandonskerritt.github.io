@@ -4,7 +4,7 @@ categories:
 - University
 ---
 
-A blockchain is an immutable backwards linked list. If you want to truly understand blockchain you need to understand linked lists.
+The blockchain is an immutable, ordered, back-linked list of blocks of transactions. If you want to truly understand blockchain you need to understand linked lists.
 
 Linked Lists are a linear collection of data elements. Linearty in a linked list is not defined by each element's physical placement. Instead each data node in a linked list points to one or two other nodes in the linked list.
 
@@ -448,9 +448,21 @@ Algorithms are like programming languages. We all have our favourites and someti
 
 # Blockchains
 
-Back to blockchain tecnology. Earlier I said:
+![img](https://cdn-images-1.medium.com/max/1600/1*qYKsqQ6aV-DgFD0REfcnig.png)
 
-> A blockchain is an immutable backwards linked list
+Back to blockchain technology. Earlier I said:
+
+> The blockchain is an immutable, ordered, back-linked list of blocks of transactions.
 
 So let's work through this.
+
+The blockchain is immutable. You cannot in theory change the blockchain. It is possible but it is very very hard to do, especially to a blockchain such as Bitcoin's blockchain.
+
+The blockchain is ordered in terms of most frequent transaction is "on top" of the chain. Or most frequent transaction is furthest to the right.
+
+The blockchain is linked "back" referring to the previous block in the chain. Every block refers to the block behind it.
+
+Each block is a transaction.
+
+You should now have a firm understanding of linked lists and how they work. You should also understand the linked list part of the blockchain.
 
