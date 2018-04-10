@@ -2360,6 +2360,64 @@ This is a good video from 3blue1brown about the secureness of 256 bit security:
 
 https://www.youtube.com/watch?v=S9JGmA5_unY
 
+# Knacksack Problem
+
+We have a number of items with 2 attributes.
+1. Weight
+2. Value
+
+The value in terms of money and the weight do not have to be scaled together.
+
+Given n items we have:
+
+$$ w_1, w_2, ..., w_n $$ 
+
+for all the weights and for values:
+
+$$ v_1, v_2, ..., v_n$$
+
+And a knapsack of capacticty W.
+
+Find the most valuable subset of items that can fit into the knapsack.
+
+Let's say we have a knapsack which can hold weight of 10.
+
+We have 3 items.
+
+* Item 1 - weight = 5, value = 50
+* Item 2 - weight = 2, value = 1
+* Item 3 - weight = 4, value = 7
+
+What items can we put into the knapsack that will cause the knapsack to have the greatest possible value?
+
+We simply calculate all possible subsets that do not exceed the weight limit of 10.
+
+We need to consider
+
+$$2^n - 1$$
+
+subsets.
+
+This type of function is called an exponential function.
+
+This type of exhaustive algorithm doesn't work so well, so let's try to do it greedily.
+
+We pick the item with the highest value that doesn't go over the total weight. 
+
+# Divide and Conquer Algorithms
+
+We divide the problem up to solve many smaller problems. It is just like recursion. We need to know when to stop.
+
+Let's say we have 8 numbers:
+```
+4 6 3 2 8 7 5 1
+```
+
+And we want to add them all together. We divide the problem into 8 parts, which are all the numbers seperately (as seen in the example above). We then begin to add 2 numbers at a time, then 4 numbers into 8 numbers which is our resultant.
+
+We always try to break it down to 1 base case instead of 2 becaues what if we only get an input of 1 or if we have 3 numbers? because if you only deal with 2 parts then it won't work properly.
+
+
 # Blockchain
 
 Blockchain is a new datastructure and unless you're living under a rock you would probably have heard of it. Let's approach blockchain from a datastructure standpoint.
