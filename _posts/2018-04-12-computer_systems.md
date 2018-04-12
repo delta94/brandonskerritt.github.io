@@ -1,3 +1,9 @@
+---
+title: "Memory"
+categories:
+- University
+---
+
 We want to share memory among programs.
 
 Each byte has its own address.
@@ -146,3 +152,116 @@ It has a list of empty partitions in memory and were going to have a new program
 Let's say the system wants to put it into partition of 150k.
 
 Different selection policies possible. Which selection policy is being applied?
+
+# Paging
+
+Paging is the physical division of a programs address spacce itno equal sized units. Instead we take the whole program space and divide it up into equal size units called pages.
+
+Each page resides within a __page frame__ in the real mmeory. We take our physical memory, divide it up into page frames and each page frame can hold 1 page.
+
+Although we take a program space and divide it up pages do not have to be together in real physical memory.
+
+Within the page table we have one entry for each page of the current process. Each entry tells us where that page is in real memory.
+
+How do we turn our virtual address into a real address?
+
+We take our virtual address and we split it into 2 parts.
+
+They do not have to be split equally.
+
+The top part is used to index the page table.
+The lower part is used to index that page.
+
+CPU wants something from memory, an address.
+
+but that address is between 0 and n for that process. it's not a physical address in memory. Whenever we compile a program we produce addresses from 0 to n. We have to convert that virtual address into a real physical address.
+
+Question:
+
+how many bits are required to index a page of size 1024 bytes?
+
+12
+10
+8
+11
+9
+
+1024 = 2^10 so need 10 bits (remember sizes for future)
+
+we're using the bottom half of the virtual address to index the page.
+
+We need 4 fits to address a space of 16 since 2^4 is 16.
+
+# Segmentation and paging
+
+Segmanatation
+involves a logical division of the address space
+varying units of size
+units are visible to the program, they are related to the program.
+
+Paging
+**physical** division of addres space
+every unit is the same size as every other unit
+no relation to program structure
+
+Either may be used as a basis for a swapping system
+
+you can have both in place.
+
+More complex mapping function using 2 tables.
+
+Advantages of paging:
+- fixed size units make space allocation simpler
+
+## Example intel x86
+
+supports segmentation with paging
+
+cpu generates logical address which is passed to segmentation unit
+
+segmentation unit produces a linear address which is passed to the paging unit
+
+Paging unit generates phsical address in main memory.
+
+# virtual memory
+
+the maximum logical address space per process may be smaller than physical memory.
+
+It may also be larger.
+
+Not all pages need to be in memory.
+
+# Problem
+
+What happens if a process references a page that is not in main memory?
+
+We want to jump in the code or access a data structure and that data is on a different page not in memory.
+
+A __page fault__ occures. it sounds like an error but its not actually an error. All it means is that we're trying to access a page not accessible in main memory.
+
+Page fault generates an interrupt because address references cannot be satisifed until page swapped in.
+
+operating system response is to get a page
+
+# problem 2
+
+what do we do if all our page frames are full?
+
+how do we make room for a fetched page? (page replacement problem)
+
+would like to swap out pages nt immedtially needed. but we have to guesss as we're trying to work out the future. Which of these pages are not needed in the future?
+
+If we constantly make bad guesses we will get constant swapping (thrasing)
+
+# Page replacement
+
+Optimal policy: swap out a page that will not be needed for the longest time in the future.
+
+To estimate this we can use:
+
+principle of locality
+over any short period of time, a program's memory references tend to be spatially localised.
+
+What tends to happen is we'll move to a regeion of address space and we'll stay in that region for a while.
+
+Principle of locality - if statements are not a part of this since they redirect you to different regions. 
