@@ -131,7 +131,9 @@ $$\begin{pmatrix}0 & 1 & 1 & 0 & 0 \\\ 0 & 0 & 1 & 0 & 0 \\\ 1 & 0 & 0 & 1 & 1 \
 
 Where the rows are nodes 1 to 5 and so are the columns. If node 1 is connected to node 2, row 1 column 2 is set to 1. If node 2 is not connect to node 1, row 2 column 1 is set to 0.
 
-## Adding Matrices
+## Operations on n x m matrices
+
+2 matrices, N rows and M columns.
 
 We have 2 matrices, A and B. We want to add them like so:
 
@@ -148,6 +150,10 @@ We can't mix dimensions with addition of matrices.
 We can scale a matrix by a real number, R, like so:
 
 $$ C = rA \ space in \space which \space [c_{ij}] = [r * {a_ij}] = [ra_{ij}]$$
+
+## Transposition of matrix
+
+Suppose we have a matrix called A. The transposition $$A^t$$ is formed by "swapping the rows and columns" The entries in the first row become the entries in the first column, the entries in the second row become the entries in the second column aod so on.
 
 ## Multiplying Matrices
 
@@ -181,6 +187,24 @@ $$ AI = IA = A$$
 
 Multiplying any matrix by the identity matrix results in the original matrix.
 
+The identity matrix is this super cool matrix that has the number "1" diagonally across it.
+
+If we have a 2 x 2 matrix, A, then the identity matrix is:
+
+$$\begin{pmatrix}1 & 0\\\ 0 & 1 \end{pmatrix}$$
+
+And then a 3 x 3 matrix's identity matrix looks like:
+
+$$\begin{pmatrix}1 & 0 & 0\\\ 0 & 1 & 0\\\0 & 0 & 1\end{pmatrix}$$
+
+And so on. As long as you have 1's on this diagonal line and everything else is a 0 then it's an identity matrix.
+
+Let's multiply the identity matrix by a general matrix to see how the above law obeys it. 
+
+$$\begin{pmatrix}1 & 0\\\ 0 & 1 \end{pmatrix} * \begin{pmatrix}a & b\\\ c & d \end{pmatrix} = \begin{pmatrix}(1 * a + 0 * c)  & (1 * b + 0 * c)\\\  (0 * a + 1 * c) & (0 * b + 1 * b) \end{pmatrix} = \begin{pmatrix}a & b\\\ c & d \end$$
+
+So any matrix multiplied by it's identity matrix is just the matrix itself.
+
 ## Inverse of a Matrix
 
 We want to find a matrix which is the inverse of A given by the symbol:
@@ -193,19 +217,27 @@ $$ A * A^{-1} = A^{-1} * A = I $$
 
 Where if you multiply the inverse of a matrix by the matrix you will find the identity matrix.
 
+This is actually how division works with matrices. Well, it's the equivalent of division.
+
 Not all matrices have an inverse. The singular number 0 has no inverse.
 
 When a matrix **does not** have an inverse it is referred to singular.
 
 Such calculations such as finding the inverse of a 4x4 matrix or larger values of n you really don't want to do that by hand so it's best left to an already programmed solution.
 
+
+
 ## The Determinant of a Matrix
+
+There is a basic but rather tedious procedure that can be applied to decide if A (matrix) is invertible.
 
 Suppose we take any n x n matrix A and we choose any row and any column of that matrix then we can form another matrix defined by row i and column j such as:
 
 $$ A_{ij}$$
 
 is the matrix A, turning it into an (n-1) x (n-1) matrix by deleting its ith row and the jth column.
+
+In other terms, we delete the ith row and the jth column. We're deleting a column and a row from a matrix to produce a new matrix.
 
 To calculate the determinant we can use a recursive algorithm.
 

@@ -25,3 +25,6 @@ https://www.willmcgugan.com/blog/tech/post/stream-btc-prices-over-websockets-wit
 Making a small chat app with networking
 Hacking networks
 Hardware of networking
+
+
+We can use wireshark to demonstrate this?
