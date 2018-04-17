@@ -265,3 +265,130 @@ over any short period of time, a program's memory references tend to be spatiall
 What tends to happen is we'll move to a regeion of address space and we'll stay in that region for a while.
 
 Principle of locality - if statements are not a part of this since they redirect you to different regions. 
+
+# Page Replacement
+
+How do we decide what pages to keep and what pages to throw out?
+
+## Working set model
+
+The working set of a process is defined to be the set of resources (T, s) defined in the time interval [T, T+s].
+
+Consider the following sequenece of page references in a paged memory management system
+
+Page - | p | q | r | q | q | q | p | r | r | q |
+time -   0   1   2   3   4   5   6   7   8   9
+
+What is the working set expressed as W(3, 4).
+
+The time interval is between W(3, (3 + 4)) = W(3, 7). It is a set so repitions are not included. So everything from 3 to 7 which is qp or pq (order does not matter as it is a set)
+
+The principle of locality states that when you enter a region of code you tend to stay there because of loops recursion and so on. 
+
+By the principal of locality we can predict the next working set usign this formula.
+
+$$W(t, s) = W(t - s, s)$$
+
+Hence for each process:
+
+Try to ensure its working set is in memory.
+Estimate next working set by recording set of pages referenced in preceding time intervals.
+
+Predict the next working set using the principle of locality law to predict the next working set for the set W(10, 3).
+
+Since the formula is W(t, s) = W(t - s, s) we do W(10-3, 3) = W(7, 3).
+
+The accuracy of the working set depends on its sixze. If the set is too small, it will not cover the entire locality. 
+
+If the set is too large, it will cover several localities.
+
+Over time the working set of a process will change as references to data and code sections move from one locality to another.
+
+Replacement policies which are used:
+
+Least recently used
+
+First in first out
+
+Least frequently used
+
+Consider the following page references:
+
+Page - | p | q | r | q | q | q | p | r | r | q |
+time -   0   1   2   3   4   5   6   7   8   9
+
+Page s arrives at time 10. Which of the following policies suggests we should throw out page p to make room for s?
+
+LRU
+LFU
+FIFO
+
+All 3 policies suggest we should throw out page p based on this data.
+
+Go through each one.
+
+Least recently used
+
+Page - | p | q | r | q | q | q | p | r | r | q |
+time -   0   1   2   3   4   5   6   7   8   9
+
+We see q, then r then r again then p. P is the least recently used so throw it out.
+
+Least frequently used
+
+Page - | p | q | r | q | q | q | p | r | r | q |
+time -   0   1   2   3   4   5   6   7   8   9
+
+q and r are chosen recently so throw out
+
+# Frame allocation
+
+The fixed amount of free memory must be allocated among the various processes.
+
+Each process will need a minimum number of pages.
+
+# Performance considerations
+
+Segmentation and paging overcome many of our problems. But there is a performance hit. We have to access tables, segmentation tables.
+
+Sometimes we need a special piece of hardware or we can keep our tables in special fast memory such as cache memory.
+
+Page size is also a consideration. A large paze size means a smaller page table.
+
+A small page means lots of them so page table is quite big.
+
+However, large pages mean more wastage.
+
+on average 50% of a page per process lost to internal fragmentation.
+
+Small pages give us a better more finegrained resolution.
+
+Can bring in just the code / data needed for the working set.
+
+Small pages increaes chance of page fault.
+
+# Cache Memory
+
+Computer systems have a storage hierachy.
+
+Moving away from the CPU we have registers at the top of the hierarchy. Then main memory, then external storage such as disks.
+
+Access speed decreases as we go down the hierarchy.
+
+What we try to do is keep the data as close to the CPU as possible. We want all data to be in registers but this is impossible as we only have a handful of registers.
+
+Main memory is slower.
+
+We can introduce something called cache memory. Cache memory is a small, fast memory that sits between the CPU and main memory.
+
+It contains **copies** of items in main memory
+
+When the CPU needs information, it first checks the cache.
+
+If the item is in cache memory then it is called a cache hit.
+
+If it's not in the cache we have a cache miss.
+
+We bring in a whole block of items. Why do we bring in a whole block of items? Principle of locality. By the principle it is likely that future items will now be in the cache.
+
+You expect your cache-hit ratio to be above 70%.

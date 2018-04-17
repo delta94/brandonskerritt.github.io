@@ -1079,6 +1079,10 @@ Then we simply go through the linked list again
 
 We continue doing this until curr and last are one the same node at the start.
 
+For selection sort, we have all the numbers to start with and search over ALL of them for the smallest number and move it to the first position; then we search over all but one number for the next smallest number and move it to second position.
+
+For insertion sort, we get the numbers one by one.  Each time when we have a new number say X, we search for the correct position of X among the numbers that are given so far (mind this is not ALL numbers but only numbers we have seen so far).  When we find the position, we then INSERT the number X to this position by shifting numbers to the right.
+
 <a name="programming-bubble-sort-linked-list"></a>
 ### Programming a bubble sort for a linkedlist
 
@@ -2418,6 +2422,8 @@ And we want to add them all together. We divide the problem into 8 parts, which 
 We always try to break it down to 1 base case instead of 2 becaues what if we only get an input of 1 or if we have 3 numbers? because if you only deal with 2 parts then it won't work properly.
 
 
+
+
 # Blockchain
 
 Blockchain is a new datastructure and unless you're living under a rock you would probably have heard of it. Let's approach blockchain from a datastructure standpoint.
@@ -2449,4 +2455,3 @@ Previous articles
 Link to github repo
 
 Link to PDF
-

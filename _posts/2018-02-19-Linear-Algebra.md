@@ -313,6 +313,8 @@ I can only guess that we times by -1 because the determinant involves the invers
 
 The determinant of the matrix is 242.
 
+If the determinant of A is not equal to 0 then an inverse of the matrix exists (it is not singular).
+
 ## Adjoint of a Matrix
 
 We have an n x n matrix A, then we look at the ith row and jth column of that matrix and for each value of that matrix add the determinant formed by deleting ith row and jth column then the adjoint of any matrix is the n x n matrix whose individal lengths are given in the following way:
@@ -329,7 +331,9 @@ $$\begin{pmatrix}0 & 5 & 2\\\ 3 & 0 & 4\\\ 10 & 7 & 0\end{pmatrix}^{-1} = \frac{
 
 When we multiply a matrix by its inverse matrix we get the identity matrix.
 
-Paul explicitly said that this won't come up in the test.
+Paul explicitly said that this won't come up in the test. Lecture 19 13th march 2018 at 9am minute 37 second 14 he says "considering this took us 2 lectures to cover and you have an estimated 5 minutes without a calculator in the exam, do you think this will appear on the exam?".
+
+At minute 38 second 1 he says "there is absolutely no point in asking questions like this, so this won't come up." At minute 38 and second 39 he says "in the real world we use algorithms in programming languages already coded for us. We do not need to calculate by hand."
 
 # Charecteristic Matrices
 
