@@ -344,6 +344,20 @@ Suppose we have a real valued n x n matrix, A. Suppose further we want to find a
 
 How do we go about finding X and λ?
 
+Let's use a trick to calculate this. 
+
+We'll rewrite the relationship
+$$ Ax^t = λx^t$$
+
+as:
+
+$$λx^t - ax^t = 0^t$$
+
+and we can simplfy this equation into:
+
+$$(λi - a) \ne 0^t$$
+
+
 
 TK work out identity matrix
 TK identity matrix?
