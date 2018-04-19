@@ -384,6 +384,51 @@ static void binary_search(int[] sortdata, int n, int key) {
 }
 ```
 
+Let's write some psuedocode for this.
+
+```
+given a sorted array, the size of an array "n" and the key we want to find "key"
+
+first = 1
+last = n
+found = false
+
+while first <= last AND found == false do
+begin
+    mid = (first+last)/2
+    if key == A[mid]{
+        found = true
+    }
+    else if key < A[mid]{
+        last = mid -1
+    }
+    else {
+        first = mid + 1
+    }
+```
+
+Let's do an example.
+
+we'll have the array
+[1, 3, 4, 5, 6, 7, 8, 9, 10]
+which has length of 9.
+
+let's find the number 8.
+
+we calculate mid as:
+
+$$ mid = \frac{first+last}{2} = \frac{0+8}{2} = 4$$
+
+the 4th element is 5. is 5 the key? No. 5 is less than the key, so we set first as mid + 1.
+
+then we calculate mid as:
+
+$$ mid = \frac{0+9}{2} = 4.5 == 5$$
+
+is 5 our key? no. is 5 less than our key? yes. so we calculate again
+
+$$ mid = \frac{0+10}{2} = 5 == 5$$
+
 This method may suit your book search better because books are sorted alphabetically! If you know the alphabet and the positional number of each letter you could find any author you wanted with ease!
 
 <a name="min-max"></a>
