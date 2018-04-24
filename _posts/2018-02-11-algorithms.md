@@ -2466,8 +2466,19 @@ And we want to add them all together. We divide the problem into 8 parts, which 
 
 We always try to break it down to 1 base case instead of 2 becaues what if we only get an input of 1 or if we have 3 numbers? because if you only deal with 2 parts then it won't work properly.
 
+examples of divide and conquer include merge sort, fibonacci number calculations
 
+```
+algorithm f(n)
+if n == 0 or n == 1 then
+    return 1
+else
+return f(n-1) + f(n+1)
+```
 
+# Dynamic Programming
+
+If we have calculated something already we do not need to calculate it again. 
 
 # Blockchain
 

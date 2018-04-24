@@ -66,9 +66,37 @@ Having centralised servers inherently brings around a security risk. Instead of 
 
 # Networking Protocols
 
+A protocol is a set of rules. Imagine speaking English to someone and they have a completely different set of gramatical rules to you.
+
+You say:
+
+> How are you?
+
+And they say
+
+> body your health?
+
+Kinda confusing, right?
+
+Well grammar allows us to speak the same language and understand one another.
+Protocols allow applications to speak to each other in the same grammar and language.
+
+Protocols are defined formally in a document called a Request for Comments (RFC). An RFC is created by the Internet Engineering Task Force (IEFT) that is the result of multiple meetings and reviews by third parties.
+
+Really this is just a bunch of people getting together and discussing how exactly this protocol is going to work and putting it onto paper.
+
+Any protocol that is widely used will be detailed in an RFC.
+
+IEFT also releases an April Fools RFC since 1978. https://www.wikiwand.com/en/April_Fools%27_Day_Request_for_Comments
+
+Protocols are interesting because if a vulnrabillity is found in a widely used protocol then any device implementing that protocol is suspectible to being hacked.
+https://www.wired.com/story/krack-wi-fi-wpa2-vulnerability/
+
 ** Wireshark **
 
 # IP
+
+The Internet Protocol is a protocol which assigns addresses to every device on the internet.
 
 # MAC
 

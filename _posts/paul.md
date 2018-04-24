@@ -50,7 +50,8 @@ the notion of n-vectors as na ordered collection of numbers; basic vector operat
 
 * Difference between probability and statistics
 * ideas of expected outcome
-* Distribution
+* *_Distribution_*
+* confidence intervals
 * methods for distinguishing "significane" of experimental outcomes
 
 # linear algebra and matrix theory
