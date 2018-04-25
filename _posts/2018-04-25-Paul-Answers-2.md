@@ -115,6 +115,20 @@ What **grade** does an essay need to be awared to achieve the **maximum** possib
 
 The terms **maximum** and **minimum** come from turning points in calculus.
 
+A turning point is the point at which the line becomes **horizontal**. Look at this gif I made:
+
+![img](https://cdn-images-1.medium.com/max/1600/0*9f4OjQDfKOAi0Dkm.gif)
+
+The line becomes horizontal at some point as it **turns** around the graph.
+
+You calculate the first derivative of this function.
+
+We get given this in the exam:
+
+![img](https://i.gyazo.com/872c0b8bbaf75ff4247544e5a8b02e0d.png)
+
+So we have a polynomial, so we just need to apply the polynomial rule.
+
 
 # Question 9
 
