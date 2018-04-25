@@ -3,20 +3,60 @@
 labs
 merge sort 
 selection / insertion sort
+Assignment 2
+Put stuff into quizlet
+
+# David Jackson
+
+Go over every lecture
+
+lecture
+lecture
+lecture
+lecture
+lecture
+lecture
+lecture
+lecture
+lecture
+lecture
+lecture
+lecture
+lecture
+lecture
+lecture
+lecture
+lecture
+lecture
+lecture
+lecture
+lecture
+lecture
+lecture
+lecture - 28 - 
+
+Put questions and stuff into Quizlet
+
+# Paul
+
+Tutorial 1 **DONE**
+Tutorial 2
+Tutorial 3
+Tutorial 4
 
 # numbers and polynomials
 
 what was covered:
-* different types of numbers (natural, whole, rational)
-* polynomials and their form and properties (degree, coefficients, roots)
+* different types of numbers (natural, whole, rational) **DONE**
+* polynomials and their form and properties (degree, coefficients, roots) **DONE**
 
 # vectors
 
 the notion of n-vectors as na ordered collection of numbers; basic vector operations (addition, so called scalar multiplcation), size.
 
-* addition of vectors
-* scalar vectors
-* size of a vector (pythag therom)
+* addition of vectors **DONE**
+* scalar vectors **DONE**
+* size of a vector (pythag therom) 
 * collections of vectors (vector spaces)
 * low level matrix operations
 * 2x2 matrices
