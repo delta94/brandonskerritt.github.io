@@ -96,8 +96,24 @@ https://www.wired.com/story/krack-wi-fi-wpa2-vulnerability/
 
 # IP
 
-The Internet Protocol is a protocol which assigns addresses to every device on the internet.
+The Internet Protocol is a protocol which assigns addresses to every device on the internet. Much like how an address is the address of a person, IP addresses are addresses to every device on the internet.
+
+If you are a burglar or a thief it's helpful to know where the house is you want to burgle from. 
+
+If you are a hacker it is helpful to know the IP address of the target you are looking to hack.
+
+Much like how in real life people can live in blocks of flats that have one singular address and then each flat is labelled, the same can be said for IP addresses.
+
+The goal **was** to assign a unique address to every device **on** the internet but we started to run out of IP addresses.
+
+
 
 # MAC
 
 # OSI model
+
+# Exploiting Protocols (examples)
+
+# Socket programming (Cicada 2201 networking)?
+
+# Hardware of networks
