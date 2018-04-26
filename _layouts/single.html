@@ -47,6 +47,7 @@ layout: default
       </section>
 
       <footer class="page__meta">
+          <iframe style="height:400px;width:100%;max-width:800px;margin:30px auto;" src="https://upscri.be/7ebbf5?as_embed"></iframe>
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
@@ -62,7 +63,6 @@ layout: default
 
       {% include post_pagination.html %}
     </div>
-    <iframe style="height:400px;width:100%;max-width:800px;margin:30px auto;" src="https://upscri.be/7ebbf5?as_embed"></iframe>
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %}
