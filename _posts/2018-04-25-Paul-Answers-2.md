@@ -121,14 +121,48 @@ A turning point is the point at which the line becomes **horizontal**. Look at t
 
 The line becomes horizontal at some point as it **turns** around the graph.
 
+The gradient of the line touching the point <x, f(x)> is 0.
+
+The gradient of the line touching the point <x, f(x)> is described by the **function** f'(x): the first derivative of f(x).
+
+So the turning points of f(x) are those values, x, for which f'(x) = 0.
+
 You calculate the first derivative of this function.
+
+To check whether a turning point, t, is a local minimum or maximum you need to find the second derivative of f(x), f''(x) by constructing the first derivative of f'(x).
+
+Find the value of f''(t) then if f''(t) is less than 0 then t is a local maximum.
+If f''(t) > 0 then t is a local minimum.
 
 We get given this in the exam:
 
 ![img](https://i.gyazo.com/872c0b8bbaf75ff4247544e5a8b02e0d.png)
 
-So we have a polynomial, so we just need to apply the polynomial rule.
+Let's calcualte a diffrent polynomial first:
 
+$$Final(x) = 2x^3 - 18x^2 + 30x + 27$$
+
+We need to find the first derivative.
+
+The first thing we're going to do is subtract 1 from the cube index, add that to the coefficient 2 (now 3) and times that by 2
+
+$$Final'(x) = 6x^2$$
+
+Now we get 2 * -18 which is -36x
+
+$$Final'(x) = 6x^2 - 36x$$
+
+Now for 30x. The first derivative of 30x is just the value 30.
+
+$$Final'(x) = 6x^2 - 36x + 30$$
+
+$$ 3x^2$$
+
+then we apply the polynomial rule again:
+
+$$3x^2 - 2x^1$$
+
+2x^3 - 18x^2 + 30x + 40
 
 # Question 9
 
