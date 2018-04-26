@@ -21,6 +21,7 @@
 
     <div class="initial-content">
       {{ content }}
+      {% include subscription.html %}
     </div>
 
     {% if site.search == true %}
@@ -37,7 +38,6 @@
     </div>
 
     {% include scripts.html %}
-    {% include subscription.html %}
 
   </body>
 </html>
