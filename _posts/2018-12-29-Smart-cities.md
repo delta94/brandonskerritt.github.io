@@ -2,7 +2,6 @@
 title: "Smart Cities"
 categories:
 - University
-layout: default
 ---
 
 Cities are alive. They are para-living organisms. Living organisms require cells to protect them. These cells are active defenders of the system and help to keep order. Cities have cells. These cells are the emergency services.
