@@ -1,7 +1,7 @@
 ---
 title: "Algorithms and Data Structures"
 categories:
-- University
+- Blog
 ---
 
 Ever wanted to make clean and amazing code? Array and sequential search not cutting it for you? After you've read this article you will have gained an unfathomable amount of knowledge about datastructures and algorithms.
