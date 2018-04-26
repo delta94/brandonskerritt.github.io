@@ -49,22 +49,3 @@
     enable_page_level_ads: true
   });
 </script>
-
-
-<script>
-  var adBlockEnabled = false;
-var testAd = document.createElement('div');
-testAd.innerHTML = '&nbsp;';
-testAd.className = 'adsbox';
-document.body.appendChild(testAd);
-window.setTimeout(function() {
-  if (testAd.offsetHeight === 0) {
-    adBlockEnabled = true;
-  }
-  testAd.remove();
-  console.log('AdBlock Enabled? ', adBlockEnabled)
-}, 100);
-  if (adBlockEnabled){
-    alert("Hi! You have adblocker enabled. Can you please disable it if you find this blog useful? I'm just trying to make enough money to support the running of this site and buy food 😅");
-  }
-</script>
