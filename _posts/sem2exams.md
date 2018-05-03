@@ -1,5 +1,8 @@
 Hey! Exam season is coming up. Here's some of the best resources to help you reach that first class degree!  
-Some people question why I do this. Well, firstly I'm dumb as fuck. I have no GCSEs or A levels. So this is just a much a plan for me as it is for you. I earn **no money** from this. I just want to see everyone do their best!!
+
+PS: There's *still* no adverts on this.
+
+I'm still filling out and doing some of the stuff, so bare with me (like Quizlet not being done / only completing 2 of Pauls tutorials)
 
 Here's an exam time table courtsey by one of your other course reps, Huba
 
@@ -104,9 +107,9 @@ what was covered:
 
 the notion of n-vectors as na ordered collection of numbers; basic vector operations (addition, so called scalar multiplcation), size.
 
-* addition of vectors 
-* scalar vectors 
-* size of a vector (pythag therom) 
+* addition of vectors *DONE*
+* scalar vectors  *DONE*
+* size of a vector (pythag therom) *DONE*
 * collections of vectors (vector spaces)
 * low level matrix operations
 * 2x2 matrices
@@ -169,7 +172,8 @@ Quizlet
 
 https://quizlet.com/286679202/analytic-techniques-flash-cards
 
-Paul's pre-class test answered
+Paul's pre-class test answered (not entirely, still working on this)
+https://brandonskerritt.github.io/university/Paul-Answers-2/
 
 David Jackson - Computer Systems
 
@@ -178,6 +182,8 @@ Dave's module seems to be less about memorising things and more about knowing fa
 This is a quizlet featuring some questions he's asked in lectures + other things
 
 https://quizlet.com/286653457/computer-systems-first-year-flash-cards/
+
+Here are my notes on this module:
 
 Basics of computer systems
 https://brandonskerritt.github.io/university/computer-systems-1/
@@ -194,6 +200,15 @@ https://brandonskerritt.github.io/university/concurrent-programming/
 Memory
 https://brandonskerritt.github.io/university/computer_systems/
 
+Files
+https://brandonskerritt.github.io/university/files/
+
+Devices
+https://brandonskerritt.github.io/university/devices/
+
+Compilers
+https://brandonskerritt.github.io/university/compiler/
+
 Java - Russel
 
 No exam for Russel :)
@@ -204,5 +219,5 @@ How do you study?
 
 https://www.youtube.com/watch?v=IlU-zDU6aQ0
 
-Everything you want to know about jobs (Yeah, I'm advertising my own stuff)
+Everything you want to know about jobs (Yeah, I'm advertising my own stuff, but please. I spent 2 months on this lol)
 https://hackernoon.com/everything-you-want-to-know-about-job-applications-c67f51c2f83e

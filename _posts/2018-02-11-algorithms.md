@@ -1003,14 +1003,14 @@ The idea is as follows:
 
 Hence why it's called insertion sort, because you are inserting hte values into a new array.
 
-      [34, 10, 64, 51, 32, 21]       | No. shifted to right
------------------------------------- | --------------------
-[34, 10, 64, 51, 32, 21]             | Nothing yet
-[10, 34, 64, 51, 32, 21]             | 34
-[*10*, *34*, 64, 51, 32, 21]         | Nothing yet
-[*10*, *34*, *51*, 64, 32, 21]       | 64
-[*10*, *32*, *34*, *51*, *64*, 21]   | 34, 51, 64
-[*10*, *21*, *32*, *34*, *51*, *64*] | 32, 34, 51, 64
+|       [34, 10, 64, 51, 32, 21]       | No. shifted to right |
+| ------------------------------------ | -------------------- |
+| [34, 10, 64, 51, 32, 21]             | Nothing yet |
+| [10, 34, 64, 51, 32, 21]             | 34 |
+| [*10*, *34*, 64, 51, 32, 21]         | Nothing yet |
+| [*10*, *34*, *51*, 64, 32, 21]       | 64 |
+| [*10*, *32*, *34*, *51*, *64*, 21]   | 34, 51, 64 |
+| [*10*, *21*, *32*, *34*, *51*, *64*] | 32, 34, 51, 64 |
 
 Here's a gif showing how Insertion Sort works
 
@@ -2453,6 +2453,50 @@ This type of exhaustive algorithm doesn't work so well, so let's try to do it gr
 
 We pick the item with the highest value that doesn't go over the total weight. 
 
+So let's say we have 3 items:
+
+```
+item 1
+w = 10
+v = 60
+
+item 2
+w = 20
+v = 100
+
+item 3
+w = 30
+v = 120
+
+```
+
+and a knapsack
+
+```
+knapsack
+capactivty = 50
+```
+
+We pick the item with the largest weight which will still fit into the knapsack.
+
+So we pick item 3 which reuslts in 20 capatcity left in the knapsack.
+
+Then we take item 2 which is weight 20 leaving us no room in the knapsack.
+
+So the value is 220.
+
+Item 1 cannot be taken since the knapsack is full.
+
+We need to sort the elements by largest first and then look at them one by one.
+
+Time complexity is sorting + O(n).
+
+Greedy algorithms can be bad. 
+
+We sort the items in decreasing order of $$\frac{v_i}{w_i}$$.
+Then we take the next items as long as the totial weight does not exceed W.
+Suppose items $$l_1, l_2, ..., l_{k-1}$$ can be taken. $$l_k$$ can not be fit into the knapsack.
+
 # Divide and Conquer Algorithms
 
 We divide the problem up to solve many smaller problems. It is just like recursion. We need to know when to stop.
@@ -2476,9 +2520,51 @@ else
 return f(n-1) + f(n+1)
 ```
 
+# Merge Sort
+
+Merge sort is a recursive sorting algorithm. It takes an input, divides it into 2 halves and calls itself for the 2 halves
+
+# Towers of Hanoi
+
+We have n discs. Move n-1 from A to B recursively, move largest from A to C, move n-1 from B to C recursively.
+
+Tower of Hanoi - Psuedo Code
+
+```
+ToH(numDisc, source, destination, spare)
+if (numDisc > 1) then
+    ToH(numDisc - 1, source, spare, destination)
+Move a disc from source to destination
+if (numDisc > 1) then
+    ToH(numDisc-1, spare, destination, source)
+
 # Dynamic Programming
 
 If we have calculated something already we do not need to calculate it again. 
+
+# Pattern Matching
+
+Given text such as 
+
+```
+A C G G A A T A A C T G G A A C G
+```
+
+and a pattern
+
+```
+AAC
+```
+
+We want to find the pattern in the text.
+
+```
+A C G G A A T **A A C** T G G **A A C** G
+```
+
+Let's assume the text has n charecters and the pattern has x charecters.
+
+How do we determine if the text is actually there?
 
 # Blockchain
 

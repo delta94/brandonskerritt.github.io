@@ -8,21 +8,23 @@ Put stuff into quizlet
 
 # David Jackson
 
+register direct mode, register indirect mode
+
 Go over every lecture
 
-lecture
-lecture
-lecture
-lecture
-lecture
-lecture
-lecture
-lecture
-lecture
-lecture
-lecture
-lecture
-lecture
+lecture 1 - done
+lecture  done 
+lecture done 
+lecture done 
+lecture 5 done 
+lecture 6 done
+lecture 7 done
+lecture 8 done
+lecture 9 done
+lecture 10 done
+lecture 11 done
+lecture 12 done
+lecture  13 done
 lecture
 lecture
 lecture
@@ -56,7 +58,7 @@ the notion of n-vectors as na ordered collection of numbers; basic vector operat
 
 * addition of vectors **DONE**
 * scalar vectors **DONE**
-* size of a vector (pythag therom) 
+* size of a vector (pythag therom) **done**
 * collections of vectors (vector spaces)
 * low level matrix operations
 * 2x2 matrices
@@ -66,9 +68,9 @@ the notion of n-vectors as na ordered collection of numbers; basic vector operat
 
 # calculus
 
-* functions
-* properties of linear functions
-* first derivative of f(x)
+* functions **DONE**
+* properties of linear functions **DONE**
+* first derivative of f(x) **DONE**
 * limits
 * the idea of a turning point
 * local minimal and maximal behaviors
