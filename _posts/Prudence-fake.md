@@ -16,20 +16,20 @@ for <- 1 to n do
 output product
 ```
 
-A - 1
-B - 0
-C - 10
-D - 24
-E - 4
+1. - 1
+2. - 0
+3. - 10
+4. - 24
+5. - 4
 
 # Question 1.2
 
 What is the big O notation for this?
 
-A - O(n)
-B - O(n^3)
-C - O(log n)
-D - O(n^2)
+1. - O(n)
+2. - O(n^3)
+3. - O(log n)
+4. - O(n^2)
 
 # Question 3
 
@@ -56,11 +56,11 @@ else output "NOT FOUND!"
 
 ![img](https://i.gyazo.com/1756274502197d913fcdd4b0aba48e26.png)
 
-A - 1. true 2. false
-B - 1. NOT FOUND! 2. FOUND!
-C - 1. true 2. true
-D - 1. FOUND!. 2. FOUND!
-E - 1. FOUND!. 2. NOT FOUND!
+* - 1. true 2. false
+* - 1. NOT FOUND! 2. FOUND!
+* - 1. true 2. true
+* - 1. FOUND!. 2. FOUND!
+* - 1. FOUND!. 2. NOT FOUND!
 
 # Question 5
 
@@ -73,11 +73,11 @@ State the order of growth of the following functions:
 
 10n²log n + n log² n + 2n³ + 30n + 100
 
-A - O(n² log n)
-B - O(n³)
-C - O(100)
-D - O(30n)
-E- O(n log² n)
+1. - O(n² log n)
+2. - O(n³)
+3. - O(100)
+4. - O(30n)
+5. - O(n log² n)
 
 # Question 7
 
@@ -86,21 +86,21 @@ Consider the following binary tree rooted at the vertex r. What are the orders o
 
 ![img](https://i.gyazo.com/73201c2f890e7cdd13059163db64bd5d.png)
 
-A - r, a, b, c, d, e, f
-B - r, a, c, f, d, b, e
-C - f, c, d, a, e, b, r
-D - f, e, d, e, a, b, r
-E - c, f, a, d, r, e, b
+1. - r, a, b, c, d, e, f
+2. - r, a, c, f, d, b, e
+3. - f, c, d, a, e, b, r
+4. - f, e, d, e, a, b, r
+5. - c, f, a, d, r, e, b
 
 # Question 8
 
 Which of the following statements is incorrect?
 
-A - Dynamic programming uses recursion.
-B - Dynamic programming uses a table.
-C - Dynamic programming computes solutions in a bottom up manner.
-D - Dynamic programming needs a base case.
-E- All are correct
+1. - Dynamic programming uses recursion.
+2. - Dynamic programming uses a table.
+3. - Dynamic programming computes solutions in a bottom up manner.
+4. - Dynamic programming needs a base case.
+5. - All are correct
 
 # Question 9
 
