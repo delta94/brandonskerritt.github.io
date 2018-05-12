@@ -2537,7 +2537,7 @@ if (numDisc > 1) then
 Move a disc from source to destination
 if (numDisc > 1) then
     ToH(numDisc-1, spare, destination, source)
-
+```
 # Dynamic Programming
 
 If we have calculated something already we do not need to calculate it again. 
@@ -2566,6 +2566,28 @@ Let's assume the text has n charecters and the pattern has x charecters.
 
 How do we determine if the text is actually there?
 
+# Page Ranking Algorithms
+
+This won't be in the exam but maybe the theory will be.
+
+Named after Larry Page.
+
+Attempts to rank webpages in terms of 'improtance'.
+
+Fo reach page, P, take into account pages **pointed to** P.
+Pages with higher pageRank should be counted more.
+Pages wiht more outgoing links should be counted less.
+
+Let PR(u) BE THE PAGErANK SCORE OF A page (vertex) u
+
+let out(u) be the out degree of vertex u
+
+suppose u has four vertices pointing to it:
+
+$$ PR(u) = \frac{PR(a)}{out(a)} + \frac{PR(b)}{out(b)} + \frac{PR(c)}{out(c)}$$
+
+
+
 # Blockchain
 
 Blockchain is a new datastructure and unless you're living under a rock you would probably have heard of it. Let's approach blockchain from a datastructure standpoint.
@@ -2576,6 +2598,17 @@ Each block has a "name" - it is identified by a hash using the SHA256 hash algor
 
 This creates a __chain__ of __blocks__ going all the way back to the original block, called the __genesis block__.
 
+# Questions
+
+```
+while (i <= n)
+    i = i * 2
+```
+
+this is O(log n) because i is constantly increasing.
+
+question 4
+When you can't go down left anymore that branch stopped so you report that node as the first one (even if it has a right hand branch)
 
 
 # If you enjoyed this article, connect with me to learn more like this :)
