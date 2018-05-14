@@ -100,7 +100,7 @@ Let's actually go super in depth here:
 # numbers and polynomials
 
 what was covered:
-* different types of numbers (natural, whole, rational) **DONE**
+* different types of numbers ((natural, whole, rational) **DONE**
 * polynomials and their form and properties (degree, coefficients, roots) **DONE**
 
 # vectors
