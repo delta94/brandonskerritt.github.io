@@ -102,7 +102,7 @@ T ime := 0
 while T ime ≤ 90000 do
 if (T ime is an exact multiple of 30000)
 
-$$ P = \begin{pmatrix}PR\\\PB\\\PC\\\PA\end{pmatrix}$$
+$$ \begin{pmatrix} PR \\\ PG \\\ PB \end{pmatrix}$$
 
 $$ \begin{pmatrix}PR\\\PG\\\PB\end{pmatrix} := \begin{pmatrix}0 & 0 & 1\\\0 & 1 & 0\\\1 & 0 & 0\end{pmatrix}\begin{pmatrix}PR\\\PG\\\PB\end{pmatrix}}$$
 
