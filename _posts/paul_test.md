@@ -41,3 +41,5 @@ If you forget about this, you can just multiply out all the brackets.
 Here's a good BBC article on it.
 
 https://www.bbc.com/education/guides/zcqmsrd/revision/5
+
+## Question 4
