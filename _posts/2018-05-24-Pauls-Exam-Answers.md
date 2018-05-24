@@ -111,6 +111,6 @@ end while
 Suppose this algorithm is applied to the pixels in a 600 × 600 square in which the colour c(p) of the
 pixel at position < px, py > is initially
 
-![img](https://imgur.com/gallery/iLwnDeY)
+![img](https://i.imgur.com/shLGgmm.png)
 
 ### Answers
