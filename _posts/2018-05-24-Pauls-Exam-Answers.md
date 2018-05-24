@@ -113,9 +113,9 @@ pixel at position < px, py > is initially
 
 $$ \begin{equation}
  c(p) = \begin{cases}
-    <255, 0, 0) & \text{if $0 ≤ p_x < 200$}.\\
-    <0, 255, 0>, & \text{if $200 ≤ p_x < 400}.\\
-    <0, 0, 255>, & \text{if $400 ≤ p_x < 600}.
+    <255, 0, 0) & {if \space 0 ≤ p_x < 200}.\\
+    <0, 255, 0>, & {if \space if 200 ≤ p_x < 400}.\\
+    <0, 0, 255>, & {if \space if 400 ≤ p_x < 600}.
   \end{cases}
 \end{equation} $$
 ### Answers
