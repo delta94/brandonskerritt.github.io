@@ -98,12 +98,24 @@ A region of pixels whose colours are described using the RGB-system in which eac
 colour defined by a 3-vector < pR, pG, pB > is manipulated over a period of ninety seconds by the
 algorithm described below in which the variable T ime counts in milliseconds.
 
-```
 T ime := 0
 while T ime ≤ 90000 do
 if (T ime is an exact multiple of 30000)
-```
 
 $$ \begin{pmatrix}PR\\\PG\\\PB\end{pmatrix} := \begin{pmatrix}0 & 0 & 1\\\0 & 1 & 0\\\1 & 0 & 0\end{pmatrix}\begin{pmatrix}PR\\\PG\\\PB\end{pmatrix}}$$
 
+end if
+T ime := T ime + 1;
+end while
+
+Suppose this algorithm is applied to the pixels in a 600 × 600 square in which the colour c(p) of the
+pixel at position < px, py > is initially
+
+$$ \begin{equation}
+ c(p) = \begin{cases}
+    <255, 0, 0) & \text{if $0 ≤ p_x < 200$}.\\
+    <0, 255, 0>, & \text{if $200 ≤ p_x < 400}.\\
+    <0, 0, 255>, & \text{if $400 ≤ p_x < 600}.
+  \end{cases}
+\end{equation} $$
 ### Answers
