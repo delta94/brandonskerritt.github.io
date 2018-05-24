@@ -98,4 +98,12 @@ A region of pixels whose colours are described using the RGB-system in which eac
 colour defined by a 3-vector < pR, pG, pB > is manipulated over a period of ninety seconds by the
 algorithm described below in which the variable T ime counts in milliseconds.
 
+```
+T ime := 0
+while T ime ≤ 90000 do
+if (T ime is an exact multiple of 30000)
+```
+
 $$ \begin{pmatrix}PR\\\PG\\\PB\end{pmatrix} := \begin{pmatrix}0 & 0 & 1\\\0 & 1 & 0\\\1 & 0 & 0\end{pmatrix}\begin{pmatrix}PR\\\PG\\\PB\end{pmatrix}}$$
+
+### Answers
