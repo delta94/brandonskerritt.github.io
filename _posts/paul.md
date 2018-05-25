@@ -25,13 +25,13 @@ lecture 10 done
 lecture 11 done
 lecture 12 done
 lecture  13 done
-lecture
-lecture
-lecture
-lecture
-lecture
-lecture
-lecture
+lecture 14 done
+lecture 15 done 
+lecture 16 done
+lecture 17 done
+lecture 18 - done
+lecture 19 done
+lecture 20 done
 lecture
 lecture
 lecture
