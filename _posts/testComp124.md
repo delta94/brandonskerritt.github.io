@@ -15,8 +15,16 @@ Do to an Fairchild PPS-25; Intel 8008; Rockwell PPS-4?
 3. Lists everyone who has used the keyboard
 4. Lists all Wi-Fi devices
 
+# Question 2
 
-# Question 2 - Written
+What's the fastest operating system?
+
+1. Windows
+2. Nvidia
+3. iPhone
+4. Macbook
+
+# Question ? - Written
 
 There are 2 producers who produce pots to be placed onto a shelf.
 There is a single consumer who takes pots off of the shelf.
