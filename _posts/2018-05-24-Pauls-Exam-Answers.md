@@ -104,7 +104,7 @@ while Time ≤ 90000 do
 ```
 $$ \begin{pmatrix} PR \\\ PG \\\ PB \end{pmatrix} := \begin{pmatrix}0 & 0 & 1 \\\ 0 & 1 & 0 \\\ 1 & 0 & 0 \end{pmatrix} \begin{pmatrix} PR \\\ PG \\\ PB \end{pmatrix} $$
 
-```
+```wew
   end if
   
   Time := Time + 1;
@@ -169,3 +169,73 @@ A 4-vector < x, y, z, t > describes the position of an object at a given time, u
 3. The process of computing the new vector requires using a 5×5-matrix
 4. The process of computing the new vector requires using a 6×6-matrix.
 5. Computing the new vector cannot be achieved as a result of a matrix-vector product.
+
+### Answer
+
+To encode a movement in a matrix for a 2-vector <x, y> we need to use a 3x3 matrix.
+
+To do the same for a 4-vector <x, y, z> we need to use a 4x4 matrix.
+
+For a 4-vector we use a 5x5 matrix.
+
+Since this is a 4-vector:
+
+$$ <x, y, z, t>$$
+
+We use a 5x5 matrix.
+
+## Question 9
+
+In short, the movement should be done before drawing the triangle. If you draw the triangle then move it, it won't work so well.
+
+If you're not too sure on this you can multiply the matrices together.
+
+![img](https://i.gyazo.com/a387637b27d1dc5f8c821c51ea8c9cf7.png)
+
+As you can see Alice's matrix looks nice. It has the 10 and -20, it has a dummy row of 1's. It looks all nice.
+
+Bills on the other hand has some weird numbers. -19 and +11. It also has x3 and y3 which have not been moved.
+
+## Question 10
+
+$$ \frac{x_2 - x_1}{y_2 - y_1}$$
+
+$$ \frac{30 - 20}{95 - 25}$$
+
+$$\frac{10}{70} = 7$$
+
+## Question 11
+
+We know the gradient is 7. We need to find the equation definign the line.
+
+We know a point on the line <20, 25>
+
+$$ y = mx + c$$
+
+$$ 25 = 7 * 20 + c $$
+
+$$ 25 = 140 + c $$
+
+$$ 25 - 140 = c$$
+
+$$ -115 = c$$
+
+therefore
+
+$$ y = 7x -115 $$
+
+Now we want to find what x is when y is 51
+
+$$ 51 = 7x - 115$$
+
+add 115 to both sides:
+
+$$ 166 = 7x$$
+
+divide by 7
+
+$$ x = 23.741$$
+
+This isn't any of the answers but according to other people this same line of reasoning is used in previous tests.
+
+# Question 12
