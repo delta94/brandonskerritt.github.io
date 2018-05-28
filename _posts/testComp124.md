@@ -110,12 +110,3 @@ while(variable is being used)
 ```
 
 You can do this with recursion. The idea is to get one process to wait for the other process to finish using the code before that process can use it.
-
-# Question ? - Written
-
-There are 2 producers who produce pots to be placed onto a shelf.
-There is a single consumer who takes pots off of the shelf.
-
-There is a total of 20 pots to be placed on the shelf.
-
-Create a program in x86 assembly code to recreate this problem.
