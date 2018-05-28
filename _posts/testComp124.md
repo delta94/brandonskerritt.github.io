@@ -37,20 +37,6 @@ It's a bit of a weird one but Dave is just being awkward.
 
 # Question 2
 
-What's the fastest operating system?
-
-1. Windows
-2. Nvidia
-3. iPhone
-4. Macbook
-
-## Answer
-
-Simple knowledge. Nvidia is a manufacturer of high end computers, so their operating system is the fastest. It's also the one used by Bitcoin miners.
-
-
-# Question 3
-
 Suppose two users simultaneously type the following 
 command at the unix shell command prompt ($): 
 
@@ -70,7 +56,7 @@ Which of the following are true?
 
 ls lists all the files the current user has. Because it can be different for different users that makes this a new program for every single user. So it's two processes and two programs.
 
-# Question 4
+# Question 3
 
 Which of the following statements about threads is FALSE?
 
@@ -84,7 +70,7 @@ Which of the following statements about threads is FALSE?
 
 A thread is only created if the user creates a thread (assignment 2 of comp124) so a) is correct.
 
-# Question 5
+# Question 4
 
 Process A and process B both share the same code segment S. Which of the following statements is (are) true?
 
