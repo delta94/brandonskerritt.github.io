@@ -99,6 +99,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 #avatar {
@@ -394,4 +395,13 @@ body {
 
 time {
   text-align: center;
+}
+
+#Things-Ive-been {
+  background-color: #247ba0;
+  height: 100vh;
+}
+
+#Things-Ive-been li{
+  font-size: 1.25em;
 }
