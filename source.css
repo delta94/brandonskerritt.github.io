@@ -3,194 +3,158 @@
   outline: 1px red solid !important;
 }
 */
-
 .card {
   width: 30rem;
 }
 
-body {
-  background-color: rgb(250,
-  * {
-      outline: 1px red solid !important;
-    }
-    
-    
-    body {
-      background-color: rgb(250, 250, 250);
-    }
-    
-    .title {
-      text-align: center;
-      font-family: 'Scope One', serif;
-      font-size: 3em;
-      font-weight: 400;
-      color: #000;
-      margin: 2%;
-      display: inline;
-      padding-top: 2%;
-    }
-    
+
+  body {
+    background-color: rgb(250, 250, 250);
+  }
+  .title {
+    text-align: center;
+    font-family: 'Scope One', serif;
+    font-size: 3em;
+    font-weight: 400;
+    color: #000;
+    margin: 2%;
+    display: inline;
+    padding-top: 2%;
+  }
+  #bio {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+  }
+  @media all and (max-width: 1000px) and (min-width: 150px) {
     #bio {
-      margin-left: 30%;
-      margin-right: 30%;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1.25em;
+      margin-left: 5%;
+      margin-right: 5%;
     }
-    
-    @media all and (max-width: 1000px) and (min-width: 150px) {
-      #bio {
-       margin-left: 5%;
-       margin-right: 5%;
-      }
-    }
-    
-    
-    #bio a {
-      font-weight: 600;
-      color: black;
-      font-family: 'Montserrat', sans-serif;
-      display: inline-block;
-    }
-    
-    #bio a:hover {
-      color: red;
-    }
-    
-    #bio-hr {
-      margin-left: 25%;
-      margin-right: 25%;
-    }
-    
-    #bio-links a {
-      font-weight: 600;
-      color: rgba(0, 0, 0, 0.76);
-      font-family: 'Montserrat', sans-serif;
-      padding-right: 0.75%;
-      font-size: 1em;
-    }
-    
-    #bio-links a:hover {
-      color: red;
-    }
-    
-    
-    .bio-icons a {
-      color: black;
-      font-size: 1.25em;
-      padding: 0.5%;
-    }
-    
-    .bio-icons a:hover {
-      color: red;
-      text-decoration: none;
-    }
-    
-    .main {
-      text-align: center;
-      font-family: 'Montserrat', sans-serif;
-      text-justify: auto;
-    }
-    
-    .img-circle {
-      border-radius: 50%;
-    }
-    
-    .author-image {
-      height: auto;
-      width: auto;
-      max-height: 450px;
-      padding-bottom: 10px;
-    }
-    
-    .center-block {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      text-align: center;
-    }
-    
-    #avatar {
-      /* make a square container */
-      width: 300px;
-      height: 300px;
-      /* fill the container, preserving aspect ratio, and cropping to fit */
-      background-size: cover;
-      /* center the image vertically and horizontally */
-      background-position: top center;
-      /* round the edges to a circle with border radius 1/2 container size */
-      border-radius: 50%;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 10px;
-      margin-top: 5%;
-    }
-    
-    .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-      color: red !important;
-      background-color: gray;
-    }
-    
-    .btn-primary{
-      background-color: gray;
-      border-color: gray;
-      font-family: 'Montserrat', sans-serif;
-      color: white;
-      outline: none;
-      margin: 5px;
-    }
-    
-    .btn {
-      background-color: gray;
-      font-family: 'Montserrat', sans-serif;
-      color: white;
-      outline: none;
-      margin: 5px;
-    }
-    
-    /* containers */
-    
-    .containerone {
-      text-align: center;
-      -webkit-transition: all 0.2s ease;
-      -moz-transition: all 0.2s ease;
-      transition: all 0.2s ease;
-      height: 100%;
-      width: 100%;
-      padding-bottom: 20%;
-    }
-    
-    #footer-bar {
-      background-color: rgb(230, 230, 230);
-      font-family: 'Montserrat', sans-serif;
-      padding-bottom: 2%;
-    }
-    
-    #footer-bar .btn{
-      background-color: rgb(240, 240, 240);
-    }
-    
-    #footer-bar .btn:hover{
-      color: red;
-    }
-    
-    #footer-bar .fab{
-      color: rgb(25, 25, 25);
-      font-size: 2em;
-    }
-    
-    #footer-bar .fab:hover{
-      color: red;
-    }
-    
-    #footer-bar a{
-      color: black;
-    }
-    
-    .experience-list {
-      padding-left: 0;
-    }
-     250, 250);
+  }
+  #bio a {
+    font-weight: 600;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+  }
+  #bio a:hover {
+    color: red;
+  }
+  #bio-hr {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  #bio-links a {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.76);
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 0.75%;
+    font-size: 1em;
+  }
+  #bio-links a:hover {
+    color: red;
+  }
+  .bio-icons a {
+    color: black;
+    font-size: 1.25em;
+    padding: 0.5%;
+  }
+  .bio-icons a:hover {
+    color: red;
+    text-decoration: none;
+  }
+  .main {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-justify: auto;
+  }
+  .img-circle {
+    border-radius: 50%;
+  }
+  .author-image {
+    height: auto;
+    width: auto;
+    max-height: 450px;
+    padding-bottom: 10px;
+  }
+  .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  #avatar {
+    /* make a square container */
+    width: 300px;
+    height: 300px;
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+    /* center the image vertically and horizontally */
+    background-position: top center;
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 5%;
+  }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: red !important;
+    background-color: gray;
+  }
+  .btn-primary {
+    background-color: gray;
+    border-color: gray;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    outline: none;
+    margin: 5px;
+  }
+  .btn {
+    background-color: gray;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    outline: none;
+    margin: 5px;
+  }
+  /* containers */
+  .containerone {
+    text-align: center;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20%;
+  }
+  #footer-bar {
+    background-color: rgb(230, 230, 230);
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 2%;
+  }
+  #footer-bar .btn {
+    background-color: rgb(240, 240, 240);
+  }
+  #footer-bar .btn:hover {
+    color: red;
+  }
+  #footer-bar .fab {
+    color: rgb(25, 25, 25);
+    font-size: 2em;
+  }
+  #footer-bar .fab:hover {
+    color: red;
+  }
+  #footer-bar a {
+    color: black;
+  }
+  .experience-list {
+    padding-left: 0;
+  }
+  250, 250);
 }
 
 .title {
@@ -213,11 +177,10 @@ body {
 
 @media all and (max-width: 1000px) and (min-width: 150px) {
   #bio {
-   margin-left: 5%;
-   margin-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
-
 
 #bio a {
   font-weight: 600;
@@ -246,7 +209,6 @@ body {
 #bio-links a:hover {
   color: red;
 }
-
 
 .bio-icons a {
   color: black;
@@ -328,12 +290,16 @@ body {
   text-align: center;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
   color: red !important;
   background-color: gray;
 }
 
-.btn-primary{
+.btn-primary {
   background-color: gray;
   border-color: gray;
   font-family: 'Montserrat', sans-serif;
@@ -376,10 +342,9 @@ body {
   -moz-transition: all 0.2s ease;
   transition: all 0.2s ease;
   background: #ff1654;
-  
 }
 
-#programmer{
+#programmer {
   color: #f8f8f8;
 }
 
@@ -409,7 +374,7 @@ body {
   background: #b2dbbf;
 }
 
-.card-deck{
+.card-deck {
   margin: 1%;
 }
 
@@ -443,10 +408,8 @@ body {
   padding-bottom: 1%;
   padding-top: 1%;
   margin: 2%;
-  
   /*width: 75%;
   height: 75%;*/
-  
 }
 
 #footer-bar {
@@ -455,24 +418,24 @@ body {
   padding-bottom: 2%;
 }
 
-#footer-bar .btn{
+#footer-bar .btn {
   background-color: rgb(240, 240, 240);
 }
 
-#footer-bar .btn:hover{
+#footer-bar .btn:hover {
   color: red;
 }
 
-#footer-bar .fab{
+#footer-bar .fab {
   color: rgb(25, 25, 25);
   font-size: 2em;
 }
 
-#footer-bar .fab:hover{
+#footer-bar .fab:hover {
   color: red;
 }
 
-#footer-bar a{
+#footer-bar a {
   color: black;
 }
 
@@ -488,6 +451,7 @@ body {
   text-align: center;
   font-size: 1.25em;
 }
+
 .experience-date {
   text-align: center;
   font-weight: 50;
