@@ -433,7 +433,7 @@ body,
 html {
   height: 100%;
 }
-
+/*
 @media all and (max-width: 750px) and (min-width: 10px) {
   #bio {
    margin-left: 5%;
