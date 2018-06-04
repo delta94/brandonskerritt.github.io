@@ -71,8 +71,10 @@ body {
 .author-image {
   height: auto;
   width: auto;
+
+  /*
   max-height: 450px;
-  padding-bottom: 10px;
+  padding-bottom: 10px;*/
 }
 
 .center-block {
@@ -84,8 +86,9 @@ body {
 
 #avatar {
   /* make a square container */
-  width: 300px;
-  height: 300px;
+  /*300px*/
+  width: 30%;
+  height: 30%;
   /* fill the container, preserving aspect ratio, and cropping to fit */
   background-size: cover;
   /* center the image vertically and horizontally */
@@ -95,7 +98,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px;
+  margin-bottom: 1%;
   margin-top: 5%;
 }
 
@@ -428,4 +431,12 @@ body {
 body,
 html {
   height: 100%;
+}
+
+@media only screen 
+@media all and (max-width: 1000px) and (min-width: 150px) {
+  #bio {
+   margin-left: 5%;
+   margin-right: 5%;
+  }
 }
