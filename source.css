@@ -441,10 +441,10 @@ html {
   }
 }
 
-@media all and (max-width: 100px) and (min-width: 450px){
+@media all and (max-width: 10px) and (min-width: 450px){
   #bio {
     margin-left: 5%;
-    margin-right: 5%
+    margin-right: 5%;
     font-size: 0.75em;
   }
 }
