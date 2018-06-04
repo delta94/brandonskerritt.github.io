@@ -25,66 +25,69 @@
   <title>Brandon Skerritt</title>
 
   <!-- Bootstrap CSS -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
     crossorigin="anonymous">
   <link href="source.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Scope+One" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="jquery.fullPage.js"></script>
+  <link rel="stylesheet" href="jquery.fullPage.css">
+</head>
 
-  <body>
-
-
-    <div class="containerone">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <img src="images/me.jpg" id="avatar" height=30% width=30% alt="Image of author">
-          <h1 class="title">Hi, I'm Brandon</h1>
-          <br>
-          <br>
-          <p id="bio">
-            I'm a
-            <a href="https://medium.com/@brandonskerritt">journalist</a> at
-            <a href="https://www.hackernoon.com">Hackernoon</a> and
-            <a href="http://vip.politicsmeanspolitics.com/">PoliticsMeansPolitics</a>, a computer science student at
-            <a href="https://www.liverpool.ac.uk/">University of Liverpool</a> and kit secretary at
-            <a href="https://www.liverpool.ac.uk/sports/sports-clubs/student-sports/karate/">UoL Shotokan Karate.</a>
-            Founder & President of
-            <a href="">HackLiverpool. </a>In my spare time I am the
-            <a href="https://github.com/brandonskerritt/Computer-Science/tree/master/Course-rep">Vice President the Bee Keeping Society.
-          </p>
-          <hr id="bio-hr">
-          <p id="bio-links">
-            <a href="https://github.com/brandonskerritt">Code</a>
-            <a href="https://www.linkedin.com/in/brandonls/">Experience</a>
-            <a href="https://drive.google.com/file/d/1ceyTuBwItj2PafE9Jltrr2qgStL69eYe/view?usp=sharing">CV</a>
-          </p>
-          <p class="bio-icons">
-            <a href="https://medium.com/@brandonskerritt">
-              <i class="fab fa-medium"></i>
-            </a>
-            <a href="https://twitter.com/brandon_skerrit">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/brandonls/">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="http://github.com/brandonskerritt/">
-              <i class="fab fa-github"></i>
-            </a>
-          </p>
+<body>
+  <div id="fullpage">
+    <div class="section">
+      <div class="containerone">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <img src="images/me.jpg" id="avatar" height=30% width=30% alt="Image of author">
+            <h1 class="title">Hi, I'm Brandon</h1>
+            <br>
+            <br>
+            <p id="bio">
+              I'm a
+              <a href="https://medium.com/@brandonskerritt">journalist</a> at
+              <a href="https://www.hackernoon.com">Hackernoon</a> and
+              <a href="http://vip.politicsmeanspolitics.com/">PoliticsMeansPolitics</a>, a computer science student at
+              <a href="https://www.liverpool.ac.uk/">University of Liverpool</a> and kit secretary at
+              <a href="https://www.liverpool.ac.uk/sports/sports-clubs/student-sports/karate/">UoL Shotokan Karate.</a>
+              Founder & President of
+              <a href="">HackLiverpool. </a>In my spare time I am the
+              <a href="https://github.com/brandonskerritt/Computer-Science/tree/master/Course-rep">Vice President the Bee Keeping Society.
+            </p>
+            <hr id="bio-hr">
+            <p id="bio-links">
+              <a href="https://github.com/brandonskerritt">Code</a>
+              <a href="https://www.linkedin.com/in/brandonls/">Experience</a>
+              <a href="https://drive.google.com/file/d/1ceyTuBwItj2PafE9Jltrr2qgStL69eYe/view?usp=sharing">CV</a>
+            </p>
+            <p class="bio-icons">
+              <a href="https://medium.com/@brandonskerritt">
+                <i class="fab fa-medium"></i>
+              </a>
+              <a href="https://twitter.com/brandon_skerrit">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/brandonls/">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="http://github.com/brandonskerritt/">
+                <i class="fab fa-github"></i>
+              </a>
+            </p>
+          </div>
         </div>
       </div>
-      <br>
-      <br>
-      <br>
     </div>
-
-    <div class="containertwo">
+    <div class="section">
       <h2 class="title center-block">I'm a programmer 👨‍💻</h2>
-      <div class="card-deck">
-        <div class="card code-item">
+      <div class="slide">
+        <div class="card code-item mx-auto">
           <img class="card-img-top code-image center-block" src="images/Demo_lil_jimbo.gif" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title code-title">First Aid Chatbot</h5>
@@ -95,7 +98,9 @@
             </p>
           </div>
         </div>
-        <div class="card code-item">
+      </div>
+      <div class="slide">
+        <div class="card code-item mx-auto">
           <img class="card-img-top code-image center-block" src="images/bet-a-way.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title code-title">Bet-A-Way.com</h5>
@@ -106,7 +111,9 @@
             </p>
           </div>
         </div>
-        <div class="card code-item">
+      </div>
+      <div class="slide">
+        <div class="card code-item mx-auto">
           <img class="card-img-top code-image center-block" src="images/bank_of_alexa.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title code-title">Bank of Alexa</h5>
@@ -118,8 +125,8 @@
           </div>
         </div>
       </div>
-      <div class="card-deck">
-        <div class="card code-item">
+      <div class="slide">
+        <div class="card code-item mx-auto">
           <img class="card-img-top code-image center-block" src="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/72/12/17/7212175a-8f09-305d-9c73-ec1131cb4638/AppIcon-1x_U007emarketing-85-220-5.png/246x0w.jpg"
             alt="Card image cap">
           <div class="card-body">
@@ -135,7 +142,9 @@
             </p>
           </div>
         </div>
-        <div class="card code-item">
+      </div>
+      <div class="slide">
+        <div class="card code-item mx-auto">
           <img class="card-img-top code-image center-block" src="images/ka-bomb-com.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title code-title">Ka-bomb.com</h5>
@@ -150,7 +159,9 @@
             </p>
           </div>
         </div>
-        <div class="card code-item">
+      </div>
+      <div class="slide">
+        <div class="card code-item mx-auto">
           <img class="card-img-top code-image center-block" src="images/musk_bot.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title code-title">Musk Bot</h5>
@@ -167,58 +178,49 @@
         </div>
       </div>
     </div>
+    <div class="section">
+      <h2 class="title center-block">I'm a leader🕴</h2>
+      <div class="slide">
+        <h3 class="title center-block">President & Founder of Liverpool HackSoc</h3>
+      </div>️
+      <div class="slide">
+        <h3 class="title center-block">Vice President of the Bee Keeping Society</h3>
+      </div>
+      <div class="slide">
+        <h3 class="title center-block">Faculty & Course Representative</h3>
+      </div>
+      <div class="slide">
+        <h3 class="title center-block">Health & Welfare Officer for Halls Student Committee</h3>
+      </div>
+      <div class="slide">
+        <h3 class="title center-block">Higher Education Vice President of the East Kent Group</h3>
+      </div>
+    </div>
+    <div class="section">
+      I'm a writer
+    </div>
+    <div class="section">
+      Hear it from others
+    </div>
+  </div>
 
-    <div class="containerthree">
-      <h1 class="title">I'm a leader</h1>
-      <h2>President & Founder</h2>
-      <h3>University of Liverpool HackSoc</h3>
-      <ul>
-        <li>Created the Liverpool hacker scene</li>
-        <li>Ran Liverpool's first hackathon</li>
-        <li>Joint collaborations between all Liverpool universities to make the Liverpool Hacker Scene</li>
-      </ul>
-      <h2>Faculty & Course Rep</h2>
-      <ul>
-        <li>Responsible for making the course the best it can be</li>
-        <li>Helping students</li>
-      </ul>
-      <h2>Halls Student Commitee</h2>
-      <ul>
-        <li>Creating events such as the end of year carnival</li>
-        <li>Keeping everyone safe and happy in Halls</li>
-      </ul>
-      <h2>Higher Education Vice President at East Kent College</h2>
-      <ul>
-        <li>Single handedly increased student union satisfaction ratings from 30% to 90%</li>
-        <li>Successfully merged the two largest college student unions in Kent</li>
-        <li>Decided on how the SU will be run for years to come and voting on a new SU team</li>
-        <li>My other SU officers quit so I single handedly took on the work of 4 other officers.</li>
-      </ul>
-    </div>
-    <div class="containerfour">
-      <h1>I'm a writer</h1>
-    </div>
-    <div class="containerfive">
-      <h1>Hear it from others</h1>
-    </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
-      crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-    <script src="scrollReveal.js"></script>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-4204290842407309",
-        enable_page_level_ads: true
-      });
-    </script>
-  </body>
+  <script>
+    $(document).ready(function () {
+      $('#fullpage').fullpage();
+    });
+  </script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+    crossorigin="anonymous"></script>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-4204290842407309",
+      enable_page_level_ads: true
+    });
+  </script>
+</body>
 
 </html>
