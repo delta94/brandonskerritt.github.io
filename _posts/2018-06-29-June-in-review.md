@@ -1,7 +1,8 @@
 ---
 title: "June in review"
 categories:
-  - blog
+- blog
+- months
 ---
 
 # Month in review
@@ -34,20 +35,22 @@ completed?
 
 ## Podcasts
 
-In line with my new years goal of listening to more podcasts, here they are
+In line with my new years goal of listening to more podcasts, here are the podcasts I've listened to this month.
 
 ### Listen Money Matters
 
-I've been a big fan of Thomas Frank's YouTube channel for a while now. This podcast is all about personal finance.
+I've been a big fan of Thomas Frank's YouTube channel for a while now. This podcast is all about personal finance. 
+
+The investing episode is really good as a starter to investing, although this podcast is mainly American advice it's good advice nevertheless.
 
 ### The Tim Ferris Show
-Of course
+Listen to this every day on my run 😁
 
 ### 99% invisible
-Amazing 10/10 would reccomend 
+Amazing 10/10 would reccomend best podcast every year forever 
 
 ### Smart Passive Income
-
+Alright podcast
 
 # books
 
@@ -89,3 +92,5 @@ How many days did I run?
 Sleeping
 How long did I average on sleep?
 any comments
+
+My favourite topic is cryptography, but unforuantely my university doesn't offer that module :( 
