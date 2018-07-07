@@ -1,0 +1,11 @@
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:brandonskerritt/StudentVerify.git
+git push -u origin master
+
+I used to believe that being a high achiever and having amazing friendships would replace the hole in my heart where family is supposed to be
+but i'm not sure anymore...
+
+Me: "Doctor, I'm on the verge of suicide please help me"
+Dr: "But🙃you🙃exercise🙃6🙃times🙃a🙃week🙃take🙃more🙃happy🙃pills"

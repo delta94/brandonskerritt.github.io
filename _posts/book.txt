@@ -100,56 +100,73 @@ You want to research the job role here to see how you can fit into the job role.
 
 3. What are your greatest strengths?
 
-Customise this question again. Reflect the job description within this question.
-This is not the time to be humble, but do try to not sound arrogant.
-An example of this answer could be something like:
-“I’m  an extremely hard worker. I often don’t pick up many projects but when I  do I go all in. Recently I’ve picked up blogging, managing to amass  more than 8000 monthly readers in less than 5 months.”
-Do use statistics. This is really important. Statistics lets you talk big about yourself without sounding too egoistical.
-There’s  a difference between saying “God, if everyone who read my articles was  their own country it would be a small country. I must be an amazing  writer” and saying “I have 8000 monthly reads in 5 months”.
-But  only say what’s relevant. If I was applying to a job at a students  union or anything to do with students I would say “I increased student  satisfaction and approval ratings from 30% to ~90%”.
-You  don’t have to be given a statistic to use it. You can work it out  yourself. You know all these maths classes you took? Now is a good time  to use them. Do you deal with customers a lot and do always say you’re  doing well? Put that into a statistic.
-Make  sure your strengths match the job description. If the employer asks for  good knowledge of Python (or German) talk about that.
-You see this?
-Do you remember this game? The idea is to get the shapes in the right holes.
-Now,  you could have the best blocks. The best blocks in the USA, the best  blocks in the world. No one could ever have better blocks than you. But  as long as you’re trying to fit this amazing diamond cube into a  triangular hole, it’ll never ever work.
-Well, unless you’re a mathematician:
-The  same can be said for job interviews. Often it’s better to present  something that you’re only 60–80% good at that matches the job  description rather than talking about something you are absolutely  amazing at that doesn’t match the job description.
-The  recruiter wants to find the right person for the job. They want to find  the right shape for the right hole. Make sure you mould yourself into  the shape they want.
+To answer this question, you have to customise it to the job description. Reflect what the job description says here. It's no use talking about how great you are at welding if you're applying for an office job.
+
+This question is giving you the opportunity to boast about yourself, but don't come across as arrogant. This is not the time to be humble, you need to sell yourself like you're absolutely perfect for the job.
+
+There isn't much I can say here to help you, since this question is customised per job. You need to think about how you'll answer this question and write down your answer.
+
+Instead, let's go over what makes a great answer. Look at this answer:
+
+ 
+“I’m  an extremely hard worker. I often don’t pick up many projects but when I  do I go all in. Recently I’ve picked up blogging, managing to amass  more than 80,000 monthly readers in less than 8 months.”
+
+The statistics in this answer make it hit hard. 80,000 people read my blog every month, and I've achieved that in 6 months? Notice how I've managed to boast here without sounding too big-headed. You could rephrase this as:
+
+"I've grown my blog to tens of thousands of readers every single month, and it has taken me less than a year!"
+
+This one sounds like I'm obsessed with myself. If you add statistics, you're allowed to boast about yourself without sounding obsessive or insane.
+
+Another way to rephrase this is:
+
+"My blog posts get twice as many people reading them as there are people in Lichtenstein"
+
+This is using statistics. There are around 30,000 people in Lichtenstein and 80,000 people read my blog, but, this sounds big headed. You have to say the numbers directly. Notice how if we change this to include numbers it doesn't make sense:
+
+"My blog posts get 80,000 readers per month. There are 30,000 people in Lichtenstein. My blog gets more than twice as many readers per month than there are people in Lichtenstein".
+
+Statistics and hard numbers are incredibly important.
+
+But make sure the statistic is relevant to the job. If I'm applying for a job that has nothing to do with writing, I probably wouldn't bring this up.
+
+With statistics, you don't have to be given one to use it. You can work out the statistic yourself. Let's say you work in a bookshop and you regularly talk to customers. You could say:
+
+"I regularly engage with customers and sell them more books then what they came in for. On average, every customer I serve buys more than £50 worth of books".
+
+Often times, it's better to present something you're only slightly good at then it is to present something you are amazing at. If the thing you are amazing at doesn't match the job description, don't mention it. If the thing you are slightly good at does, do mention it.
+
 4. What are your greatest weaknesses?
-DO NOT USE weaknesses such as:
+
+Many people fail this question because they believe that the right answer is "I don't have any weaknesses". What? Are you human? Everyone has a weakness. Please do not answer with a weakness like:
 
 
-    I’m a hard worker
+        I’m a hard worker
 
 
-    I overwork so much
+        I overwork so much
 
 
-    I obsess with team work
+        I obsess with team work
 
-
-Yeah  sure this may have worked 30–40 years ago but employers can see the  lies from miles away. Use an actual weakness but don’t say something  like:
-
+Yeah, sure it may have worked for your grand dad but employers could see the lies from miles away. Use an actual weakness here, something that you suck at. But don't admit to something insane like:
 
     Sometimes I get really vivid thoughts of murdering people that interview me :)
 
-
-Use  something that was a problem and talk about how you’ve overcome this.  If you’re still overcoming it say so. My example would be:
-
-
-    “I  used to be terrified of phone calls. The idea of phoning someone was a  no go for me. Having worked in a students union and at multiple events  it was inevitable for me to phone people so I’ve gotten use to it. I’m  still overcoming this but I’m not as bad as I was a year or two ago.”
+The secret to answering this question is to use a real problem you've faced. But make sure you talk about how you've overcome this. If you're still overcoming the problem, that's okay. You can still talk about this. An example taken from myself would be:
 
 
-But  don’t make the weakness a part of the job description. If the job  description says “you ne ed to be really good at talking to people”  never say “I’m really bad at talking to someone”.
+   “I  used to be terrified of phone calls. The idea of phoning someone was a  no go for me. Having worked in a students union and at multiple events  it was inevitable for me to phone people so I’ve gotten use to it. I’m  still overcoming this but I’m not as bad as I was a year or two ago.”
+
+
+But  don’t make the weakness a part of the job description. If the job  description says “you need to be really good at talking to people”  never say “I’m really bad at talking to someone”.
 Make sure you say how you overcame your weakness and turn it into something positive. Make it into a mini story. 
-Make sure  this won’t be a problem at your current company. Say something like “I  believe this won’t be a problem in this company” and then say why. Mine  would be:
+Make sure  this won’t be a problem at your current company. Say something like “I  believe this won’t be a problem in this company” and then say why. Mine would be:
 
 
-    “I  used to be terrified of phone calls. The idea of phoning someone was a  no go for me. Having worked in a students union and at multiple events  it was inevitable for me to phone people so I’ve gotten use to it. I’m  still overcoming this but I’m not as bad as I was a year or two ago. I  believe this won’t be a problem at this company because I’m passionate  for the cause of this company which would allow me to talk more on the  phone to people revolving around this company. That’s one of the reasons  I want to join this company, because I get to do what I love and I get  to push my boundaries and get out of my comfort zone, to grow both  personally and professionally.”
+   “I  used to be terrified of phone calls. The idea of phoning someone was a  no go for me. Having worked in a students union and at multiple events  it was inevitable for me to phone people so I’ve gotten use to it. I’m  still overcoming this but I’m not as bad as I was a year or two ago. I  believe this won’t be a problem at this company because I’m passionate  for the cause of this company which would allow me to talk more on the  phone to people revolving around this company. That’s one of the reasons  I want to join this company, because I get to do what I love and I get  to push my boundaries and get out of my comfort zone, to grow both  personally and professionally.”
 
 
-Make  it very clear that this question is as normal as giving your name and  address, do not act like they are forcing information out of you like  you’re some sort of foreign intelligence agent.
-Whatever you do, under all circumstances, NEVER ever EVER reply with any of these:
+Make  it very clear that this question is as normal as giving your name and  address, do not act like they are forcing information out of you. Whatever you do, under all circumstances, NEVER ever EVER reply with any of these:
 
 
     I’m a perfectionist!
@@ -165,32 +182,28 @@ Whatever you do, under all circumstances, NEVER ever EVER reply with any of thes
 
 
 5. What will your skills and ideas bring to this company?
-This question is basically:
 
+To put it bluntly, this question is just:
 
-    Why should we care about you? What can you do that others can’t?
+    Why should we care about you? What can you do that others can’t? 
 
+This is one of the best questions that could possibly come up in an interview. Other ways of phrasing this question are:
 
-And this question, is one of the best questions possible.
+"What can you do that others can't?"
 
+The recruiter is asking you to mow down your competition. Do not show mercy to your competition, make it very clear that you are the best. If you've worked on a pre-project, now is the time to talk about it. If you're a software developer you might say something like:
 
-    What can you do that others can’t?
-
-
-They are literally asking you to mow down your competition. Do not show mercy, destroy them.
-If you’ve worked on a preproject (mentioned in this article) this is the time to say so. Something like:
-
-
+"
     I  saw your company used this Python package on GitHub but that Python  package is deprecated. I’ve actually made a Python package that works  the same but uses all the conventions that Python requires now. It’s  also a little bit faster.
+"
 
+You have to customise this per job. There aren't many interview questions that you can't customise per job. Also, you want to beat your components but don't talk badly about them. Focus on your strengths, not your components' weaknesses. You'll want to focus on what you're good at.
 
-You have to really customise this one per company. Play your A-game here.
-Do not talk badly about other people, just focus on your strengths.
-Normally you will want to focus on what you’re good at here. Talk about that.
-If  you haven’t done a preproject, talk about what you’ve done in the past.  Specific measurable achievements and make it sound like you can do this  to this company.
+If you haven't completed a pre-project, talk about what you've done in the past for other, but similar, companies. Make it sound like these past achievements are something that you can do for this company. An example might be:
 
+ 
 
-    “I turned a failing product from 30 sales a month to 10,000 a week, I want to sell as many of Product X as possible”.
+   “I turned a failing product from 30 sales a month to 10,000 a week, I want to sell as many of Product X as possible”.
 
 
 Or take this answer from The Balence
@@ -200,7 +213,9 @@ Or take this answer from The Balence
 
 
 6. What’s your preferred management style?
+
 This question is just the interviewer wanting to know if you are going to get along together.
+
 There’s 3 main steps to this question.
 
 
@@ -213,7 +228,7 @@ They  obviously care about good management, so it’s important that you and  th
     Management  style is so hard to put your finger on, but I think in general a good  manager gives clear directions and actually stays pretty hands-off, but  is ready and available to jump in to offer guidance, expertise, and help  when needed. I try my best to make that my management style.
 
 
-2. Add your on take
+2. Add your own take
 Now  say something that makes you unique. You want to stand out, not appear  to be another sheep in the candiate pool. Here’s a good response for the  second part from Forbes
 
 
@@ -228,30 +243,34 @@ Examples always work in interview answers. Back up what you’ve said. Here’s 
 
 
 7. Where do you see yourself in five years’ time?
-This  question is the employer wanting to know if you plan to work there for a  long time. Every employer wants to know you’ll work there for a long  time, even if it’s just a waitering job.
-Say something along the lines of:
+
+The recruiter is asking this question because they want to know if you plan to work there for a long time. Every employer expects you to work there for a very long time, even if it's a small part time job. 
+
+Brand loyalty is important here. Even if you don't plan to work there forever, make it seem like it. You can say something along the lines of:
 
 
     I  don’t know your company well enough, but I would like to think I would  still be working here. In 5 years time I would have liked to learnt  enough to be able to train people in future roles.
 
+What you want to do here is mix "I love your company and I want to work here forever" with "I'm quite ambitious and I would love to take on some bigger roles in my career".
 
-Here’s a sample answer video:
-I actually prefer Linda Raynier’s video on this:
-She has many good examples of interview questions and how to answer them.
-Learning  is a multi step process, you can’t just read something and expect to be  an expert in it. You have to practice for yourself and see what works  for you and customise it per job.
+
 8. How would you approach this job?
-This  question is a bit weird.. It’s kind of a trap. Because you will never  completely know how a company works without working at that company,  don’t answer like you’re an expert on this but you do need to answer  like you have a relatively good idea of what you’re doing.
-An answer like this could work:
+
+This question is strange. It's kind of a trick question. You will never  completely know how a company works without working at that company.  Don’t answer like you’re an expert on this but you do need to answer  like you have a relatively good idea of what you’re doing.
+
+An answer like this will work:
 
 
     Well,  the best way to do this job won’t come clear to me until I start this  job. But I’ll start by getting to know my colleauges and team,  listening, taking notes, building relationships, and helping people out  where I can. After all that, I’ll have a good idea of how to do this job  in the best way possible. At my last job I did…
 
 
-Notice the example again. Talk about how you best undertook your last job but don’t go on and on forever.
+Notice the example again. Talk about how you best undertook your last job but don’t go on forever about it. You don't need to answer every question with some long winded story. 
+
 9. What have you achieved in other roles?
-This is the question which gives you permission to not be humbled. Talk about what ever you’re proudest of. Mine would be:
 
+This is quite similar to question 3. This questions is giving you permission to toot your own horn. This is not the time to be humble. Talk about your proudest achievement at another role. This is highly personal, but an example of mine would be:
 
+"
     My  role as Higher Education Vice President started off on a bad turn.  There were supposed to be 5 student union officers, but only I wanted to  do the job. Effectively leaving me in charge of the work of 5 people,  all whilst the student union staff who work with us had left to go to  another job.
 
 
@@ -265,33 +284,45 @@ This is the question which gives you permission to not be humbled. Talk about wh
 
 
     On  top of this, I received a letter from the Chief Executive President of  Student Welfare saying that I was the best Student Union’s Officer ever  and rewarding me with a £50 Amazon voucher.
+"
 
-
-Notice how I’m tooting my own horn here, this question allows you to do that.
 Talk about your achievements, talk about the statistics that back these achievements up. But make sure it’s in a story, humans really like stories.
+
 10. What did you like and dislike about your last job?
-On one hand, you don’t want to sound like a moaner who hated your last job but you also want to appear authentic.
-The  interviewer is inviting you to say something negative about your last  job, because everyone doesn’t like something about their job.
-Since  it’s easy to talk about what you like most of your last job, this part  will focus on mainly how to talk about the negatives.
-Don’t discuss people, discuss circumstances or tasks.
-Here’s a good answer from here
+
+When answering this question, you want to balance two things. On one hand, you don't want to sound like a moaner who hated your last job. But you also want to be authentic. Since it's easy to talk about what you liked about yout last job, we'll discuss how to talk about the negatives here.
+
+The interviewer is asking you to say something negative about your last job. Don't pretend there wasn't anything negative, everyone doesn't like something about their job. Even if it's really small, be authentic and you'll do fine.
+
+Don't discuss people. This will make you come off as cruel or bad of heart. Discuss the circumstances or tasks you had.
+
+Here's a good answer you can model your own answer on:
 
 
     I  must say that I loved many things about my previous job: amazing people  and an environment where I was challenged at every turn. However- there  was one thing I didn’t like: expectations sometimes were unclear. I  would be assigned a project with loose guidelines and turn it in on time  to specifications. I’d then be told I did the project wrong. I’ve since  learned to communicate better- to ask my supervisor if I have  questions- and I’ve learned to never assume. Two people can look at  project guidelines and draw vastly different interpretations of what is  to be done. I’ll always be thankful for that learning experience and for  the great folks at the company.
 
+This answer is good. It talks about a negative in your job and how you overcame it. The employer is trying to trick you up, by seeing if there is something negative about you. Give them what they want, but talk about how you turned this negative into a positive. 
+
 
 11. Tell me about a time you worked in a team
+
 You’re very likely going to work in a team, so the interviewer wants to know how good you are at team work.
-Talk about an experience you’ve had within a team, what you did, how well your team did. Use the STAR method here.
+
+You need to talk about an experience and weave it into a story. You need to talk about what you did, the problems your team overcame. Don't badmouth your team, only talk well about them. And remember, the interview cares about your team. There's no "i" in team, so don't only talk about how you did everything in the team. 
+
 This is really personal and customised to you, so no examples from me here. You should really form your own answers.
-This is a really good video on this question:
+
 12. What do your coworkers say about you?
-Bring  along testimonials. Reference letters. Show them when this question is  asked. Show LinkedIn testimonials, on your personal website,  testimonials on paper. Never just pull out your phone or any items  without asking if it’s okay by them to take out your testimonials.
-Here’s a good answer that doesn’t refer to a testimonial from The Balence
 
+If you have testimonials or refernece letters, now is a good time to ask if you can show them.  Never just pull out your phone or paper documents without asking if it's okay.
 
-    My  colleagues have told me that I am extremely organized and excellent at  time management. During one project, my team members praised me for  developing and sticking to a timeline for all the phases of the project.  (Give a brief summary of what the project was.) We ended up  successfully completing it ahead of time, and it was a hit
+If you don't have testimonials, you need to talk about yourself from an outside perspective. An answer like this would work:
 
+"
+   My  colleagues have told me that I am extremely organized and excellent at  time management. During one project, my team members praised me for  developing and sticking to a timeline for all the phases of the project.  (Give a brief summary of what the project was.) We ended up  successfully completing it ahead of time, and it was a hit
+"
+
+Notice how we talked about a time in a team, and how we used a story to tell it. This is extremely effective.
 
 13. How do you deal with stress and failure?
 Don’t  pretend like you’ve never experienced stress. Talk about how you deal  with stress and failure. This is highly personal so again customise this  to you. My answer would be:
