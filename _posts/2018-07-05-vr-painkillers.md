@@ -36,12 +36,15 @@ Not meeting an acceptable frame rate, FOV or latency can cause motion sickness. 
 
 # The need to find a replacement for painkillers
 
-The NHS spends millions on painkillers every year.
+The NHS spends £80 million on over the counter painkillers every year
 https://docs.google.com/presentation/d/1I_KkqE2IRc3zUppQpLUCzOY2sNJH86MyvHp2YqJAUfg/edit#slide=id.gd91e1f37e_1_106
+This is not needed when
 
-Most people get prescribed painkillers they can buy for 35p. 
+Most people get prescribed painkillers they can buy for 35p.
 
-humans are becoming immune to painkillers
+https://www.telegraph.co.uk/news/2017/03/28/nhs-spends-millions-prescribing-common-painkillers-sunscreen/
+
+Painkillers have been a problem
 
 # painkiller VR
 

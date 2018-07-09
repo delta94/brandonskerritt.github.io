@@ -325,14 +325,17 @@ If you don't have testimonials, you need to talk about yourself from an outside 
 Notice how we talked about a time in a team, and how we used a story to tell it. This is extremely effective.
 
 13. How do you deal with stress and failure?
+
 Don’t  pretend like you’ve never experienced stress. Talk about how you deal  with stress and failure. This is highly personal so again customise this  to you. My answer would be:
 
 
     I  once was rejected by 5 universties. I had no idea what I would be doing  come September. This was a highly stressful time for me because I  expected to get into at least one university. I went running, I took a  few days off work and I decided on my options. I could either of been  sad, moany and upset for the rest of that month or I could of manned up,  accecpted what had happened and decided on my next step. I chose the  latter.
 
 
-I quite like this video from Siraj on the topic offailure:
+
+
 14. How much money do you want?
+
 Quincy Larson has a good article on this here:
 Salary Negotiation: how not to set a bunch of money on fire Pop quiz, hot shot.medium.freecodecamp.org
 If the salary is given in the job description, don’t try to negoiate it.
@@ -348,26 +351,28 @@ You should avoid these questions, don’t give them any numbers. If they ask one
 Here’s a good quote relating to this subject:
 
 
-    At  some point in the process you achieve something which I describe as  “Yes, if…” rather than “No, but…”. “Yes, we want to work with you, if we  can come to a mutually satisfactory offer,” which is distinguished  from, “No, we don’t want to work with you, but we might work with you if  it turns out that you’re disgustingly cheap.” After you have agreement  in principle that, “We want you to work here. What’ll it take to make  that happen?” — then and only then do you start talking about  money. — Patrick McKenzie
+    "At  some point in the process you achieve something which I describe as  “Yes, if…” rather than “No, but…”. “Yes, we want to work with you, if we  can come to a mutually satisfactory offer,” which is distinguished  from, “No, we don’t want to work with you, but we might work with you if  it turns out that you’re disgustingly cheap.” After you have agreement  in principle that, “We want you to work here. What’ll it take to make  that happen?” — then and only then do you start talking about  money." — Patrick McKenzie
 
 
 Quincy  suggests that switching this salary neogiation over to email is good.  You have time to think about what’s being said and time to reply. You  also have concrete proof of a salary in the emails.
 Once the employer asks something like “but we have to negoiate salary at some point” just say “can you email me at all?”.
 It  never hurts to negoiate, statistics show that 87% of companies won’t  pull a job offer if a candiate neogiates their salary (Why You? — James  Reed).
-You  need to prepare for this question. You need to research what other  employees are earning at this company, what people with the same job  title but at different companies are earning. You can use Google,  Glassdoor, Payscale to find this information. The location of the job  matters too and will effect salary.
+
+You  need to prepare for this question. You need to research what other  employees are earning at this company. And what people with the same job title but at different companies are earning. You can use Google,  Glassdoor, Payscale to find this information. The location of the job  matters too and will effect salary.
 Have  3 numbers in your head. The perfect amount which is the highest amount  possible for this job. The lowest amount, at which point you may as well  walk away from the job offer and the medium amount, which is the middle  of the 2.
 If  the company offers you stock options, don’t play around with that.  Nothing beats cold hard salary. It’s very unlikely the company you work  at is going to be the next Facebook. In some cases stock options are  worth more than cash but normally this is not true.
 When  you get to the point of emailing the employer, ask “what do you think  I’m wroth?” or “How much were you thinking?”. The first person to give a  solid number loses. You know how in Pawn Stars they always haggle down?  That’s because the seller always gives the price first. They know  that’s their maximum, so they try to save themselves money.
+
 Once you give a number the employer will do exactly the same. They’ll haggle down.
+
 If  your maximum salary number is £100k, and they offer you £100k I  wouldn’t try to bargain. Unless you’re absolutely amazing, some kind of  super human who’s absolutely worth more than the maximum salary in the  industry I wouldn’t do it. But then again, 87% of companies won’t pull a  job offer because of negoiation so you can try anyway.
+
 However  in the real world this probably isn’t going to happen. They’ll likely  offer you £50k or half of your highest maximum salary number. This is  where you can haggle up. They’re allowed to haggle you down, so why  don’t you haggle up?
 Here’s a story of a guy who negoiated and got a compenstation package worth £250k.
 Farewell, App Academy. Hello, Airbnb. (Part I) A couple weeks ago I had my last day as Director of Product at App Academy. This coming Monday, I will be starting work…haseebq.com
 In busines school you learn to pit sellers against each other.
 “Yes,  I really love this car but this store down the road is offering it to  me 10% cheaper. I really like this store, is there anyway you can offer  it to me cheaper?”
-Here’s a good discussion on Hacker News about salary negoiation
-I'm interested in what your negotiation principles are. I've always heard that ... | Hacker News However, I've repeatedly used all of the "business-professional" and "HR approved" sorts of conversational techniques…news.ycombinator.com
-And here’s a very good video from Ramit Sethi
+
 15. Show me your creativity
 This question can come out in many forms, but they all reference creativity.
 Almost all employers look for creativity.
