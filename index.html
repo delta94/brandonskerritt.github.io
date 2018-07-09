@@ -42,13 +42,24 @@
   <link href="source.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Scope+One" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>    
-  <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
   <script src="jquery.fullPage.js"></script>
   <link rel="stylesheet" href="jquery.fullPage.css">
+
+
+  <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.1/vendors/scrolloverflow.js"></script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.1/fullpage.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('#fullpage').fullpage({
+        scrollOverflow: true
+      });
+    });
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=0.68">
 </head>
 
@@ -296,16 +307,6 @@
       </div>
     </div>
 
-
-    <script>
-      $(document).ready(function () {
-          $.fn.fullpage({
-              slidesColor: ['#fff', '#fff', '#fff', '#fff', '#fff'],
-              anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-              scrollOverflow: true
-          });
-      });
-    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
