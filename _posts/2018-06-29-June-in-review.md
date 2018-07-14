@@ -158,3 +158,5 @@ My average sleep is around about 7 - 8 hours, suepr healthy!!
 * get a first in university to get an amazing job
 * always help people on the way, help whenever you can
 * earn at least £60k per year
+
+I will have £100,000 by January the 1st of 2025. I will trade in response to this the most brilliant and well written articles about computer science. My writing will blow up and I will regularly have 100k readers per month by January the 1st of 2025. I will make sure that everyone 
