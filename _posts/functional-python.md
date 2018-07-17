@@ -89,14 +89,96 @@ So now we know what an iterable object is, let's go back to the map function. Th
 map(function, iterable)
 ```
 
-How the map function works
+Let's say we have a list of numbers like so:
+
+```
+[1, 2, 3, 4, 5]
+```
+
+And we want to square every number, we can write code like this:
+
+```python
+x = [1, 2, 3, 4, 5]
+def square(num):
+    return num*num
+
+print(list(map(square, x)))
+```
+
+Functional functions in Python are lazy. If we didn't include the ```list()``` the function would store the definition of that, and only compute it when it is needed to compute.
+
+It's a bit weird to go from non-lazy evaluation to lazy evaluation all of a sudden in Python. 
+
+Now it's nice to write a normal function like ```square(num)``` but it doesn't look right. We have to define a whole function just to use it once in a map? Well, we can define a function in map using a lambda (anonymous) function.
 
 # Lambda expressions
-How you can write lambda expressions and include them in maps
+
+A lambda expression is a one line function. Take, for instance, this lambda expression which squares a number given to it:
+
+```python
+square = lambda x: x * x
+```
+
+Now let's run this:
+
+```python
+>>> square(3)
+9
+```
+
+I hear you. "Brandon, where are the arguments? what the heck is this? that doesn't look anything like a function???"
+
+Well, it's kind of confusing but can be explained. So we're assignign something to the variable "square". this part:
+
+```python
+lambda x:
+```
+
+Tells Python that this is a lambda function, and the input is called x. Anything after the colon is what you do with the input, and it automatically returns whatever the resultant of that is.
+
+To simplfy our square program into one line we can do:
+
+```python
+x = [1, 2, 3, 4, 5]
+print(list(map(lambda num: num * num, x)))
+```
+
+So in a lambda expression, all the arguments go on the left and the stuff you want to do with them go on the right.
+
+You could actually do something insane like this:
+
+```python
+x = [1, 2, 3, 4, 5]
+print(list(map(lambda x: x * map(lambda a: a + a, x), x)))
+```
+
+Which times each number in the list by the sum of all of the numbers in the list. It gets a little messy, no one can deny that. The truth is that there's a certain pleasure in writing code that only other functional programmers can read. Also, it's super cool to take a function and turn it into a one liner.
 
 # Reduce
 
-How the reduce function works
+Reduce is a function that turns an interable into one thing. Typically you perform a computation on a list to __reduce__ it down to one number. Reduce looks like this:
+
+``` reduce(function, list)```
+
+We can (and often will) use lambda expressions as the function.
+
+The product of a list is every single number multiplied together. In order to do this normally you would program:
+
+```python
+product = 1
+x = [1, 2, 3, 4]
+for num in x:
+    product = product * num
+```
+
+But with reduce you can just write:
+
+```python
+product = reduce((lambda x, y: x * y),[1, 2, 3, 4])
+```
+
+To get the same product. The code is shorter, and with knowledge of functional programming it is neater.
+
 
 # Filter
 How the filter function works
@@ -120,3 +202,9 @@ How you can do pretty much most of the things you want to do functionally in Pyt
 # Generator expressions
 
 How you can generate any iterable in Python (dictionaries, hashmaps, objects)
+
+My key values of my blog:
+* Everything must be free. The information must be free and easy to access.
+* I will not taint my blog with any product or company that pays me to promote them.
+* I will not spam my email list with stuff that isn't directly useful to them
+* My blog will be pure, unbiased, and accessible. 
