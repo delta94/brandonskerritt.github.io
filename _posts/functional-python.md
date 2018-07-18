@@ -212,10 +212,82 @@ print(all_less_than_zero)
 
 # Higher order functions
 
-Calling functions with the arguments being a function
+Higher order functions can take functions as parameters and return functions. A very simple example would look like:
 
-# Partial applications
-Calling functions with not all of the arguments supplied
+```python
+def returnSix():
+    return 6
+
+def addition(num, num2):
+    return num + num2
+
+print(addition(4, returnSix()))
+
+# Output is 10
+```
+
+Or an even simpler example of the second definition, "return functions" is:
+
+```python
+def rtnBrandon():
+    return "brandon"
+def rtnJohn():
+    return "john"
+
+def rtnPerson():
+    age = int(input("What's your age?"))
+
+    if age == 21:
+        return rtnBrandon()
+    else:
+        return rtnJohn()
+```
+
+You know earlier how I said that pure functional programming languages didn't have variables? Well, higher order functions are what makes this easier. You don't need to store a variable anywhere if all you're doing is passing data through a long tunnel of functions, until it eventually prints out onto the screen.
+
+# Partial application
+
+Partial application is a bit wacky, but super cool. You can call a function without supplying all of the arguments it requires. Let's see this in an example. We want to create a function which takes 2 arguments, a base and an exponent, and returns base to the power of the exponent, like so:
+
+```python
+def power(base, exponent):
+    return base ** exponent
+```
+
+Now we want to have a dedicated square function, in order to work out the square of a number using the power function:
+
+```python
+def square(base):
+    return power(base, 2)
+```
+
+This works, but what if we want a cube function? or a function to the power of 4? Can we just keep on writing them forever? Well, not really. We can use partial applications here:
+
+```python
+from functools import partial
+
+square = partial(power, exponent=2)
+
+print(square(2))
+
+# output is 4
+```
+
+Isn't that cool! We can call functions which require 2 arguments, using only 1 argument by telling Python what the second argument is.
+
+We can also use a loop, to generate a power function that works from cubed all the way up to powers of 1000.
+
+```python
+from functools import partial
+
+powers = []
+for x in range(2, 1001):
+    powers.append(partial(power, exponent = x))
+
+print(powers[0](2))
+
+# output is 4
+```
 
 # Why Guido doesn't believe in functional programming in Python
 http://fold.sigusr2.net/2010/03/guido-on-functional.html
