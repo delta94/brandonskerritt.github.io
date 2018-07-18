@@ -181,7 +181,34 @@ To get the same product. The code is shorter, and with knowledge of functional p
 
 
 # Filter
-How the filter function works
+
+The filter function takes an iterable and filters out all the things you don't want in that iterable.
+
+Normally filter takes a function and a list. It applies the function to each item in the list and if that function returns True, it does nothing. If it returns False, it removes that from the list.
+
+The syntax looks like:
+
+```filter(function, list)```
+
+Let's see a small example, without reduce we'll write:
+
+```python
+x = range(-5, 5)
+new_list = []
+
+for num in x:
+    if num < 0:
+        new_list.append(num)
+```
+
+With reduce, this becomes:
+
+```python
+x = range(-5, 5)
+all_less_than_zero = list(filter(lambda num: num < 0, x))
+
+print(all_less_than_zero)
+```
 
 # Higher order functions
 
