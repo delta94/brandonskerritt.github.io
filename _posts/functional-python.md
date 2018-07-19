@@ -245,6 +245,14 @@ def rtnPerson():
 
 You know earlier how I said that pure functional programming languages didn't have variables? Well, higher order functions are what makes this easier. You don't need to store a variable anywhere if all you're doing is passing data through a long tunnel of functions, until it eventually prints out onto the screen.
 
+All functions in Python are first class objects. A firstclass object is defined as having one or more of these features:
+* Created at runtime
+* Assigned tro a variable or element in a data structure
+* Passed as an argument to a function
+* Returned as the result of a function
+
+So all functions in Python are first class and can be used as a higher order function.
+
 # Partial application
 
 Partial application is a bit wacky, but super cool. You can call a function without supplying all of the arguments it requires. Let's see this in an example. We want to create a function which takes 2 arguments, a base and an exponent, and returns base to the power of the exponent, like so:
@@ -289,13 +297,27 @@ print(powers[0](2))
 # output is 4
 ```
 
+Real world application of partials
+https://github.com/tkaemming/django-subdomains/blob/master/subdomains/utils.py#L65-L72
+
 # Why Guido doesn't believe in functional programming in Python
+
+You might of noticed, but a lot of the things we want to do in functional programming revolve around lists. Other than the reduce function, all of the funtions you have seen just generate lists. Guido (the inventor of Python) disliks functional stuff in Python becasue Python already has its own way to generate lists. 
+
+Another talking point is Lambda. In Python, a lambda function is literally just a function. lambda is syntactic sugar. Both of these are equivalent:
+
+```python
+foo = lamda a: 2
+
+def foo(a):
+    return 2
+```
 http://fold.sigusr2.net/2010/03/guido-on-functional.html
 
-# First class objects in python
-Relating this back to what Guido said in the link above
 
 # List comprehensions
+
+
 How you can do pretty much most of the things you want to do functionally in Python using a list comprehension
 
 # Generator expressions
