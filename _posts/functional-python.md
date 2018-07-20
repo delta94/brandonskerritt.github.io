@@ -304,6 +304,38 @@ https://github.com/tkaemming/django-subdomains/blob/master/subdomains/utils.py#L
 
 You might of noticed, but a lot of the things we want to do in functional programming revolve around lists. Other than the reduce function, all of the funtions you have seen just generate lists. Guido (the inventor of Python) disliks functional stuff in Python becasue Python already has its own way to generate lists. 
 
+If you write "import this" into a Python IDLE session, you'll get:
+
+```
+>>> import this
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+```
+
+The important part is:
+> There should be one-- and preferably only one --obvious way to do it.
+
+In Python, map & filter can do the same things as a list comprehension (discussed next) can do. This breaks one of the rules of the Zen of Python.
+
 Another talking point is Lambda. In Python, a lambda function is literally just a function. lambda is syntactic sugar. Both of these are equivalent:
 
 ```python
@@ -312,10 +344,61 @@ foo = lamda a: 2
 def foo(a):
     return 2
 ```
-http://fold.sigusr2.net/2010/03/guido-on-functional.html
+
+A regular function can do everything a lambda function can, but it doesn't work the other way around. A lambda function cannot do everything that a regular function can do. 
+
+And that was a short argument about why Guido and some pythonista's hate the idea of having the functional paradigm in Python.
 
 
 # List comprehensions
+
+Earlier, I mentioned that anything you could do with map or filter, you could do with a list comprehension. This is the part where we'll learn about them.
+
+A list comprehension is a way to generate lists in Python. The syntax is:
+
+```python
+[function for item in iterable]
+```
+
+So let's square every number in a list, as an example:
+
+```python
+print([x * x for x in [1, 2, 3, 4]])
+```
+
+Okay, so we can see how we can apply a function to every item in a list. We didn't even need to import any libraries, as list comprehensions are built into python. How do we go around applying a filter? Well, look at this code from earlier:
+
+```python
+x = range(-5, 5)
+all_less_than_zero = list(filter(lambda num: num < 0, x))
+
+print(all_less_than_zero)
+```
+
+We can convert this into a list comprehension like so:
+
+```python
+x = range(-5, 5)
+all_less_than_zero = [num for num in x if num < 0]
+```
+
+List comprehensions support if statements like this. You no longer need to apply a million functions to something in order to get what you want. In fact, if you're trying to make some kind of list chances are that it'll look cleaner and easier using a list comprehension.
+
+What if we want to square every number below 0 in a list? Well, with a lambda & map expression you'll write:
+
+```python
+x = range(-5, 5)
+all_less_than_zero = list(map(lamda num: if num < 0 then num * num, x)
+```
+
+So that's seems really long and slightly complicated. With a list comprehension it's just:
+
+```python
+x = range(-5, 5)
+all_less_than_zero = [num * num for num in x if num < 0]
+```
+
+
 
 
 How you can do pretty much most of the things you want to do functionally in Python using a list comprehension
