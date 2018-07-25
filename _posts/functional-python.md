@@ -398,12 +398,19 @@ x = range(-5, 5)
 all_less_than_zero = [num * num for num in x if num < 0]
 ```
 
-
-
-
-How you can do pretty much most of the things you want to do functionally in Python using a list comprehension
+A list comprehension is only good for, well, lists. Map and filter work on any iterable, so what's up with that? Well, you can use a generator expression to generate any iterable. Let's take a look at that now.
 
 # Generator expressions
+
+A generator expression is like a list comprehension, but for any iterable. You can generate a tuple like so:
+
+```python
+x = range(-5, 5)
+all_less_than_zero = (num * num for num in x if num < 0)
+```
+
+All you need to change is from the list's square brackets [ ] to a tuple's parathesis' ( ).
+
 
 How you can generate any iterable in Python (dictionaries, hashmaps, objects)
 
